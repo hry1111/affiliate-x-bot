@@ -10,9 +10,14 @@ function truncate(text, max) {
 export function composeTweet({ item, previousPrice, discountRate, hashtags = [] }) {
   const percentOff = Math.round(discountRate * 100);
   const name = truncate(item.name, 80);
+  const sourceLine =
+    item.source?.type === 'rakuten-ranking'
+      ? `楽天${item.source.period === 'realtime' ? 'リアルタイム' : ''}ランキング入り`
+      : null;
 
   const lines = [
     '🉐値下げ発見！おすすめ商品',
+    sourceLine,
     name,
     `¥${previousPrice.toLocaleString('ja-JP')} → ¥${item.price.toLocaleString('ja-JP')}（${percentOff}%OFF）`,
     item.url,

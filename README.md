@@ -5,7 +5,7 @@
 
 ## 仕組み
 
-1. `config/watchlist.json` に登録した商品を、楽天市場商品検索API または Amazon Product Advertising API（PA-API 5.0）で定期的にチェックします。
+1. `config/watchlist.json` に登録した商品を、楽天市場商品検索API または Amazon Product Advertising API（PA-API 5.0）で定期的にチェックします。楽天は `config/ranking-watch.json` で楽天市場ランキングAPIのリアルタイムランキング監視もできます。
 2. 前回チェック時の価格（`data/price-history.json`）と比較し、値下げ幅が `config/config.json` の `discountThreshold` 以上なら「値下げ商品」と判定します。
 3. 値下げ幅が大きい順に最大 `maxPostsPerRun` 件を選び、商品名・値下げ前後の価格・割引率・アフィリエイトリンクを含む文章を組み立てて X に投稿します（商品画像があれば画像付きで投稿）。
 4. 同じ商品を連続で投稿しないよう、投稿履歴（`data/post-log.json`）を見て `cooldownDays` 日は再投稿しません。
@@ -67,7 +67,36 @@
 - `minDiscountRate` / `cooldownDays` を省略した場合は `config/config.json` の値が使われます。
 - `enabled: false` にすると一時的に監視対象から外せます。
 
-### 5. GitHub Secrets の登録
+### 5. 楽天ランキング監視の登録
+
+楽天市場ランキングAPIを使う場合は、`config/ranking-watch.json` に監視条件を追加します。初回実行時は価格履歴の作成だけを行い、2回目以降の実行で値下げ判定が有効になります。
+
+```json
+[
+  {
+    "id": "rakuten-realtime-all",
+    "label": "楽天リアルタイムランキング全体",
+    "provider": "rakuten-ranking",
+    "enabled": true,
+    "period": "realtime",
+    "genreId": null,
+    "pages": 1,
+    "minDiscountRate": 0.15,
+    "cooldownDays": 7,
+    "minReviewCount": 30,
+    "minReviewAverage": 4,
+    "maxPrice": 30000
+  }
+]
+```
+
+- `period` は `"realtime"` / `"daily"` / `"weekly"` / `"monthly"` を指定できます。
+- `genreId` を `null` にすると全体ランキング、数値を指定するとジャンル別ランキングになります。
+- `pages` は取得ページ数です。1ページあたり30件前後、最大10ページまでに制限しています。
+- `minReviewCount` / `minReviewAverage` / `maxPrice` / `minPrice` で投稿候補を絞れます。
+- ランキング由来の商品も、既存の値下げ率・クールダウン・重複投稿防止の対象になります。
+
+### 6. GitHub Secrets の登録
 
 リポジトリの Settings > Secrets and variables > Actions に以下を登録します。楽天・Amazonのどちらか一方しか使わない場合も、`watchlist.json` にそのプロバイダの商品が1件もなければ該当シークレットは未設定のままで構いません（実行時にそのプロバイダのAPIは呼び出されません）。
 
@@ -108,8 +137,9 @@ npm start
 ```
 affiliate-x-bot/
   config/
-    config.json      # しきい値・クールダウン・投稿件数・ハッシュタグ
-    watchlist.json    # 監視する商品一覧
+    config.json        # しきい値・クールダウン・投稿件数・ハッシュタグ
+    watchlist.json      # 監視する商品一覧
+    ranking-watch.json  # 楽天ランキング監視条件
   data/
     price-history.json  # 商品ごとの直近価格（自動更新）
     post-log.json        # 商品ごとの最終投稿日時（自動更新）
@@ -117,6 +147,7 @@ affiliate-x-bot/
     index.js          # エントリーポイント
     lib/
       rakuten.js        # 楽天市場商品検索APIクライアント
+      rakutenRanking.js # 楽天市場ランキングAPIクライアント
       amazon.js          # Amazon PA-API 5.0クライアント
       selectDiscounts.js # 値下げ判定ロジック
       composeTweet.js     # 投稿文の組み立て

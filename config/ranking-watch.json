@@ -1,0 +1,30 @@
+[
+  {
+    "id": "rakuten-realtime-all-sample",
+    "label": "楽天リアルタイムランキング全体（サンプル）",
+    "provider": "rakuten-ranking",
+    "enabled": false,
+    "period": "realtime",
+    "genreId": null,
+    "pages": 1,
+    "minDiscountRate": 0.15,
+    "cooldownDays": 7,
+    "minReviewCount": 30,
+    "minReviewAverage": 4,
+    "maxPrice": 30000
+  },
+  {
+    "id": "rakuten-realtime-daily-goods-sample",
+    "label": "楽天リアルタイムランキング 日用品（サンプル）",
+    "provider": "rakuten-ranking",
+    "enabled": false,
+    "period": "realtime",
+    "genreId": 215783,
+    "pages": 1,
+    "minDiscountRate": 0.15,
+    "cooldownDays": 7,
+    "minReviewCount": 30,
+    "minReviewAverage": 4,
+    "maxPrice": 30000
+  }
+]
