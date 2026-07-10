@@ -112,7 +112,7 @@
 | `X_ACCESS_TOKEN` | Xアクセストークン |
 | `X_ACCESS_TOKEN_SECRET` | Xアクセストークンシークレット |
 
-`.github/workflows/affiliate-post.yml` は6時間おきに自動実行されます（`workflow_dispatch` から手動実行も可能。`dryRun: true` を指定すると投稿せずログ確認だけできます）。
+`.github/workflows/affiliate-post.yml` は6時間おきに自動実行されます。定期実行は常にドライランで、価格履歴の更新と投稿候補の確認だけを行います。Xへの本番投稿は、`workflow_dispatch` から手動実行し、`dryRun: false` を明示した場合だけ行われます。
 
 ## ローカルでの動作確認
 

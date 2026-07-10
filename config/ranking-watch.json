@@ -17,7 +17,7 @@
     "id": "rakuten-realtime-daily-goods-sample",
     "label": "楽天リアルタイムランキング 日用品（サンプル）",
     "provider": "rakuten-ranking",
-    "enabled": false,
+    "enabled": true,
     "period": "realtime",
     "genreId": 215783,
     "pages": 1,
