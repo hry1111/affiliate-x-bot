@@ -1,11 +1,9 @@
 /**
- * 前回価格と今回価格を比較し、値下げ幅がしきい値以上で、かつ
- * クールダウン期間を過ぎている商品だけを投稿候補として判定する。
+ * 前回価格と今回価格を比較し、値下げ幅がしきい値以上の商品を投稿候補として判定する。
  */
-export function evaluateItem({ item, watchItem, history, postLog, now, defaultThreshold, defaultCooldownDays }) {
+export function evaluateItem({ item, watchItem, history, defaultThreshold }) {
   const prev = history[item.key];
   const threshold = watchItem.minDiscountRate ?? defaultThreshold;
-  const cooldownDays = watchItem.cooldownDays ?? defaultCooldownDays;
 
   if (!prev) {
     return { item, watchItem, eligible: false, reason: 'no-history' };
@@ -18,14 +16,6 @@ export function evaluateItem({ item, watchItem, history, postLog, now, defaultTh
   const discountRate = (prev.lastPrice - item.price) / prev.lastPrice;
   if (discountRate < threshold) {
     return { item, watchItem, eligible: false, reason: 'below-threshold', discountRate };
-  }
-
-  const lastPostedAt = postLog[item.key];
-  if (lastPostedAt) {
-    const daysSincePost = (now - new Date(lastPostedAt).getTime()) / 86400000;
-    if (daysSincePost < cooldownDays) {
-      return { item, watchItem, eligible: false, reason: 'cooldown', discountRate };
-    }
   }
 
   return {

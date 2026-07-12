@@ -8,7 +8,6 @@
     "genreId": null,
     "pages": 1,
     "minDiscountRate": 0.15,
-    "cooldownDays": 7,
     "minReviewCount": 30,
     "minReviewAverage": 4,
     "maxPrice": 30000
@@ -22,7 +21,6 @@
     "genreId": 215783,
     "pages": 1,
     "minDiscountRate": 0.15,
-    "cooldownDays": 7,
     "minReviewCount": 30,
     "minReviewAverage": 4,
     "maxPrice": 30000

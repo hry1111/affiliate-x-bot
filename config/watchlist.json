@@ -5,8 +5,7 @@
     "provider": "rakuten",
     "itemCode": "shopcode:10000001",
     "enabled": false,
-    "minDiscountRate": 0.15,
-    "cooldownDays": 7
+    "minDiscountRate": 0.15
   },
   {
     "id": "sample-amazon-item",
@@ -14,7 +13,6 @@
     "provider": "amazon",
     "asin": "B00000JXQU",
     "enabled": false,
-    "minDiscountRate": 0.15,
-    "cooldownDays": 7
+    "minDiscountRate": 0.15
   }
 ]

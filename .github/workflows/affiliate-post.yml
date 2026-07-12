@@ -1,17 +1,14 @@
-name: Affiliate Discount Auto Post
+name: Affiliate Candidate Monitor
 
 on:
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
-    inputs:
-      dryRun:
-        description: 'true にすると投稿せずログ出力のみ行います'
-        required: false
-        default: 'true'
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   post:
@@ -26,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run auto-post
+      - name: Generate post candidates
         run: node src/index.js
         env:
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
@@ -34,16 +31,25 @@ jobs:
           AMAZON_ACCESS_KEY: ${{ secrets.AMAZON_ACCESS_KEY }}
           AMAZON_SECRET_KEY: ${{ secrets.AMAZON_SECRET_KEY }}
           AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG }}
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-          DRY_RUN: ${{ github.event_name == 'schedule' && 'true' || github.event.inputs.dryRun || 'true' }}
 
-      - name: Commit updated price history / post log
+      - name: Commit updated price history / candidates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/price-history.json data/post-log.json
-          git diff --cached --quiet || git commit -m "chore: update price history / post log"
+          git add data/price-history.json data/post-candidates.json
+          git diff --cached --quiet || git commit -m "chore: 投稿候補と価格履歴を更新"
           git push
+
+      - name: Build page artifact
+        run: |
+          mkdir -p docs/data
+          cp data/post-candidates.json docs/data/post-candidates.json
+
+      - name: Upload page artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy page
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -5,15 +5,12 @@ import { fetchItems as fetchAmazonItems, MAX_ITEMS_PER_REQUEST as AMAZON_BATCH_S
 import { loadJson, saveJson } from './lib/jsonStore.js';
 import { evaluateItem } from './lib/selectDiscounts.js';
 import { composeTweet } from './lib/composeTweet.js';
-import { createXClient, postTweet } from './lib/xClient.js';
 
 const CONFIG_PATH = path.resolve('config/config.json');
 const WATCHLIST_PATH = path.resolve('config/watchlist.json');
 const RANKING_WATCH_PATH = path.resolve('config/ranking-watch.json');
 const PRICE_HISTORY_PATH = path.resolve('data/price-history.json');
-const POST_LOG_PATH = path.resolve('data/post-log.json');
-
-const DRY_RUN = process.env.DRY_RUN === 'true';
+const CANDIDATES_PATH = path.resolve('data/post-candidates.json');
 
 function chunk(arr, size) {
   const chunks = [];
@@ -69,7 +66,6 @@ async function fetchRakutenRankingWatchItems(rankingWatches) {
           label: item.name,
           provider: 'rakuten-ranking',
           minDiscountRate: watch.minDiscountRate,
-          cooldownDays: watch.cooldownDays,
         };
         fetched.set(watchItem, item);
       }
@@ -123,14 +119,12 @@ async function fetchAmazonWatchItems(watchItems) {
 async function main() {
   const config = loadJson(CONFIG_PATH, {
     discountThreshold: 0.15,
-    cooldownDays: 7,
-    maxPostsPerRun: 2,
+    maxCandidatesPerRun: 2,
     hashtags: ['#PR'],
   });
   const watchlist = loadJson(WATCHLIST_PATH, []);
   const rankingWatch = loadJson(RANKING_WATCH_PATH, []);
   const history = loadJson(PRICE_HISTORY_PATH, {});
-  const postLog = loadJson(POST_LOG_PATH, {});
   const now = Date.now();
 
   const enabled = watchlist.filter((w) => w.enabled !== false);
@@ -160,10 +154,7 @@ async function main() {
       item,
       watchItem,
       history,
-      postLog,
-      now,
       defaultThreshold: config.discountThreshold,
-      defaultCooldownDays: config.cooldownDays,
     });
 
     console.log(
@@ -179,36 +170,48 @@ async function main() {
   }
 
   candidates.sort((a, b) => b.discountRate - a.discountRate);
-  const toPost = candidates.slice(0, config.maxPostsPerRun);
+  const maxCandidates = config.maxCandidatesPerRun ?? 2;
+  const selectedCandidates = candidates.slice(0, maxCandidates);
 
-  if (!toPost.length) {
-    console.log('本日投稿対象となる値下げ商品はありませんでした。');
+  if (!selectedCandidates.length) {
+    console.log('今回の投稿候補はありませんでした。');
   } else {
-    const client = DRY_RUN ? null : createXClient();
-
-    for (const candidate of toPost) {
-      const text = composeTweet({
-        item: candidate.item,
-        previousPrice: candidate.previousPrice,
-        discountRate: candidate.discountRate,
-        hashtags: config.hashtags,
-      });
-
-      console.log('--- 投稿予定ツイート ---');
-      console.log(text);
-
-      if (DRY_RUN) {
-        console.log('(DRY_RUN=true のため実際には投稿していません)');
-      } else {
-        await postTweet(client, text, candidate.item.imageUrl);
-        postLog[candidate.item.key] = new Date(now).toISOString();
-        console.log('投稿しました。');
-      }
+    for (const candidate of selectedCandidates) {
+      console.log('--- 投稿候補 ---');
+      console.log(
+        composeTweet({
+          item: candidate.item,
+          previousPrice: candidate.previousPrice,
+          discountRate: candidate.discountRate,
+          hashtags: config.hashtags,
+        })
+      );
     }
   }
 
   saveJson(PRICE_HISTORY_PATH, history);
-  if (!DRY_RUN) saveJson(POST_LOG_PATH, postLog);
+  saveJson(CANDIDATES_PATH, {
+    generatedAt: new Date(now).toISOString(),
+    candidates: selectedCandidates.map((candidate) => ({
+      id: candidate.item.key,
+      name: candidate.item.name,
+      price: candidate.item.price,
+      previousPrice: candidate.previousPrice,
+      discountRate: candidate.discountRate,
+      url: candidate.item.url,
+      imageUrl: candidate.item.imageUrl,
+      shopName: candidate.item.shopName,
+      rank: candidate.item.rank,
+      reviewCount: candidate.item.reviewCount,
+      reviewAverage: candidate.item.reviewAverage,
+      text: composeTweet({
+        item: candidate.item,
+        previousPrice: candidate.previousPrice,
+        discountRate: candidate.discountRate,
+        hashtags: config.hashtags,
+      }),
+    })),
+  });
 }
 
 main().catch((err) => {

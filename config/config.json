@@ -1,6 +1,5 @@
 {
   "discountThreshold": 0.15,
-  "cooldownDays": 7,
-  "maxPostsPerRun": 2,
+  "maxCandidatesPerRun": 2,
   "hashtags": ["#PR", "#楽天", "#セール", "#値下げ"]
 }
