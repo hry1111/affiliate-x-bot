@@ -3,15 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f8f9fb" />
-    <title>投稿候補</title>
+    <meta name="theme-color" content="#f6f8f5" />
+    <title>コスパモンスター 投稿選定</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <main class="app-shell">
       <header class="app-header">
-        <p class="eyebrow">AFFILIATE CANDIDATES</p>
-        <h1>投稿候補</h1>
+        <p class="eyebrow">COST PERFORMANCE MONSTER</p>
+        <h1>今日の投稿候補</h1>
+        <p class="header-description">比較記事を参考に選び、販売条件を確認した商品です。</p>
         <p id="updated-at" class="updated-at">読み込み中</p>
       </header>
       <section id="candidate-list" class="candidate-list" aria-live="polite"></section>
@@ -21,14 +22,17 @@
         <img class="product-image" alt="" />
         <div class="candidate-content">
           <div class="metadata">
-            <span class="discount"></span>
-            <span class="rank"></span>
+            <span class="genre"></span>
+            <span class="post-mode"></span>
           </div>
           <h2 class="product-name"></h2>
-          <p class="shop-name"></p>
-          <p class="price"></p>
-          <p class="review"></p>
-          <textarea class="post-text" readonly aria-label="投稿文"></textarea>
+          <p class="target"></p>
+          <p class="reason"></p>
+          <p class="caution"></p>
+          <div class="source-references"></div>
+          <div class="offer-list"></div>
+          <div class="copy-tabs" role="tablist" aria-label="投稿文案"></div>
+          <textarea class="post-text" aria-label="投稿文"></textarea>
           <div class="actions">
             <button class="copy-button" type="button">コピー</button>
             <a class="x-link" target="_blank" rel="noopener">Xを開く</a>

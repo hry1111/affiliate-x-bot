@@ -1,148 +1,126 @@
-# affiliate-x-bot
+# コスパモンスター投稿選定ツール
 
-値下げしたオススメ商品のアフィリエイト投稿候補を作成するシステムです。
-楽天市場と Amazon（PA-API 5.0）の両方に対応し、スマホ向けWebアプリから投稿文をコピーしてXへ手動投稿します。
+楽天ROOM「コスパモンスター」とXへ、自然な紹介文を手動投稿するための商品選定ツールです。
+X APIによる自動投稿は行いません。
 
 ## 仕組み
 
-1. `config/watchlist.json` に登録した商品を、楽天市場商品検索API または Amazon Product Advertising API（PA-API 5.0）で定期的にチェックします。楽天は `config/ranking-watch.json` で楽天市場ランキングAPIのリアルタイムランキング監視もできます。
-2. 前回チェック時の価格（`data/price-history.json`）と比較し、値下げ幅が `config/config.json` の `discountThreshold` 以上なら「値下げ商品」と判定します。
-3. 値下げ幅が大きい順に最大 `maxCandidatesPerRun` 件を選び、商品名・値下げ前後の価格・割引率・アフィリエイトリンクを含む投稿文を組み立てます。
-4. 候補は `data/post-candidates.json` に保存され、GitHub Pages上の投稿候補アプリで確認できます。
-5. Hiroが投稿文をコピーし、Xアプリから最終確認して手動投稿します。X APIは使用しません。
-6. GitHub Actions（`.github/workflows/affiliate-post.yml`）で定期実行し、価格履歴/候補データの更新結果をリポジトリにコミットして状態を保持します。
+1. Hiroが360LiFE・mybestなどの比較記事を確認し、紹介する商品と選定理由を`config/curated-products.json`へ登録します。
+2. GitHub Actionsが毎日8時（日本時間）に楽天市場商品検索APIとAmazon PA-APIを呼び、価格・販売中かどうか・アフィリエイトリンクを確認します。
+3. 販売中の商品のみをGitHub Pagesのアプリへ表示します。
+4. 商品ごとに、体験区分に合う自然な投稿文を3案作ります。
+5. Hiroが投稿文を確認・編集し、コピーまたは`Xを開く`から手動投稿します。
 
-初回実行時はすべての商品が「前回価格の記録なし」となるため、投稿は行われず基準価格の記録だけが行われます。2回目以降のチェックから値下げ判定が有効になります。
+比較記事は**候補選定の根拠**であり、本文・評価表・画像・ランキングを自動取得、転載、再公開しません。投稿する商品画像は楽天・Amazonのアフィリエイト素材または自作画像だけを使います。
+
+## 商品の選び方
+
+`コスパモンスター`では、単なるランキング順位ではなく以下を満たす商品を候補にします。
+
+- 360LiFE・mybestなど、比較方法が明示された記事で候補になっている
+- 楽天またはAmazonで同一の型番・容量・色を販売中
+- 誰に向くか、見送る条件が説明できる
+- 誇大な効能や最安保証をしなくても魅力を伝えられる
+
+特に化粧品、デオドラント、健康関連は、メーカーが示す範囲を超える効果保証を投稿しないでください。
+
+## 商品設定
+
+`config/curated-products.json`に1商品ずつ登録します。最初のサンプルは`enabled: false`です。実在の商品を登録するまで候補は表示されません。
+
+```json
+[
+  {
+    "id": "body-soap-example",
+    "enabled": true,
+    "priority": 100,
+    "genre": "日用品",
+    "target": "汗をかきやすく、さっぱり洗いたい人",
+    "problem": "夏のボディソープ選びで迷っている",
+    "postMode": "research",
+    "reason": "洗い上がりと続けやすい価格のバランスを重視するなら候補になる",
+    "caution": "香りや肌との相性はあるので、成分と容量を確認してください。",
+    "primaryProvider": "rakuten",
+    "sourceReferences": [
+      {
+        "publisher": "360LiFE",
+        "title": "確認した比較記事の正確なタイトル",
+        "url": "https://360life.shinyusha.co.jp/articles/-/12345",
+        "checkedAt": "2026-07-23"
+      }
+    ],
+    "rakuten": { "itemCode": "shop-code:10000001" },
+    "amazon": { "asin": "B000000000" }
+  }
+]
+```
+
+### 必須項目
+
+| 項目 | 内容 |
+| --- | --- |
+| `genre` | 日用品、車用品、ガジェットなど |
+| `target` | どんな人に向ける商品か |
+| `problem` | その人が抱える購入前の悩み |
+| `reason` | 自分の言葉で書いた選定理由 |
+| `caution` | 向かない人、確認すべき条件 |
+| `sourceReferences` | 参照した比較記事のURL・タイトル・確認日 |
+| `primaryProvider` | 投稿文に載せる主な購入先。`rakuten`または`amazon` |
+
+### 投稿文モード
+
+| 値 | 用途 | 使い方 |
+| --- | --- | --- |
+| `research` | 比較記事を根拠に選んだ商品 | 実際に使ったような表現はしない |
+| `owned` | Hiroが実際に使った商品 | `personalNote`へ実感を自分の言葉で書く |
+| `sale` | セール・価格情報が主題の商品 | 価格保証や虚偽の希少性表現はしない |
+
+`rakuten.itemCode`と`amazon.asin`のどちらか一方だけでも登録できます。両方があればアプリに両方の購入先を表示します。
 
 ## セットアップ
 
-### 1. 楽天ウェブサービスの登録
+### 楽天
 
-- [楽天ウェブサービス](https://webservice.rakuten.co.jp/) で開発者登録し、`アプリID`（`RAKUTEN_APP_ID`）を取得します。
-- [楽天アフィリエイト](https://affiliate.rakuten.co.jp/) に登録し、`アフィリエイトID`（`RAKUTEN_AFFILIATE_ID`）を取得します。
+- [楽天ウェブサービス](https://webservice.rakuten.co.jp/)で`RAKUTEN_APP_ID`を取得します。
+- [楽天アフィリエイト](https://affiliate.rakuten.co.jp/)で`RAKUTEN_AFFILIATE_ID`を取得します。
 
-### 2. Amazon Product Advertising API (PA-API 5.0) の登録
+### Amazon
 
-- [Amazonアソシエイト](https://affiliate.amazon.co.jp/) に登録します（PA-APIの利用にはアソシエイトアカウントが必須です）。
-- [Associates Central](https://affiliate.amazon.co.jp/assoc_credentials/home) の「Product Advertising API」から `アクセスキー`（`AMAZON_ACCESS_KEY`）と `シークレットキー`（`AMAZON_SECRET_KEY`）を発行します。
-- アソシエイトタグ（`AMAZON_PARTNER_TAG`、例: `yourtag-22`）を確認します。
-- **注意点**
-  - PA-APIは新規登録直後は使えず、アソシエイト経由で**直近180日以内に3件以上の売上**が発生していないとリクエストが拒否されます（既存の売上実績がないと `TooManyRequests`/`InvalidParameterValue` 系のエラーになります）。
-  - リクエスト数の上限（TPS）は売上実績に応じて上がる仕組みなので、`config/watchlist.json` にAmazon商品を大量に登録しすぎないようにしてください（本システムは同時に最大10件ずつバッチ取得することでリクエスト数を抑えています）。
-  - Amazon.co.jp以外のマーケットプレイスを使う場合は `.env.example` にある `AMAZON_HOST` / `AMAZON_REGION` / `AMAZON_MARKETPLACE` を対象国に合わせて変更してください。
+- [Amazonアソシエイト](https://affiliate.amazon.co.jp/)でPA-APIの認証情報を発行します。
+- `AMAZON_ACCESS_KEY`、`AMAZON_SECRET_KEY`、`AMAZON_PARTNER_TAG`を用意します。
+- AmazonリンクをXで使う場合は、Xアカウントを利用サイトとして登録し、プロフィールにAmazonアソシエイトの所定開示を掲載してください。
 
-### 3. 監視する商品の登録
+### GitHub Secrets
 
-`config/watchlist.json` に商品を追加します。`provider` に `"rakuten"` または `"amazon"` を指定してください（省略時は `"rakuten"` 扱いになります）。
-
-```json
-[
-  {
-    "id": "vacuum-a",
-    "label": "コードレス掃除機 Aモデル（楽天市場）",
-    "provider": "rakuten",
-    "itemCode": "shop-code:10000001",
-    "enabled": true,
-    "minDiscountRate": 0.15
-  },
-  {
-    "id": "vacuum-b",
-    "label": "コードレス掃除機 Bモデル（Amazon）",
-    "provider": "amazon",
-    "asin": "B0XXXXXXXX",
-    "enabled": true,
-    "minDiscountRate": 0.15
-  }
-]
-```
-
-- 楽天商品の `itemCode` は商品ページURLや商品検索APIのレスポンスに含まれる `店舗コード:商品コード` 形式の値です。
-- Amazon商品の `asin` は商品ページURLに含まれる10桁の商品コード（ASIN）です。
-- `minDiscountRate` を省略した場合は `config/config.json` の値が使われます。
-- `enabled: false` にすると一時的に監視対象から外せます。
-
-### 4. 楽天ランキング監視の登録
-
-楽天市場ランキングAPIを使う場合は、`config/ranking-watch.json` に監視条件を追加します。初回実行時は価格履歴の作成だけを行い、2回目以降の実行で値下げ判定が有効になります。
-
-```json
-[
-  {
-    "id": "rakuten-realtime-all",
-    "label": "楽天リアルタイムランキング全体",
-    "provider": "rakuten-ranking",
-    "enabled": true,
-    "period": "realtime",
-    "genreId": null,
-    "pages": 1,
-    "minDiscountRate": 0.15,
-    "minReviewCount": 30,
-    "minReviewAverage": 4,
-    "maxPrice": 30000
-  }
-]
-```
-
-- `period` は `"realtime"` / `"daily"` / `"weekly"` / `"monthly"` を指定できます。
-- `genreId` を `null` にすると全体ランキング、数値を指定するとジャンル別ランキングになります。
-- `pages` は取得ページ数です。1ページあたり30件前後、最大10ページまでに制限しています。
-- `minReviewCount` / `minReviewAverage` / `maxPrice` / `minPrice` で投稿候補を絞れます。
-- ランキング由来の商品も、既存の値下げ率判定の対象になります。候補は価格が下がった実行時にだけ作成されます。
-
-### 5. GitHub Secrets の登録
-
-リポジトリの Settings > Secrets and variables > Actions に以下を登録します。楽天・Amazonのどちらか一方しか使わない場合も、`watchlist.json` にそのプロバイダの商品が1件もなければ該当シークレットは未設定のままで構いません（実行時にそのプロバイダのAPIは呼び出されません）。
+リポジトリの`Settings > Secrets and variables > Actions`に設定します。
 
 | Secret名 | 内容 |
-|---|---|
+| --- | --- |
 | `RAKUTEN_APP_ID` | 楽天ウェブサービスのアプリID |
 | `RAKUTEN_AFFILIATE_ID` | 楽天アフィリエイトID |
 | `AMAZON_ACCESS_KEY` | Amazon PA-APIのアクセスキー |
 | `AMAZON_SECRET_KEY` | Amazon PA-APIのシークレットキー |
 | `AMAZON_PARTNER_TAG` | Amazonアソシエイトタグ |
 
-`.github/workflows/affiliate-post.yml` は6時間おきに自動実行され、価格履歴と投稿候補を更新します。XへのAPI投稿は行いません。
+楽天のみ、Amazonのみを使う場合、`curated-products.json`に対象プロバイダの商品が1件もなければ、該当するSecretは不要です。
 
-### 6. 投稿候補アプリの公開
+## GitHub Pages
 
-GitHubの `Settings` > `Pages` で、Sourceに **GitHub Actions** を指定します。以後、候補データが更新されるたびに `.github/workflows/deploy-pages.yml` がアプリを公開します。
+GitHubの`Settings > Pages`でSourceに`GitHub Actions`を指定します。公開アプリでは、比較根拠、購入先、投稿文案を確認できます。
 
-公開URLをスマホのホーム画面へ追加し、候補カードの `コピー` と `Xを開く` を使って投稿します。`見送り` は、その端末のブラウザ内だけで候補を非表示にします。
-
-## ローカルでの動作確認
+## ローカル確認
 
 ```bash
 cd affiliate-x-bot
-cp .env.example .env   # 値を書き換える
-npm install
-
-# 投稿候補と価格履歴を更新する
+cp .env.example .env
+npm ci
 npm start
 ```
 
-## 広告表示（ステマ規制）について
+## 広告表示と投稿上の注意
 
-アフィリエイトリンクを含む投稿は景品表示法の「ステルスマーケティング規制」の対象となり、広告であることが分かるよう明示する必要があります。`config/config.json` の `hashtags` に既定で `#PR` を含めています。表示方法を変更する場合も、広告であることが一目で分かる表記を必ず残してください。
-
-## ディレクトリ構成
-
-```
-affiliate-x-bot/
-  config/
-    config.json        # しきい値・候補件数・ハッシュタグ
-    watchlist.json      # 監視する商品一覧
-    ranking-watch.json  # 楽天ランキング監視条件
-  data/
-    price-history.json  # 商品ごとの直近価格（自動更新）
-    post-candidates.json # 投稿候補（自動更新・公開用）
-  docs/                  # GitHub Pagesで公開するスマホ向け投稿候補アプリ
-  src/
-    index.js          # エントリーポイント
-    lib/
-      rakuten.js        # 楽天市場商品検索APIクライアント
-      rakutenRanking.js # 楽天市場ランキングAPIクライアント
-      amazon.js          # Amazon PA-API 5.0クライアント
-      selectDiscounts.js # 値下げ判定ロジック
-      composeTweet.js     # 投稿文の組み立て
-      jsonStore.js          # JSON読み書きユーティリティ
-```
+- 投稿文の`【PR】`は削除しないでください。
+- 体験していない商品を、使用したように書かないでください。
+- 比較記事から文章・画像・評価表をコピーしないでください。
+- 効果保証、最安保証、虚偽の在庫僅少表現をしないでください。
+- 楽天・Amazonの規約と各商品の広告表現を投稿前に確認してください。

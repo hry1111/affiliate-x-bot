@@ -1,6 +1,6 @@
 :root {
-  color: #1f2937;
-  background: #f8f9fb;
+  color: #17312d;
+  background: #f6f8f5;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
@@ -16,47 +16,62 @@ button, a { font: inherit; }
   padding: 28px 16px 48px;
 }
 
-.app-header { border-bottom: 1px solid #d9dee7; padding-bottom: 18px; }
+.app-header { border-bottom: 1px solid #bfd1c8; padding-bottom: 18px; }
 
-.eyebrow { color: #667085; font-size: 12px; font-weight: 700; letter-spacing: 0; margin: 0 0 6px; }
+.eyebrow { color: #27756a; font-size: 12px; font-weight: 700; letter-spacing: 0; margin: 0 0 6px; }
 
 h1 { font-size: 28px; margin: 0; }
 
-.updated-at { color: #667085; font-size: 13px; margin: 8px 0 0; }
+.header-description, .updated-at { color: #51635d; font-size: 13px; margin: 8px 0 0; }
 
 .candidate-list { display: grid; gap: 16px; margin-top: 20px; }
 
-.candidate-card { background: #fff; border: 1px solid #d9dee7; border-radius: 8px; display: grid; grid-template-columns: 128px minmax(0, 1fr); overflow: hidden; }
+.candidate-card { background: #fff; border: 1px solid #bfd1c8; border-radius: 8px; display: grid; grid-template-columns: 128px minmax(0, 1fr); overflow: hidden; }
 
-.product-image { background: #eef1f5; height: 128px; object-fit: contain; width: 128px; }
+.candidate-card.without-image { grid-template-columns: minmax(0, 1fr); }
+
+.product-image { background: #edf1ed; height: 128px; object-fit: contain; width: 128px; }
 
 .candidate-content { min-width: 0; padding: 14px; }
 
-.metadata { align-items: center; display: flex; gap: 8px; min-height: 20px; }
+.metadata { align-items: center; display: flex; flex-wrap: wrap; gap: 8px; min-height: 20px; }
 
-.discount { color: #b42318; font-size: 13px; font-weight: 700; }
+.genre { color: #075c51; font-size: 13px; font-weight: 700; }
 
-.rank { color: #475467; font-size: 12px; }
+.post-mode { color: #6c3f20; font-size: 12px; }
 
 .product-name { font-size: 16px; line-height: 1.45; margin: 6px 0 0; }
 
-.shop-name, .review { color: #667085; font-size: 13px; margin: 5px 0 0; }
+.target, .reason, .caution { font-size: 13px; line-height: 1.55; margin: 7px 0 0; }
 
-.price { color: #b42318; font-size: 20px; font-weight: 700; margin: 8px 0 0; }
+.target { color: #51635d; }
+.caution { color: #6c3f20; }
 
-.post-text { background: #f8f9fb; border: 1px solid #d9dee7; border-radius: 4px; color: #344054; font-size: 13px; height: 108px; line-height: 1.45; margin-top: 12px; padding: 8px; resize: none; width: 100%; }
+.source-references, .offer-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+
+.source-references a, .offer-list a { border-bottom: 1px solid currentColor; color: #27756a; font-size: 12px; overflow-wrap: anywhere; text-decoration: none; }
+
+.offer-list a { color: #b04b23; font-weight: 700; }
+
+.copy-tabs { display: flex; gap: 6px; margin-top: 12px; }
+
+.copy-tabs button { background: #fff; border: 1px solid #a6beb4; border-radius: 4px; color: #31564e; cursor: pointer; font-size: 12px; min-height: 30px; padding: 5px 8px; }
+
+.copy-tabs button[aria-selected="true"] { background: #dcefe8; border-color: #27756a; color: #075c51; font-weight: 700; }
+
+.post-text { background: #f7faf8; border: 1px solid #bfd1c8; border-radius: 4px; color: #17312d; font-size: 13px; height: 178px; line-height: 1.55; margin-top: 10px; padding: 8px; resize: vertical; width: 100%; }
 
 .actions { display: flex; gap: 8px; margin-top: 10px; }
 
-.actions button, .x-link { border: 1px solid #98a2b3; border-radius: 4px; color: #344054; cursor: pointer; font-size: 13px; min-height: 36px; padding: 8px 12px; text-decoration: none; }
+.actions button, .x-link { border: 1px solid #a6beb4; border-radius: 4px; color: #17312d; cursor: pointer; font-size: 13px; min-height: 36px; padding: 8px 12px; text-decoration: none; }
 
-.copy-button { background: #1d4ed8; border-color: #1d4ed8 !important; color: #fff !important; }
+.copy-button { background: #075c51; border-color: #075c51 !important; color: #fff !important; }
 
 .x-link { align-items: center; display: inline-flex; }
 
 .hide-button { background: #fff; }
 
-.empty-state { border: 1px dashed #98a2b3; color: #667085; padding: 28px 16px; text-align: center; }
+.empty-state { border: 1px dashed #7d9b8f; color: #51635d; padding: 28px 16px; text-align: center; }
 
 @media (max-width: 480px) {
   .candidate-card { grid-template-columns: 96px minmax(0, 1fr); }
