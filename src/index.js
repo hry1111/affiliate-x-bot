@@ -1,15 +1,11 @@
 import path from 'node:path';
 import { fetchItem as fetchRakutenItem } from './lib/rakuten.js';
-import { fetchRankingItems } from './lib/rakutenRanking.js';
 import { fetchItems as fetchAmazonItems, MAX_ITEMS_PER_REQUEST as AMAZON_BATCH_SIZE } from './lib/amazon.js';
 import { loadJson, saveJson } from './lib/jsonStore.js';
-import { evaluateItem } from './lib/selectDiscounts.js';
-import { composeTweet } from './lib/composeTweet.js';
+import { createCuratedCandidates } from './lib/curatedCandidates.js';
 
 const CONFIG_PATH = path.resolve('config/config.json');
-const WATCHLIST_PATH = path.resolve('config/watchlist.json');
-const RANKING_WATCH_PATH = path.resolve('config/ranking-watch.json');
-const PRICE_HISTORY_PATH = path.resolve('data/price-history.json');
+const CURATED_PRODUCTS_PATH = path.resolve('config/curated-products.json');
 const CANDIDATES_PATH = path.resolve('data/post-candidates.json');
 
 function chunk(arr, size) {
@@ -39,41 +35,6 @@ async function fetchRakutenWatchItems(watchItems) {
       console.error(`[${watchItem.id}] 楽天商品取得エラー: ${err.message}`);
     }
   }
-  return fetched;
-}
-
-async function fetchRakutenRankingWatchItems(rankingWatches) {
-  const fetched = new Map();
-  if (!rankingWatches.length) return fetched;
-
-  const { RAKUTEN_APP_ID, RAKUTEN_AFFILIATE_ID } = process.env;
-  if (!RAKUTEN_APP_ID) {
-    throw new Error('RAKUTEN_APP_ID が設定されていません。.env.example を参照してください。');
-  }
-
-  for (const watch of rankingWatches) {
-    try {
-      const items = await fetchRankingItems(watch, {
-        applicationId: RAKUTEN_APP_ID,
-        affiliateId: RAKUTEN_AFFILIATE_ID,
-      });
-
-      console.log(`[${watch.id}] 楽天ランキングから${items.length}件を取得しました。`);
-
-      for (const item of items) {
-        const watchItem = {
-          id: `${watch.id}:${item.itemCode}`,
-          label: item.name,
-          provider: 'rakuten-ranking',
-          minDiscountRate: watch.minDiscountRate,
-        };
-        fetched.set(watchItem, item);
-      }
-    } catch (err) {
-      console.error(`[${watch.id}] 楽天ランキング取得エラー: ${err.message}`);
-    }
-  }
-
   return fetched;
 }
 
@@ -118,99 +79,32 @@ async function fetchAmazonWatchItems(watchItems) {
 
 async function main() {
   const config = loadJson(CONFIG_PATH, {
-    discountThreshold: 0.15,
-    maxCandidatesPerRun: 2,
-    hashtags: ['#PR'],
+    maxCandidatesPerRun: 6,
+    disclosureText: '【PR】',
   });
-  const watchlist = loadJson(WATCHLIST_PATH, []);
-  const rankingWatch = loadJson(RANKING_WATCH_PATH, []);
-  const history = loadJson(PRICE_HISTORY_PATH, {});
-  const now = Date.now();
+  const products = loadJson(CURATED_PRODUCTS_PATH, []);
+  const enabledProducts = products.filter((product) => product.enabled !== false);
+  const rakutenWatchItems = enabledProducts
+    .filter((product) => product.rakuten?.itemCode)
+    .map((product) => ({ id: product.id, itemCode: product.rakuten.itemCode }));
+  const amazonWatchItems = enabledProducts
+    .filter((product) => product.amazon?.asin)
+    .map((product) => ({ id: product.id, asin: product.amazon.asin }));
 
-  const enabled = watchlist.filter((w) => w.enabled !== false);
-  const enabledRankingWatch = rankingWatch.filter((w) => w.enabled !== false);
-  const rakutenWatchItems = enabled.filter((w) => (w.provider ?? 'rakuten') === 'rakuten');
-  const amazonWatchItems = enabled.filter((w) => w.provider === 'amazon');
-
-  const fetchedEntries = [];
-  const seenItemKeys = new Set();
-
-  for (const fetched of [
-    await fetchRakutenWatchItems(rakutenWatchItems),
-    await fetchRakutenRankingWatchItems(enabledRankingWatch),
-    await fetchAmazonWatchItems(amazonWatchItems),
-  ]) {
-    for (const [watchItem, item] of fetched) {
-      if (seenItemKeys.has(item.key)) continue;
-      seenItemKeys.add(item.key);
-      fetchedEntries.push([watchItem, item]);
-    }
+  const offersByProduct = new Map(enabledProducts.map((product) => [product.id, {}]));
+  for (const [watchItem, item] of await fetchRakutenWatchItems(rakutenWatchItems)) {
+    offersByProduct.get(watchItem.id).rakuten = item;
+  }
+  for (const [watchItem, item] of await fetchAmazonWatchItems(amazonWatchItems)) {
+    offersByProduct.get(watchItem.id).amazon = item;
   }
 
-  const candidates = [];
+  const selectedCandidates = createCuratedCandidates({ products, offersByProduct, config });
+  console.log(`投稿候補を${selectedCandidates.length}件生成しました。`);
 
-  for (const [watchItem, item] of fetchedEntries) {
-    const result = evaluateItem({
-      item,
-      watchItem,
-      history,
-      defaultThreshold: config.discountThreshold,
-    });
-
-    console.log(
-      `[${watchItem.id}] ¥${item.price} (前回: ${history[item.key]?.lastPrice ?? '未記録'}) -> ${result.reason}`
-    );
-
-    if (result.eligible) candidates.push(result);
-
-    history[item.key] = {
-      lastPrice: item.price,
-      lastCheckedAt: new Date(now).toISOString(),
-    };
-  }
-
-  candidates.sort((a, b) => b.discountRate - a.discountRate);
-  const maxCandidates = config.maxCandidatesPerRun ?? 2;
-  const selectedCandidates = candidates.slice(0, maxCandidates);
-
-  if (!selectedCandidates.length) {
-    console.log('今回の投稿候補はありませんでした。');
-  } else {
-    for (const candidate of selectedCandidates) {
-      console.log('--- 投稿候補 ---');
-      console.log(
-        composeTweet({
-          item: candidate.item,
-          previousPrice: candidate.previousPrice,
-          discountRate: candidate.discountRate,
-          hashtags: config.hashtags,
-        })
-      );
-    }
-  }
-
-  saveJson(PRICE_HISTORY_PATH, history);
   saveJson(CANDIDATES_PATH, {
-    generatedAt: new Date(now).toISOString(),
-    candidates: selectedCandidates.map((candidate) => ({
-      id: candidate.item.key,
-      name: candidate.item.name,
-      price: candidate.item.price,
-      previousPrice: candidate.previousPrice,
-      discountRate: candidate.discountRate,
-      url: candidate.item.url,
-      imageUrl: candidate.item.imageUrl,
-      shopName: candidate.item.shopName,
-      rank: candidate.item.rank,
-      reviewCount: candidate.item.reviewCount,
-      reviewAverage: candidate.item.reviewAverage,
-      text: composeTweet({
-        item: candidate.item,
-        previousPrice: candidate.previousPrice,
-        discountRate: candidate.discountRate,
-        hashtags: config.hashtags,
-      }),
-    })),
+    generatedAt: new Date().toISOString(),
+    candidates: selectedCandidates,
   });
 }
 

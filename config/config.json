@@ -1,5 +1,4 @@
 {
-  "discountThreshold": 0.15,
-  "maxCandidatesPerRun": 2,
-  "hashtags": ["#PR", "#楽天", "#セール", "#値下げ"]
+  "maxCandidatesPerRun": 6,
+  "disclosureText": "【PR】"
 }

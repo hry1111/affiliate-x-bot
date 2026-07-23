@@ -1,0 +1,34 @@
+[
+  {
+    "id": "sample-deodorant",
+    "enabled": false,
+    "priority": 100,
+    "genre": "身だしなみ",
+    "target": "汗やニオイが気になる人",
+    "problem": "外出先でも続けられる汗・ニオイ対策を探している",
+    "postMode": "research",
+    "reason": "持ち歩きやすさと使いやすさを重視するなら選びやすい",
+    "caution": "香りや成分の好みはあるので、商品説明を確認してから選んでください。",
+    "primaryProvider": "rakuten",
+    "sourceReferences": [
+      {
+        "publisher": "360LiFE",
+        "title": "比較記事のタイトルを入力",
+        "url": "https://360life.shinyusha.co.jp/",
+        "checkedAt": "2026-07-23"
+      },
+      {
+        "publisher": "mybest",
+        "title": "比較記事のタイトルを入力",
+        "url": "https://my-best.com/",
+        "checkedAt": "2026-07-23"
+      }
+    ],
+    "rakuten": {
+      "itemCode": "shop-code:10000001"
+    },
+    "amazon": {
+      "asin": "B000000000"
+    }
+  }
+]
