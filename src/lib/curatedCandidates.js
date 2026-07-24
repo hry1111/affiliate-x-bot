@@ -42,6 +42,7 @@ export function createCuratedCandidates({ products, offersByProduct, config }) {
 
     candidates.push({
       id: product.id,
+      candidateType: 'ready',
       genre: product.genre,
       target: product.target,
       problem: product.problem,

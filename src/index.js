@@ -3,9 +3,12 @@ import { fetchItem as fetchRakutenItem } from './lib/rakuten.js';
 import { fetchItems as fetchAmazonItems, MAX_ITEMS_PER_REQUEST as AMAZON_BATCH_SIZE } from './lib/amazon.js';
 import { loadJson, saveJson } from './lib/jsonStore.js';
 import { createCuratedCandidates } from './lib/curatedCandidates.js';
+import { fetchRankingItems } from './lib/rakutenRanking.js';
+import { createTrendCandidates, isSeasonalTopicActive } from './lib/trendCandidates.js';
 
 const CONFIG_PATH = path.resolve('config/config.json');
 const CURATED_PRODUCTS_PATH = path.resolve('config/curated-products.json');
+const SEASONAL_TOPICS_PATH = path.resolve('config/seasonal-topics.json');
 const CANDIDATES_PATH = path.resolve('data/post-candidates.json');
 
 function chunk(arr, size) {
@@ -77,13 +80,39 @@ async function fetchAmazonWatchItems(watchItems) {
   return fetched;
 }
 
+async function fetchSeasonalRankingItems(topics) {
+  const fetched = new Map();
+  if (!topics.length) return fetched;
+
+  const { RAKUTEN_APP_ID, RAKUTEN_AFFILIATE_ID } = process.env;
+  if (!RAKUTEN_APP_ID) {
+    throw new Error('RAKUTEN_APP_ID が設定されていません。季節・トレンド候補の取得には楽天APIが必要です。');
+  }
+
+  for (const topic of topics) {
+    try {
+      const items = await fetchRankingItems(topic.ranking ?? {}, {
+        applicationId: RAKUTEN_APP_ID,
+        affiliateId: RAKUTEN_AFFILIATE_ID,
+      });
+      fetched.set(topic.id, items);
+    } catch (err) {
+      console.error(`[${topic.id}] 楽天ランキング取得エラー: ${err.message}`);
+    }
+  }
+  return fetched;
+}
+
 async function main() {
   const config = loadJson(CONFIG_PATH, {
     maxCandidatesPerRun: 6,
     disclosureText: '【PR】',
   });
   const products = loadJson(CURATED_PRODUCTS_PATH, []);
+  const seasonalTopics = loadJson(SEASONAL_TOPICS_PATH, []);
+  const now = new Date();
   const enabledProducts = products.filter((product) => product.enabled !== false);
+  const activeSeasonalTopics = seasonalTopics.filter((topic) => isSeasonalTopicActive(topic, now));
   const rakutenWatchItems = enabledProducts
     .filter((product) => product.rakuten?.itemCode)
     .map((product) => ({ id: product.id, itemCode: product.rakuten.itemCode }));
@@ -99,8 +128,16 @@ async function main() {
     offersByProduct.get(watchItem.id).amazon = item;
   }
 
-  const selectedCandidates = createCuratedCandidates({ products, offersByProduct, config });
-  console.log(`投稿候補を${selectedCandidates.length}件生成しました。`);
+  const readyCandidates = createCuratedCandidates({ products, offersByProduct, config });
+  const rankingItemsByTopic = await fetchSeasonalRankingItems(activeSeasonalTopics);
+  const discoveryCandidates = createTrendCandidates({
+    topics: activeSeasonalTopics,
+    itemsByTopic: rankingItemsByTopic,
+    config,
+    now,
+  });
+  const selectedCandidates = [...readyCandidates, ...discoveryCandidates];
+  console.log(`投稿可能候補を${readyCandidates.length}件、季節・トレンド候補を${discoveryCandidates.length}件生成しました。`);
 
   saveJson(CANDIDATES_PATH, {
     generatedAt: new Date().toISOString(),

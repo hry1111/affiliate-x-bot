@@ -1,0 +1,65 @@
+[
+  {
+    "id": "summer-cooling",
+    "enabled": true,
+    "label": "夏の暑さ対策",
+    "activeMonths": [6, 7, 8],
+    "priority": 80,
+    "genre": "夏の暮らし",
+    "target": "暑さ対策を早めに済ませたい人",
+    "problem": "冷感グッズや持ち歩ける暑さ対策を選びきれない",
+    "caution": "サイズ・対応環境・消耗品の有無は販売ページで確認してください。",
+    "ranking": {
+      "period": "realtime",
+      "pages": 1,
+      "includeAnyKeywords": ["冷感", "クール", "ひんやり", "アイスリング", "ハンディファン", "扇風機"],
+      "excludeKeywords": ["中古", "訳あり", "業務用"],
+      "minPrice": 800,
+      "maxPrice": 10000,
+      "minReviewCount": 20,
+      "minReviewAverage": 4
+    }
+  },
+  {
+    "id": "autumn-preparedness",
+    "enabled": true,
+    "label": "秋の防災・備え",
+    "activeMonths": [9, 10],
+    "priority": 75,
+    "genre": "防災",
+    "target": "非常時の備えを見直したい人",
+    "problem": "防災用品を何から揃えるか迷っている",
+    "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
+    "ranking": {
+      "period": "realtime",
+      "pages": 1,
+      "includeAnyKeywords": ["防災", "非常食", "保存水", "モバイルバッテリー", "懐中電灯"],
+      "excludeKeywords": ["中古", "訳あり", "業務用"],
+      "minPrice": 800,
+      "maxPrice": 20000,
+      "minReviewCount": 20,
+      "minReviewAverage": 4
+    }
+  },
+  {
+    "id": "winter-housework",
+    "enabled": true,
+    "label": "年末の家事・掃除",
+    "activeMonths": [11, 12],
+    "priority": 70,
+    "genre": "日用品",
+    "target": "年末前に家事の負担を減らしたい人",
+    "problem": "掃除用品や時短アイテムを選びきれない",
+    "caution": "素材との相性と使用方法を販売ページで確認してください。",
+    "ranking": {
+      "period": "realtime",
+      "pages": 1,
+      "includeAnyKeywords": ["掃除", "クリーナー", "洗剤", "収納", "加湿器"],
+      "excludeKeywords": ["中古", "訳あり", "業務用"],
+      "minPrice": 800,
+      "maxPrice": 20000,
+      "minReviewCount": 20,
+      "minReviewAverage": 4
+    }
+  }
+]

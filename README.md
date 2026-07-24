@@ -5,13 +5,45 @@ X APIによる自動投稿は行いません。
 
 ## 仕組み
 
-1. Hiroが360LiFE・mybestなどの比較記事を確認し、紹介する商品と選定理由を`config/curated-products.json`へ登録します。
-2. GitHub Actionsが毎日8時（日本時間）に楽天市場商品検索APIとAmazon PA-APIを呼び、価格・販売中かどうか・アフィリエイトリンクを確認します。
-3. 販売中の商品のみをGitHub Pagesのアプリへ表示します。
-4. 商品ごとに、体験区分に合う自然な投稿文を3案作ります。
-5. Hiroが投稿文を確認・編集し、コピーまたは`Xを開く`から手動投稿します。
+1. GitHub Actionsが毎日8時（日本時間）に、`config/seasonal-topics.json`の月別テーマに合う楽天リアルタイムランキングを取得します。
+2. キーワード、価格帯、レビュー条件を通った商品を「季節・トレンドから探す」に表示します。
+3. Hiroが比較記事と商品仕様を確認し、投稿する価値があるものだけを`config/curated-products.json`へ登録します。
+4. 楽天市場商品検索APIとAmazon PA-APIで、登録済み商品の価格・販売中かどうか・アフィリエイトリンクを確認します。
+5. 根拠を登録済みの商品のみ、体験区分に合う自然な投稿文を3案作ります。Hiroが確認・編集して手動投稿します。
 
 比較記事は**候補選定の根拠**であり、本文・評価表・画像・ランキングを自動取得、転載、再公開しません。投稿する商品画像は楽天・Amazonのアフィリエイト素材または自作画像だけを使います。
+
+## 季節・トレンド候補
+
+`config/seasonal-topics.json`では、季節ごとに探すテーマと楽天ランキングの絞り込み条件を設定します。現在は、夏の暑さ対策、秋の防災、年末の家事・掃除を登録しています。
+
+```json
+{
+  "id": "summer-cooling",
+  "enabled": true,
+  "label": "夏の暑さ対策",
+  "activeMonths": [6, 7, 8],
+  "priority": 80,
+  "genre": "夏の暮らし",
+  "target": "暑さ対策を早めに済ませたい人",
+  "problem": "冷感グッズや持ち歩ける暑さ対策を選びきれない",
+  "caution": "サイズ・対応環境・消耗品の有無は販売ページで確認してください。",
+  "ranking": {
+    "period": "realtime",
+    "pages": 1,
+    "includeAnyKeywords": ["冷感", "クール"],
+    "excludeKeywords": ["中古", "訳あり"],
+    "minPrice": 800,
+    "maxPrice": 10000,
+    "minReviewCount": 20,
+    "minReviewAverage": 4
+  }
+}
+```
+
+ランキング候補は、季節テーマ、ランキング順位、レビュー情報で並べます。ただし、ランキングだけでは品質や用途が判断できないため**投稿文は生成しません**。画面の`設定JSONをコピー`で下書きを作り、比較記事のURL・選定理由・注意点を埋めて`curated-products.json`に登録してください。
+
+楽天ランキングのジャンルを限定する場合は`ranking.genreId`を設定します。ジャンルIDは[楽天市場ジャンル検索API](https://webservice.rakuten.co.jp/documentation/ichiba-genre-search)で確認できます。
 
 ## 商品の選び方
 
