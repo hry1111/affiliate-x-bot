@@ -12,7 +12,7 @@
       <header class="app-header">
         <p class="eyebrow">COST PERFORMANCE MONSTER</p>
         <h1>今日の投稿候補</h1>
-        <p class="header-description">比較記事を参考に選び、販売条件を確認した商品です。</p>
+        <p class="header-description">比較根拠済みの商品と、季節・楽天ランキングから見つけた確認待ち商品です。</p>
         <p id="updated-at" class="updated-at">読み込み中</p>
       </header>
       <section id="candidate-list" class="candidate-list" aria-live="polite"></section>
@@ -22,6 +22,7 @@
         <img class="product-image" alt="" />
         <div class="candidate-content">
           <div class="metadata">
+            <span class="candidate-kind"></span>
             <span class="genre"></span>
             <span class="post-mode"></span>
           </div>
@@ -29,13 +30,21 @@
           <p class="target"></p>
           <p class="reason"></p>
           <p class="caution"></p>
+          <p class="selection-summary" hidden></p>
           <div class="source-references"></div>
           <div class="offer-list"></div>
-          <div class="copy-tabs" role="tablist" aria-label="投稿文案"></div>
-          <textarea class="post-text" aria-label="投稿文"></textarea>
-          <div class="actions">
-            <button class="copy-button" type="button">コピー</button>
-            <a class="x-link" target="_blank" rel="noopener">Xを開く</a>
+          <div class="post-editor">
+            <div class="copy-tabs" role="tablist" aria-label="投稿文案"></div>
+            <textarea class="post-text" aria-label="投稿文"></textarea>
+            <div class="actions">
+              <button class="copy-button" type="button">コピー</button>
+              <a class="x-link" target="_blank" rel="noopener">Xを開く</a>
+              <button class="hide-button" type="button">見送り</button>
+            </div>
+          </div>
+          <div class="discovery-actions" hidden>
+            <p class="discovery-note">比較記事と商品仕様を確認し、投稿可能な商品として登録してから紹介します。</p>
+            <button class="copy-config-button" type="button">設定JSONをコピー</button>
             <button class="hide-button" type="button">見送り</button>
           </div>
         </div>

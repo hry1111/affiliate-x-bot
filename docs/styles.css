@@ -24,7 +24,11 @@ h1 { font-size: 28px; margin: 0; }
 
 .header-description, .updated-at { color: #51635d; font-size: 13px; margin: 8px 0 0; }
 
-.candidate-list { display: grid; gap: 16px; margin-top: 20px; }
+.candidate-group { margin-top: 24px; }
+
+.candidate-group > h2 { font-size: 17px; margin: 0 0 10px; }
+
+.candidate-list { display: grid; gap: 16px; }
 
 .candidate-card { background: #fff; border: 1px solid #bfd1c8; border-radius: 8px; display: grid; grid-template-columns: 128px minmax(0, 1fr); overflow: hidden; }
 
@@ -38,6 +42,10 @@ h1 { font-size: 28px; margin: 0; }
 
 .genre { color: #075c51; font-size: 13px; font-weight: 700; }
 
+.candidate-kind { border: 1px solid #27756a; color: #075c51; font-size: 11px; font-weight: 700; padding: 2px 5px; }
+
+.discovery-card .candidate-kind { border-color: #b04b23; color: #8a391b; }
+
 .post-mode { color: #6c3f20; font-size: 12px; }
 
 .product-name { font-size: 16px; line-height: 1.45; margin: 6px 0 0; }
@@ -46,6 +54,7 @@ h1 { font-size: 28px; margin: 0; }
 
 .target { color: #51635d; }
 .caution { color: #6c3f20; }
+.selection-summary { background: #fff5e7; color: #8a391b; font-size: 12px; line-height: 1.5; margin: 10px 0 0; padding: 7px 8px; }
 
 .source-references, .offer-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
 
@@ -63,13 +72,18 @@ h1 { font-size: 28px; margin: 0; }
 
 .actions { display: flex; gap: 8px; margin-top: 10px; }
 
-.actions button, .x-link { border: 1px solid #a6beb4; border-radius: 4px; color: #17312d; cursor: pointer; font-size: 13px; min-height: 36px; padding: 8px 12px; text-decoration: none; }
+.discovery-actions { margin-top: 12px; }
+.discovery-note { color: #51635d; font-size: 13px; line-height: 1.55; margin: 0 0 10px; }
+
+.actions button, .x-link, .discovery-actions button { border: 1px solid #a6beb4; border-radius: 4px; color: #17312d; cursor: pointer; font-size: 13px; min-height: 36px; padding: 8px 12px; text-decoration: none; }
 
 .copy-button { background: #075c51; border-color: #075c51 !important; color: #fff !important; }
 
 .x-link { align-items: center; display: inline-flex; }
 
 .hide-button { background: #fff; }
+
+.copy-config-button { background: #fff5e7; border-color: #bd7a44 !important; color: #7a3418 !important; }
 
 .empty-state { border: 1px dashed #7d9b8f; color: #51635d; padding: 28px 16px; text-align: center; }
 

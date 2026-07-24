@@ -12,7 +12,20 @@ function saveHiddenIds(ids) {
 }
 
 async function copyText(text, button) {
-  await navigator.clipboard.writeText(text);
+  try {
+    await navigator.clipboard.writeText(text);
+  } catch {
+    const temporary = document.createElement('textarea');
+    temporary.value = text;
+    temporary.setAttribute('readonly', '');
+    temporary.style.position = 'fixed';
+    temporary.style.opacity = '0';
+    document.body.append(temporary);
+    temporary.select();
+    const copied = document.execCommand('copy');
+    temporary.remove();
+    if (!copied) throw new Error('コピーできませんでした。');
+  }
   const original = button.textContent;
   button.textContent = 'コピー済み';
   setTimeout(() => { button.textContent = original; }, 1500);
@@ -22,31 +35,46 @@ function createCandidate(candidate, hiddenIds) {
   const fragment = template.content.cloneNode(true);
   const card = fragment.querySelector('.candidate-card');
   const image = fragment.querySelector('.product-image');
+  const candidateKind = fragment.querySelector('.candidate-kind');
   const genre = fragment.querySelector('.genre');
   const postMode = fragment.querySelector('.post-mode');
   const name = fragment.querySelector('.product-name');
   const target = fragment.querySelector('.target');
   const reason = fragment.querySelector('.reason');
   const caution = fragment.querySelector('.caution');
+  const selectionSummary = fragment.querySelector('.selection-summary');
   const sourceReferences = fragment.querySelector('.source-references');
   const offerList = fragment.querySelector('.offer-list');
   const copyTabs = fragment.querySelector('.copy-tabs');
   const postText = fragment.querySelector('.post-text');
   const copyButton = fragment.querySelector('.copy-button');
   const xLink = fragment.querySelector('.x-link');
-  const hideButton = fragment.querySelector('.hide-button');
+  const postEditor = fragment.querySelector('.post-editor');
+  const discoveryActions = fragment.querySelector('.discovery-actions');
+  const copyConfigButton = fragment.querySelector('.copy-config-button');
+  const isDiscovery = candidate.candidateType === 'discovery';
 
   const primaryOffer = candidate.primaryOffer;
   image.src = primaryOffer.imageUrl || '';
   image.alt = primaryOffer.name;
   image.hidden = !primaryOffer.imageUrl;
   card.classList.toggle('without-image', !primaryOffer.imageUrl);
+  card.classList.toggle('discovery-card', isDiscovery);
+  candidateKind.textContent = isDiscovery ? '要確認' : '投稿可能';
   genre.textContent = candidate.genre;
-  postMode.textContent = candidate.postMode === 'owned' ? '実体験あり' : candidate.postMode === 'sale' ? 'セール情報' : '比較記事を参考';
+  postMode.textContent = isDiscovery
+    ? '楽天ランキングから自動抽出'
+    : candidate.postMode === 'owned'
+      ? '実体験あり'
+      : candidate.postMode === 'sale'
+        ? 'セール情報'
+        : '比較記事を参考';
   name.textContent = primaryOffer.name;
   target.textContent = `こんな人へ: ${candidate.target}`;
   reason.textContent = candidate.reason;
   caution.textContent = `確認: ${candidate.caution}`;
+  selectionSummary.hidden = !isDiscovery;
+  selectionSummary.textContent = candidate.selectionSummary ?? '';
 
   for (const source of candidate.sourceReferences ?? []) {
     const link = document.createElement('a');
@@ -74,16 +102,20 @@ function createCandidate(candidate, hiddenIds) {
     }
   }
 
-  for (const variant of candidate.copyVariants ?? []) {
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.textContent = variant.label;
-    button.dataset.variantId = variant.id;
-    button.setAttribute('role', 'tab');
-    button.addEventListener('click', () => setPostText(variant));
-    copyTabs.append(button);
+  if (!isDiscovery) {
+    for (const variant of candidate.copyVariants ?? []) {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.textContent = variant.label;
+      button.dataset.variantId = variant.id;
+      button.setAttribute('role', 'tab');
+      button.addEventListener('click', () => setPostText(variant));
+      copyTabs.append(button);
+    }
+    setPostText(candidate.copyVariants?.[0] ?? { id: 'empty', text: '' });
   }
-  setPostText(candidate.copyVariants?.[0] ?? { id: 'empty', text: '' });
+  postEditor.hidden = isDiscovery;
+  discoveryActions.hidden = !isDiscovery;
 
   postText.addEventListener('input', () => {
     xLink.href = `https://x.com/intent/post?text=${encodeURIComponent(postText.value)}`;
@@ -93,21 +125,40 @@ function createCandidate(candidate, hiddenIds) {
     try {
       await copyText(postText.value, copyButton);
     } catch {
-      postText.focus();
-      postText.select();
-      document.execCommand('copy');
-      copyButton.textContent = 'コピー済み';
+      copyButton.textContent = 'コピーできませんでした';
     }
   });
 
-  hideButton.addEventListener('click', () => {
+  for (const button of fragment.querySelectorAll('.hide-button')) button.addEventListener('click', () => {
     hiddenIds.add(candidate.id);
     saveHiddenIds(hiddenIds);
+    const group = card.closest('.candidate-group');
     card.remove();
-    if (!list.children.length) renderEmptyState();
+    if (group && !group.querySelector('.candidate-card')) group.remove();
+    if (!list.querySelector('.candidate-card')) renderEmptyState();
+  });
+
+  copyConfigButton?.addEventListener('click', async () => {
+    try {
+      await copyText(candidate.reviewDraft, copyConfigButton);
+    } catch {
+      copyConfigButton.textContent = 'コピーできませんでした';
+    }
   });
 
   return fragment;
+}
+
+function renderGroup(title, candidates, hiddenIds) {
+  const section = document.createElement('section');
+  section.className = 'candidate-group';
+  const heading = document.createElement('h2');
+  heading.textContent = title;
+  const cards = document.createElement('div');
+  cards.className = 'candidate-list';
+  for (const candidate of candidates) cards.append(createCandidate(candidate, hiddenIds));
+  section.append(heading, cards);
+  list.append(section);
 }
 
 function renderEmptyState() {
@@ -129,7 +180,10 @@ async function main() {
     const hiddenIds = loadHiddenIds();
     const visibleCandidates = data.candidates.filter((candidate) => !hiddenIds.has(candidate.id));
     if (!visibleCandidates.length) return renderEmptyState();
-    for (const candidate of visibleCandidates) list.append(createCandidate(candidate, hiddenIds));
+    const readyCandidates = visibleCandidates.filter((candidate) => candidate.candidateType !== 'discovery');
+    const discoveryCandidates = visibleCandidates.filter((candidate) => candidate.candidateType === 'discovery');
+    if (readyCandidates.length) renderGroup('投稿できる候補', readyCandidates, hiddenIds);
+    if (discoveryCandidates.length) renderGroup('季節・トレンドから探す', discoveryCandidates, hiddenIds);
   } catch (error) {
     updatedAt.textContent = '読み込みに失敗しました';
     const message = document.createElement('p');
