@@ -11,7 +11,7 @@
     "caution": "サイズ・対応環境・消耗品の有無は販売ページで確認してください。",
     "ranking": {
       "period": "realtime",
-      "pages": 3,
+      "pages": 10,
       "includeAnyKeywords": ["冷感", "クール", "ひんやり", "アイスリング", "ハンディファン", "扇風機"],
       "excludeKeywords": ["中古", "訳あり", "業務用"],
       "minPrice": 800,
@@ -32,7 +32,7 @@
     "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
     "ranking": {
       "period": "realtime",
-      "pages": 3,
+      "pages": 10,
       "includeAnyKeywords": ["防災", "非常食", "保存水", "モバイルバッテリー", "懐中電灯"],
       "excludeKeywords": ["中古", "訳あり", "業務用"],
       "minPrice": 800,
@@ -52,7 +52,7 @@
     "caution": "素材との相性と使用方法を販売ページで確認してください。",
     "ranking": {
       "period": "realtime",
-      "pages": 3,
+      "pages": 10,
       "includeAnyKeywords": ["掃除", "クリーナー", "洗剤", "スポンジ", "タオル", "ゴミ袋"],
       "excludeKeywords": ["中古", "訳あり", "業務用"],
       "minPrice": 800,
@@ -72,7 +72,7 @@
     "caution": "サイズ・熱源対応・食洗機対応を販売ページで確認してください。",
     "ranking": {
       "period": "realtime",
-      "pages": 3,
+      "pages": 10,
       "includeAnyKeywords": ["フライパン", "包丁", "水筒", "保存容器", "まな板", "調理"],
       "excludeKeywords": ["中古", "訳あり", "業務用"],
       "minPrice": 800,
@@ -92,7 +92,7 @@
     "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
     "ranking": {
       "period": "realtime",
-      "pages": 3,
+      "pages": 10,
       "includeAnyKeywords": ["収納", "ラック", "ハンガー", "ケース", "ボックス", "チェア"],
       "excludeKeywords": ["中古", "訳あり", "業務用"],
       "minPrice": 800,
@@ -112,7 +112,7 @@
     "caution": "肌質・香り・成分との相性はあるため、商品説明を確認してください。",
     "ranking": {
       "period": "realtime",
-      "pages": 3,
+      "pages": 10,
       "includeAnyKeywords": ["シャンプー", "トリートメント", "日焼け止め", "クレンジング", "ボディソープ", "デオドラント"],
       "excludeKeywords": ["中古", "訳あり", "業務用"],
       "minPrice": 800,
@@ -132,7 +132,7 @@
     "caution": "対応端子・対応機種・出力条件を販売ページで確認してください。",
     "ranking": {
       "period": "realtime",
-      "pages": 3,
+      "pages": 10,
       "includeAnyKeywords": ["モバイルバッテリー", "充電器", "イヤホン", "USB", "マウス", "キーボード"],
       "excludeKeywords": ["中古", "訳あり", "業務用"],
       "minPrice": 800,
@@ -152,7 +152,7 @@
     "caution": "車種適合・取り付け方法・保安基準を販売ページで確認してください。",
     "ranking": {
       "period": "realtime",
-      "pages": 3,
+      "pages": 10,
       "includeAnyKeywords": ["車載", "ドライブレコーダー", "ワイパー", "洗車", "カー用品", "サンシェード"],
       "excludeKeywords": ["中古", "訳あり", "業務用"],
       "minPrice": 800,
@@ -172,7 +172,7 @@
     "caution": "年齢・体格・健康状態に合うか、商品説明を確認してください。",
     "ranking": {
       "period": "realtime",
-      "pages": 3,
+      "pages": 10,
       "includeAnyKeywords": ["ペット", "キャット", "ドッグ", "猫砂", "キャリー", "給水器"],
       "excludeKeywords": ["中古", "訳あり", "業務用"],
       "minPrice": 800,
@@ -192,7 +192,7 @@
     "caution": "対象年齢・サイズ・安全上の注意を販売ページで確認してください。",
     "ranking": {
       "period": "realtime",
-      "pages": 3,
+      "pages": 10,
       "includeAnyKeywords": ["ベビー", "キッズ", "おむつ", "抱っこ", "子供", "チャイルド"],
       "excludeKeywords": ["中古", "訳あり", "業務用"],
       "minPrice": 800,
