@@ -4,7 +4,7 @@ const ENDPOINT = 'https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/2
  * 楽天市場商品検索APIで itemCode（例: "shop-code:1000001"）を指定して単一商品の
  * 現在価格・商品名・アフィリエイトURL・画像URLを取得する。
  */
-export async function fetchItem(itemCode, { applicationId, accessKey, affiliateId }) {
+export async function fetchItem(itemCode, { applicationId, accessKey, affiliateId, requestOrigin, requestReferer }) {
   const url = new URL(ENDPOINT);
   url.searchParams.set('format', 'json');
   url.searchParams.set('itemCode', itemCode);
@@ -13,7 +13,10 @@ export async function fetchItem(itemCode, { applicationId, accessKey, affiliateI
   if (affiliateId) url.searchParams.set('affiliateId', affiliateId);
   url.searchParams.set('hits', '1');
 
-  const res = await fetch(url);
+  const headers = {};
+  if (requestOrigin) headers.Origin = requestOrigin;
+  if (requestReferer) headers.Referer = requestReferer;
+  const res = await fetch(url, { headers });
   if (!res.ok) {
     throw new Error(`楽天APIエラー (${res.status}): ${await res.text()}`);
   }

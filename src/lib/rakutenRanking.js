@@ -41,7 +41,7 @@ function passesFilters(item, watch) {
  * 楽天市場ランキングAPIからランキング商品を取得する。
  * period は realtime / daily / weekly / monthly を想定する。
  */
-export async function fetchRankingItems(watch, { applicationId, accessKey, affiliateId }) {
+export async function fetchRankingItems(watch, { applicationId, accessKey, affiliateId, requestOrigin, requestReferer }) {
   const pages = Math.max(1, Math.min(Number(watch.pages ?? 1), 10));
   const period = watch.period ?? 'realtime';
   const items = [];
@@ -58,7 +58,10 @@ export async function fetchRankingItems(watch, { applicationId, accessKey, affil
     if (watch.age != null) url.searchParams.set('age', String(watch.age));
     if (watch.sex != null) url.searchParams.set('sex', String(watch.sex));
 
-    const res = await fetch(url);
+    const headers = {};
+    if (requestOrigin) headers.Origin = requestOrigin;
+    if (requestReferer) headers.Referer = requestReferer;
+    const res = await fetch(url, { headers });
     if (!res.ok) {
       throw new Error(`楽天ランキングAPIエラー (${res.status}): ${await res.text()}`);
     }

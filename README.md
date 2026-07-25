@@ -115,6 +115,7 @@ X APIによる自動投稿は行いません。
 
 - [楽天ウェブサービス](https://webservice.rakuten.co.jp/)で、作成したアプリの`RAKUTEN_APP_ID`と`RAKUTEN_ACCESS_KEY`を取得します。
 - [楽天アフィリエイト](https://affiliate.rakuten.co.jp/)で`RAKUTEN_AFFILIATE_ID`を取得します。
+- アプリの許可サイトには、公開ツールのドメインである`hry1111.github.io`を登録します。`https://`や`/affiliate-x-bot/`は付けません。
 
 ### Amazon
 
@@ -136,6 +137,8 @@ X APIによる自動投稿は行いません。
 | `AMAZON_PARTNER_TAG` | Amazonアソシエイトタグ |
 
 楽天のみ、Amazonのみを使う場合、`curated-products.json`に対象プロバイダの商品が1件もなければ、該当するSecretは不要です。
+
+GitHub Actionsから楽天APIを呼ぶ際は、`RAKUTEN_REQUEST_ORIGIN`と`RAKUTEN_REQUEST_REFERER`で公開ツールURLを送ります。通常はワークフローに設定済みのため、Secretsへの追加は不要です。
 
 ## GitHub Pages
 

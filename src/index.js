@@ -10,6 +10,8 @@ const CONFIG_PATH = path.resolve('config/config.json');
 const CURATED_PRODUCTS_PATH = path.resolve('config/curated-products.json');
 const SEASONAL_TOPICS_PATH = path.resolve('config/seasonal-topics.json');
 const CANDIDATES_PATH = path.resolve('data/post-candidates.json');
+const RAKUTEN_REQUEST_ORIGIN = process.env.RAKUTEN_REQUEST_ORIGIN ?? 'https://hry1111.github.io';
+const RAKUTEN_REQUEST_REFERER = process.env.RAKUTEN_REQUEST_REFERER ?? 'https://hry1111.github.io/affiliate-x-bot/';
 
 function chunk(arr, size) {
   const chunks = [];
@@ -32,6 +34,8 @@ async function fetchRakutenWatchItems(watchItems) {
         applicationId: RAKUTEN_APP_ID,
         accessKey: RAKUTEN_ACCESS_KEY,
         affiliateId: RAKUTEN_AFFILIATE_ID,
+        requestOrigin: RAKUTEN_REQUEST_ORIGIN,
+        requestReferer: RAKUTEN_REQUEST_REFERER,
       });
       if (item) fetched.set(watchItem, item);
       else console.warn(`[${watchItem.id}] 商品が見つかりませんでした (itemCode: ${watchItem.itemCode})`);
@@ -101,6 +105,8 @@ async function fetchSeasonalRankingItems(topics) {
           applicationId: RAKUTEN_APP_ID,
           accessKey: RAKUTEN_ACCESS_KEY,
           affiliateId: RAKUTEN_AFFILIATE_ID,
+          requestOrigin: RAKUTEN_REQUEST_ORIGIN,
+          requestReferer: RAKUTEN_REQUEST_REFERER,
         })
       );
     }
