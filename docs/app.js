@@ -1,7 +1,11 @@
 const list = document.querySelector('#candidate-list');
 const updatedAt = document.querySelector('#updated-at');
+const genreFilter = document.querySelector('#genre-filter');
+const filterStatus = document.querySelector('#filter-status');
 const template = document.querySelector('#candidate-template');
 const hiddenKey = 'affiliate-candidates-hidden';
+const genreFilterKey = 'affiliate-candidates-genre-filter';
+let currentCandidates = [];
 
 function loadHiddenIds() {
   return new Set(JSON.parse(localStorage.getItem(hiddenKey) ?? '[]'));
@@ -9,6 +13,22 @@ function loadHiddenIds() {
 
 function saveHiddenIds(ids) {
   localStorage.setItem(hiddenKey, JSON.stringify([...ids]));
+}
+
+function loadGenreFilter() {
+  return localStorage.getItem(genreFilterKey) ?? '';
+}
+
+function saveGenreFilter(genre) {
+  localStorage.setItem(genreFilterKey, genre);
+}
+
+function configureGenreFilter(candidates) {
+  const genres = [...new Set(candidates.map((candidate) => candidate.genre).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ja'));
+  const selectedGenre = genres.includes(loadGenreFilter()) ? loadGenreFilter() : '';
+  genreFilter.replaceChildren(new Option('すべて', ''));
+  for (const genre of genres) genreFilter.add(new Option(genre, genre));
+  genreFilter.value = selectedGenre;
 }
 
 async function copyText(text, button) {
@@ -132,10 +152,7 @@ function createCandidate(candidate, hiddenIds) {
   for (const button of fragment.querySelectorAll('.hide-button')) button.addEventListener('click', () => {
     hiddenIds.add(candidate.id);
     saveHiddenIds(hiddenIds);
-    const group = card.closest('.candidate-group');
-    card.remove();
-    if (group && !group.querySelector('.candidate-card')) group.remove();
-    if (!list.querySelector('.candidate-card')) renderEmptyState();
+    renderCandidates();
   });
 
   copyConfigButton?.addEventListener('click', async () => {
@@ -168,6 +185,23 @@ function renderEmptyState() {
   list.replaceChildren(empty);
 }
 
+function renderCandidates() {
+  list.replaceChildren();
+  const hiddenIds = loadHiddenIds();
+  const selectedGenre = genreFilter.value;
+  const visibleCandidates = currentCandidates.filter(
+    (candidate) => !hiddenIds.has(candidate.id) && (!selectedGenre || candidate.genre === selectedGenre)
+  );
+  const genreLabel = selectedGenre || 'すべて';
+  filterStatus.textContent = `${genreLabel}: ${visibleCandidates.length}件`;
+  if (!visibleCandidates.length) return renderEmptyState();
+
+  const readyCandidates = visibleCandidates.filter((candidate) => candidate.candidateType !== 'discovery');
+  const discoveryCandidates = visibleCandidates.filter((candidate) => candidate.candidateType === 'discovery');
+  if (readyCandidates.length) renderGroup('投稿できる候補', readyCandidates, hiddenIds);
+  if (discoveryCandidates.length) renderGroup('季節・トレンドから探す', discoveryCandidates, hiddenIds);
+}
+
 async function main() {
   try {
     const response = await fetch('./data/post-candidates.json', { cache: 'no-store' });
@@ -177,13 +211,9 @@ async function main() {
       ? `最終更新 ${new Intl.DateTimeFormat('ja-JP', { dateStyle: 'medium', timeStyle: 'short' }).format(new Date(data.generatedAt))}`
       : 'まだ候補データはありません';
 
-    const hiddenIds = loadHiddenIds();
-    const visibleCandidates = data.candidates.filter((candidate) => !hiddenIds.has(candidate.id));
-    if (!visibleCandidates.length) return renderEmptyState();
-    const readyCandidates = visibleCandidates.filter((candidate) => candidate.candidateType !== 'discovery');
-    const discoveryCandidates = visibleCandidates.filter((candidate) => candidate.candidateType === 'discovery');
-    if (readyCandidates.length) renderGroup('投稿できる候補', readyCandidates, hiddenIds);
-    if (discoveryCandidates.length) renderGroup('季節・トレンドから探す', discoveryCandidates, hiddenIds);
+    currentCandidates = data.candidates;
+    configureGenreFilter(currentCandidates);
+    renderCandidates();
   } catch (error) {
     updatedAt.textContent = '読み込みに失敗しました';
     const message = document.createElement('p');
@@ -192,5 +222,10 @@ async function main() {
     list.replaceChildren(message);
   }
 }
+
+genreFilter.addEventListener('change', () => {
+  saveGenreFilter(genreFilter.value);
+  renderCandidates();
+});
 
 main();

@@ -14,6 +14,13 @@
         <h1>今日の投稿候補</h1>
         <p class="header-description">比較根拠済みの商品と、季節・楽天ランキングから見つけた確認待ち商品です。</p>
         <p id="updated-at" class="updated-at">読み込み中</p>
+        <div class="candidate-filter">
+          <label for="genre-filter">ジャンル</label>
+          <select id="genre-filter" aria-label="表示するジャンル">
+            <option value="">すべて</option>
+          </select>
+        </div>
+        <p id="filter-status" class="filter-status" aria-live="polite"></p>
       </header>
       <section id="candidate-list" class="candidate-list" aria-live="polite"></section>
     </main>

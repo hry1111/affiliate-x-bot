@@ -24,6 +24,14 @@ h1 { font-size: 28px; margin: 0; }
 
 .header-description, .updated-at { color: #51635d; font-size: 13px; margin: 8px 0 0; }
 
+.candidate-filter { align-items: center; display: flex; gap: 8px; margin-top: 16px; }
+
+.candidate-filter label { color: #31564e; font-size: 13px; font-weight: 700; }
+
+.candidate-filter select { background: #fff; border: 1px solid #a6beb4; border-radius: 4px; color: #17312d; font-size: 14px; min-height: 36px; min-width: 180px; padding: 6px 30px 6px 10px; }
+
+.filter-status { color: #51635d; font-size: 12px; margin: 8px 0 0; }
+
 .candidate-group { margin-top: 24px; }
 
 .candidate-group > h2 { font-size: 17px; margin: 0 0 10px; }
