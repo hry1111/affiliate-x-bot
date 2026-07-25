@@ -113,7 +113,7 @@ X APIによる自動投稿は行いません。
 
 ### 楽天
 
-- [楽天ウェブサービス](https://webservice.rakuten.co.jp/)で`RAKUTEN_APP_ID`を取得します。
+- [楽天ウェブサービス](https://webservice.rakuten.co.jp/)で、作成したアプリの`RAKUTEN_APP_ID`と`RAKUTEN_ACCESS_KEY`を取得します。
 - [楽天アフィリエイト](https://affiliate.rakuten.co.jp/)で`RAKUTEN_AFFILIATE_ID`を取得します。
 
 ### Amazon
@@ -129,6 +129,7 @@ X APIによる自動投稿は行いません。
 | Secret名 | 内容 |
 | --- | --- |
 | `RAKUTEN_APP_ID` | 楽天ウェブサービスのアプリID |
+| `RAKUTEN_ACCESS_KEY` | 楽天ウェブサービスのアクセスキー |
 | `RAKUTEN_AFFILIATE_ID` | 楽天アフィリエイトID |
 | `AMAZON_ACCESS_KEY` | Amazon PA-APIのアクセスキー |
 | `AMAZON_SECRET_KEY` | Amazon PA-APIのシークレットキー |

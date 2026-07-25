@@ -21,15 +21,16 @@ async function fetchRakutenWatchItems(watchItems) {
   const fetched = new Map();
   if (!watchItems.length) return fetched;
 
-  const { RAKUTEN_APP_ID, RAKUTEN_AFFILIATE_ID } = process.env;
-  if (!RAKUTEN_APP_ID) {
-    throw new Error('RAKUTEN_APP_ID が設定されていません。.env.example を参照してください。');
+  const { RAKUTEN_APP_ID, RAKUTEN_ACCESS_KEY, RAKUTEN_AFFILIATE_ID } = process.env;
+  if (!RAKUTEN_APP_ID || !RAKUTEN_ACCESS_KEY) {
+    throw new Error('RAKUTEN_APP_ID / RAKUTEN_ACCESS_KEY が設定されていません。.env.example を参照してください。');
   }
 
   for (const watchItem of watchItems) {
     try {
       const item = await fetchRakutenItem(watchItem.itemCode, {
         applicationId: RAKUTEN_APP_ID,
+        accessKey: RAKUTEN_ACCESS_KEY,
         affiliateId: RAKUTEN_AFFILIATE_ID,
       });
       if (item) fetched.set(watchItem, item);
@@ -84,9 +85,9 @@ async function fetchSeasonalRankingItems(topics) {
   const fetched = new Map();
   if (!topics.length) return fetched;
 
-  const { RAKUTEN_APP_ID, RAKUTEN_AFFILIATE_ID } = process.env;
-  if (!RAKUTEN_APP_ID) {
-    throw new Error('RAKUTEN_APP_ID が設定されていません。季節・トレンド候補の取得には楽天APIが必要です。');
+  const { RAKUTEN_APP_ID, RAKUTEN_ACCESS_KEY, RAKUTEN_AFFILIATE_ID } = process.env;
+  if (!RAKUTEN_APP_ID || !RAKUTEN_ACCESS_KEY) {
+    throw new Error('RAKUTEN_APP_ID / RAKUTEN_ACCESS_KEY が設定されていません。季節・トレンド候補の取得には楽天APIが必要です。');
   }
 
   const rankingRequests = new Map();
@@ -98,6 +99,7 @@ async function fetchSeasonalRankingItems(topics) {
         requestKey,
         fetchRankingItems(requestConfig, {
           applicationId: RAKUTEN_APP_ID,
+          accessKey: RAKUTEN_ACCESS_KEY,
           affiliateId: RAKUTEN_AFFILIATE_ID,
         })
       );

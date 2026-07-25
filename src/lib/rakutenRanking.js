@@ -1,4 +1,4 @@
-const ENDPOINT = 'https://app.rakuten.co.jp/services/api/IchibaItem/Ranking/20220601';
+const ENDPOINT = 'https://openapi.rakuten.co.jp/ichibaranking/api/IchibaItem/Ranking/20220601';
 
 function toNumber(value) {
   const number = Number(value);
@@ -41,7 +41,7 @@ function passesFilters(item, watch) {
  * 楽天市場ランキングAPIからランキング商品を取得する。
  * period は realtime / daily / weekly / monthly を想定する。
  */
-export async function fetchRankingItems(watch, { applicationId, affiliateId }) {
+export async function fetchRankingItems(watch, { applicationId, accessKey, affiliateId }) {
   const pages = Math.max(1, Math.min(Number(watch.pages ?? 1), 10));
   const period = watch.period ?? 'realtime';
   const items = [];
@@ -50,6 +50,7 @@ export async function fetchRankingItems(watch, { applicationId, affiliateId }) {
     const url = new URL(ENDPOINT);
     url.searchParams.set('format', 'json');
     url.searchParams.set('applicationId', applicationId);
+    url.searchParams.set('accessKey', accessKey);
     if (affiliateId) url.searchParams.set('affiliateId', affiliateId);
     url.searchParams.set('period', period);
     url.searchParams.set('page', String(page));
@@ -63,9 +64,10 @@ export async function fetchRankingItems(watch, { applicationId, affiliateId }) {
     }
 
     const data = await res.json();
-    for (const wrapper of data.Items ?? []) {
-      if (!wrapper.Item) continue;
-      const item = normalizeItem(wrapper.Item, watch);
+    for (const wrapper of data.items ?? data.Items ?? []) {
+      const rawItem = wrapper.item ?? wrapper.Item ?? wrapper;
+      if (!rawItem) continue;
+      const item = normalizeItem(rawItem, watch);
       if (item && passesFilters(item, watch)) items.push(item);
     }
   }
