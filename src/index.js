@@ -89,12 +89,22 @@ async function fetchSeasonalRankingItems(topics) {
     throw new Error('RAKUTEN_APP_ID が設定されていません。季節・トレンド候補の取得には楽天APIが必要です。');
   }
 
+  const rankingRequests = new Map();
   for (const topic of topics) {
+    const { includeAnyKeywords, excludeKeywords, ...requestConfig } = topic.ranking ?? {};
+    const requestKey = JSON.stringify(requestConfig);
+    if (!rankingRequests.has(requestKey)) {
+      rankingRequests.set(
+        requestKey,
+        fetchRankingItems(requestConfig, {
+          applicationId: RAKUTEN_APP_ID,
+          affiliateId: RAKUTEN_AFFILIATE_ID,
+        })
+      );
+    }
+
     try {
-      const items = await fetchRankingItems(topic.ranking ?? {}, {
-        applicationId: RAKUTEN_APP_ID,
-        affiliateId: RAKUTEN_AFFILIATE_ID,
-      });
+      const items = await rankingRequests.get(requestKey);
       fetched.set(topic.id, items);
     } catch (err) {
       console.error(`[${topic.id}] 楽天ランキング取得エラー: ${err.message}`);
@@ -113,6 +123,9 @@ async function main() {
   const now = new Date();
   const enabledProducts = products.filter((product) => product.enabled !== false);
   const activeSeasonalTopics = seasonalTopics.filter((topic) => isSeasonalTopicActive(topic, now));
+  const genres = [...new Set([...enabledProducts, ...seasonalTopics.filter((topic) => topic.enabled !== false)].map((entry) => entry.genre).filter(Boolean))].sort(
+    (a, b) => a.localeCompare(b, 'ja')
+  );
   const rakutenWatchItems = enabledProducts
     .filter((product) => product.rakuten?.itemCode)
     .map((product) => ({ id: product.id, itemCode: product.rakuten.itemCode }));
@@ -141,6 +154,7 @@ async function main() {
 
   saveJson(CANDIDATES_PATH, {
     generatedAt: new Date().toISOString(),
+    genres,
     candidates: selectedCandidates,
   });
 }

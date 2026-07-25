@@ -23,8 +23,10 @@ function saveGenreFilter(genre) {
   localStorage.setItem(genreFilterKey, genre);
 }
 
-function configureGenreFilter(candidates) {
-  const genres = [...new Set(candidates.map((candidate) => candidate.genre).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ja'));
+function configureGenreFilter(candidates, configuredGenres = []) {
+  const genres = [...new Set([...configuredGenres, ...candidates.map((candidate) => candidate.genre).filter(Boolean)])].sort((a, b) =>
+    a.localeCompare(b, 'ja')
+  );
   const selectedGenre = genres.includes(loadGenreFilter()) ? loadGenreFilter() : '';
   genreFilter.replaceChildren(new Option('すべて', ''));
   for (const genre of genres) genreFilter.add(new Option(genre, genre));
@@ -212,7 +214,7 @@ async function main() {
       : 'まだ候補データはありません';
 
     currentCandidates = data.candidates;
-    configureGenreFilter(currentCandidates);
+    configureGenreFilter(currentCandidates, data.genres);
     renderCandidates();
   } catch (error) {
     updatedAt.textContent = '読み込みに失敗しました';
