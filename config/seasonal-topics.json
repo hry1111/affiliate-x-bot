@@ -93,7 +93,7 @@
     "ranking": {
       "period": "realtime",
       "pages": 10,
-      "includeAnyKeywords": ["収納", "ラック", "ハンガー", "ケース", "ボックス", "チェア"],
+      "includeAnyKeywords": ["収納", "ラック", "ハンガー", "収納ケース", "ボックス", "チェア"],
       "excludeKeywords": ["中古", "訳あり", "業務用"],
       "minPrice": 800,
       "maxPrice": 30000,
