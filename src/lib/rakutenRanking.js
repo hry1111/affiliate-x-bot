@@ -1,4 +1,31 @@
 const ENDPOINT = 'https://openapi.rakuten.co.jp/ichibaranking/api/IchibaItem/Ranking/20220601';
+const REQUEST_INTERVAL_MS = 1100;
+const MAX_RATE_LIMIT_RETRIES = 3;
+
+let nextRequestAt = 0;
+
+function wait(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function waitForRequestSlot() {
+  const scheduledAt = Math.max(Date.now(), nextRequestAt);
+  nextRequestAt = scheduledAt + REQUEST_INTERVAL_MS;
+  await wait(Math.max(0, scheduledAt - Date.now()));
+}
+
+async function fetchWithRateLimit(url, headers) {
+  for (let attempt = 0; attempt <= MAX_RATE_LIMIT_RETRIES; attempt += 1) {
+    await waitForRequestSlot();
+    const res = await fetch(url, { headers });
+    if (res.status !== 429 || attempt === MAX_RATE_LIMIT_RETRIES) return res;
+
+    // 楽天APIのレート制限に達した場合も、次の予約枠まで待機して再試行する。
+    console.warn(`楽天ランキングAPIのレート制限に達したため、${REQUEST_INTERVAL_MS / 1000}秒後に再試行します。`);
+  }
+
+  throw new Error('楽天ランキングAPIの再試行回数を超えました。');
+}
 
 function toNumber(value) {
   const number = Number(value);
@@ -61,7 +88,7 @@ export async function fetchRankingItems(watch, { applicationId, accessKey, affil
     const headers = {};
     if (requestOrigin) headers.Origin = requestOrigin;
     if (requestReferer) headers.Referer = requestReferer;
-    const res = await fetch(url, { headers });
+    const res = await fetchWithRateLimit(url, headers);
     if (!res.ok) {
       throw new Error(`楽天ランキングAPIエラー (${res.status}): ${await res.text()}`);
     }
