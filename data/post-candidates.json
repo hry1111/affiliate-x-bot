@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T03:43:59.439Z",
+  "generatedAt": "2026-07-26T03:45:28.292Z",
   "genres": [
     "キッチン・調理",
     "スマホ・PC周辺",
@@ -155,100 +155,6 @@
       "score": 119
     },
     {
-      "id": "trend:storage-interior:decori:10000319",
-      "candidateType": "discovery",
-      "genre": "収納・インテリア",
-      "target": "部屋をすっきり使いたい人",
-      "problem": "収納用品や生活家具のサイズ選びで迷う",
-      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング11位の商品。",
-      "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "収納・インテリア / リアルタイムランキング 11位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uocj2.5dkfadbd.g00uocj2.5dkfb3a5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdecori%2Fy-342%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "【19日20:00〜】夏物SALE！最大70％OFF 楽天総合ランキング1位を4度獲得！日本食品衛生法適合 保冷剤 ステンレス Sサイズ 230g 超軽量 Mサイズ450g 長時間保冷 急速冷却 繰り返し使える 保冷バッグ クーラーボックス お弁当 ランチ 釣り キャンプ",
-        "price": "2880",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00uocj2.5dkfadbd.g00uocj2.5dkfb3a5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdecori%2Fy-342%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/decori/cabinet/12282578/imgrc0117494504.jpg?_ex=128x128",
-        "shopName": "atOne",
-        "rank": 11,
-        "reviewCount": 1620,
-        "reviewAverage": 4.28
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "【19日20:00〜】夏物SALE！最大70％OFF 楽天総合ランキング1位を4度獲得！日本食品衛生法適合 保冷剤 ステンレス Sサイズ 230g 超軽量 Mサイズ450g 長時間保冷 急速冷却 繰り返し使える 保冷バッグ クーラーボックス お弁当 ランチ 釣り キャンプ",
-          "price": "2880",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uocj2.5dkfadbd.g00uocj2.5dkfb3a5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdecori%2Fy-342%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/decori/cabinet/12282578/imgrc0117494504.jpg?_ex=128x128",
-          "shopName": "atOne",
-          "rank": 11,
-          "reviewCount": 1620,
-          "reviewAverage": 4.28
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "収納・インテリア / 楽天リアルタイム 11位 / 評価 4.28（1620件）",
-      "reviewDraft": "{\n  \"id\": \"review-storage-interior-decori-10000319\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"収納・インテリア\",\n  \"target\": \"部屋をすっきり使いたい人\",\n  \"problem\": \"収納用品や生活家具のサイズ選びで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"設置場所の寸法・耐荷重・組み立て条件を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"decori:10000319\"\n  }\n}",
-      "score": 109
-    },
-    {
-      "id": "trend:summer-cooling:daisaku-ec:10000008",
-      "candidateType": "discovery",
-      "genre": "夏の暮らし",
-      "target": "暑さ対策を早めに済ませたい人",
-      "problem": "冷感グッズや持ち歩ける暑さ対策を選びきれない",
-      "reason": "夏の暑さ対策の候補として、楽天市場リアルタイムランキング245位の商品。",
-      "caution": "サイズ・対応環境・消耗品の有無は販売ページで確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "夏の暑さ対策 / リアルタイムランキング 245位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tqa12.5dkfa068.g00tqa12.5dkfb449/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaisaku-ec%2Fmcft6%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "【楽天1位】 【公式】マジクールレギュラー ネッククーラー 最強 MAGICOOL クールリング 冷感グッズ ひんやり 熱中症対策 ネック 水 軽い 布 長時間 長持ち 首 フェス 車 屋外 ビジネス 犬 自転車 農作業 通勤 繰り返し アウトドア 防災 冷却 冷たい",
-        "price": "1408",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tqa12.5dkfa068.g00tqa12.5dkfb449/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaisaku-ec%2Fmcft6%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/daisaku-ec/cabinet/09313841/mcft_top1_r.jpg?_ex=128x128",
-        "shopName": "大作商事ダイレクト　楽天市場店",
-        "rank": 245,
-        "reviewCount": 1247,
-        "reviewAverage": 4.36
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "【楽天1位】 【公式】マジクールレギュラー ネッククーラー 最強 MAGICOOL クールリング 冷感グッズ ひんやり 熱中症対策 ネック 水 軽い 布 長時間 長持ち 首 フェス 車 屋外 ビジネス 犬 自転車 農作業 通勤 繰り返し アウトドア 防災 冷却 冷たい",
-          "price": "1408",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tqa12.5dkfa068.g00tqa12.5dkfb449/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaisaku-ec%2Fmcft6%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/daisaku-ec/cabinet/09313841/mcft_top1_r.jpg?_ex=128x128",
-          "shopName": "大作商事ダイレクト　楽天市場店",
-          "rank": 245,
-          "reviewCount": 1247,
-          "reviewAverage": 4.36
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "夏の暑さ対策 / 楽天リアルタイム 245位 / 評価 4.36（1247件）",
-      "reviewDraft": "{\n  \"id\": \"review-summer-cooling-daisaku-ec-10000008\",\n  \"enabled\": false,\n  \"priority\": 80,\n  \"genre\": \"夏の暮らし\",\n  \"target\": \"暑さ対策を早めに済ませたい人\",\n  \"problem\": \"冷感グッズや持ち歩ける暑さ対策を選びきれない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"サイズ・対応環境・消耗品の有無は販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"daisaku-ec:10000008\"\n  }\n}",
-      "score": 99
-    },
-    {
       "id": "trend:summer-cooling:darkangel:10036827",
       "candidateType": "discovery",
       "genre": "夏の暮らし",
@@ -293,6 +199,100 @@
       "copyVariants": [],
       "selectionSummary": "夏の暑さ対策 / 楽天リアルタイム 202位 / 評価 4.36（2857件）",
       "reviewDraft": "{\n  \"id\": \"review-summer-cooling-darkangel-10036827\",\n  \"enabled\": false,\n  \"priority\": 80,\n  \"genre\": \"夏の暮らし\",\n  \"target\": \"暑さ対策を早めに済ませたい人\",\n  \"problem\": \"冷感グッズや持ち歩ける暑さ対策を選びきれない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"サイズ・対応環境・消耗品の有無は販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"darkangel:10036827\"\n  }\n}",
+      "score": 99
+    },
+    {
+      "id": "trend:summer-cooling:suzukachan:10000000",
+      "candidateType": "discovery",
+      "genre": "夏の暮らし",
+      "target": "暑さ対策を早めに済ませたい人",
+      "problem": "冷感グッズや持ち歩ける暑さ対策を選びきれない",
+      "reason": "夏の暑さ対策の候補として、楽天市場リアルタイムランキング232位の商品。",
+      "caution": "サイズ・対応環境・消耗品の有無は販売ページで確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "夏の暑さ対策 / リアルタイムランキング 232位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rqrk2.5dkfa984.g00rqrk2.5dkfb482/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuzukachan%2F540%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "（ヤケーヌ公式） フェイスカバー ヤケーヌスタンダード (マジック式)紫外線対策 洗えるUVカットマスク スポーツマスク 冷感 息苦しくない ネックカバー ネックガード 日焼け防止 飛沫対策 顔 首 アレルギー肌 ガーデニング 車の運転 テニス ゴルフ [M便 1/3]",
+        "price": "1980",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00rqrk2.5dkfa984.g00rqrk2.5dkfb482/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuzukachan%2F540%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/suzukachan/cabinet/03264529/std/st_thumbnail_1000.jpg?_ex=128x128",
+        "shopName": "UVカットマスク通販 MARUFUKU",
+        "rank": 232,
+        "reviewCount": 7249,
+        "reviewAverage": 4.66
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "（ヤケーヌ公式） フェイスカバー ヤケーヌスタンダード (マジック式)紫外線対策 洗えるUVカットマスク スポーツマスク 冷感 息苦しくない ネックカバー ネックガード 日焼け防止 飛沫対策 顔 首 アレルギー肌 ガーデニング 車の運転 テニス ゴルフ [M便 1/3]",
+          "price": "1980",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rqrk2.5dkfa984.g00rqrk2.5dkfb482/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuzukachan%2F540%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/suzukachan/cabinet/03264529/std/st_thumbnail_1000.jpg?_ex=128x128",
+          "shopName": "UVカットマスク通販 MARUFUKU",
+          "rank": 232,
+          "reviewCount": 7249,
+          "reviewAverage": 4.66
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "夏の暑さ対策 / 楽天リアルタイム 232位 / 評価 4.66（7249件）",
+      "reviewDraft": "{\n  \"id\": \"review-summer-cooling-suzukachan-10000000\",\n  \"enabled\": false,\n  \"priority\": 80,\n  \"genre\": \"夏の暮らし\",\n  \"target\": \"暑さ対策を早めに済ませたい人\",\n  \"problem\": \"冷感グッズや持ち歩ける暑さ対策を選びきれない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"サイズ・対応環境・消耗品の有無は販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"suzukachan:10000000\"\n  }\n}",
+      "score": 99
+    },
+    {
+      "id": "trend:summer-cooling:suzukachan:10000241",
+      "candidateType": "discovery",
+      "genre": "夏の暮らし",
+      "target": "暑さ対策を早めに済ませたい人",
+      "problem": "冷感グッズや持ち歩ける暑さ対策を選びきれない",
+      "reason": "夏の暑さ対策の候補として、楽天市場リアルタイムランキング256位の商品。",
+      "caution": "サイズ・対応環境・消耗品の有無は販売ページで確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "夏の暑さ対策 / リアルタイムランキング 256位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rqrk2.5dkfa984.g00rqrk2.5dkfb482/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuzukachan%2Fstd2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "（ヤケーヌ公式） フェイスカバー ヤケーヌスタンダード スナップ式 耳カバーなし 紫外線対策 日焼け防止 冷感 息苦しくない 洗えるマスク テニス ゴルフ ガーデニング [M便 1/3]",
+        "price": "2090",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00rqrk2.5dkfa984.g00rqrk2.5dkfb482/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuzukachan%2Fstd2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/suzukachan/cabinet/03264529/502/stdsnap_1000_samune.jpg?_ex=128x128",
+        "shopName": "UVカットマスク通販 MARUFUKU",
+        "rank": 256,
+        "reviewCount": 1196,
+        "reviewAverage": 4.73
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "（ヤケーヌ公式） フェイスカバー ヤケーヌスタンダード スナップ式 耳カバーなし 紫外線対策 日焼け防止 冷感 息苦しくない 洗えるマスク テニス ゴルフ ガーデニング [M便 1/3]",
+          "price": "2090",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rqrk2.5dkfa984.g00rqrk2.5dkfb482/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuzukachan%2Fstd2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/suzukachan/cabinet/03264529/502/stdsnap_1000_samune.jpg?_ex=128x128",
+          "shopName": "UVカットマスク通販 MARUFUKU",
+          "rank": 256,
+          "reviewCount": 1196,
+          "reviewAverage": 4.73
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "夏の暑さ対策 / 楽天リアルタイム 256位 / 評価 4.73（1196件）",
+      "reviewDraft": "{\n  \"id\": \"review-summer-cooling-suzukachan-10000241\",\n  \"enabled\": false,\n  \"priority\": 80,\n  \"genre\": \"夏の暮らし\",\n  \"target\": \"暑さ対策を早めに済ませたい人\",\n  \"problem\": \"冷感グッズや持ち歩ける暑さ対策を選びきれない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"サイズ・対応環境・消耗品の有無は販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"suzukachan:10000241\"\n  }\n}",
       "score": 99
     }
   ]
