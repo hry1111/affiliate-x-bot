@@ -1,3 +1,5 @@
+import { renderArticles, renderExperiences, renderQuality, renderResearch } from './os-ui.js';
+
 const list = document.querySelector('#candidate-list');
 const updatedAt = document.querySelector('#updated-at');
 const genreFilter = document.querySelector('#genre-filter');
@@ -5,7 +7,17 @@ const filterStatus = document.querySelector('#filter-status');
 const template = document.querySelector('#candidate-template');
 const hiddenKey = 'affiliate-candidates-hidden';
 const genreFilterKey = 'affiliate-candidates-genre-filter';
+const views = {
+  candidates: document.querySelector('#candidate-view'),
+  research: document.querySelector('#research-view'),
+  experiences: document.querySelector('#experiences-view'),
+  articles: document.querySelector('#articles-view'),
+  quality: document.querySelector('#quality-view'),
+};
+const viewButtons = [...document.querySelectorAll('[data-view]')];
+const candidateOnly = [...document.querySelectorAll('[data-candidate-only]')];
 let currentCandidates = [];
+let currentOperation = null;
 
 function loadHiddenIds() {
   return new Set(JSON.parse(localStorage.getItem(hiddenKey) ?? '[]'));
@@ -53,6 +65,35 @@ async function copyText(text, button) {
   setTimeout(() => { button.textContent = original; }, 1500);
 }
 
+function appendResearchSummary(container, candidate) {
+  const research = currentOperation?.research?.opportunities?.find((entry) => entry.candidateId === candidate.id);
+  if (!research) return;
+  container.hidden = false;
+  const heading = document.createElement('p');
+  heading.className = 'research-heading';
+  heading.textContent = `記事化優先度: ${research.articlePriority} / 採用状態: ${research.selectionStatus} / 実体験: ${research.experience?.type === 'owned' ? 'owned' : '未登録'}`;
+  container.append(heading);
+  const reason = document.createElement('p');
+  reason.textContent = `需要の根拠: ${(research.demandReason ?? []).join(' / ') || '未取得'}`;
+  container.append(reason);
+  const score = document.createElement('p');
+  score.textContent = `需要スコア: ${research.demandScore?.normalized ?? '未取得'}/100（信頼度 ${research.confidence ?? '未取得'}）`;
+  container.append(score);
+  for (const source of research.referenceArticles ?? []) {
+    const link = document.createElement('a');
+    link.href = source.url;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.textContent = `比較記事: ${source.publisher}: ${source.title}`;
+    container.append(link);
+    if (source.whyLikelyTop) {
+      const analysis = document.createElement('p');
+      analysis.textContent = `上位理由分析: ${source.whyLikelyTop}`;
+      container.append(analysis);
+    }
+  }
+}
+
 function createCandidate(candidate, hiddenIds) {
   const fragment = template.content.cloneNode(true);
   const card = fragment.querySelector('.candidate-card');
@@ -65,6 +106,7 @@ function createCandidate(candidate, hiddenIds) {
   const reason = fragment.querySelector('.reason');
   const caution = fragment.querySelector('.caution');
   const selectionSummary = fragment.querySelector('.selection-summary');
+  const researchSummary = fragment.querySelector('.research-summary');
   const sourceReferences = fragment.querySelector('.source-references');
   const offerList = fragment.querySelector('.offer-list');
   const copyTabs = fragment.querySelector('.copy-tabs');
@@ -75,8 +117,8 @@ function createCandidate(candidate, hiddenIds) {
   const discoveryActions = fragment.querySelector('.discovery-actions');
   const copyConfigButton = fragment.querySelector('.copy-config-button');
   const isDiscovery = candidate.candidateType === 'discovery';
-
   const primaryOffer = candidate.primaryOffer;
+
   image.src = primaryOffer.imageUrl || '';
   image.alt = primaryOffer.name;
   image.hidden = !primaryOffer.imageUrl;
@@ -97,6 +139,7 @@ function createCandidate(candidate, hiddenIds) {
   caution.textContent = `確認: ${candidate.caution}`;
   selectionSummary.hidden = !isDiscovery;
   selectionSummary.textContent = candidate.selectionSummary ?? '';
+  appendResearchSummary(researchSummary, candidate);
 
   for (const source of candidate.sourceReferences ?? []) {
     const link = document.createElement('a');
@@ -106,13 +149,12 @@ function createCandidate(candidate, hiddenIds) {
     link.textContent = `${source.publisher}: ${source.title}`;
     sourceReferences.append(link);
   }
-
   for (const offer of candidate.purchaseOptions ?? []) {
     const link = document.createElement('a');
     link.href = offer.url;
     link.target = '_blank';
     link.rel = 'noopener';
-    link.textContent = `${offer.label} ${offer.price ? `¥${offer.price.toLocaleString()}` : '価格確認'}`;
+    link.textContent = `${offer.label} ${offer.price ? `¥${Number(offer.price).toLocaleString()}` : '価格確認'}`;
     offerList.append(link);
   }
 
@@ -138,11 +180,9 @@ function createCandidate(candidate, hiddenIds) {
   }
   postEditor.hidden = isDiscovery;
   discoveryActions.hidden = !isDiscovery;
-
   postText.addEventListener('input', () => {
     xLink.href = `https://x.com/intent/post?text=${encodeURIComponent(postText.value)}`;
   });
-
   copyButton.addEventListener('click', async () => {
     try {
       await copyText(postText.value, copyButton);
@@ -150,13 +190,11 @@ function createCandidate(candidate, hiddenIds) {
       copyButton.textContent = 'コピーできませんでした';
     }
   });
-
   for (const button of fragment.querySelectorAll('.hide-button')) button.addEventListener('click', () => {
     hiddenIds.add(candidate.id);
     saveHiddenIds(hiddenIds);
     renderCandidates();
   });
-
   copyConfigButton?.addEventListener('click', async () => {
     try {
       await copyText(candidate.reviewDraft, copyConfigButton);
@@ -164,7 +202,6 @@ function createCandidate(candidate, hiddenIds) {
       copyConfigButton.textContent = 'コピーできませんでした';
     }
   });
-
   return fragment;
 }
 
@@ -197,31 +234,49 @@ function renderCandidates() {
   const genreLabel = selectedGenre || 'すべて';
   filterStatus.textContent = `${genreLabel}: ${visibleCandidates.length}件`;
   if (!visibleCandidates.length) return renderEmptyState();
-
   const readyCandidates = visibleCandidates.filter((candidate) => candidate.candidateType !== 'discovery');
   const discoveryCandidates = visibleCandidates.filter((candidate) => candidate.candidateType === 'discovery');
   if (readyCandidates.length) renderGroup('投稿できる候補', readyCandidates, hiddenIds);
   if (discoveryCandidates.length) renderGroup('季節・トレンドから探す', discoveryCandidates, hiddenIds);
 }
 
+function renderCurrentView(view) {
+  if (view === 'research') renderResearch(views.research, currentOperation);
+  if (view === 'experiences') renderExperiences(views.experiences, currentOperation);
+  if (view === 'articles') renderArticles(views.articles, currentOperation);
+  if (view === 'quality') renderQuality(views.quality, currentOperation);
+}
+
+function setView(view) {
+  for (const [name, section] of Object.entries(views)) section.hidden = name !== view;
+  for (const button of viewButtons) button.setAttribute('aria-selected', String(button.dataset.view === view));
+  for (const node of candidateOnly) node.hidden = view !== 'candidates';
+  renderCurrentView(view);
+}
+
+async function loadJson(url) {
+  const response = await fetch(url, { cache: 'no-store' });
+  if (!response.ok) throw new Error(`${url} を取得できませんでした。`);
+  return response.json();
+}
+
 async function main() {
   try {
-    const response = await fetch('./data/post-candidates.json', { cache: 'no-store' });
-    if (!response.ok) throw new Error('候補データを取得できませんでした。');
-    const data = await response.json();
-    updatedAt.textContent = data.generatedAt
-      ? `最終更新 ${new Intl.DateTimeFormat('ja-JP', { dateStyle: 'medium', timeStyle: 'short' }).format(new Date(data.generatedAt))}`
+    const [candidateData, operationResult] = await Promise.all([
+      loadJson('./data/post-candidates.json'),
+      loadJson('./data/operation-os.json').catch(() => null),
+    ]);
+    updatedAt.textContent = candidateData.generatedAt
+      ? `最終更新 ${new Intl.DateTimeFormat('ja-JP', { dateStyle: 'medium', timeStyle: 'short' }).format(new Date(candidateData.generatedAt))}`
       : 'まだ候補データはありません';
-
-    currentCandidates = data.candidates;
-    configureGenreFilter(currentCandidates, data.genres);
+    currentCandidates = candidateData.candidates ?? [];
+    currentOperation = operationResult;
+    configureGenreFilter(currentCandidates, candidateData.genres);
     renderCandidates();
+    setView('candidates');
   } catch (error) {
     updatedAt.textContent = '読み込みに失敗しました';
-    const message = document.createElement('p');
-    message.className = 'empty-state';
-    message.textContent = error.message;
-    list.replaceChildren(message);
+    list.replaceChildren(Object.assign(document.createElement('p'), { className: 'empty-state', textContent: error.message }));
   }
 }
 
@@ -229,5 +284,6 @@ genreFilter.addEventListener('change', () => {
   saveGenreFilter(genreFilter.value);
   renderCandidates();
 });
+for (const button of viewButtons) button.addEventListener('click', () => setView(button.dataset.view));
 
 main();

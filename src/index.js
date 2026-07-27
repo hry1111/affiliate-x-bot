@@ -10,6 +10,7 @@ const CONFIG_PATH = path.resolve('config/config.json');
 const CURATED_PRODUCTS_PATH = path.resolve('config/curated-products.json');
 const SEASONAL_TOPICS_PATH = path.resolve('config/seasonal-topics.json');
 const CANDIDATES_PATH = path.resolve('data/post-candidates.json');
+const RANKING_SNAPSHOT_PATH = path.resolve('data/ranking-snapshot.json');
 const RAKUTEN_REQUEST_ORIGIN = process.env.RAKUTEN_REQUEST_ORIGIN ?? 'https://hry1111.github.io';
 const RAKUTEN_REQUEST_REFERER = process.env.RAKUTEN_REQUEST_REFERER ?? 'https://hry1111.github.io/affiliate-x-bot/';
 
@@ -17,6 +18,36 @@ function chunk(arr, size) {
   const chunks = [];
   for (let i = 0; i < arr.length; i += size) chunks.push(arr.slice(i, i + size));
   return chunks;
+}
+
+function normalize(value) {
+  return String(value ?? '').toLocaleLowerCase('ja-JP');
+}
+
+function matchesTopicKeywords(item, topic) {
+  const name = normalize(item.name);
+  const ranking = topic.ranking ?? {};
+  const includes = ranking.includeAnyKeywords ?? [];
+  const excludes = ranking.excludeKeywords ?? [];
+  return (!includes.length || includes.some((keyword) => name.includes(normalize(keyword)))) && !excludes.some((keyword) => name.includes(normalize(keyword)));
+}
+
+function createRankingSnapshot(topics, rankingItemsByTopic, generatedAt) {
+  return {
+    schemaVersion: 1,
+    generatedAt,
+    topics: topics.map((topic) => ({
+      id: topic.id,
+      label: topic.label,
+      genre: topic.genre,
+      target: topic.target,
+      ranking: { period: topic.ranking?.period ?? 'realtime' },
+      items: (rankingItemsByTopic.get(topic.id) ?? [])
+        .filter((item) => matchesTopicKeywords(item, topic))
+        .sort((a, b) => (a.rank ?? Number.MAX_SAFE_INTEGER) - (b.rank ?? Number.MAX_SAFE_INTEGER))
+        .slice(0, 5),
+    })),
+  };
 }
 
 async function fetchRakutenWatchItems(watchItems) {
@@ -158,13 +189,15 @@ async function main() {
     now,
   });
   const selectedCandidates = [...readyCandidates, ...discoveryCandidates];
+  const generatedAt = new Date().toISOString();
   console.log(`投稿可能候補を${readyCandidates.length}件、季節・トレンド候補を${discoveryCandidates.length}件生成しました。`);
 
   saveJson(CANDIDATES_PATH, {
-    generatedAt: new Date().toISOString(),
+    generatedAt,
     genres,
     candidates: selectedCandidates,
   });
+  saveJson(RANKING_SNAPSHOT_PATH, createRankingSnapshot(activeSeasonalTopics, rankingItemsByTopic, generatedAt));
 }
 
 main().catch((err) => {

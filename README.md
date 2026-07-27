@@ -144,6 +144,39 @@ GitHub Actionsから楽天APIを呼ぶ際は、`RAKUTEN_REQUEST_ORIGIN`と`RAKUT
 
 GitHubの`Settings > Pages`でSourceに`GitHub Actions`を指定します。公開アプリでは、比較根拠、購入先、投稿文案を確認できます。
 
+## 楽天アフィ運用OS
+
+候補生成後に、`npm run refresh`が以下の確認待ちデータを生成します。いずれも自動公開・自動投稿はしません。
+
+- `data/research/YYYY-MM-DD.json`: 楽天ランキング、季節一致、レビュー、履歴、手入力の競合情報による需要リサーチ
+- `data/article-drafts/YYYY-MM-DD.json`: 手動指定した対象だけの比較記事案3案
+- `data/quality-checks/YYYY-MM-DD.json`: 一次情報、比較軸、実体験、PR表記などの公開前チェック
+- `data/social-drafts/YYYY-MM-DD.json`: 品質チェックが合格した記事だけのX・楽天ROOM下書き
+
+### 運用ファイル
+
+- `config/operation-rules.md`: Hiroへのインタビュー後に更新する発信・表現・記事評価ルール
+- `config/experience-db.json`: Hiro本人の実体験。`experienceType: "owned"`だけを使用感に利用
+- `config/research-sources.json`: 手動確認した比較記事のURL・媒体・構成の型・比較軸。本文や画像は保存しない
+- `config/article-draft-requests.json`: 記事案を作るジャンルまたはリサーチID。`enabled: true`にした対象だけを生成
+
+正式候補に一次情報を追加する場合は、`curated-products.json`の対象商品へ次を設定します。URLと確認日がない記事案は品質チェックで`要修正`になります。
+
+```json
+"primaryInformation": {
+  "url": "https://メーカーまたは公式販売元の情報URL",
+  "checkedAt": "YYYY-MM-DD"
+},
+"referenceUse": {
+  "copiedText": false,
+  "manualCopyCheckAt": "YYYY-MM-DD"
+}
+```
+
+検索数を正確に取得できるAPIは設定していないため、月間検索数は表示しません。需要スコアはランキング、季節一致度、順位・レビュー履歴、手入力の競合記事数だけで構成し、各根拠と確認日時を記録します。
+
+記事案の体験が不足する場合は`【ここに体験：必要な内容】`を残します。`owned`以外の使用感は生成せず、一次情報、比較軸、実体験、購入導線、参考記事の非転載確認、`【PR】`がそろうまでSNS・楽天ROOM下書きは生成しません。
+
 ## ローカル確認
 
 ```bash
@@ -151,6 +184,13 @@ cd affiliate-x-bot
 cp .env.example .env
 npm ci
 npm start
+```
+
+運用OSだけを再生成する場合は、候補データを用意した後に次を実行します。
+
+```bash
+npm run refresh
+npm test
 ```
 
 ## 広告表示と投稿上の注意

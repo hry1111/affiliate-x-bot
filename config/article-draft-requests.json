@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "requests": [
+    {
+      "id": "example-request",
+      "enabled": false,
+      "genre": "",
+      "researchId": "",
+      "curatedProductId": "",
+      "status": "draft_request",
+      "requestedAt": null
+    }
+  ]
+}

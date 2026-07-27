@@ -4,25 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f6f8f5" />
-    <title>コスパモンスター 投稿選定</title>
+    <title>コスパモンスター 運用OS</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <main class="app-shell">
       <header class="app-header">
         <p class="eyebrow">COST PERFORMANCE MONSTER</p>
-        <h1>今日の投稿候補</h1>
-        <p class="header-description">比較根拠済みの商品と、季節・楽天ランキングから見つけた確認待ち商品です。</p>
+        <h1>コスパモンスター 運用OS</h1>
+        <p class="header-description">候補選定、需要リサーチ、実体験、記事下書き、公開前チェックを確認待ちで管理します。</p>
         <p id="updated-at" class="updated-at">読み込み中</p>
-        <div class="candidate-filter">
+        <nav class="view-tabs" aria-label="運用画面">
+          <button type="button" data-view="candidates" aria-selected="true">投稿候補</button>
+          <button type="button" data-view="research">需要リサーチ</button>
+          <button type="button" data-view="experiences">実体験</button>
+          <button type="button" data-view="articles">記事下書き</button>
+          <button type="button" data-view="quality">公開前チェック</button>
+        </nav>
+        <div class="candidate-filter" data-candidate-only>
           <label for="genre-filter">ジャンル</label>
           <select id="genre-filter" aria-label="表示するジャンル">
             <option value="">すべて</option>
           </select>
         </div>
-        <p id="filter-status" class="filter-status" aria-live="polite"></p>
+        <p id="filter-status" class="filter-status" aria-live="polite" data-candidate-only></p>
       </header>
-      <section id="candidate-list" class="candidate-list" aria-live="polite"></section>
+      <section id="candidate-view" class="app-view">
+        <section id="candidate-list" class="candidate-list" aria-live="polite"></section>
+      </section>
+      <section id="research-view" class="app-view" hidden></section>
+      <section id="experiences-view" class="app-view" hidden></section>
+      <section id="articles-view" class="app-view" hidden></section>
+      <section id="quality-view" class="app-view" hidden></section>
     </main>
     <template id="candidate-template">
       <article class="candidate-card">
@@ -38,6 +51,7 @@
           <p class="reason"></p>
           <p class="caution"></p>
           <p class="selection-summary" hidden></p>
+          <div class="research-summary" hidden></div>
           <div class="source-references"></div>
           <div class="offer-list"></div>
           <div class="post-editor">

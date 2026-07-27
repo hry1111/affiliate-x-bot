@@ -1,0 +1,671 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-27T07:16:18.107Z",
+  "candidateDataGeneratedAt": "2026-07-26T03:43:59.439Z",
+  "rankingSnapshotGeneratedAt": null,
+  "opportunities": [
+    {
+      "id": "research:2026-07-27:trend:summer-cooling:cicib:10003314",
+      "candidateId": "trend:summer-cooling:cicib:10003314",
+      "genre": "夏の暮らし",
+      "target": "暑さ対策を早めに済ませたい人",
+      "candidateType": "discovery",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "衝撃セール990円〜【楽天1位☆テレビ紹介】4way 冷却ハンディファンPRO 2026 ハンディファン 冷却プレート 扇風機 シシベラ ハンディファン 静音 軽量 強風 小型 冷却モード 充電式 冷却 携帯扇風機 卓上扇風機 小型扇風機 cicibella 手持ち扇風機「MONOQLO受賞」＜公式＞",
+        "price": 2780,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "CICI BELLA",
+        "rank": 2,
+        "reviewCount": 2482,
+        "reviewAverage": 4.51
+      },
+      "demandReason": [
+        "楽天ランキング2位を確認しました。",
+        "有効な季節テーマ「夏の暑さ対策」に一致しています。",
+        "評価4.51、レビュー2482件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-07-27T07:16:18.107Z",
+          "detail": "夏の暑さ対策 / リアルタイムランキング 2位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:summer-cooling:yumenomori:10000233",
+          "name": "楽天1位 10000mAh大容量【1,380円〜・猛暑応援SALE】 ハンディファン 冷却 ハンディ扇風機 冷却プレート -25℃冷却 100段階風量 高速暴風 600,000台累計販売 ハンディーファン 首掛け 扇風機 携帯扇風機 手持ち扇風機 ハンディ ファン 卓上扇風機 24時間持続 ミニ扇風機",
+          "rank": 14
+        },
+        {
+          "id": "trend:summer-cooling:azusa:10000130",
+          "name": "酷暑SALE！970円〜【楽天1位★テレビ紹介】 ハンディファン 冷却プレート 120段階 携帯扇風機 5000mAh 3200mAh クーラー 冷却プレート 強風 冷却モード 扇風機 卓上 小型扇風機 ハンディ扇風機 手持ち扇風機 腰掛け扇風機 usb充電式 扇風機 usb ネッククーラー 父の日",
+          "rank": 21
+        },
+        {
+          "id": "trend:summer-cooling:daisaku-ec:10000008",
+          "name": "【楽天1位】 【公式】マジクールレギュラー ネッククーラー 最強 MAGICOOL クールリング 冷感グッズ ひんやり 熱中症対策 ネック 水 軽い 布 長時間 長持ち 首 フェス 車 屋外 ビジネス 犬 自転車 農作業 通勤 繰り返し アウトドア 防災 冷却 冷たい",
+          "rank": 245
+        },
+        {
+          "id": "trend:summer-cooling:darkangel:10036827",
+          "name": "70%OFF!【7/26 10時〜24H限定：1枚790円！3枚購入クーポンで】 パンツ ルームウェア レディース 秋 かわいい ズボン ギンガムチェック リラックスパンツ イージーパンツ ロングパンツ ショートパンツ 涼しい ゆったり 【ギンガムチェックルームウェアパンツ】元祖冷感coolify",
+          "rank": 202
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 30,
+            "max": 30,
+            "reason": "楽天ランキング2位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 20,
+            "max": 25,
+            "reason": "有効な季節テーマ「夏の暑さ対策」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 13,
+            "max": 15,
+            "reason": "評価4.51、レビュー2482件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 63,
+        "max": 70,
+        "normalized": 90,
+        "priority": "高",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "高",
+      "confidence": "中",
+      "checkedAt": "2026-07-27T07:16:18.107Z"
+    },
+    {
+      "id": "research:2026-07-27:trend:summer-cooling:yumenomori:10000233",
+      "candidateId": "trend:summer-cooling:yumenomori:10000233",
+      "genre": "夏の暮らし",
+      "target": "暑さ対策を早めに済ませたい人",
+      "candidateType": "discovery",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "楽天1位 10000mAh大容量【1,380円〜・猛暑応援SALE】 ハンディファン 冷却 ハンディ扇風機 冷却プレート -25℃冷却 100段階風量 高速暴風 600,000台累計販売 ハンディーファン 首掛け 扇風機 携帯扇風機 手持ち扇風機 ハンディ ファン 卓上扇風機 24時間持続 ミニ扇風機",
+        "price": 3780,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tdsy2.5dkfac1e.g00tdsy2.5dkfbd82/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyumenomori%2Fbh28f%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "夢の森",
+        "rank": 14,
+        "reviewCount": 9870,
+        "reviewAverage": 4.44
+      },
+      "demandReason": [
+        "楽天ランキング14位を確認しました。",
+        "有効な季節テーマ「夏の暑さ対策」に一致しています。",
+        "評価4.44、レビュー9870件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00tdsy2.5dkfac1e.g00tdsy2.5dkfbd82/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyumenomori%2Fbh28f%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-07-27T07:16:18.107Z",
+          "detail": "夏の暑さ対策 / リアルタイムランキング 14位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:summer-cooling:cicib:10003314",
+          "name": "衝撃セール990円〜【楽天1位☆テレビ紹介】4way 冷却ハンディファンPRO 2026 ハンディファン 冷却プレート 扇風機 シシベラ ハンディファン 静音 軽量 強風 小型 冷却モード 充電式 冷却 携帯扇風機 卓上扇風機 小型扇風機 cicibella 手持ち扇風機「MONOQLO受賞」＜公式＞",
+          "rank": 2
+        },
+        {
+          "id": "trend:summer-cooling:azusa:10000130",
+          "name": "酷暑SALE！970円〜【楽天1位★テレビ紹介】 ハンディファン 冷却プレート 120段階 携帯扇風機 5000mAh 3200mAh クーラー 冷却プレート 強風 冷却モード 扇風機 卓上 小型扇風機 ハンディ扇風機 手持ち扇風機 腰掛け扇風機 usb充電式 扇風機 usb ネッククーラー 父の日",
+          "rank": 21
+        },
+        {
+          "id": "trend:summer-cooling:daisaku-ec:10000008",
+          "name": "【楽天1位】 【公式】マジクールレギュラー ネッククーラー 最強 MAGICOOL クールリング 冷感グッズ ひんやり 熱中症対策 ネック 水 軽い 布 長時間 長持ち 首 フェス 車 屋外 ビジネス 犬 自転車 農作業 通勤 繰り返し アウトドア 防災 冷却 冷たい",
+          "rank": 245
+        },
+        {
+          "id": "trend:summer-cooling:darkangel:10036827",
+          "name": "70%OFF!【7/26 10時〜24H限定：1枚790円！3枚購入クーポンで】 パンツ ルームウェア レディース 秋 かわいい ズボン ギンガムチェック リラックスパンツ イージーパンツ ロングパンツ ショートパンツ 涼しい ゆったり 【ギンガムチェックルームウェアパンツ】元祖冷感coolify",
+          "rank": 202
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 29,
+            "max": 30,
+            "reason": "楽天ランキング14位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 20,
+            "max": 25,
+            "reason": "有効な季節テーマ「夏の暑さ対策」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 15,
+            "max": 15,
+            "reason": "評価4.44、レビュー9870件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 64,
+        "max": 70,
+        "normalized": 91,
+        "priority": "高",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "高",
+      "confidence": "中",
+      "checkedAt": "2026-07-27T07:16:18.107Z"
+    },
+    {
+      "id": "research:2026-07-27:trend:summer-cooling:azusa:10000130",
+      "candidateId": "trend:summer-cooling:azusa:10000130",
+      "genre": "夏の暮らし",
+      "target": "暑さ対策を早めに済ませたい人",
+      "candidateType": "discovery",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "酷暑SALE！970円〜【楽天1位★テレビ紹介】 ハンディファン 冷却プレート 120段階 携帯扇風機 5000mAh 3200mAh クーラー 冷却プレート 強風 冷却モード 扇風機 卓上 小型扇風機 ハンディ扇風機 手持ち扇風機 腰掛け扇風機 usb充電式 扇風機 usb ネッククーラー 父の日",
+        "price": 2780,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tyy92.5dkfaa0c.g00tyy92.5dkfba53/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fazusa%2F0302%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "春夏秋冬",
+        "rank": 21,
+        "reviewCount": 16241,
+        "reviewAverage": 4.4
+      },
+      "demandReason": [
+        "楽天ランキング21位を確認しました。",
+        "有効な季節テーマ「夏の暑さ対策」に一致しています。",
+        "評価4.4、レビュー16241件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00tyy92.5dkfaa0c.g00tyy92.5dkfba53/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fazusa%2F0302%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-07-27T07:16:18.107Z",
+          "detail": "夏の暑さ対策 / リアルタイムランキング 21位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:summer-cooling:cicib:10003314",
+          "name": "衝撃セール990円〜【楽天1位☆テレビ紹介】4way 冷却ハンディファンPRO 2026 ハンディファン 冷却プレート 扇風機 シシベラ ハンディファン 静音 軽量 強風 小型 冷却モード 充電式 冷却 携帯扇風機 卓上扇風機 小型扇風機 cicibella 手持ち扇風機「MONOQLO受賞」＜公式＞",
+          "rank": 2
+        },
+        {
+          "id": "trend:summer-cooling:yumenomori:10000233",
+          "name": "楽天1位 10000mAh大容量【1,380円〜・猛暑応援SALE】 ハンディファン 冷却 ハンディ扇風機 冷却プレート -25℃冷却 100段階風量 高速暴風 600,000台累計販売 ハンディーファン 首掛け 扇風機 携帯扇風機 手持ち扇風機 ハンディ ファン 卓上扇風機 24時間持続 ミニ扇風機",
+          "rank": 14
+        },
+        {
+          "id": "trend:summer-cooling:daisaku-ec:10000008",
+          "name": "【楽天1位】 【公式】マジクールレギュラー ネッククーラー 最強 MAGICOOL クールリング 冷感グッズ ひんやり 熱中症対策 ネック 水 軽い 布 長時間 長持ち 首 フェス 車 屋外 ビジネス 犬 自転車 農作業 通勤 繰り返し アウトドア 防災 冷却 冷たい",
+          "rank": 245
+        },
+        {
+          "id": "trend:summer-cooling:darkangel:10036827",
+          "name": "70%OFF!【7/26 10時〜24H限定：1枚790円！3枚購入クーポンで】 パンツ ルームウェア レディース 秋 かわいい ズボン ギンガムチェック リラックスパンツ イージーパンツ ロングパンツ ショートパンツ 涼しい ゆったり 【ギンガムチェックルームウェアパンツ】元祖冷感coolify",
+          "rank": 202
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 28,
+            "max": 30,
+            "reason": "楽天ランキング21位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 20,
+            "max": 25,
+            "reason": "有効な季節テーマ「夏の暑さ対策」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 15,
+            "max": 15,
+            "reason": "評価4.4、レビュー16241件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 63,
+        "max": 70,
+        "normalized": 90,
+        "priority": "高",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "高",
+      "confidence": "中",
+      "checkedAt": "2026-07-27T07:16:18.107Z"
+    },
+    {
+      "id": "research:2026-07-27:trend:storage-interior:decori:10000319",
+      "candidateId": "trend:storage-interior:decori:10000319",
+      "genre": "収納・インテリア",
+      "target": "部屋をすっきり使いたい人",
+      "candidateType": "discovery",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "【19日20:00〜】夏物SALE！最大70％OFF 楽天総合ランキング1位を4度獲得！日本食品衛生法適合 保冷剤 ステンレス Sサイズ 230g 超軽量 Mサイズ450g 長時間保冷 急速冷却 繰り返し使える 保冷バッグ クーラーボックス お弁当 ランチ 釣り キャンプ",
+        "price": 2880,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00uocj2.5dkfadbd.g00uocj2.5dkfb3a5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdecori%2Fy-342%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "atOne",
+        "rank": 11,
+        "reviewCount": 1620,
+        "reviewAverage": 4.28
+      },
+      "demandReason": [
+        "楽天ランキング11位を確認しました。",
+        "有効な季節テーマ「収納・インテリア」に一致しています。",
+        "評価4.28、レビュー1620件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00uocj2.5dkfadbd.g00uocj2.5dkfb3a5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdecori%2Fy-342%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-07-27T07:16:18.107Z",
+          "detail": "収納・インテリア / リアルタイムランキング 11位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 29,
+            "max": 30,
+            "reason": "楽天ランキング11位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 15,
+            "max": 25,
+            "reason": "有効な季節テーマ「収納・インテリア」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 12,
+            "max": 15,
+            "reason": "評価4.28、レビュー1620件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 56,
+        "max": 70,
+        "normalized": 80,
+        "priority": "高",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "高",
+      "confidence": "中",
+      "checkedAt": "2026-07-27T07:16:18.107Z"
+    },
+    {
+      "id": "research:2026-07-27:trend:summer-cooling:daisaku-ec:10000008",
+      "candidateId": "trend:summer-cooling:daisaku-ec:10000008",
+      "genre": "夏の暮らし",
+      "target": "暑さ対策を早めに済ませたい人",
+      "candidateType": "discovery",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "【楽天1位】 【公式】マジクールレギュラー ネッククーラー 最強 MAGICOOL クールリング 冷感グッズ ひんやり 熱中症対策 ネック 水 軽い 布 長時間 長持ち 首 フェス 車 屋外 ビジネス 犬 自転車 農作業 通勤 繰り返し アウトドア 防災 冷却 冷たい",
+        "price": 1408,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tqa12.5dkfa068.g00tqa12.5dkfb449/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaisaku-ec%2Fmcft6%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "大作商事ダイレクト　楽天市場店",
+        "rank": 245,
+        "reviewCount": 1247,
+        "reviewAverage": 4.36
+      },
+      "demandReason": [
+        "楽天ランキング245位を確認しました。",
+        "有効な季節テーマ「夏の暑さ対策」に一致しています。",
+        "評価4.36、レビュー1247件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00tqa12.5dkfa068.g00tqa12.5dkfb449/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaisaku-ec%2Fmcft6%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-07-27T07:16:18.107Z",
+          "detail": "夏の暑さ対策 / リアルタイムランキング 245位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:summer-cooling:cicib:10003314",
+          "name": "衝撃セール990円〜【楽天1位☆テレビ紹介】4way 冷却ハンディファンPRO 2026 ハンディファン 冷却プレート 扇風機 シシベラ ハンディファン 静音 軽量 強風 小型 冷却モード 充電式 冷却 携帯扇風機 卓上扇風機 小型扇風機 cicibella 手持ち扇風機「MONOQLO受賞」＜公式＞",
+          "rank": 2
+        },
+        {
+          "id": "trend:summer-cooling:yumenomori:10000233",
+          "name": "楽天1位 10000mAh大容量【1,380円〜・猛暑応援SALE】 ハンディファン 冷却 ハンディ扇風機 冷却プレート -25℃冷却 100段階風量 高速暴風 600,000台累計販売 ハンディーファン 首掛け 扇風機 携帯扇風機 手持ち扇風機 ハンディ ファン 卓上扇風機 24時間持続 ミニ扇風機",
+          "rank": 14
+        },
+        {
+          "id": "trend:summer-cooling:azusa:10000130",
+          "name": "酷暑SALE！970円〜【楽天1位★テレビ紹介】 ハンディファン 冷却プレート 120段階 携帯扇風機 5000mAh 3200mAh クーラー 冷却プレート 強風 冷却モード 扇風機 卓上 小型扇風機 ハンディ扇風機 手持ち扇風機 腰掛け扇風機 usb充電式 扇風機 usb ネッククーラー 父の日",
+          "rank": 21
+        },
+        {
+          "id": "trend:summer-cooling:darkangel:10036827",
+          "name": "70%OFF!【7/26 10時〜24H限定：1枚790円！3枚購入クーポンで】 パンツ ルームウェア レディース 秋 かわいい ズボン ギンガムチェック リラックスパンツ イージーパンツ ロングパンツ ショートパンツ 涼しい ゆったり 【ギンガムチェックルームウェアパンツ】元祖冷感coolify",
+          "rank": 202
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 6,
+            "max": 30,
+            "reason": "楽天ランキング245位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 20,
+            "max": 25,
+            "reason": "有効な季節テーマ「夏の暑さ対策」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 12,
+            "max": 15,
+            "reason": "評価4.36、レビュー1247件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 38,
+        "max": 70,
+        "normalized": 54,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-07-27T07:16:18.107Z"
+    },
+    {
+      "id": "research:2026-07-27:trend:summer-cooling:darkangel:10036827",
+      "candidateId": "trend:summer-cooling:darkangel:10036827",
+      "genre": "夏の暮らし",
+      "target": "暑さ対策を早めに済ませたい人",
+      "candidateType": "discovery",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "70%OFF!【7/26 10時〜24H限定：1枚790円！3枚購入クーポンで】 パンツ ルームウェア レディース 秋 かわいい ズボン ギンガムチェック リラックスパンツ イージーパンツ ロングパンツ ショートパンツ 涼しい ゆったり 【ギンガムチェックルームウェアパンツ】元祖冷感coolify",
+        "price": 1790,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00q8qj2.5dkfa87f.g00q8qj2.5dkfb919/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdarkangel%2Fin2407-4272%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "Dark Angel （ダークエンジェル）",
+        "rank": 202,
+        "reviewCount": 2857,
+        "reviewAverage": 4.36
+      },
+      "demandReason": [
+        "楽天ランキング202位を確認しました。",
+        "有効な季節テーマ「夏の暑さ対策」に一致しています。",
+        "評価4.36、レビュー2857件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00q8qj2.5dkfa87f.g00q8qj2.5dkfb919/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdarkangel%2Fin2407-4272%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-07-27T07:16:18.107Z",
+          "detail": "夏の暑さ対策 / リアルタイムランキング 202位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:summer-cooling:cicib:10003314",
+          "name": "衝撃セール990円〜【楽天1位☆テレビ紹介】4way 冷却ハンディファンPRO 2026 ハンディファン 冷却プレート 扇風機 シシベラ ハンディファン 静音 軽量 強風 小型 冷却モード 充電式 冷却 携帯扇風機 卓上扇風機 小型扇風機 cicibella 手持ち扇風機「MONOQLO受賞」＜公式＞",
+          "rank": 2
+        },
+        {
+          "id": "trend:summer-cooling:yumenomori:10000233",
+          "name": "楽天1位 10000mAh大容量【1,380円〜・猛暑応援SALE】 ハンディファン 冷却 ハンディ扇風機 冷却プレート -25℃冷却 100段階風量 高速暴風 600,000台累計販売 ハンディーファン 首掛け 扇風機 携帯扇風機 手持ち扇風機 ハンディ ファン 卓上扇風機 24時間持続 ミニ扇風機",
+          "rank": 14
+        },
+        {
+          "id": "trend:summer-cooling:azusa:10000130",
+          "name": "酷暑SALE！970円〜【楽天1位★テレビ紹介】 ハンディファン 冷却プレート 120段階 携帯扇風機 5000mAh 3200mAh クーラー 冷却プレート 強風 冷却モード 扇風機 卓上 小型扇風機 ハンディ扇風機 手持ち扇風機 腰掛け扇風機 usb充電式 扇風機 usb ネッククーラー 父の日",
+          "rank": 21
+        },
+        {
+          "id": "trend:summer-cooling:daisaku-ec:10000008",
+          "name": "【楽天1位】 【公式】マジクールレギュラー ネッククーラー 最強 MAGICOOL クールリング 冷感グッズ ひんやり 熱中症対策 ネック 水 軽い 布 長時間 長持ち 首 フェス 車 屋外 ビジネス 犬 自転車 農作業 通勤 繰り返し アウトドア 防災 冷却 冷たい",
+          "rank": 245
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 10,
+            "max": 30,
+            "reason": "楽天ランキング202位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 20,
+            "max": 25,
+            "reason": "有効な季節テーマ「夏の暑さ対策」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 13,
+            "max": 15,
+            "reason": "評価4.36、レビュー2857件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 43,
+        "max": 70,
+        "normalized": 61,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-07-27T07:16:18.107Z"
+    }
+  ]
+}

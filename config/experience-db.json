@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": null,
+  "recordTemplate": {
+    "id": "owned-example",
+    "productId": null,
+    "productName": null,
+    "manufacturer": null,
+    "modelNumber": null,
+    "experienceType": "owned",
+    "purchasedAt": null,
+    "usagePeriod": null,
+    "purchaseReason": null,
+    "pros": [],
+    "cons": [],
+    "failureStory": null,
+    "comparedProducts": [],
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "hiroWords": [],
+    "checkedAt": null
+  },
+  "experiences": []
+}

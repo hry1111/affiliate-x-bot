@@ -23,8 +23,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate curated post candidates
-        run: node src/index.js
+      - name: Generate candidates and operation OS data
+        run: npm run refresh
         env:
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
           RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
@@ -39,14 +39,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/post-candidates.json
+          git add data
           git diff --cached --quiet || git commit -m "chore: コスパモンスター候補を更新"
           git push
 
       - name: Build page artifact
         run: |
           mkdir -p docs/data
-          cp data/post-candidates.json docs/data/post-candidates.json
+          cp -R data/. docs/data/
 
       - name: Upload page artifact
         uses: actions/upload-pages-artifact@v3
