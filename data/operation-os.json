@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-28T00:02:55.067Z",
+  "generatedAt": "2026-07-28T10:10:26.670Z",
   "operationRules": {
     "path": "config/operation-rules.md",
     "status": "template"
@@ -11,7 +11,7 @@
   },
   "research": {
     "schemaVersion": 1,
-    "generatedAt": "2026-07-28T00:02:55.067Z",
+    "generatedAt": "2026-07-28T10:10:26.670Z",
     "candidateDataGeneratedAt": "2026-07-28T00:02:54.988Z",
     "rankingSnapshotGeneratedAt": "2026-07-28T00:02:54.988Z",
     "opportunities": [
@@ -36,14 +36,27 @@
           "楽天ランキング9位を確認しました。",
           "有効な季節テーマ「夏の暑さ対策」に一致しています。",
           "前回比: 順位2位上昇、レビュー39件増加。",
-          "評価4.5、レビュー2592件を確認しました。"
+          "評価4.5、レビュー2592件を確認しました。",
+          "手動確認で競合記事0件として確認しました。"
         ],
         "demandEvidence": [
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "夏の暑さ対策 / リアルタイムランキング 9位"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "checkedAt": "2026-07-28",
+            "detail": "360LiFE: 2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://my-best.com/2226",
+            "checkedAt": "2026-07-28",
+            "detail": "mybest: 徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング"
           }
         ],
         "searchDemand": {
@@ -73,10 +86,65 @@
             "rank": 69
           }
         ],
-        "referenceArticles": [],
-        "topReasonAnalysis": [],
-        "structurePatterns": [],
-        "comparisonAxes": [],
+        "referenceArticles": [
+          {
+            "url": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "title": "2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較",
+            "publisher": "360LiFE",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "タイプ別に候補を分ける",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "静音性",
+              "冷却プレートの有無",
+              "持ち運びやすさ",
+              "連続使用時間"
+            ]
+          },
+          {
+            "url": "https://my-best.com/2226",
+            "title": "徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング",
+            "publisher": "mybest",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "バッテリーの持ち",
+              "持ち運びやすさ",
+              "静かさ"
+            ]
+          }
+        ],
+        "topReasonAnalysis": [
+          "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+          "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。"
+        ],
+        "structurePatterns": [
+          "用途別の悩みを導入で整理する",
+          "選び方と比較軸を先に示す",
+          "タイプ別に候補を分ける",
+          "購入前の確認事項で締める"
+        ],
+        "comparisonAxes": [
+          "風量",
+          "静音性",
+          "冷却プレートの有無",
+          "持ち運びやすさ",
+          "連続使用時間",
+          "バッテリーの持ち",
+          "静かさ"
+        ],
         "demandScore": {
           "components": [
             {
@@ -109,15 +177,15 @@
             },
             {
               "name": "競合記事数",
-              "available": false,
-              "score": null,
+              "available": true,
+              "score": 10,
               "max": 10,
-              "reason": "競合記事数は未確認です。"
+              "reason": "手動確認で競合記事0件として確認しました。"
             }
           ],
-          "score": 69,
-          "max": 90,
-          "normalized": 77,
+          "score": 79,
+          "max": 100,
+          "normalized": 79,
           "priority": "高",
           "confidence": "高"
         },
@@ -128,7 +196,7 @@
         },
         "articlePriority": "高",
         "confidence": "高",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:summer-cooling:azusa:10000130",
@@ -151,14 +219,27 @@
           "楽天ランキング27位を確認しました。",
           "有効な季節テーマ「夏の暑さ対策」に一致しています。",
           "前回比: 順位10位上昇、レビュー82件増加。",
-          "評価4.4、レビュー16464件を確認しました。"
+          "評価4.4、レビュー16464件を確認しました。",
+          "手動確認で競合記事0件として確認しました。"
         ],
         "demandEvidence": [
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00tyy92.5dkfaa0c.g00tyy92.5dkfba53/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fazusa%2F0302%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "夏の暑さ対策 / リアルタイムランキング 27位"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "checkedAt": "2026-07-28",
+            "detail": "360LiFE: 2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://my-best.com/2226",
+            "checkedAt": "2026-07-28",
+            "detail": "mybest: 徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング"
           }
         ],
         "searchDemand": {
@@ -188,10 +269,65 @@
             "rank": 69
           }
         ],
-        "referenceArticles": [],
-        "topReasonAnalysis": [],
-        "structurePatterns": [],
-        "comparisonAxes": [],
+        "referenceArticles": [
+          {
+            "url": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "title": "2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較",
+            "publisher": "360LiFE",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "タイプ別に候補を分ける",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "静音性",
+              "冷却プレートの有無",
+              "持ち運びやすさ",
+              "連続使用時間"
+            ]
+          },
+          {
+            "url": "https://my-best.com/2226",
+            "title": "徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング",
+            "publisher": "mybest",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "バッテリーの持ち",
+              "持ち運びやすさ",
+              "静かさ"
+            ]
+          }
+        ],
+        "topReasonAnalysis": [
+          "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+          "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。"
+        ],
+        "structurePatterns": [
+          "用途別の悩みを導入で整理する",
+          "選び方と比較軸を先に示す",
+          "タイプ別に候補を分ける",
+          "購入前の確認事項で締める"
+        ],
+        "comparisonAxes": [
+          "風量",
+          "静音性",
+          "冷却プレートの有無",
+          "持ち運びやすさ",
+          "連続使用時間",
+          "バッテリーの持ち",
+          "静かさ"
+        ],
         "demandScore": {
           "components": [
             {
@@ -224,15 +360,15 @@
             },
             {
               "name": "競合記事数",
-              "available": false,
-              "score": null,
+              "available": true,
+              "score": 10,
               "max": 10,
-              "reason": "競合記事数は未確認です。"
+              "reason": "手動確認で競合記事0件として確認しました。"
             }
           ],
-          "score": 82,
-          "max": 90,
-          "normalized": 91,
+          "score": 92,
+          "max": 100,
+          "normalized": 92,
           "priority": "高",
           "confidence": "高"
         },
@@ -243,7 +379,7 @@
         },
         "articlePriority": "高",
         "confidence": "高",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:summer-cooling:sakauchi-shop:10010685",
@@ -265,14 +401,27 @@
         "demandReason": [
           "楽天ランキング45位を確認しました。",
           "有効な季節テーマ「夏の暑さ対策」に一致しています。",
-          "評価4.14、レビュー274件を確認しました。"
+          "評価4.14、レビュー274件を確認しました。",
+          "手動確認で競合記事0件として確認しました。"
         ],
         "demandEvidence": [
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00ugyz2.5dkfa535.g00ugyz2.5dkfbbab/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsakauchi-shop%2Fccczskt01s%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "夏の暑さ対策 / リアルタイムランキング 45位"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "checkedAt": "2026-07-28",
+            "detail": "360LiFE: 2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://my-best.com/2226",
+            "checkedAt": "2026-07-28",
+            "detail": "mybest: 徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング"
           }
         ],
         "searchDemand": {
@@ -302,10 +451,65 @@
             "rank": 69
           }
         ],
-        "referenceArticles": [],
-        "topReasonAnalysis": [],
-        "structurePatterns": [],
-        "comparisonAxes": [],
+        "referenceArticles": [
+          {
+            "url": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "title": "2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較",
+            "publisher": "360LiFE",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "タイプ別に候補を分ける",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "静音性",
+              "冷却プレートの有無",
+              "持ち運びやすさ",
+              "連続使用時間"
+            ]
+          },
+          {
+            "url": "https://my-best.com/2226",
+            "title": "徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング",
+            "publisher": "mybest",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "バッテリーの持ち",
+              "持ち運びやすさ",
+              "静かさ"
+            ]
+          }
+        ],
+        "topReasonAnalysis": [
+          "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+          "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。"
+        ],
+        "structurePatterns": [
+          "用途別の悩みを導入で整理する",
+          "選び方と比較軸を先に示す",
+          "タイプ別に候補を分ける",
+          "購入前の確認事項で締める"
+        ],
+        "comparisonAxes": [
+          "風量",
+          "静音性",
+          "冷却プレートの有無",
+          "持ち運びやすさ",
+          "連続使用時間",
+          "バッテリーの持ち",
+          "静かさ"
+        ],
         "demandScore": {
           "components": [
             {
@@ -338,17 +542,17 @@
             },
             {
               "name": "競合記事数",
-              "available": false,
-              "score": null,
+              "available": true,
+              "score": 10,
               "max": 10,
-              "reason": "競合記事数は未確認です。"
+              "reason": "手動確認で競合記事0件として確認しました。"
             }
           ],
-          "score": 55,
-          "max": 70,
-          "normalized": 79,
+          "score": 65,
+          "max": 80,
+          "normalized": 81,
           "priority": "高",
-          "confidence": "中"
+          "confidence": "高"
         },
         "experience": {
           "type": "none",
@@ -356,8 +560,8 @@
           "checkedAt": null
         },
         "articlePriority": "高",
-        "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "confidence": "高",
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:summer-cooling:hitidear:10000187",
@@ -379,14 +583,27 @@
         "demandReason": [
           "楽天ランキング52位を確認しました。",
           "有効な季節テーマ「夏の暑さ対策」に一致しています。",
-          "評価4.34、レビュー3276件を確認しました。"
+          "評価4.34、レビュー3276件を確認しました。",
+          "手動確認で競合記事0件として確認しました。"
         ],
         "demandEvidence": [
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00uab62.5dkfa9b3.g00uab62.5dkfb258/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitidear%2Fbreeze-o%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "夏の暑さ対策 / リアルタイムランキング 52位"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "checkedAt": "2026-07-28",
+            "detail": "360LiFE: 2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://my-best.com/2226",
+            "checkedAt": "2026-07-28",
+            "detail": "mybest: 徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング"
           }
         ],
         "searchDemand": {
@@ -416,10 +633,65 @@
             "rank": 69
           }
         ],
-        "referenceArticles": [],
-        "topReasonAnalysis": [],
-        "structurePatterns": [],
-        "comparisonAxes": [],
+        "referenceArticles": [
+          {
+            "url": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "title": "2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較",
+            "publisher": "360LiFE",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "タイプ別に候補を分ける",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "静音性",
+              "冷却プレートの有無",
+              "持ち運びやすさ",
+              "連続使用時間"
+            ]
+          },
+          {
+            "url": "https://my-best.com/2226",
+            "title": "徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング",
+            "publisher": "mybest",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "バッテリーの持ち",
+              "持ち運びやすさ",
+              "静かさ"
+            ]
+          }
+        ],
+        "topReasonAnalysis": [
+          "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+          "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。"
+        ],
+        "structurePatterns": [
+          "用途別の悩みを導入で整理する",
+          "選び方と比較軸を先に示す",
+          "タイプ別に候補を分ける",
+          "購入前の確認事項で締める"
+        ],
+        "comparisonAxes": [
+          "風量",
+          "静音性",
+          "冷却プレートの有無",
+          "持ち運びやすさ",
+          "連続使用時間",
+          "バッテリーの持ち",
+          "静かさ"
+        ],
         "demandScore": {
           "components": [
             {
@@ -452,17 +724,17 @@
             },
             {
               "name": "競合記事数",
-              "available": false,
-              "score": null,
+              "available": true,
+              "score": 10,
               "max": 10,
-              "reason": "競合記事数は未確認です。"
+              "reason": "手動確認で競合記事0件として確認しました。"
             }
           ],
-          "score": 59,
-          "max": 70,
-          "normalized": 84,
+          "score": 69,
+          "max": 80,
+          "normalized": 86,
           "priority": "高",
-          "confidence": "中"
+          "confidence": "高"
         },
         "experience": {
           "type": "none",
@@ -470,8 +742,8 @@
           "checkedAt": null
         },
         "articlePriority": "高",
-        "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "confidence": "高",
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:summer-cooling:yumenomori:10000233",
@@ -493,14 +765,27 @@
         "demandReason": [
           "楽天ランキング69位を確認しました。",
           "有効な季節テーマ「夏の暑さ対策」に一致しています。",
-          "評価4.44、レビュー9973件を確認しました。"
+          "評価4.44、レビュー9973件を確認しました。",
+          "手動確認で競合記事0件として確認しました。"
         ],
         "demandEvidence": [
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00tdsy2.5dkfac1e.g00tdsy2.5dkfbd82/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyumenomori%2Fbh28f%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "夏の暑さ対策 / リアルタイムランキング 69位"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "checkedAt": "2026-07-28",
+            "detail": "360LiFE: 2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://my-best.com/2226",
+            "checkedAt": "2026-07-28",
+            "detail": "mybest: 徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング"
           }
         ],
         "searchDemand": {
@@ -530,10 +815,65 @@
             "rank": 52
           }
         ],
-        "referenceArticles": [],
-        "topReasonAnalysis": [],
-        "structurePatterns": [],
-        "comparisonAxes": [],
+        "referenceArticles": [
+          {
+            "url": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "title": "2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較",
+            "publisher": "360LiFE",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "タイプ別に候補を分ける",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "静音性",
+              "冷却プレートの有無",
+              "持ち運びやすさ",
+              "連続使用時間"
+            ]
+          },
+          {
+            "url": "https://my-best.com/2226",
+            "title": "徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング",
+            "publisher": "mybest",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "バッテリーの持ち",
+              "持ち運びやすさ",
+              "静かさ"
+            ]
+          }
+        ],
+        "topReasonAnalysis": [
+          "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+          "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。"
+        ],
+        "structurePatterns": [
+          "用途別の悩みを導入で整理する",
+          "選び方と比較軸を先に示す",
+          "タイプ別に候補を分ける",
+          "購入前の確認事項で締める"
+        ],
+        "comparisonAxes": [
+          "風量",
+          "静音性",
+          "冷却プレートの有無",
+          "持ち運びやすさ",
+          "連続使用時間",
+          "バッテリーの持ち",
+          "静かさ"
+        ],
         "demandScore": {
           "components": [
             {
@@ -566,17 +906,17 @@
             },
             {
               "name": "競合記事数",
-              "available": false,
-              "score": null,
+              "available": true,
+              "score": 10,
               "max": 10,
-              "reason": "競合記事数は未確認です。"
+              "reason": "手動確認で競合記事0件として確認しました。"
             }
           ],
-          "score": 58,
-          "max": 70,
-          "normalized": 83,
+          "score": 68,
+          "max": 80,
+          "normalized": 85,
           "priority": "高",
-          "confidence": "中"
+          "confidence": "高"
         },
         "experience": {
           "type": "none",
@@ -584,8 +924,8 @@
           "checkedAt": null
         },
         "articlePriority": "高",
-        "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "confidence": "高",
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:daily-household:tac-online:10005862",
@@ -613,7 +953,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00rxu72.5dkfa90b.g00rxu72.5dkfba03/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftac-online%2Fcl116dw%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "日用品・家事 / リアルタイムランキング 219位"
           }
         ],
@@ -684,7 +1024,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:daily-household:nanobig:10000922",
@@ -712,7 +1052,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00rdz22.5dkfab8f.g00rdz22.5dkfb44e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnanobig%2Fcleaner-cordless-rr35%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "日用品・家事 / リアルタイムランキング 266位"
           }
         ],
@@ -783,7 +1123,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:kitchen:livingut:10016371",
@@ -811,7 +1151,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00q7282.5dkfa1c1.g00q7282.5dkfbe4c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flivingut%2F4580244681396%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "キッチン・調理 / リアルタイムランキング 264位"
           }
         ],
@@ -876,7 +1216,7 @@
         },
         "articlePriority": "低",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:storage-interior:adidas:10194632",
@@ -904,7 +1244,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00r74j2.5dkfac58.g00r74j2.5dkfb87f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fadidas%2Fig6045%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "収納・インテリア / リアルタイムランキング 42位"
           }
         ],
@@ -990,7 +1330,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:storage-interior:e-kurashi:10030558",
@@ -1019,7 +1359,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F42577%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "収納・インテリア / リアルタイムランキング 53位"
           }
         ],
@@ -1105,7 +1445,7 @@
         },
         "articlePriority": "中",
         "confidence": "高",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:storage-interior:e-kurashi:10048736",
@@ -1133,7 +1473,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "収納・インテリア / リアルタイムランキング 87位"
           }
         ],
@@ -1219,7 +1559,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:storage-interior:kagustyle:10044504",
@@ -1247,7 +1587,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00qzfw2.5dkfaa7e.g00qzfw2.5dkfb422/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkagustyle%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "収納・インテリア / リアルタイムランキング 135位"
           }
         ],
@@ -1333,7 +1673,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:storage-interior:eunicedress:10001876",
@@ -1361,7 +1701,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00sv252.5dkfaf5d.g00sv252.5dkfb6cc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Feunicedress%2Feuni-136%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "収納・インテリア / リアルタイムランキング 148位"
           }
         ],
@@ -1447,7 +1787,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:beauty-grooming:freefeel:10049779",
@@ -1475,7 +1815,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00qpu82.5dkfa21e.g00qpu82.5dkfb82d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffreefeel%2Flils4562261082400%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "美容・身だしなみ / リアルタイムランキング 160位"
           }
         ],
@@ -1556,7 +1896,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:beauty-grooming:darkangel:10031059",
@@ -1584,7 +1924,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00q8qj2.5dkfa87f.g00q8qj2.5dkfb919/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdarkangel%2Fotg1704-0115%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "美容・身だしなみ / リアルタイムランキング 207位"
           }
         ],
@@ -1665,7 +2005,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:beauty-grooming:attenir:10000250",
@@ -1693,7 +2033,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00tna62.5dkfa056.g00tna62.5dkfb68b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fattenir%2F166011%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "美容・身だしなみ / リアルタイムランキング 228位"
           }
         ],
@@ -1774,7 +2114,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:beauty-grooming:kaminidoramawo:10000019",
@@ -1802,7 +2142,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00ujue2.5dkfad84.g00ujue2.5dkfbe95/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaminidoramawo%2Fkdrs009%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "美容・身だしなみ / リアルタイムランキング 268位"
           }
         ],
@@ -1883,7 +2223,7 @@
         },
         "articlePriority": "低",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:mobile-pc:azusa:10000130",
@@ -1912,7 +2252,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00tyy92.5dkfaa0c.g00tyy92.5dkfba53/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fazusa%2F0302%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "スマホ・PC周辺 / リアルタイムランキング 27位"
           }
         ],
@@ -1998,7 +2338,7 @@
         },
         "articlePriority": "高",
         "confidence": "高",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:mobile-pc:gracevally:10000003",
@@ -2026,7 +2366,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00u9312.5dkfa590.g00u9312.5dkfb0ae/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgracevally%2Fgrace-x1%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "スマホ・PC周辺 / リアルタイムランキング 79位"
           }
         ],
@@ -2112,7 +2452,7 @@
         },
         "articlePriority": "高",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:mobile-pc:furumiyashop:10000146",
@@ -2141,7 +2481,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00tzq92.5dkfa9a4.g00tzq92.5dkfb441/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffurumiyashop%2Fcdb00p60%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "スマホ・PC周辺 / リアルタイムランキング 94位"
           }
         ],
@@ -2227,7 +2567,7 @@
         },
         "articlePriority": "高",
         "confidence": "高",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:mobile-pc:libetee:10000033",
@@ -2255,7 +2595,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00u60a2.5dkfa090.g00u60a2.5dkfbc9a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flibetee%2Flibetee001%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "スマホ・PC周辺 / リアルタイムランキング 231位"
           }
         ],
@@ -2341,7 +2681,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:mobile-pc:b4u-shop:10002773",
@@ -2369,7 +2709,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00u01m2.5dkfac43.g00u01m2.5dkfb882/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fb4u-shop%2F2zk1127e%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "スマホ・PC周辺 / リアルタイムランキング 233位"
           }
         ],
@@ -2455,7 +2795,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:car-accessories:e-kurashi:10030558",
@@ -2484,7 +2824,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F42577%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "車用品 / リアルタイムランキング 53位"
           }
         ],
@@ -2555,7 +2895,7 @@
         },
         "articlePriority": "中",
         "confidence": "高",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:car-accessories:creaswing:10000036",
@@ -2583,7 +2923,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00uird2.5dkfa936.g00uird2.5dkfb6e5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcreaswing%2Fcar-311-0005%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "車用品 / リアルタイムランキング 138位"
           }
         ],
@@ -2654,7 +2994,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:pet-care:nyanzaq:10109136",
@@ -2682,7 +3022,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00q36g2.5dkfa23b.g00q36g2.5dkfbcb3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnyanzaq%2F527423%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "ペット用品 / リアルタイムランキング 197位"
           }
         ],
@@ -2768,7 +3108,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:pet-care:mizuomoi:10000002",
@@ -2796,7 +3136,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00t98e2.5dkfa658.g00t98e2.5dkfb13b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmizuomoi%2F4571461293004%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "ペット用品 / リアルタイムランキング 213位"
           }
         ],
@@ -2882,7 +3222,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:pet-care:libetee:10000033",
@@ -2910,7 +3250,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00u60a2.5dkfa090.g00u60a2.5dkfbc9a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flibetee%2Flibetee001%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "ペット用品 / リアルタイムランキング 231位"
           }
         ],
@@ -2996,7 +3336,7 @@
         },
         "articlePriority": "低",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:pet-care:b4u-shop:10002773",
@@ -3024,7 +3364,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00u01m2.5dkfac43.g00u01m2.5dkfb882/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fb4u-shop%2F2zk1127e%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "ペット用品 / リアルタイムランキング 233位"
           }
         ],
@@ -3110,7 +3450,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:pet-care:auc-sakurasow:10001494",
@@ -3138,7 +3478,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00r3822.5dkfac2d.g00r3822.5dkfbad3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-sakurasow%2F10000200_o%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "ペット用品 / リアルタイムランキング 259位"
           }
         ],
@@ -3224,7 +3564,7 @@
         },
         "articlePriority": "低",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:baby-kids:netbaby:10027922",
@@ -3253,7 +3593,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00pzd42.5dkfaa59.g00pzd42.5dkfb1ad/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404196%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "子育て・ベビー / リアルタイムランキング 54位"
           }
         ],
@@ -3334,7 +3674,7 @@
         },
         "articlePriority": "高",
         "confidence": "高",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:baby-kids:kanseikukan:10000006",
@@ -3363,7 +3703,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00uk352.5dkfa359.g00uk352.5dkfb8d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkanseikukan%2Fyuunysleep01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "子育て・ベビー / リアルタイムランキング 34位"
           }
         ],
@@ -3444,7 +3784,7 @@
         },
         "articlePriority": "高",
         "confidence": "高",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:baby-kids:e-kurashi:10048736",
@@ -3472,7 +3812,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "子育て・ベビー / リアルタイムランキング 87位"
           }
         ],
@@ -3553,7 +3893,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:baby-kids:kagustyle:10044504",
@@ -3581,7 +3921,7 @@
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00qzfw2.5dkfaa7e.g00qzfw2.5dkfb422/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkagustyle%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "子育て・ベビー / リアルタイムランキング 135位"
           }
         ],
@@ -3662,7 +4002,7 @@
         },
         "articlePriority": "中",
         "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:summer-cooling:daisaku-ec:10000008",
@@ -3684,14 +4024,27 @@
         "demandReason": [
           "楽天ランキング217位を確認しました。",
           "有効な季節テーマ「夏の暑さ対策」に一致しています。",
-          "評価4.37、レビュー1268件を確認しました。"
+          "評価4.37、レビュー1268件を確認しました。",
+          "手動確認で競合記事0件として確認しました。"
         ],
         "demandEvidence": [
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00tqa12.5dkfa068.g00tqa12.5dkfb449/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaisaku-ec%2Fmcft6%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "夏の暑さ対策 / リアルタイムランキング 217位"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "checkedAt": "2026-07-28",
+            "detail": "360LiFE: 2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://my-best.com/2226",
+            "checkedAt": "2026-07-28",
+            "detail": "mybest: 徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング"
           }
         ],
         "searchDemand": {
@@ -3721,10 +4074,65 @@
             "rank": 52
           }
         ],
-        "referenceArticles": [],
-        "topReasonAnalysis": [],
-        "structurePatterns": [],
-        "comparisonAxes": [],
+        "referenceArticles": [
+          {
+            "url": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "title": "2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較",
+            "publisher": "360LiFE",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "タイプ別に候補を分ける",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "静音性",
+              "冷却プレートの有無",
+              "持ち運びやすさ",
+              "連続使用時間"
+            ]
+          },
+          {
+            "url": "https://my-best.com/2226",
+            "title": "徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング",
+            "publisher": "mybest",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "バッテリーの持ち",
+              "持ち運びやすさ",
+              "静かさ"
+            ]
+          }
+        ],
+        "topReasonAnalysis": [
+          "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+          "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。"
+        ],
+        "structurePatterns": [
+          "用途別の悩みを導入で整理する",
+          "選び方と比較軸を先に示す",
+          "タイプ別に候補を分ける",
+          "購入前の確認事項で締める"
+        ],
+        "comparisonAxes": [
+          "風量",
+          "静音性",
+          "冷却プレートの有無",
+          "持ち運びやすさ",
+          "連続使用時間",
+          "バッテリーの持ち",
+          "静かさ"
+        ],
         "demandScore": {
           "components": [
             {
@@ -3757,17 +4165,17 @@
             },
             {
               "name": "競合記事数",
-              "available": false,
-              "score": null,
+              "available": true,
+              "score": 10,
               "max": 10,
-              "reason": "競合記事数は未確認です。"
+              "reason": "手動確認で競合記事0件として確認しました。"
             }
           ],
-          "score": 40,
-          "max": 70,
-          "normalized": 57,
+          "score": 50,
+          "max": 80,
+          "normalized": 63,
           "priority": "中",
-          "confidence": "中"
+          "confidence": "高"
         },
         "experience": {
           "type": "none",
@@ -3775,8 +4183,8 @@
           "checkedAt": null
         },
         "articlePriority": "中",
-        "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "confidence": "高",
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:summer-cooling:nityukan0715:10002163",
@@ -3798,14 +4206,27 @@
         "demandReason": [
           "楽天ランキング139位を確認しました。",
           "有効な季節テーマ「夏の暑さ対策」に一致しています。",
-          "評価4.34、レビュー21496件を確認しました。"
+          "評価4.34、レビュー21496件を確認しました。",
+          "手動確認で競合記事0件として確認しました。"
         ],
         "demandEvidence": [
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00tgx32.5dkfa00a.g00tgx32.5dkfbfed/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnityukan0715%2Fqqdou7009a%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "夏の暑さ対策 / リアルタイムランキング 139位"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "checkedAt": "2026-07-28",
+            "detail": "360LiFE: 2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://my-best.com/2226",
+            "checkedAt": "2026-07-28",
+            "detail": "mybest: 徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング"
           }
         ],
         "searchDemand": {
@@ -3835,10 +4256,65 @@
             "rank": 52
           }
         ],
-        "referenceArticles": [],
-        "topReasonAnalysis": [],
-        "structurePatterns": [],
-        "comparisonAxes": [],
+        "referenceArticles": [
+          {
+            "url": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "title": "2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較",
+            "publisher": "360LiFE",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "タイプ別に候補を分ける",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "静音性",
+              "冷却プレートの有無",
+              "持ち運びやすさ",
+              "連続使用時間"
+            ]
+          },
+          {
+            "url": "https://my-best.com/2226",
+            "title": "徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング",
+            "publisher": "mybest",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "バッテリーの持ち",
+              "持ち運びやすさ",
+              "静かさ"
+            ]
+          }
+        ],
+        "topReasonAnalysis": [
+          "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+          "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。"
+        ],
+        "structurePatterns": [
+          "用途別の悩みを導入で整理する",
+          "選び方と比較軸を先に示す",
+          "タイプ別に候補を分ける",
+          "購入前の確認事項で締める"
+        ],
+        "comparisonAxes": [
+          "風量",
+          "静音性",
+          "冷却プレートの有無",
+          "持ち運びやすさ",
+          "連続使用時間",
+          "バッテリーの持ち",
+          "静かさ"
+        ],
         "demandScore": {
           "components": [
             {
@@ -3871,26 +4347,26 @@
             },
             {
               "name": "競合記事数",
-              "available": false,
-              "score": null,
+              "available": true,
+              "score": 10,
               "max": 10,
-              "reason": "競合記事数は未確認です。"
+              "reason": "手動確認で競合記事0件として確認しました。"
             }
           ],
-          "score": 51,
-          "max": 70,
-          "normalized": 73,
-          "priority": "中",
-          "confidence": "中"
+          "score": 61,
+          "max": 80,
+          "normalized": 76,
+          "priority": "高",
+          "confidence": "高"
         },
         "experience": {
           "type": "none",
           "experienceId": null,
           "checkedAt": null
         },
-        "articlePriority": "中",
-        "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "articlePriority": "高",
+        "confidence": "高",
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:summer-cooling:suzukachan:10000097",
@@ -3913,14 +4389,27 @@
           "楽天ランキング239位を確認しました。",
           "有効な季節テーマ「夏の暑さ対策」に一致しています。",
           "前回比: 順位209位低下、レビュー1件増加。",
-          "評価4.62、レビュー2060件を確認しました。"
+          "評価4.62、レビュー2060件を確認しました。",
+          "手動確認で競合記事0件として確認しました。"
         ],
         "demandEvidence": [
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00rqrk2.5dkfa984.g00rqrk2.5dkfb482/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuzukachan%2F517%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "夏の暑さ対策 / リアルタイムランキング 239位"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "checkedAt": "2026-07-28",
+            "detail": "360LiFE: 2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://my-best.com/2226",
+            "checkedAt": "2026-07-28",
+            "detail": "mybest: 徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング"
           }
         ],
         "searchDemand": {
@@ -3950,10 +4439,65 @@
             "rank": 52
           }
         ],
-        "referenceArticles": [],
-        "topReasonAnalysis": [],
-        "structurePatterns": [],
-        "comparisonAxes": [],
+        "referenceArticles": [
+          {
+            "url": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "title": "2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較",
+            "publisher": "360LiFE",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "タイプ別に候補を分ける",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "静音性",
+              "冷却プレートの有無",
+              "持ち運びやすさ",
+              "連続使用時間"
+            ]
+          },
+          {
+            "url": "https://my-best.com/2226",
+            "title": "徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング",
+            "publisher": "mybest",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "バッテリーの持ち",
+              "持ち運びやすさ",
+              "静かさ"
+            ]
+          }
+        ],
+        "topReasonAnalysis": [
+          "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+          "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。"
+        ],
+        "structurePatterns": [
+          "用途別の悩みを導入で整理する",
+          "選び方と比較軸を先に示す",
+          "タイプ別に候補を分ける",
+          "購入前の確認事項で締める"
+        ],
+        "comparisonAxes": [
+          "風量",
+          "静音性",
+          "冷却プレートの有無",
+          "持ち運びやすさ",
+          "連続使用時間",
+          "バッテリーの持ち",
+          "静かさ"
+        ],
         "demandScore": {
           "components": [
             {
@@ -3986,16 +4530,16 @@
             },
             {
               "name": "競合記事数",
-              "available": false,
-              "score": null,
+              "available": true,
+              "score": 10,
               "max": 10,
-              "reason": "競合記事数は未確認です。"
+              "reason": "手動確認で競合記事0件として確認しました。"
             }
           ],
-          "score": 39,
-          "max": 90,
-          "normalized": 43,
-          "priority": "低",
+          "score": 49,
+          "max": 100,
+          "normalized": 49,
+          "priority": "中",
           "confidence": "高"
         },
         "experience": {
@@ -4003,9 +4547,9 @@
           "experienceId": null,
           "checkedAt": null
         },
-        "articlePriority": "低",
+        "articlePriority": "中",
         "confidence": "高",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       },
       {
         "id": "research:2026-07-28:trend:summer-cooling:rhythm-official:10000344",
@@ -4027,14 +4571,27 @@
         "demandReason": [
           "楽天ランキング282位を確認しました。",
           "有効な季節テーマ「夏の暑さ対策」に一致しています。",
-          "評価4.7、レビュー5837件を確認しました。"
+          "評価4.7、レビュー5837件を確認しました。",
+          "手動確認で競合記事0件として確認しました。"
         ],
         "demandEvidence": [
           {
             "type": "楽天ランキング",
             "source": "https://hb.afl.rakuten.co.jp/hgc/g00u8qr2.5dkfa2e8.g00u8qr2.5dkfbb82/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frhythm-official%2F9zf036rh%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-            "checkedAt": "2026-07-28T00:02:55.067Z",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
             "detail": "夏の暑さ対策 / リアルタイムランキング 282位"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "checkedAt": "2026-07-28",
+            "detail": "360LiFE: 2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://my-best.com/2226",
+            "checkedAt": "2026-07-28",
+            "detail": "mybest: 徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング"
           }
         ],
         "searchDemand": {
@@ -4064,10 +4621,65 @@
             "rank": 52
           }
         ],
-        "referenceArticles": [],
-        "topReasonAnalysis": [],
-        "structurePatterns": [],
-        "comparisonAxes": [],
+        "referenceArticles": [
+          {
+            "url": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "title": "2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較",
+            "publisher": "360LiFE",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "タイプ別に候補を分ける",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "静音性",
+              "冷却プレートの有無",
+              "持ち運びやすさ",
+              "連続使用時間"
+            ]
+          },
+          {
+            "url": "https://my-best.com/2226",
+            "title": "徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング",
+            "publisher": "mybest",
+            "checkedAt": "2026-07-28",
+            "whyLikelyTop": "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。",
+            "structurePatterns": [
+              "用途別の悩みを導入で整理する",
+              "選び方と比較軸を先に示す",
+              "購入前の確認事項で締める"
+            ],
+            "comparisonAxes": [
+              "風量",
+              "バッテリーの持ち",
+              "持ち運びやすさ",
+              "静かさ"
+            ]
+          }
+        ],
+        "topReasonAnalysis": [
+          "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+          "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。"
+        ],
+        "structurePatterns": [
+          "用途別の悩みを導入で整理する",
+          "選び方と比較軸を先に示す",
+          "タイプ別に候補を分ける",
+          "購入前の確認事項で締める"
+        ],
+        "comparisonAxes": [
+          "風量",
+          "静音性",
+          "冷却プレートの有無",
+          "持ち運びやすさ",
+          "連続使用時間",
+          "バッテリーの持ち",
+          "静かさ"
+        ],
         "demandScore": {
           "components": [
             {
@@ -4100,17 +4712,17 @@
             },
             {
               "name": "競合記事数",
-              "available": false,
-              "score": null,
+              "available": true,
+              "score": 10,
               "max": 10,
-              "reason": "競合記事数は未確認です。"
+              "reason": "手動確認で競合記事0件として確認しました。"
             }
           ],
-          "score": 37,
-          "max": 70,
-          "normalized": 53,
+          "score": 47,
+          "max": 80,
+          "normalized": 59,
           "priority": "中",
-          "confidence": "中"
+          "confidence": "高"
         },
         "experience": {
           "type": "none",
@@ -4118,25 +4730,691 @@
           "checkedAt": null
         },
         "articlePriority": "中",
-        "confidence": "中",
-        "checkedAt": "2026-07-28T00:02:55.067Z"
+        "confidence": "高",
+        "checkedAt": "2026-07-28T10:10:26.670Z"
       }
     ]
   },
   "articles": {
     "schemaVersion": 1,
-    "generatedAt": "2026-07-28T00:02:55.067Z",
-    "drafts": [],
+    "generatedAt": "2026-07-28T10:10:26.670Z",
+    "drafts": [
+      {
+        "id": "article:research:2026-07-28:trend:summer-cooling:cicib:10003314:problem",
+        "style": "problem",
+        "status": "確認待ち",
+        "autoPublish": false,
+        "generatedAt": "2026-07-28T10:10:26.670Z",
+        "disclosureText": "【PR】",
+        "genre": "夏の暮らし",
+        "researchId": "research:2026-07-28:trend:summer-cooling:cicib:10003314",
+        "curatedProductId": "cicibella-4way-handy-fan-pro",
+        "target": "暑さ対策を早めに済ませたい人",
+        "searchIntent": "夏の暮らしの商品を、用途・条件・比較軸で失敗なく選びたい。",
+        "title": "暑さ対策を早めに済ませたい人向け CICIBELLA 4way 冷却ハンディファンPROの選び方",
+        "introduction": "暑さ対策を早めに済ませたい人が、用途に合う商品を選ぶための確認項目を整理する下書きです。",
+        "headings": [
+          "最初に確認したい使う場面と条件",
+          "CICIBELLA 4way 冷却ハンディファンPROを比較するときの軸",
+          "根拠と購入前の確認方法",
+          "向く人・見送る条件",
+          "購入前に販売ページで確認すること"
+        ],
+        "comparisonTable": [
+          {
+            "item": "風量",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "静音性",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "冷却プレートの有無",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "持ち運びやすさ",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "連続使用時間",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "バッテリーの持ち",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "静かさ",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          }
+        ],
+        "productEvaluations": [
+          {
+            "productName": "CICIBELLA 4way 冷却ハンディファンPRO",
+            "sourceFacts": "楽天ランキング9位、レビュー2592件（2026-07-28T10:10:26.670Z確認）。",
+            "evaluation": "仕様と比較軸を確認してから、Hiroが追記する。"
+          },
+          {
+            "productName": "酷暑SALE！990円〜【楽天1位★テレビ紹介】 ハンディファン 冷却プレート 120段階 携帯扇風機 5000mAh 3200mAh クーラ…",
+            "sourceFacts": "楽天ランキング27位として候補化。",
+            "evaluation": "同じ比較軸で販売ページを確認する。"
+          },
+          {
+            "productName": "【SNSで大バズり中・楽天1位・メーカー3年保証・2026最新モデル】 クールエアーミスト ポータブルエアコン ポータブル冷風機 充電式 ポー…",
+            "sourceFacts": "楽天ランキング45位として候補化。",
+            "evaluation": "同じ比較軸で販売ページを確認する。"
+          }
+        ],
+        "experience": {
+          "type": "not-used",
+          "sourceId": null,
+          "text": null,
+          "note": "Hiroは未使用。使用感は記載せず、一次情報と比較軸だけで構成する。"
+        },
+        "claimsPolicy": "Hiroは未使用。使用感、効果の断定、個人の感想は記載せず、一次情報と確認日時付きのランキング情報だけを扱う。",
+        "suitableFor": [
+          "暑さ対策を早めに済ませたい人",
+          "購入前に仕様と条件を確認できる人"
+        ],
+        "notSuitableFor": [
+          "必要な仕様やサイズが商品説明と合わない人",
+          "販売ページの一次情報を確認せずに即決したい人"
+        ],
+        "purchaseGuide": {
+          "label": "販売ページで価格・仕様・在庫を確認する",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-07-28T10:10:26.670Z",
+          "note": "価格、在庫、キャンペーン条件は変動するため、購入直前に再確認する。"
+        },
+        "cautions": [
+          "広告表現や商品の注意事項を販売ページで確認する。",
+          "価格、在庫、ランキングは確認日時時点の情報であり、保証しない。"
+        ],
+        "primaryInformation": {
+          "url": "https://item.rakuten.co.jp/cicib/e1-2/",
+          "checkedAt": "2026-07-28",
+          "sourceType": "公式楽天市場店の商品ページ"
+        },
+        "sourceReferences": [
+          {
+            "publisher": "360LiFE",
+            "title": "2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較",
+            "url": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "checkedAt": "2026-07-28"
+          },
+          {
+            "publisher": "mybest",
+            "title": "徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング",
+            "url": "https://my-best.com/2226",
+            "checkedAt": "2026-07-28"
+          }
+        ],
+        "referenceUse": {
+          "allowedUse": "構成・比較軸・情報設計の型のみ",
+          "copiedText": false,
+          "manualCopyCheckAt": "2026-07-28"
+        },
+        "demandEvidence": [
+          {
+            "type": "楽天ランキング",
+            "source": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
+            "detail": "夏の暑さ対策 / リアルタイムランキング 9位"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "checkedAt": "2026-07-28",
+            "detail": "360LiFE: 2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://my-best.com/2226",
+            "checkedAt": "2026-07-28",
+            "detail": "mybest: 徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング"
+          }
+        ],
+        "articlePriority": "高"
+      },
+      {
+        "id": "article:research:2026-07-28:trend:summer-cooling:cicib:10003314:comparison",
+        "style": "comparison",
+        "status": "確認待ち",
+        "autoPublish": false,
+        "generatedAt": "2026-07-28T10:10:26.670Z",
+        "disclosureText": "【PR】",
+        "genre": "夏の暮らし",
+        "researchId": "research:2026-07-28:trend:summer-cooling:cicib:10003314",
+        "curatedProductId": "cicibella-4way-handy-fan-pro",
+        "target": "暑さ対策を早めに済ませたい人",
+        "searchIntent": "夏の暮らしの商品を、用途・条件・比較軸で失敗なく選びたい。",
+        "title": "CICIBELLA 4way 冷却ハンディファンPROを比較するときの風量・静音性",
+        "introduction": "ランキングや価格だけで決めず、風量・静音性・冷却プレートの有無・持ち運びやすさ・連続使用時間・バッテリーの持ち・静かさを確認するための下書きです。",
+        "headings": [
+          "最初に確認したい使う場面と条件",
+          "CICIBELLA 4way 冷却ハンディファンPROを比較するときの軸",
+          "根拠と購入前の確認方法",
+          "向く人・見送る条件",
+          "購入前に販売ページで確認すること"
+        ],
+        "comparisonTable": [
+          {
+            "item": "風量",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "静音性",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "冷却プレートの有無",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "持ち運びやすさ",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "連続使用時間",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "バッテリーの持ち",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "静かさ",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          }
+        ],
+        "productEvaluations": [
+          {
+            "productName": "CICIBELLA 4way 冷却ハンディファンPRO",
+            "sourceFacts": "楽天ランキング9位、レビュー2592件（2026-07-28T10:10:26.670Z確認）。",
+            "evaluation": "仕様と比較軸を確認してから、Hiroが追記する。"
+          },
+          {
+            "productName": "酷暑SALE！990円〜【楽天1位★テレビ紹介】 ハンディファン 冷却プレート 120段階 携帯扇風機 5000mAh 3200mAh クーラ…",
+            "sourceFacts": "楽天ランキング27位として候補化。",
+            "evaluation": "同じ比較軸で販売ページを確認する。"
+          },
+          {
+            "productName": "【SNSで大バズり中・楽天1位・メーカー3年保証・2026最新モデル】 クールエアーミスト ポータブルエアコン ポータブル冷風機 充電式 ポー…",
+            "sourceFacts": "楽天ランキング45位として候補化。",
+            "evaluation": "同じ比較軸で販売ページを確認する。"
+          }
+        ],
+        "experience": {
+          "type": "not-used",
+          "sourceId": null,
+          "text": null,
+          "note": "Hiroは未使用。使用感は記載せず、一次情報と比較軸だけで構成する。"
+        },
+        "claimsPolicy": "Hiroは未使用。使用感、効果の断定、個人の感想は記載せず、一次情報と確認日時付きのランキング情報だけを扱う。",
+        "suitableFor": [
+          "暑さ対策を早めに済ませたい人",
+          "購入前に仕様と条件を確認できる人"
+        ],
+        "notSuitableFor": [
+          "必要な仕様やサイズが商品説明と合わない人",
+          "販売ページの一次情報を確認せずに即決したい人"
+        ],
+        "purchaseGuide": {
+          "label": "販売ページで価格・仕様・在庫を確認する",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-07-28T10:10:26.670Z",
+          "note": "価格、在庫、キャンペーン条件は変動するため、購入直前に再確認する。"
+        },
+        "cautions": [
+          "広告表現や商品の注意事項を販売ページで確認する。",
+          "価格、在庫、ランキングは確認日時時点の情報であり、保証しない。"
+        ],
+        "primaryInformation": {
+          "url": "https://item.rakuten.co.jp/cicib/e1-2/",
+          "checkedAt": "2026-07-28",
+          "sourceType": "公式楽天市場店の商品ページ"
+        },
+        "sourceReferences": [
+          {
+            "publisher": "360LiFE",
+            "title": "2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較",
+            "url": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "checkedAt": "2026-07-28"
+          },
+          {
+            "publisher": "mybest",
+            "title": "徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング",
+            "url": "https://my-best.com/2226",
+            "checkedAt": "2026-07-28"
+          }
+        ],
+        "referenceUse": {
+          "allowedUse": "構成・比較軸・情報設計の型のみ",
+          "copiedText": false,
+          "manualCopyCheckAt": "2026-07-28"
+        },
+        "demandEvidence": [
+          {
+            "type": "楽天ランキング",
+            "source": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
+            "detail": "夏の暑さ対策 / リアルタイムランキング 9位"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "checkedAt": "2026-07-28",
+            "detail": "360LiFE: 2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://my-best.com/2226",
+            "checkedAt": "2026-07-28",
+            "detail": "mybest: 徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング"
+          }
+        ],
+        "articlePriority": "高"
+      },
+      {
+        "id": "article:research:2026-07-28:trend:summer-cooling:cicib:10003314:avoid",
+        "style": "avoid",
+        "status": "確認待ち",
+        "autoPublish": false,
+        "generatedAt": "2026-07-28T10:10:26.670Z",
+        "disclosureText": "【PR】",
+        "genre": "夏の暮らし",
+        "researchId": "research:2026-07-28:trend:summer-cooling:cicib:10003314",
+        "curatedProductId": "cicibella-4way-handy-fan-pro",
+        "target": "暑さ対策を早めに済ませたい人",
+        "searchIntent": "夏の暮らしの商品を、用途・条件・比較軸で失敗なく選びたい。",
+        "title": "CICIBELLA 4way 冷却ハンディファンPROで失敗しないために確認したいこと",
+        "introduction": "買ったあとに合わなかったと感じないよう、確認条件を先に整理する下書きです。",
+        "headings": [
+          "最初に確認したい使う場面と条件",
+          "CICIBELLA 4way 冷却ハンディファンPROを比較するときの軸",
+          "根拠と購入前の確認方法",
+          "向く人・見送る条件",
+          "購入前に販売ページで確認すること"
+        ],
+        "comparisonTable": [
+          {
+            "item": "風量",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "静音性",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "冷却プレートの有無",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "持ち運びやすさ",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "連続使用時間",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "バッテリーの持ち",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          },
+          {
+            "item": "静かさ",
+            "purpose": "購入前に販売ページまたは一次情報で確認する。"
+          }
+        ],
+        "productEvaluations": [
+          {
+            "productName": "CICIBELLA 4way 冷却ハンディファンPRO",
+            "sourceFacts": "楽天ランキング9位、レビュー2592件（2026-07-28T10:10:26.670Z確認）。",
+            "evaluation": "仕様と比較軸を確認してから、Hiroが追記する。"
+          },
+          {
+            "productName": "酷暑SALE！990円〜【楽天1位★テレビ紹介】 ハンディファン 冷却プレート 120段階 携帯扇風機 5000mAh 3200mAh クーラ…",
+            "sourceFacts": "楽天ランキング27位として候補化。",
+            "evaluation": "同じ比較軸で販売ページを確認する。"
+          },
+          {
+            "productName": "【SNSで大バズり中・楽天1位・メーカー3年保証・2026最新モデル】 クールエアーミスト ポータブルエアコン ポータブル冷風機 充電式 ポー…",
+            "sourceFacts": "楽天ランキング45位として候補化。",
+            "evaluation": "同じ比較軸で販売ページを確認する。"
+          }
+        ],
+        "experience": {
+          "type": "not-used",
+          "sourceId": null,
+          "text": null,
+          "note": "Hiroは未使用。使用感は記載せず、一次情報と比較軸だけで構成する。"
+        },
+        "claimsPolicy": "Hiroは未使用。使用感、効果の断定、個人の感想は記載せず、一次情報と確認日時付きのランキング情報だけを扱う。",
+        "suitableFor": [
+          "暑さ対策を早めに済ませたい人",
+          "購入前に仕様と条件を確認できる人"
+        ],
+        "notSuitableFor": [
+          "必要な仕様やサイズが商品説明と合わない人",
+          "販売ページの一次情報を確認せずに即決したい人"
+        ],
+        "purchaseGuide": {
+          "label": "販売ページで価格・仕様・在庫を確認する",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-07-28T10:10:26.670Z",
+          "note": "価格、在庫、キャンペーン条件は変動するため、購入直前に再確認する。"
+        },
+        "cautions": [
+          "広告表現や商品の注意事項を販売ページで確認する。",
+          "価格、在庫、ランキングは確認日時時点の情報であり、保証しない。"
+        ],
+        "primaryInformation": {
+          "url": "https://item.rakuten.co.jp/cicib/e1-2/",
+          "checkedAt": "2026-07-28",
+          "sourceType": "公式楽天市場店の商品ページ"
+        },
+        "sourceReferences": [
+          {
+            "publisher": "360LiFE",
+            "title": "2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較",
+            "url": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "checkedAt": "2026-07-28"
+          },
+          {
+            "publisher": "mybest",
+            "title": "徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング",
+            "url": "https://my-best.com/2226",
+            "checkedAt": "2026-07-28"
+          }
+        ],
+        "referenceUse": {
+          "allowedUse": "構成・比較軸・情報設計の型のみ",
+          "copiedText": false,
+          "manualCopyCheckAt": "2026-07-28"
+        },
+        "demandEvidence": [
+          {
+            "type": "楽天ランキング",
+            "source": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+            "checkedAt": "2026-07-28T10:10:26.670Z",
+            "detail": "夏の暑さ対策 / リアルタイムランキング 9位"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://360life.shinyusha.co.jp/articles/-/6667",
+            "checkedAt": "2026-07-28",
+            "detail": "360LiFE: 2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較"
+          },
+          {
+            "type": "参考記事メタデータ",
+            "source": "https://my-best.com/2226",
+            "checkedAt": "2026-07-28",
+            "detail": "mybest: 徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング"
+          }
+        ],
+        "articlePriority": "高"
+      }
+    ],
     "skipped": []
   },
   "quality": {
     "schemaVersion": 1,
-    "generatedAt": "2026-07-28T00:02:55.087Z",
-    "results": []
+    "generatedAt": "2026-07-28T10:10:26.685Z",
+    "results": [
+      {
+        "articleId": "article:research:2026-07-28:trend:summer-cooling:cicib:10003314:problem",
+        "status": "合格",
+        "autoPublish": false,
+        "checkedAt": "2026-07-28T10:10:26.685Z",
+        "checks": [
+          {
+            "name": "一次情報",
+            "passed": true,
+            "severity": "要修正",
+            "reason": "公式情報または確認済みの一次情報URLが必要です。"
+          },
+          {
+            "name": "比較軸",
+            "passed": true,
+            "severity": "要修正",
+            "reason": "比較軸を2つ以上設定してください。"
+          },
+          {
+            "name": "実体験の扱い",
+            "passed": true,
+            "severity": "公開不可",
+            "reason": "未使用なら使用感を書かず、使用感を書く場合はownedの実体験記録を設定してください。"
+          },
+          {
+            "name": "購入導線",
+            "passed": true,
+            "severity": "要修正",
+            "reason": "確認日時付きの購入先を設定してください。"
+          },
+          {
+            "name": "体験捏造なし",
+            "passed": true,
+            "severity": "公開不可",
+            "reason": "使用感にはexperience-db.jsonのowned記録が必要です。"
+          },
+          {
+            "name": "誇大表現なし",
+            "passed": true,
+            "severity": "公開不可",
+            "reason": "最安・効果・在庫などの保証表現を削除してください。"
+          },
+          {
+            "name": "参考記事の非転載確認",
+            "passed": true,
+            "severity": "要修正",
+            "reason": "参考記事の文言をコピーしていないことをHiroが確認してください。"
+          },
+          {
+            "name": "対象者と見送り条件",
+            "passed": true,
+            "severity": "要修正",
+            "reason": "向く人と見送る条件を設定してください。"
+          },
+          {
+            "name": "PR表記",
+            "passed": true,
+            "severity": "公開不可",
+            "reason": "記事案に【PR】を含めてください。"
+          }
+        ]
+      },
+      {
+        "articleId": "article:research:2026-07-28:trend:summer-cooling:cicib:10003314:comparison",
+        "status": "合格",
+        "autoPublish": false,
+        "checkedAt": "2026-07-28T10:10:26.685Z",
+        "checks": [
+          {
+            "name": "一次情報",
+            "passed": true,
+            "severity": "要修正",
+            "reason": "公式情報または確認済みの一次情報URLが必要です。"
+          },
+          {
+            "name": "比較軸",
+            "passed": true,
+            "severity": "要修正",
+            "reason": "比較軸を2つ以上設定してください。"
+          },
+          {
+            "name": "実体験の扱い",
+            "passed": true,
+            "severity": "公開不可",
+            "reason": "未使用なら使用感を書かず、使用感を書く場合はownedの実体験記録を設定してください。"
+          },
+          {
+            "name": "購入導線",
+            "passed": true,
+            "severity": "要修正",
+            "reason": "確認日時付きの購入先を設定してください。"
+          },
+          {
+            "name": "体験捏造なし",
+            "passed": true,
+            "severity": "公開不可",
+            "reason": "使用感にはexperience-db.jsonのowned記録が必要です。"
+          },
+          {
+            "name": "誇大表現なし",
+            "passed": true,
+            "severity": "公開不可",
+            "reason": "最安・効果・在庫などの保証表現を削除してください。"
+          },
+          {
+            "name": "参考記事の非転載確認",
+            "passed": true,
+            "severity": "要修正",
+            "reason": "参考記事の文言をコピーしていないことをHiroが確認してください。"
+          },
+          {
+            "name": "対象者と見送り条件",
+            "passed": true,
+            "severity": "要修正",
+            "reason": "向く人と見送る条件を設定してください。"
+          },
+          {
+            "name": "PR表記",
+            "passed": true,
+            "severity": "公開不可",
+            "reason": "記事案に【PR】を含めてください。"
+          }
+        ]
+      },
+      {
+        "articleId": "article:research:2026-07-28:trend:summer-cooling:cicib:10003314:avoid",
+        "status": "合格",
+        "autoPublish": false,
+        "checkedAt": "2026-07-28T10:10:26.685Z",
+        "checks": [
+          {
+            "name": "一次情報",
+            "passed": true,
+            "severity": "要修正",
+            "reason": "公式情報または確認済みの一次情報URLが必要です。"
+          },
+          {
+            "name": "比較軸",
+            "passed": true,
+            "severity": "要修正",
+            "reason": "比較軸を2つ以上設定してください。"
+          },
+          {
+            "name": "実体験の扱い",
+            "passed": true,
+            "severity": "公開不可",
+            "reason": "未使用なら使用感を書かず、使用感を書く場合はownedの実体験記録を設定してください。"
+          },
+          {
+            "name": "購入導線",
+            "passed": true,
+            "severity": "要修正",
+            "reason": "確認日時付きの購入先を設定してください。"
+          },
+          {
+            "name": "体験捏造なし",
+            "passed": true,
+            "severity": "公開不可",
+            "reason": "使用感にはexperience-db.jsonのowned記録が必要です。"
+          },
+          {
+            "name": "誇大表現なし",
+            "passed": true,
+            "severity": "公開不可",
+            "reason": "最安・効果・在庫などの保証表現を削除してください。"
+          },
+          {
+            "name": "参考記事の非転載確認",
+            "passed": true,
+            "severity": "要修正",
+            "reason": "参考記事の文言をコピーしていないことをHiroが確認してください。"
+          },
+          {
+            "name": "対象者と見送り条件",
+            "passed": true,
+            "severity": "要修正",
+            "reason": "向く人と見送る条件を設定してください。"
+          },
+          {
+            "name": "PR表記",
+            "passed": true,
+            "severity": "公開不可",
+            "reason": "記事案に【PR】を含めてください。"
+          }
+        ]
+      }
+    ]
   },
   "social": {
     "schemaVersion": 1,
-    "generatedAt": "2026-07-28T00:02:55.067Z",
-    "drafts": []
+    "generatedAt": "2026-07-28T10:10:26.670Z",
+    "drafts": [
+      {
+        "articleId": "article:research:2026-07-28:trend:summer-cooling:cicib:10003314:problem",
+        "status": "確認待ち",
+        "autoPost": false,
+        "generatedAt": "2026-07-28T10:10:26.670Z",
+        "xPosts": [
+          "暑さ対策を早めに済ませたい人へ。\n\nCICIBELLA 4way 冷却ハンディファンPROを選ぶ前に、風量を確認すると失敗しにくい。\n\n【PR】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "買う前に確認したいのは、価格だけじゃない。\nCICIBELLA 4way 冷却ハンディファンPROは風量・静音性を見てから。\n\n【PR】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "必要な仕様やサイズが商品説明と合わない人には見送りもあり。\nCICIBELLA 4way 冷却ハンディファンPROは、条件が合うか先に確認。\n\n【PR】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "比較記事の下書きを作るときに整理したCICIBELLA 4way 冷却ハンディファンPROの確認ポイント。\n暑さ対策を早めに済ませたい人なら候補。\n\n【PR】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "CICIBELLA 4way 冷却ハンディファンPROを選ぶなら、販売ページで仕様と条件を確認してから。\n価格や在庫は購入前に再確認。\n\n【PR】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        ],
+        "roomPosts": [
+          "【PR】CICIBELLA 4way 冷却ハンディファンPRO\n暑さ対策を早めに済ませたい人向け。購入前に風量を確認。",
+          "【PR】CICIBELLA 4way 冷却ハンディファンPRO\n向かない条件も確認してから選びたい人向けの候補。",
+          "【PR】CICIBELLA 4way 冷却ハンディファンPRO\n価格・在庫・仕様は販売ページで確認してから検討。"
+        ],
+        "blogToRoom": "【PR】記事で確認した条件に合う商品は、楽天ROOMの一覧から確認できます。",
+        "saleDay": "【PR】CICIBELLA 4way 冷却ハンディファンPRO\n【ここにセール情報：確認日時つきの価格・キャンペーン名】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+      },
+      {
+        "articleId": "article:research:2026-07-28:trend:summer-cooling:cicib:10003314:comparison",
+        "status": "確認待ち",
+        "autoPost": false,
+        "generatedAt": "2026-07-28T10:10:26.670Z",
+        "xPosts": [
+          "暑さ対策を早めに済ませたい人へ。\n\nCICIBELLA 4way 冷却ハンディファンPROを選ぶ前に、風量を確認すると失敗しにくい。\n\n【PR】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "買う前に確認したいのは、価格だけじゃない。\nCICIBELLA 4way 冷却ハンディファンPROは風量・静音性を見てから。\n\n【PR】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "必要な仕様やサイズが商品説明と合わない人には見送りもあり。\nCICIBELLA 4way 冷却ハンディファンPROは、条件が合うか先に確認。\n\n【PR】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "比較記事の下書きを作るときに整理したCICIBELLA 4way 冷却ハンディファンPROの確認ポイント。\n暑さ対策を早めに済ませたい人なら候補。\n\n【PR】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "CICIBELLA 4way 冷却ハンディファンPROを選ぶなら、販売ページで仕様と条件を確認してから。\n価格や在庫は購入前に再確認。\n\n【PR】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        ],
+        "roomPosts": [
+          "【PR】CICIBELLA 4way 冷却ハンディファンPRO\n暑さ対策を早めに済ませたい人向け。購入前に風量を確認。",
+          "【PR】CICIBELLA 4way 冷却ハンディファンPRO\n向かない条件も確認してから選びたい人向けの候補。",
+          "【PR】CICIBELLA 4way 冷却ハンディファンPRO\n価格・在庫・仕様は販売ページで確認してから検討。"
+        ],
+        "blogToRoom": "【PR】記事で確認した条件に合う商品は、楽天ROOMの一覧から確認できます。",
+        "saleDay": "【PR】CICIBELLA 4way 冷却ハンディファンPRO\n【ここにセール情報：確認日時つきの価格・キャンペーン名】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+      },
+      {
+        "articleId": "article:research:2026-07-28:trend:summer-cooling:cicib:10003314:avoid",
+        "status": "確認待ち",
+        "autoPost": false,
+        "generatedAt": "2026-07-28T10:10:26.670Z",
+        "xPosts": [
+          "暑さ対策を早めに済ませたい人へ。\n\nCICIBELLA 4way 冷却ハンディファンPROを選ぶ前に、風量を確認すると失敗しにくい。\n\n【PR】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "買う前に確認したいのは、価格だけじゃない。\nCICIBELLA 4way 冷却ハンディファンPROは風量・静音性を見てから。\n\n【PR】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "必要な仕様やサイズが商品説明と合わない人には見送りもあり。\nCICIBELLA 4way 冷却ハンディファンPROは、条件が合うか先に確認。\n\n【PR】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "比較記事の下書きを作るときに整理したCICIBELLA 4way 冷却ハンディファンPROの確認ポイント。\n暑さ対策を早めに済ませたい人なら候補。\n\n【PR】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "CICIBELLA 4way 冷却ハンディファンPROを選ぶなら、販売ページで仕様と条件を確認してから。\n価格や在庫は購入前に再確認。\n\n【PR】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        ],
+        "roomPosts": [
+          "【PR】CICIBELLA 4way 冷却ハンディファンPRO\n暑さ対策を早めに済ませたい人向け。購入前に風量を確認。",
+          "【PR】CICIBELLA 4way 冷却ハンディファンPRO\n向かない条件も確認してから選びたい人向けの候補。",
+          "【PR】CICIBELLA 4way 冷却ハンディファンPRO\n価格・在庫・仕様は販売ページで確認してから検討。"
+        ],
+        "blogToRoom": "【PR】記事で確認した条件に合う商品は、楽天ROOMの一覧から確認できます。",
+        "saleDay": "【PR】CICIBELLA 4way 冷却ハンディファンPRO\n【ここにセール情報：確認日時つきの価格・キャンペーン名】\nhttps://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+      }
+    ]
   }
 }
