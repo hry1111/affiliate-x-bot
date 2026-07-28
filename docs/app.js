@@ -71,7 +71,7 @@ function appendResearchSummary(container, candidate) {
   container.hidden = false;
   const heading = document.createElement('p');
   heading.className = 'research-heading';
-  heading.textContent = `記事化優先度: ${research.articlePriority} / 採用状態: ${research.selectionStatus} / 実体験: ${research.experience?.type === 'owned' ? 'owned' : '未登録'}`;
+  heading.textContent = `記事化優先度: ${research.articlePriority} / 採用状態: ${research.selectionStatus} / 根拠: ${research.experience?.type === 'owned' ? '実体験あり' : '一次情報・ランキング'}`;
   container.append(heading);
   const reason = document.createElement('p');
   reason.textContent = `需要の根拠: ${(research.demandReason ?? []).join(' / ') || '未取得'}`;

@@ -73,7 +73,7 @@ test('ランキングスナップショットがあれば候補上限に依存�
   assert.equal(research.opportunities[0].genre, 'キッチン・調理');
 });
 
-test('実体験がない記事案には体験プレースホルダーを残す', () => {
+test('実体験がない記事案は使用感を書かず、一次情報ベースの方針を残す', () => {
   const articles = generateArticleDrafts({
     requests: [{ id: 'request-1', enabled: true, genre: '夏の暮らし' }],
     research: createResearch(),
@@ -81,20 +81,25 @@ test('実体験がない記事案には体験プレースホルダーを残す',
     generatedAt,
   });
   assert.equal(articles.drafts.length, 3);
-  assert.match(articles.drafts[0].experience.text, /【ここに体験：/u);
+  assert.equal(articles.drafts[0].experience.type, 'not-used');
+  assert.equal(articles.drafts[0].experience.text, null);
+  assert.match(articles.drafts[0].claimsPolicy, /Hiroは未使用/u);
 });
 
-test('不足がある記事は合格にせず、SNS下書きを生成しない', () => {
+test('未使用でも、一次情報などがそろえばSNS下書きの対象にできる', () => {
+  const research = createResearch();
+  const productId = research.opportunities[0].candidateId;
   const articles = generateArticleDrafts({
-    requests: [{ id: 'request-1', enabled: true, genre: '夏の暮らし' }],
-    research: createResearch(),
+    requests: [{ id: 'request-1', enabled: true, genre: '夏の暮らし', curatedProductId: productId }],
+    research,
     experiences: [],
+    curatedProducts: [{ id: productId, primaryInformation: { url: 'https://example.com/official', checkedAt: '2026-07-27' }, referenceUse: { copiedText: false, manualCopyCheckAt: '2026-07-27' } }],
     generatedAt,
   });
   const quality = qualityCheckArticle(articles.drafts[0]);
-  assert.equal(quality.status, '要修正');
+  assert.equal(quality.status, '合格');
   const social = generateSocialDrafts({ drafts: articles.drafts, qualityResults: [quality], generatedAt });
-  assert.equal(social.drafts.length, 0);
+  assert.equal(social.drafts.length, 1);
 });
 
 test('ownedの実体験と確認済み一次情報がある記事だけSNS下書きを生成する', () => {

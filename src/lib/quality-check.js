@@ -5,7 +5,7 @@ function check(name, passed, severity, reason) {
 }
 
 function textForReview(draft) {
-  return [draft.title, draft.introduction, ...(draft.headings ?? []), draft.experience?.text ?? '', ...(draft.cautions ?? [])].join('\n');
+  return [draft.title, draft.introduction, ...(draft.headings ?? []), draft.experience?.text ?? '', draft.claimsPolicy ?? '', ...(draft.cautions ?? [])].join('\n');
 }
 
 /**
@@ -15,12 +15,15 @@ export function qualityCheckArticle(draft) {
   const text = textForReview(draft);
   const hasPlaceholder = text.includes('【ここに体験：');
   const hasGuarantee = GUARANTEE_PATTERNS.some((pattern) => pattern.test(text));
+  const usesOwnedExperience = draft.experience?.type === 'owned';
+  const hasSupportedExperience = !usesOwnedExperience || Boolean(draft.experience?.sourceId);
+  const hasNonExperiencePolicy = usesOwnedExperience || draft.experience?.type === 'not-used';
   const checks = [
     check('一次情報', Boolean(draft.primaryInformation?.url), '要修正', '公式情報または確認済みの一次情報URLが必要です。'),
     check('比較軸', (draft.comparisonTable ?? []).length >= 2, '要修正', '比較軸を2つ以上設定してください。'),
-    check('実体験', draft.experience?.type === 'owned' && !hasPlaceholder, '要修正', 'ownedの実体験記録、または必要な体験の追記が必要です。'),
+    check('実体験の扱い', hasNonExperiencePolicy && !hasPlaceholder, '公開不可', '未使用なら使用感を書かず、使用感を書く場合はownedの実体験記録を設定してください。'),
     check('購入導線', Boolean(draft.purchaseGuide?.url && draft.purchaseGuide?.checkedAt), '要修正', '確認日時付きの購入先を設定してください。'),
-    check('体験捏造なし', draft.experience?.type !== 'owned' || Boolean(draft.experience?.sourceId), '公開不可', 'owned以外の体験を使用感として扱っていないか確認してください。'),
+    check('体験捏造なし', hasSupportedExperience, '公開不可', '使用感にはexperience-db.jsonのowned記録が必要です。'),
     check('誇大表現なし', !hasGuarantee, '公開不可', '最安・効果・在庫などの保証表現を削除してください。'),
     check('参考記事の非転載確認', Boolean(draft.referenceUse?.manualCopyCheckAt) && draft.referenceUse?.copiedText === false, '要修正', '参考記事の文言をコピーしていないことをHiroが確認してください。'),
     check('対象者と見送り条件', (draft.suitableFor ?? []).length > 0 && (draft.notSuitableFor ?? []).length > 0, '要修正', '向く人と見送る条件を設定してください。'),

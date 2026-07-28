@@ -107,7 +107,7 @@ function researchCard(opportunity) {
   } else {
     card.append(element('p', 'muted', '比較記事は手動確認後に登録します。本文・画像は取得しません。'));
   }
-  card.append(element('p', 'muted', `実体験区分: ${opportunity.experience?.type === 'owned' ? 'owned（登録済み）' : '未登録'} / 採用状態: ${opportunity.selectionStatus}`));
+  card.append(element('p', 'muted', `根拠区分: ${opportunity.experience?.type === 'owned' ? 'owned（実体験あり）' : '一次情報・ランキング'} / 採用状態: ${opportunity.selectionStatus}`));
   return card;
 }
 
@@ -124,7 +124,7 @@ export function renderResearch(container, operation) {
 
 export function renderExperiences(container, operation) {
   const experiences = operation?.experienceDb?.experiences ?? [];
-  if (!experiences.length) return empty(container, '実体験DBは未登録です。config/experience-db.jsonへHiro本人の記録を追加してください。');
+  if (!experiences.length) return empty(container, '実体験DBは任意です。未使用の商品は一次情報と比較軸だけで記事案を作成できます。');
   container.replaceChildren();
   container.append(element('h2', 'view-title', '実体験'));
   const list = element('div', 'os-list');
@@ -158,8 +158,8 @@ function articleCard(draft, quality, social) {
   addList(details, draft.headings);
   details.append(element('h3', '', '比較表の項目'));
   addList(details, draft.comparisonTable?.map((item) => `${item.item}: ${item.purpose}`));
-  details.append(element('h3', '', 'Hiroの実体験'));
-  details.append(element('p', 'experience-text', draft.experience?.text ?? '未入力'));
+  details.append(element('h3', '', draft.experience?.type === 'owned' ? 'Hiroの実体験' : '根拠の扱い'));
+  details.append(element('p', 'experience-text', draft.experience?.text ?? draft.experience?.note ?? '一次情報と比較軸のみを使用'));
   details.append(element('p', 'muted', `向く人: ${(draft.suitableFor ?? []).join(' / ')}`));
   details.append(element('p', 'muted', `見送る条件: ${(draft.notSuitableFor ?? []).join(' / ')}`));
   details.append(element('p', 'muted', `購入導線: ${draft.purchaseGuide?.note ?? '未入力'}（確認 ${formatDate(draft.purchaseGuide?.checkedAt)}）`));

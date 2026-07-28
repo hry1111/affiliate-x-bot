@@ -20,9 +20,10 @@ function findOwnedExperience(experiences, opportunity) {
 function experienceSection(experience) {
   if (!experience) {
     return {
-      type: 'missing',
+      type: 'not-used',
       sourceId: null,
-      text: '【ここに体験：購入理由、使用期間、良かった点、合わなかった点をHiro本人の言葉で入力】',
+      text: null,
+      note: 'Hiroは未使用。使用感は記載せず、一次情報と比較軸だけで構成する。',
     };
   }
   const lines = [
@@ -53,6 +54,7 @@ function draftVariant({ style, opportunity, experience, curatedProduct, generate
     comparison: `ランキングや価格だけで決めず、${axes.join('・')}を確認するための下書きです。`,
     avoid: `買ったあとに合わなかったと感じないよう、確認条件を先に整理する下書きです。`,
   };
+  const evidenceHeading = experience.type === 'owned' ? '実体験で確認できたこと' : '根拠と購入前の確認方法';
 
   return {
     id: `article:${opportunity.id}:${style}`,
@@ -71,7 +73,7 @@ function draftVariant({ style, opportunity, experience, curatedProduct, generate
     headings: [
       '最初に確認したい使う場面と条件',
       `${productName}を比較するときの軸`,
-      '実体験で確認できたこと',
+      evidenceHeading,
       '向く人・見送る条件',
       '購入前に販売ページで確認すること',
     ],
@@ -89,8 +91,11 @@ function draftVariant({ style, opportunity, experience, curatedProduct, generate
       })),
     ],
     experience,
+    claimsPolicy: experience.type === 'owned'
+      ? '使用感はexperience-db.jsonのowned記録にある内容だけを記載する。'
+      : 'Hiroは未使用。使用感、効果の断定、個人の感想は記載せず、一次情報と確認日時付きのランキング情報だけを扱う。',
     suitableFor: [target, '購入前に仕様と条件を確認できる人'],
-    notSuitableFor: ['必要な仕様やサイズが商品説明と合わない人', '実体験や一次情報を確認せずに即決したい人'],
+    notSuitableFor: ['必要な仕様やサイズが商品説明と合わない人', '販売ページの一次情報を確認せずに即決したい人'],
     purchaseGuide: {
       label: '販売ページで価格・仕様・在庫を確認する',
       url: opportunity.offer.url ?? null,
