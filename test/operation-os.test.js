@@ -73,6 +73,22 @@ test('ランキングスナップショットがあれば候補上限に依存�
   assert.equal(research.opportunities[0].genre, 'キッチン・調理');
 });
 
+test('未取得のランキング順位を0位として扱わない', () => {
+  const research = createResearchSnapshot({
+    candidateData: {
+      generatedAt,
+      candidates: [{ ...candidateData.candidates[0], primaryOffer: { ...candidateData.candidates[0].primaryOffer, rank: null } }],
+    },
+    topics: [{ genre: '夏の暮らし', label: '夏の暑さ対策', priority: 80 }],
+    referenceArticles: [],
+    experiences: [],
+    previousSnapshot: null,
+    generatedAt,
+  });
+  assert.equal(research.opportunities[0].offer.rank, null);
+  assert.equal(research.opportunities[0].demandScore.components.find((component) => component.name === '楽天ランキング').available, false);
+});
+
 test('実体験がない記事案は使用感を書かず、一次情報ベースの方針を残す', () => {
   const articles = generateArticleDrafts({
     requests: [{ id: 'request-1', enabled: true, genre: '夏の暮らし' }],
