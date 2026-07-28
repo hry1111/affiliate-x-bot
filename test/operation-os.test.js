@@ -86,6 +86,24 @@ test('実体験がない記事案は使用感を書かず、一次情報ベー�
   assert.match(articles.drafts[0].claimsPolicy, /Hiroは未使用/u);
 });
 
+test('正式候補を指定した記事案は、同ジャンルのランキング候補より正式候補を優先する', () => {
+  const research = createResearch();
+  const articles = generateArticleDrafts({
+    requests: [{ id: 'request-1', enabled: true, genre: '夏の暮らし', curatedProductId: 'formal-product' }],
+    research: {
+      ...research,
+      opportunities: [
+        research.opportunities[0],
+        { ...research.opportunities[0], id: 'research:formal', candidateId: 'formal-product', offer: { ...research.opportunities[0].offer, name: '正式候補' } },
+      ],
+    },
+    experiences: [],
+    curatedProducts: [{ id: 'formal-product' }],
+    generatedAt,
+  });
+  assert.match(articles.drafts[0].title, /正式候補/u);
+});
+
 test('未使用でも、一次情報などがそろえばSNS下書きの対象にできる', () => {
   const research = createResearch();
   const productId = research.opportunities[0].candidateId;

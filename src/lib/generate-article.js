@@ -5,6 +5,10 @@ function compactName(name) {
 
 function findOpportunity(request, research) {
   const opportunities = research.opportunities ?? [];
+  if (request.curatedProductId) {
+    const curatedOpportunity = opportunities.find((entry) => entry.candidateId === request.curatedProductId);
+    if (curatedOpportunity) return curatedOpportunity;
+  }
   if (request.researchId) return opportunities.find((entry) => entry.id === request.researchId) ?? null;
   return opportunities.find((entry) => entry.genre === request.genre) ?? null;
 }
@@ -37,7 +41,7 @@ function experienceSection(experience) {
 }
 
 function draftVariant({ style, opportunity, experience, curatedProduct, generatedAt }) {
-  const productName = compactName(opportunity.offer.name);
+  const productName = compactName(curatedProduct?.displayName ?? opportunity.offer.name);
   const target = opportunity.target || '選び方で迷っている人';
   const axes = opportunity.comparisonAxes?.length ? opportunity.comparisonAxes : ['価格と容量', '使う場面', '確認すべき仕様'];
   const sourceReferences = [

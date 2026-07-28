@@ -1,11 +1,12 @@
 import { composePostVariants } from './composePostVariants.js';
 
-function toOffer(item, provider) {
+function toOffer(item, provider, displayName = null) {
   if (!item) return null;
   return {
     provider,
     label: provider === 'rakuten' ? '楽天市場' : 'Amazon',
-    name: item.name,
+    name: displayName || item.name,
+    listingName: item.name,
     price: item.price,
     url: item.url,
     imageUrl: item.imageUrl,
@@ -30,8 +31,8 @@ export function createCuratedCandidates({ products, offersByProduct, config }) {
   for (const product of products.filter((entry) => entry.enabled !== false)) {
     const offers = offersByProduct.get(product.id) ?? {};
     const purchaseOptions = orderedOffers(product, {
-      rakuten: toOffer(offers.rakuten, 'rakuten'),
-      amazon: toOffer(offers.amazon, 'amazon'),
+      rakuten: toOffer(offers.rakuten, 'rakuten', product.displayName),
+      amazon: toOffer(offers.amazon, 'amazon', product.displayName),
     });
     const primaryOffer = purchaseOptions[0];
 

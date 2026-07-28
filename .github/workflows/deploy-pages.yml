@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - 'docs/**'
-      - 'data/post-candidates.json'
+      - 'data/**'
   workflow_dispatch:
 
 permissions:
@@ -29,7 +29,7 @@ jobs:
       - name: Build page artifact
         run: |
           mkdir -p docs/data
-          cp data/post-candidates.json docs/data/post-candidates.json
+          cp -R data/. docs/data/
 
       - uses: actions/upload-pages-artifact@v3
         with:

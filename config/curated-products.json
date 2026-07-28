@@ -30,5 +30,44 @@
     "amazon": {
       "asin": "B000000000"
     }
+  },
+  {
+    "id": "cicibella-4way-handy-fan-pro",
+    "displayName": "CICIBELLA 4way 冷却ハンディファンPRO",
+    "enabled": true,
+    "priority": 100,
+    "genre": "夏の暮らし",
+    "target": "通勤・買い物・屋外イベントで持ち運べる暑さ対策を探している人",
+    "problem": "ハンディファンを選ぶときに、冷却プレートの有無や持ち運びやすさで迷う",
+    "postMode": "research",
+    "reason": "楽天リアルタイムランキングと、風量・静音性・持ち運びを比較軸にした外部比較記事の両方を確認できるため、夏の候補として扱う。",
+    "caution": "冷却感、連続使用時間、音の感じ方には個人差があります。サイズ、充電条件、使用上の注意を販売ページで確認してください。",
+    "primaryProvider": "rakuten",
+    "primaryInformation": {
+      "url": "https://item.rakuten.co.jp/cicib/e1-2/",
+      "checkedAt": "2026-07-28",
+      "sourceType": "公式楽天市場店の商品ページ"
+    },
+    "referenceUse": {
+      "copiedText": false,
+      "manualCopyCheckAt": "2026-07-28"
+    },
+    "sourceReferences": [
+      {
+        "publisher": "360LiFE",
+        "title": "2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較",
+        "url": "https://360life.shinyusha.co.jp/articles/-/6667",
+        "checkedAt": "2026-07-28"
+      },
+      {
+        "publisher": "mybest",
+        "title": "徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング",
+        "url": "https://my-best.com/2226",
+        "checkedAt": "2026-07-28"
+      }
+    ],
+    "rakuten": {
+      "itemCode": "cicib:10003314"
+    }
   }
 ]

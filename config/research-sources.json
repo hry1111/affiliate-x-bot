@@ -13,5 +13,52 @@
     "competitorArticleCount": null,
     "competitorCountSource": null
   },
-  "referenceArticles": []
+  "referenceArticles": [
+    {
+      "id": "summer-handy-fan-360life-20260728",
+      "genre": "夏の暮らし",
+      "url": "https://360life.shinyusha.co.jp/articles/-/6667",
+      "title": "2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較",
+      "publisher": "360LiFE",
+      "checkedAt": "2026-07-28",
+      "whyLikelyTop": "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+      "structurePatterns": [
+        "用途別の悩みを導入で整理する",
+        "選び方と比較軸を先に示す",
+        "タイプ別に候補を分ける",
+        "購入前の確認事項で締める"
+      ],
+      "comparisonAxes": [
+        "風量",
+        "静音性",
+        "冷却プレートの有無",
+        "持ち運びやすさ",
+        "連続使用時間"
+      ],
+      "competitorArticleCount": null,
+      "competitorCountSource": null
+    },
+    {
+      "id": "summer-handy-fan-mybest-20260728",
+      "genre": "夏の暮らし",
+      "url": "https://my-best.com/2226",
+      "title": "徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング",
+      "publisher": "mybest",
+      "checkedAt": "2026-07-28",
+      "whyLikelyTop": "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。",
+      "structurePatterns": [
+        "用途別の悩みを導入で整理する",
+        "選び方と比較軸を先に示す",
+        "購入前の確認事項で締める"
+      ],
+      "comparisonAxes": [
+        "風量",
+        "バッテリーの持ち",
+        "持ち運びやすさ",
+        "静かさ"
+      ],
+      "competitorArticleCount": null,
+      "competitorCountSource": null
+    }
+  ]
 }

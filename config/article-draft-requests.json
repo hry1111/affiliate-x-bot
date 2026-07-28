@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "requests": [
     {
-      "id": "example-request",
-      "enabled": false,
-      "genre": "",
+      "id": "scheduled-summer-handy-fan",
+      "enabled": true,
+      "genre": "夏の暮らし",
       "researchId": "",
-      "curatedProductId": "",
-      "status": "draft_request",
-      "requestedAt": null
+      "curatedProductId": "cicibella-4way-handy-fan-pro",
+      "status": "scheduled",
+      "requestedAt": "2026-07-28"
     }
   ]
 }
