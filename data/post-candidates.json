@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T00:02:59.983Z",
+  "generatedAt": "2026-08-06T00:00:11.474Z",
   "genres": [
     "キッチン・調理",
     "スマホ・PC周辺",
@@ -40,10 +40,10 @@
         "provider": "rakuten",
         "label": "楽天市場",
         "name": "CICIBELLA 4way 冷却ハンディファンPRO",
-        "listingName": "衝撃セール980円〜【楽天1位☆テレビ紹介】4way 冷却ハンディファンPRO 2026 ハンディファン 冷却プレート 扇風機 シシベラ ハンディファン 静音 軽量 強風 小型 冷却モード 充電式 冷却 携帯扇風機 卓上扇風機 小型扇風機 cicibella 手持ち扇風機「MONOQLO受賞」＜公式＞",
+        "listingName": "衝撃セール990円〜【楽天1位☆テレビ紹介】4way 冷却ハンディファンPRO 2026 ハンディファン 冷却プレート 扇風機 シシベラ ハンディファン 静音 軽量 強風 小型 冷却モード 充電式 冷却 携帯扇風機 卓上扇風機 小型扇風機 cicibella 手持ち扇風機「MONOQLO受賞」＜公式＞",
         "price": 2780,
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcicib%2Fi%2F10003314%2F&rafcid=wsc_i_is_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cicib/cabinet/top1-980.jpg?_ex=128x128",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cicib/cabinet/top1-990.jpg?_ex=128x128",
         "shopName": "CICI BELLA",
         "rank": null,
         "reviewCount": null,
@@ -54,10 +54,10 @@
           "provider": "rakuten",
           "label": "楽天市場",
           "name": "CICIBELLA 4way 冷却ハンディファンPRO",
-          "listingName": "衝撃セール980円〜【楽天1位☆テレビ紹介】4way 冷却ハンディファンPRO 2026 ハンディファン 冷却プレート 扇風機 シシベラ ハンディファン 静音 軽量 強風 小型 冷却モード 充電式 冷却 携帯扇風機 卓上扇風機 小型扇風機 cicibella 手持ち扇風機「MONOQLO受賞」＜公式＞",
+          "listingName": "衝撃セール990円〜【楽天1位☆テレビ紹介】4way 冷却ハンディファンPRO 2026 ハンディファン 冷却プレート 扇風機 シシベラ ハンディファン 静音 軽量 強風 小型 冷却モード 充電式 冷却 携帯扇風機 卓上扇風機 小型扇風機 cicibella 手持ち扇風機「MONOQLO受賞」＜公式＞",
           "price": 2780,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcicib%2Fi%2F10003314%2F&rafcid=wsc_i_is_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cicib/cabinet/top1-980.jpg?_ex=128x128",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cicib/cabinet/top1-990.jpg?_ex=128x128",
           "shopName": "CICI BELLA",
           "rank": null,
           "reviewCount": null,
@@ -84,51 +84,98 @@
       "priority": 100
     },
     {
-      "id": "trend:daily-household:masam1963:10000020",
+      "id": "trend:summer-cooling:darkangel:10031059",
       "candidateType": "discovery",
-      "genre": "日用品・家事",
-      "target": "毎日の家事を少し楽にしたい人",
-      "problem": "日用品を値段だけで選んで失敗したくない",
-      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング2位の商品。",
-      "caution": "素材との相性と使用方法を販売ページで確認してください。",
+      "genre": "夏の暮らし",
+      "target": "暑さ対策を早めに済ませたい人",
+      "problem": "冷感グッズや持ち歩ける暑さ対策を選びきれない",
+      "reason": "夏の暑さ対策の候補として、楽天市場リアルタイムランキング25位の商品。",
+      "caution": "サイズ・対応環境・消耗品の有無は販売ページで確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "日用品・家事 / リアルタイムランキング 2位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tml82.5dkfa5d5.g00tml82.5dkfbf81/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmasam1963%2Fpd-302%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+          "title": "夏の暑さ対策 / リアルタイムランキング 25位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00q8qj2.5dkfa87f.g00q8qj2.5dkfb919/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdarkangel%2Fotg1704-0115%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
       "primaryOffer": {
         "provider": "rakuten",
         "label": "楽天市場",
-        "name": "ピエール ダルジャン ラベンダーの香り オーガニック 洗剤 万能クリーナー 無添加洗剤 多目的洗剤 お風呂 掃除 グッズ 水垢 クリーナー お風呂洗剤 浴室 鏡うろことり 換気扇掃除 ラク キッチン シンク 焦げ落とし ガスコンロ 油 汚れ 落とし 便利グッズ 多目的",
-        "price": "3300",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tml82.5dkfa5d5.g00tml82.5dkfbf81/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmasam1963%2Fpd-302%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/masam1963/cabinet/09239711/la1c.jpg?_ex=128x128",
-        "shopName": "Pierre",
-        "rank": 2,
-        "reviewCount": 334,
-        "reviewAverage": 4.15
+        "name": "77%OFF!【8/5 10時〜24H限定：4,490円→999円！】【年間ランキング3位】 UVパーカー UV UPF50+ UVカット ラッシュガード レディース 自転車 長袖 薄手 日焼け止め スポーツ ジム ヨガ マスク 元祖冷感coolify【完全防備UVカットパーカー】",
+        "price": "999",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00q8qj2.5dkfa87f.g00q8qj2.5dkfb919/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdarkangel%2Fotg1704-0115%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/darkangel/cabinet/12863863/13534266/0115-main-260701.jpg?_ex=128x128",
+        "shopName": "Dark Angel （ダークエンジェル）",
+        "rank": 25,
+        "reviewCount": 16203,
+        "reviewAverage": 4.16
       },
       "purchaseOptions": [
         {
           "provider": "rakuten",
           "label": "楽天市場",
-          "name": "ピエール ダルジャン ラベンダーの香り オーガニック 洗剤 万能クリーナー 無添加洗剤 多目的洗剤 お風呂 掃除 グッズ 水垢 クリーナー お風呂洗剤 浴室 鏡うろことり 換気扇掃除 ラク キッチン シンク 焦げ落とし ガスコンロ 油 汚れ 落とし 便利グッズ 多目的",
-          "price": "3300",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tml82.5dkfa5d5.g00tml82.5dkfbf81/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmasam1963%2Fpd-302%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/masam1963/cabinet/09239711/la1c.jpg?_ex=128x128",
-          "shopName": "Pierre",
-          "rank": 2,
-          "reviewCount": 334,
-          "reviewAverage": 4.15
+          "name": "77%OFF!【8/5 10時〜24H限定：4,490円→999円！】【年間ランキング3位】 UVパーカー UV UPF50+ UVカット ラッシュガード レディース 自転車 長袖 薄手 日焼け止め スポーツ ジム ヨガ マスク 元祖冷感coolify【完全防備UVカットパーカー】",
+          "price": "999",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00q8qj2.5dkfa87f.g00q8qj2.5dkfb919/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdarkangel%2Fotg1704-0115%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/darkangel/cabinet/12863863/13534266/0115-main-260701.jpg?_ex=128x128",
+          "shopName": "Dark Angel （ダークエンジェル）",
+          "rank": 25,
+          "reviewCount": 16203,
+          "reviewAverage": 4.16
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "日用品・家事 / 楽天リアルタイム 2位 / 評価 4.15（334件）",
-      "reviewDraft": "{\n  \"id\": \"review-daily-household-masam1963-10000020\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"masam1963:10000020\"\n  }\n}",
-      "score": 115
+      "selectionSummary": "夏の暑さ対策 / 楽天リアルタイム 25位 / 評価 4.16（16203件）",
+      "reviewDraft": "{\n  \"id\": \"review-summer-cooling-darkangel-10031059\",\n  \"enabled\": false,\n  \"priority\": 80,\n  \"genre\": \"夏の暮らし\",\n  \"target\": \"暑さ対策を早めに済ませたい人\",\n  \"problem\": \"冷感グッズや持ち歩ける暑さ対策を選びきれない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"サイズ・対応環境・消耗品の有無は販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"darkangel:10031059\"\n  }\n}",
+      "score": 114
+    },
+    {
+      "id": "trend:beauty-grooming:larocheposay:10000039",
+      "candidateType": "discovery",
+      "genre": "美容・身だしなみ",
+      "target": "毎日の身だしなみ用品を見直したい人",
+      "problem": "定番のケア用品を自分に合うものへ替えたい",
+      "reason": "美容・身だしなみの候補として、楽天市場リアルタイムランキング8位の商品。",
+      "caution": "肌質・香り・成分との相性はあるため、商品説明を確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "美容・身だしなみ / リアルタイムランキング 8位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00twl62.5dkfa774.g00twl62.5dkfb136/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flarocheposay%2Fl00332ropenkit%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "ポイント最大19倍★楽天お買い物マラソン 8/4 20:00~ 8/11 01:59★【公式】楽天限定★トーンアップUV 人気サンプルキット / 30mL / ローズ＋ / ホワイト / クリア / ティント / ローズ＋ BIGサイズ 50mL / 無香料 / 日焼け止め / SPF 50+ / 正規品/ ダーマコスメ",
+        "price": "3960",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00twl62.5dkfa774.g00twl62.5dkfb136/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flarocheposay%2Fl00332ropenkit%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/larocheposay/cabinet/products/11910172/imgrc0139185571.jpg?_ex=128x128",
+        "shopName": "ラ ロッシュ ポゼ 公式ショップ",
+        "rank": 8,
+        "reviewCount": 11373,
+        "reviewAverage": 4.69
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "ポイント最大19倍★楽天お買い物マラソン 8/4 20:00~ 8/11 01:59★【公式】楽天限定★トーンアップUV 人気サンプルキット / 30mL / ローズ＋ / ホワイト / クリア / ティント / ローズ＋ BIGサイズ 50mL / 無香料 / 日焼け止め / SPF 50+ / 正規品/ ダーマコスメ",
+          "price": "3960",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00twl62.5dkfa774.g00twl62.5dkfb136/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flarocheposay%2Fl00332ropenkit%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/larocheposay/cabinet/products/11910172/imgrc0139185571.jpg?_ex=128x128",
+          "shopName": "ラ ロッシュ ポゼ 公式ショップ",
+          "rank": 8,
+          "reviewCount": 11373,
+          "reviewAverage": 4.69
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "美容・身だしなみ / 楽天リアルタイム 8位 / 評価 4.69（11373件）",
+      "reviewDraft": "{\n  \"id\": \"review-beauty-grooming-larocheposay-10000039\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"美容・身だしなみ\",\n  \"target\": \"毎日の身だしなみ用品を見直したい人\",\n  \"problem\": \"定番のケア用品を自分に合うものへ替えたい\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"肌質・香り・成分との相性はあるため、商品説明を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"larocheposay:10000039\"\n  }\n}",
+      "score": 112
     },
     {
       "id": "trend:beauty-grooming:attenir:10000252",
@@ -136,140 +183,140 @@
       "genre": "美容・身だしなみ",
       "target": "毎日の身だしなみ用品を見直したい人",
       "problem": "定番のケア用品を自分に合うものへ替えたい",
-      "reason": "美容・身だしなみの候補として、楽天市場リアルタイムランキング6位の商品。",
+      "reason": "美容・身だしなみの候補として、楽天市場リアルタイムランキング10位の商品。",
       "caution": "肌質・香り・成分との相性はあるため、商品説明を確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "美容・身だしなみ / リアルタイムランキング 6位",
+          "title": "美容・身だしなみ / リアルタイムランキング 10位",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00tna62.5dkfa056.g00tna62.5dkfb68b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fattenir%2F166013%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
       "primaryOffer": {
         "provider": "rakuten",
         "label": "楽天市場",
-        "name": "【ポイント10倍！8月4日20:00〜8月11日1:59】大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 皮脂 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+        "name": "【ポイント10倍！〜8月11日1:59】大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 皮脂 詰め替え ダブル洗顔不要 アテニア 公式 ]",
         "price": "3630",
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00tna62.5dkfa056.g00tna62.5dkfb68b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fattenir%2F166013%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
         "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/attenir/cabinet/thum/166013_main_2608.jpg?_ex=128x128",
         "shopName": "アテニア公式ショップ　楽天市場店",
-        "rank": 6,
-        "reviewCount": 47905,
+        "rank": 10,
+        "reviewCount": 47930,
         "reviewAverage": 4.8
       },
       "purchaseOptions": [
         {
           "provider": "rakuten",
           "label": "楽天市場",
-          "name": "【ポイント10倍！8月4日20:00〜8月11日1:59】大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 皮脂 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+          "name": "【ポイント10倍！〜8月11日1:59】大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 皮脂 詰め替え ダブル洗顔不要 アテニア 公式 ]",
           "price": "3630",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00tna62.5dkfa056.g00tna62.5dkfb68b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fattenir%2F166013%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/attenir/cabinet/thum/166013_main_2608.jpg?_ex=128x128",
           "shopName": "アテニア公式ショップ　楽天市場店",
-          "rank": 6,
-          "reviewCount": 47905,
+          "rank": 10,
+          "reviewCount": 47930,
           "reviewAverage": 4.8
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "美容・身だしなみ / 楽天リアルタイム 6位 / 評価 4.8（47905件）",
+      "selectionSummary": "美容・身だしなみ / 楽天リアルタイム 10位 / 評価 4.8（47930件）",
       "reviewDraft": "{\n  \"id\": \"review-beauty-grooming-attenir-10000252\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"美容・身だしなみ\",\n  \"target\": \"毎日の身だしなみ用品を見直したい人\",\n  \"problem\": \"定番のケア用品を自分に合うものへ替えたい\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"肌質・香り・成分との相性はあるため、商品説明を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"attenir:10000252\"\n  }\n}",
-      "score": 115
-    },
-    {
-      "id": "trend:preparedness:biyoudou:10000164",
-      "candidateType": "discovery",
-      "genre": "防災",
-      "target": "非常時の備えを見直したい人",
-      "problem": "防災用品を何から揃えるか迷っている",
-      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング25位の商品。",
-      "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "防災・備え / リアルタイムランキング 25位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "【2,380円→SALE 2,299円(350ml対象)｜4日20:00～11日9:59】BIYOUDO 水 シリカ水 500ml×42本 350ml×48本 ナチュラルミネラルウォーター ラベルレス 軟水 美容ミネラル シリカ含有 天然水 飲むシリカ 500 保存料なし 酵素ドリンク 等にも 保存水 国産 日本製 美陽堂 公式",
-        "price": "2299",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/biyoudou/cabinet/salethumb/imgrc0105029580.jpg?_ex=128x128",
-        "shopName": "BIYOUDO 公式ストア",
-        "rank": 25,
-        "reviewCount": 53884,
-        "reviewAverage": 4.82
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "【2,380円→SALE 2,299円(350ml対象)｜4日20:00～11日9:59】BIYOUDO 水 シリカ水 500ml×42本 350ml×48本 ナチュラルミネラルウォーター ラベルレス 軟水 美容ミネラル シリカ含有 天然水 飲むシリカ 500 保存料なし 酵素ドリンク 等にも 保存水 国産 日本製 美陽堂 公式",
-          "price": "2299",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/biyoudou/cabinet/salethumb/imgrc0105029580.jpg?_ex=128x128",
-          "shopName": "BIYOUDO 公式ストア",
-          "rank": 25,
-          "reviewCount": 53884,
-          "reviewAverage": 4.82
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 25位 / 評価 4.82（53884件）",
-      "reviewDraft": "{\n  \"id\": \"review-preparedness-biyoudou-10000164\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"biyoudou:10000164\"\n  }\n}",
       "score": 111
     },
     {
-      "id": "trend:baby-kids:netbaby:10035957",
+      "id": "trend:daily-household:oujiseiyaku:10000403",
       "candidateType": "discovery",
-      "genre": "子育て・ベビー",
-      "target": "子どもの生活用品を効率よく選びたい人",
-      "problem": "ベビー・キッズ用品のサイズや用途で迷う",
-      "reason": "子育て・ベビーの候補として、楽天市場リアルタイムランキング9位の商品。",
-      "caution": "対象年齢・サイズ・安全上の注意を販売ページで確認してください。",
+      "genre": "日用品・家事",
+      "target": "毎日の家事を少し楽にしたい人",
+      "problem": "日用品を値段だけで選んで失敗したくない",
+      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング7位の商品。",
+      "caution": "素材との相性と使用方法を販売ページで確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "子育て・ベビー / リアルタイムランキング 9位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd42.5dkfaa59.g00pzd42.5dkfb1ad/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404758%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+          "title": "日用品・家事 / リアルタイムランキング 7位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uexx2.5dkfab59.g00uexx2.5dkfbbd4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foujiseiyaku%2Fec20260119007%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
       "primaryOffer": {
         "provider": "rakuten",
         "label": "楽天市場",
-        "name": "【1種類を選べる】メリーズ エアスルー パンツ 梱販販売用(3袋入×1箱)【メリーズ】[おむつ オムツ 紙おむつ 紙オムツ さらさらエアスルー]",
-        "price": "5980",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd42.5dkfaa59.g00pzd42.5dkfb1ad/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404758%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/netbaby/cabinet/758/404758.jpg?_ex=128x128",
-        "shopName": "楽天24 ベビー館",
-        "rank": 9,
-        "reviewCount": 3914,
-        "reviewAverage": 4.83
+        "name": "【期間限定 50％OFF】＜甘く華やぐ香りセット＞ アフューム 洗濯洗剤 柔軟剤入り洗剤 ローズ本体42粒 アモーレ詰め替え20粒 エターナル詰め替え6粒×4袋 リリー詰め替え20粒 ファブリックスプレー ハピネス250mL 柔軟剤 ブリス530mL 香りビーズ スウィートシャイン150g",
+        "price": "4000",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00uexx2.5dkfab59.g00uexx2.5dkfbbd4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foujiseiyaku%2Fec20260119007%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/oujiseiyaku/cabinet/12025037/imgrc0120791302.jpg?_ex=128x128",
+        "shopName": "王子製薬 楽天市場店",
+        "rank": 7,
+        "reviewCount": 21,
+        "reviewAverage": 4.71
       },
       "purchaseOptions": [
         {
           "provider": "rakuten",
           "label": "楽天市場",
-          "name": "【1種類を選べる】メリーズ エアスルー パンツ 梱販販売用(3袋入×1箱)【メリーズ】[おむつ オムツ 紙おむつ 紙オムツ さらさらエアスルー]",
-          "price": "5980",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd42.5dkfaa59.g00pzd42.5dkfb1ad/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404758%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/netbaby/cabinet/758/404758.jpg?_ex=128x128",
-          "shopName": "楽天24 ベビー館",
-          "rank": 9,
-          "reviewCount": 3914,
-          "reviewAverage": 4.83
+          "name": "【期間限定 50％OFF】＜甘く華やぐ香りセット＞ アフューム 洗濯洗剤 柔軟剤入り洗剤 ローズ本体42粒 アモーレ詰め替え20粒 エターナル詰め替え6粒×4袋 リリー詰め替え20粒 ファブリックスプレー ハピネス250mL 柔軟剤 ブリス530mL 香りビーズ スウィートシャイン150g",
+          "price": "4000",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uexx2.5dkfab59.g00uexx2.5dkfbbd4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foujiseiyaku%2Fec20260119007%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/oujiseiyaku/cabinet/12025037/imgrc0120791302.jpg?_ex=128x128",
+          "shopName": "王子製薬 楽天市場店",
+          "rank": 7,
+          "reviewCount": 21,
+          "reviewAverage": 4.71
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "子育て・ベビー / 楽天リアルタイム 9位 / 評価 4.83（3914件）",
-      "reviewDraft": "{\n  \"id\": \"review-baby-kids-netbaby-10035957\",\n  \"enabled\": false,\n  \"priority\": 55,\n  \"genre\": \"子育て・ベビー\",\n  \"target\": \"子どもの生活用品を効率よく選びたい人\",\n  \"problem\": \"ベビー・キッズ用品のサイズや用途で迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"対象年齢・サイズ・安全上の注意を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"netbaby:10035957\"\n  }\n}",
-      "score": 107
+      "selectionSummary": "日用品・家事 / 楽天リアルタイム 7位 / 評価 4.71（21件）",
+      "reviewDraft": "{\n  \"id\": \"review-daily-household-oujiseiyaku-10000403\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"oujiseiyaku:10000403\"\n  }\n}",
+      "score": 108
+    },
+    {
+      "id": "trend:summer-cooling:darkangel:10036035",
+      "candidateType": "discovery",
+      "genre": "夏の暮らし",
+      "target": "暑さ対策を早めに済ませたい人",
+      "problem": "冷感グッズや持ち歩ける暑さ対策を選びきれない",
+      "reason": "夏の暑さ対策の候補として、楽天市場リアルタイムランキング74位の商品。",
+      "caution": "サイズ・対応環境・消耗品の有無は販売ページで確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "夏の暑さ対策 / リアルタイムランキング 74位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00q8qj2.5dkfa87f.g00q8qj2.5dkfb919/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdarkangel%2Fto2305-1114%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "75%OFF!【好評延長：3,980円→990円～！】※1人様3枚まで※ 【年間ランキング4位】 ルームウェア さらてろリブ セットアップ 上下セット 長袖 ウエストゴム ハイウエスト 腹巻 ワンマイルウェア 【 ルームウェア上下セット】元祖冷感coolify　腹巻以外がページ内最安",
+        "price": "990",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00q8qj2.5dkfa87f.g00q8qj2.5dkfb919/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdarkangel%2Fto2305-1114%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/darkangel/cabinet/12863863/13534266/1114-main-260709.jpg?_ex=128x128",
+        "shopName": "Dark Angel （ダークエンジェル）",
+        "rank": 74,
+        "reviewCount": 17468,
+        "reviewAverage": 4.32
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "75%OFF!【好評延長：3,980円→990円～！】※1人様3枚まで※ 【年間ランキング4位】 ルームウェア さらてろリブ セットアップ 上下セット 長袖 ウエストゴム ハイウエスト 腹巻 ワンマイルウェア 【 ルームウェア上下セット】元祖冷感coolify　腹巻以外がページ内最安",
+          "price": "990",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00q8qj2.5dkfa87f.g00q8qj2.5dkfb919/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdarkangel%2Fto2305-1114%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/darkangel/cabinet/12863863/13534266/1114-main-260709.jpg?_ex=128x128",
+          "shopName": "Dark Angel （ダークエンジェル）",
+          "rank": 74,
+          "reviewCount": 17468,
+          "reviewAverage": 4.32
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "夏の暑さ対策 / 楽天リアルタイム 74位 / 評価 4.32（17468件）",
+      "reviewDraft": "{\n  \"id\": \"review-summer-cooling-darkangel-10036035\",\n  \"enabled\": false,\n  \"priority\": 80,\n  \"genre\": \"夏の暮らし\",\n  \"target\": \"暑さ対策を早めに済ませたい人\",\n  \"problem\": \"冷感グッズや持ち歩ける暑さ対策を選びきれない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"サイズ・対応環境・消耗品の有無は販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"darkangel:10036035\"\n  }\n}",
+      "score": 99
     },
     {
       "id": "trend:summer-cooling:suzukachan:10000000",
@@ -277,13 +324,13 @@
       "genre": "夏の暮らし",
       "target": "暑さ対策を早めに済ませたい人",
       "problem": "冷感グッズや持ち歩ける暑さ対策を選びきれない",
-      "reason": "夏の暑さ対策の候補として、楽天市場リアルタイムランキング103位の商品。",
+      "reason": "夏の暑さ対策の候補として、楽天市場リアルタイムランキング92位の商品。",
       "caution": "サイズ・対応環境・消耗品の有無は販売ページで確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "夏の暑さ対策 / リアルタイムランキング 103位",
+          "title": "夏の暑さ対策 / リアルタイムランキング 92位",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00rqrk2.5dkfa984.g00rqrk2.5dkfb482/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuzukachan%2F540%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
@@ -295,8 +342,8 @@
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00rqrk2.5dkfa984.g00rqrk2.5dkfb482/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuzukachan%2F540%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
         "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/suzukachan/cabinet/03264529/std/st_thumbnail_1000.jpg?_ex=128x128",
         "shopName": "UVカットマスク通販 MARUFUKU",
-        "rank": 103,
-        "reviewCount": 7366,
+        "rank": 92,
+        "reviewCount": 7376,
         "reviewAverage": 4.66
       },
       "purchaseOptions": [
@@ -308,61 +355,14 @@
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00rqrk2.5dkfa984.g00rqrk2.5dkfb482/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuzukachan%2F540%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/suzukachan/cabinet/03264529/std/st_thumbnail_1000.jpg?_ex=128x128",
           "shopName": "UVカットマスク通販 MARUFUKU",
-          "rank": 103,
-          "reviewCount": 7366,
+          "rank": 92,
+          "reviewCount": 7376,
           "reviewAverage": 4.66
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "夏の暑さ対策 / 楽天リアルタイム 103位 / 評価 4.66（7366件）",
+      "selectionSummary": "夏の暑さ対策 / 楽天リアルタイム 92位 / 評価 4.66（7376件）",
       "reviewDraft": "{\n  \"id\": \"review-summer-cooling-suzukachan-10000000\",\n  \"enabled\": false,\n  \"priority\": 80,\n  \"genre\": \"夏の暮らし\",\n  \"target\": \"暑さ対策を早めに済ませたい人\",\n  \"problem\": \"冷感グッズや持ち歩ける暑さ対策を選びきれない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"サイズ・対応環境・消耗品の有無は販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"suzukachan:10000000\"\n  }\n}",
-      "score": 99
-    },
-    {
-      "id": "trend:summer-cooling:cicib:10003314",
-      "candidateType": "discovery",
-      "genre": "夏の暮らし",
-      "target": "暑さ対策を早めに済ませたい人",
-      "problem": "冷感グッズや持ち歩ける暑さ対策を選びきれない",
-      "reason": "夏の暑さ対策の候補として、楽天市場リアルタイムランキング85位の商品。",
-      "caution": "サイズ・対応環境・消耗品の有無は販売ページで確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "夏の暑さ対策 / リアルタイムランキング 85位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "衝撃セール980円〜【楽天1位☆テレビ紹介】4way 冷却ハンディファンPRO 2026 ハンディファン 冷却プレート 扇風機 シシベラ ハンディファン 静音 軽量 強風 小型 冷却モード 充電式 冷却 携帯扇風機 卓上扇風機 小型扇風機 cicibella 手持ち扇風機「MONOQLO受賞」＜公式＞",
-        "price": "2780",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cicib/cabinet/top1-980.jpg?_ex=128x128",
-        "shopName": "CICI BELLA",
-        "rank": 85,
-        "reviewCount": 2962,
-        "reviewAverage": 4.5
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "衝撃セール980円〜【楽天1位☆テレビ紹介】4way 冷却ハンディファンPRO 2026 ハンディファン 冷却プレート 扇風機 シシベラ ハンディファン 静音 軽量 強風 小型 冷却モード 充電式 冷却 携帯扇風機 卓上扇風機 小型扇風機 cicibella 手持ち扇風機「MONOQLO受賞」＜公式＞",
-          "price": "2780",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cicib/cabinet/top1-980.jpg?_ex=128x128",
-          "shopName": "CICI BELLA",
-          "rank": 85,
-          "reviewCount": 2962,
-          "reviewAverage": 4.5
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "夏の暑さ対策 / 楽天リアルタイム 85位 / 評価 4.5（2962件）",
-      "reviewDraft": "{\n  \"id\": \"review-summer-cooling-cicib-10003314\",\n  \"enabled\": false,\n  \"priority\": 80,\n  \"genre\": \"夏の暮らし\",\n  \"target\": \"暑さ対策を早めに済ませたい人\",\n  \"problem\": \"冷感グッズや持ち歩ける暑さ対策を選びきれない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"サイズ・対応環境・消耗品の有無は販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"cicib:10003314\"\n  }\n}",
       "score": 99
     }
   ]
