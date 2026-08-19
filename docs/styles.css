@@ -71,6 +71,10 @@ h1 { font-size: 28px; margin: 0; }
 .caution { color: #6c3f20; }
 .selection-summary { background: #fff5e7; color: #8a391b; font-size: 12px; line-height: 1.5; margin: 10px 0 0; padding: 7px 8px; }
 
+.social-strategy { background: #f0f6f3; border: 1px solid #bfd1c8; font-size: 12px; margin-top: 10px; padding: 7px 8px; }
+.social-strategy summary { color: #075c51; cursor: pointer; font-weight: 700; }
+.social-strategy p { line-height: 1.5; margin: 6px 0 0; }
+
 .research-summary { background: #f0f6f3; border-left: 3px solid #27756a; color: #31564e; font-size: 12px; line-height: 1.55; margin-top: 10px; padding: 8px 9px; }
 .research-summary p { margin: 0 0 5px; }
 .research-summary a { color: #075c51; display: block; overflow-wrap: anywhere; }

@@ -1,4 +1,5 @@
 import { composePostVariants } from './composePostVariants.js';
+import { createSocialStrategy } from './socialStrategy.js';
 
 function toOffer(item, provider, displayName = null) {
   if (!item) return null;
@@ -41,7 +42,7 @@ export function createCuratedCandidates({ products, offersByProduct, config }) {
       continue;
     }
 
-    candidates.push({
+    const candidate = {
       id: product.id,
       candidateType: 'ready',
       genre: product.genre,
@@ -53,13 +54,16 @@ export function createCuratedCandidates({ products, offersByProduct, config }) {
       sourceReferences: product.sourceReferences,
       primaryOffer,
       purchaseOptions,
-      copyVariants: composePostVariants({
+      priority: Number(product.priority ?? 0),
+    };
+    candidate.socialStrategy = createSocialStrategy(candidate);
+    candidate.copyVariants = composePostVariants({
         product,
         item: primaryOffer,
         disclosureText: config.disclosureText,
-      }),
-      priority: Number(product.priority ?? 0),
-    });
+        socialStrategy: candidate.socialStrategy,
+      });
+    candidates.push(candidate);
   }
 
   return candidates

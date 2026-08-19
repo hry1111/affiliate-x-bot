@@ -1,4 +1,5 @@
 import { renderArticles, renderExperiences, renderQuality, renderResearch } from './os-ui.js';
+import { formatSocialStrategy } from './socialStrategyView.js';
 
 const list = document.querySelector('#candidate-list');
 const updatedAt = document.querySelector('#updated-at');
@@ -106,6 +107,11 @@ function createCandidate(candidate, hiddenIds) {
   const reason = fragment.querySelector('.reason');
   const caution = fragment.querySelector('.caution');
   const selectionSummary = fragment.querySelector('.selection-summary');
+  const socialStrategy = fragment.querySelector('.social-strategy');
+  const socialStrategySummary = fragment.querySelector('.social-strategy-summary');
+  const socialStrategyScores = fragment.querySelector('.social-strategy-scores');
+  const socialStrategyHook = fragment.querySelector('.social-strategy-hook');
+  const socialStrategyConfidence = fragment.querySelector('.social-strategy-confidence');
   const researchSummary = fragment.querySelector('.research-summary');
   const sourceReferences = fragment.querySelector('.source-references');
   const offerList = fragment.querySelector('.offer-list');
@@ -117,6 +123,8 @@ function createCandidate(candidate, hiddenIds) {
   const discoveryActions = fragment.querySelector('.discovery-actions');
   const copyConfigButton = fragment.querySelector('.copy-config-button');
   const isDiscovery = candidate.candidateType === 'discovery';
+  const strategyView = formatSocialStrategy(candidate.socialStrategy);
+  const isRejected = candidate.socialStrategy?.post_type === 'REJECT';
   const primaryOffer = candidate.primaryOffer;
 
   image.src = primaryOffer.imageUrl || '';
@@ -124,7 +132,7 @@ function createCandidate(candidate, hiddenIds) {
   image.hidden = !primaryOffer.imageUrl;
   card.classList.toggle('without-image', !primaryOffer.imageUrl);
   card.classList.toggle('discovery-card', isDiscovery);
-  candidateKind.textContent = isDiscovery ? '要確認' : '投稿可能';
+  candidateKind.textContent = isRejected ? '投稿対象外' : isDiscovery ? '要確認' : '投稿可能';
   genre.textContent = candidate.genre;
   postMode.textContent = isDiscovery
     ? '楽天ランキングから自動抽出'
@@ -139,6 +147,13 @@ function createCandidate(candidate, hiddenIds) {
   caution.textContent = `確認: ${candidate.caution}`;
   selectionSummary.hidden = !isDiscovery;
   selectionSummary.textContent = candidate.selectionSummary ?? '';
+  socialStrategy.hidden = !strategyView;
+  if (strategyView) {
+    socialStrategySummary.textContent = strategyView.summary;
+    socialStrategyScores.textContent = strategyView.scores;
+    socialStrategyHook.textContent = strategyView.hook;
+    socialStrategyConfidence.textContent = strategyView.confidence;
+  }
   appendResearchSummary(researchSummary, candidate);
 
   for (const source of candidate.sourceReferences ?? []) {
@@ -178,7 +193,7 @@ function createCandidate(candidate, hiddenIds) {
     }
     setPostText(candidate.copyVariants?.[0] ?? { id: 'empty', text: '' });
   }
-  postEditor.hidden = isDiscovery;
+  postEditor.hidden = isDiscovery || isRejected;
   discoveryActions.hidden = !isDiscovery;
   postText.addEventListener('input', () => {
     xLink.href = `https://x.com/intent/post?text=${encodeURIComponent(postText.value)}`;

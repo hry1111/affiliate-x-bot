@@ -1,3 +1,5 @@
+import { createSocialStrategy } from './socialStrategy.js';
+
 function tokyoMonth(date) {
   return Number(new Intl.DateTimeFormat('en-US', { month: 'numeric', timeZone: 'Asia/Tokyo' }).format(date));
 }
@@ -121,6 +123,7 @@ export function createTrendCandidates({ topics, itemsByTopic, config, now = new 
         reviewDraft: createReviewDraft(topic, item),
         score,
       };
+      candidate.socialStrategy = createSocialStrategy(candidate);
 
       const existing = candidatesByItemCode.get(item.itemCode);
       if (!existing || candidate.score > existing.score) candidatesByItemCode.set(item.itemCode, candidate);
