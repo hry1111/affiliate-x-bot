@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T01:41:39.537Z",
+  "results": [
+    {
+      "articleId": "article:research:2026-09-01:cicibella-4way-handy-fan-pro:problem",
+      "status": "合格",
+      "autoPublish": false,
+      "checkedAt": "2026-09-01T01:41:39.537Z",
+      "checks": [
+        {
+          "name": "一次情報",
+          "passed": true,
+          "severity": "要修正",
+          "reason": "公式情報または確認済みの一次情報URLが必要です。"
+        },
+        {
+          "name": "比較軸",
+          "passed": true,
+          "severity": "要修正",
+          "reason": "比較軸を2つ以上設定してください。"
+        },
+        {
+          "name": "実体験の扱い",
+          "passed": true,
+          "severity": "公開不可",
+          "reason": "未使用なら使用感を書かず、使用感を書く場合はownedの実体験記録を設定してください。"
+        },
+        {
+          "name": "購入導線",
+          "passed": true,
+          "severity": "要修正",
+          "reason": "確認日時付きの購入先を設定してください。"
+        },
+        {
+          "name": "体験捏造なし",
+          "passed": true,
+          "severity": "公開不可",
+          "reason": "使用感にはexperience-db.jsonのowned記録が必要です。"
+        },
+        {
+          "name": "誇大表現なし",
+          "passed": true,
+          "severity": "公開不可",
+          "reason": "最安・効果・在庫などの保証表現を削除してください。"
+        },
+        {
+          "name": "参考記事の非転載確認",
+          "passed": true,
+          "severity": "要修正",
+          "reason": "参考記事の文言をコピーしていないことをHiroが確認してください。"
+        },
+        {
+          "name": "対象者と見送り条件",
+          "passed": true,
+          "severity": "要修正",
+          "reason": "向く人と見送る条件を設定してください。"
+        },
+        {
+          "name": "PR表記",
+          "passed": true,
+          "severity": "公開不可",
+          "reason": "記事案に【PR】を含めてください。"
+        }
+      ]
+    },
+    {
+      "articleId": "article:research:2026-09-01:cicibella-4way-handy-fan-pro:comparison",
+      "status": "合格",
+      "autoPublish": false,
+      "checkedAt": "2026-09-01T01:41:39.537Z",
+      "checks": [
+        {
+          "name": "一次情報",
+          "passed": true,
+          "severity": "要修正",
+          "reason": "公式情報または確認済みの一次情報URLが必要です。"
+        },
+        {
+          "name": "比較軸",
+          "passed": true,
+          "severity": "要修正",
+          "reason": "比較軸を2つ以上設定してください。"
+        },
+        {
+          "name": "実体験の扱い",
+          "passed": true,
+          "severity": "公開不可",
+          "reason": "未使用なら使用感を書かず、使用感を書く場合はownedの実体験記録を設定してください。"
+        },
+        {
+          "name": "購入導線",
+          "passed": true,
+          "severity": "要修正",
+          "reason": "確認日時付きの購入先を設定してください。"
+        },
+        {
+          "name": "体験捏造なし",
+          "passed": true,
+          "severity": "公開不可",
+          "reason": "使用感にはexperience-db.jsonのowned記録が必要です。"
+        },
+        {
+          "name": "誇大表現なし",
+          "passed": true,
+          "severity": "公開不可",
+          "reason": "最安・効果・在庫などの保証表現を削除してください。"
+        },
+        {
+          "name": "参考記事の非転載確認",
+          "passed": true,
+          "severity": "要修正",
+          "reason": "参考記事の文言をコピーしていないことをHiroが確認してください。"
+        },
+        {
+          "name": "対象者と見送り条件",
+          "passed": true,
+          "severity": "要修正",
+          "reason": "向く人と見送る条件を設定してください。"
+        },
+        {
+          "name": "PR表記",
+          "passed": true,
+          "severity": "公開不可",
+          "reason": "記事案に【PR】を含めてください。"
+        }
+      ]
+    },
+    {
+      "articleId": "article:research:2026-09-01:cicibella-4way-handy-fan-pro:avoid",
+      "status": "合格",
+      "autoPublish": false,
+      "checkedAt": "2026-09-01T01:41:39.537Z",
+      "checks": [
+        {
+          "name": "一次情報",
+          "passed": true,
+          "severity": "要修正",
+          "reason": "公式情報または確認済みの一次情報URLが必要です。"
+        },
+        {
+          "name": "比較軸",
+          "passed": true,
+          "severity": "要修正",
+          "reason": "比較軸を2つ以上設定してください。"
+        },
+        {
+          "name": "実体験の扱い",
+          "passed": true,
+          "severity": "公開不可",
+          "reason": "未使用なら使用感を書かず、使用感を書く場合はownedの実体験記録を設定してください。"
+        },
+        {
+          "name": "購入導線",
+          "passed": true,
+          "severity": "要修正",
+          "reason": "確認日時付きの購入先を設定してください。"
+        },
+        {
+          "name": "体験捏造なし",
+          "passed": true,
+          "severity": "公開不可",
+          "reason": "使用感にはexperience-db.jsonのowned記録が必要です。"
+        },
+        {
+          "name": "誇大表現なし",
+          "passed": true,
+          "severity": "公開不可",
+          "reason": "最安・効果・在庫などの保証表現を削除してください。"
+        },
+        {
+          "name": "参考記事の非転載確認",
+          "passed": true,
+          "severity": "要修正",
+          "reason": "参考記事の文言をコピーしていないことをHiroが確認してください。"
+        },
+        {
+          "name": "対象者と見送り条件",
+          "passed": true,
+          "severity": "要修正",
+          "reason": "向く人と見送る条件を設定してください。"
+        },
+        {
+          "name": "PR表記",
+          "passed": true,
+          "severity": "公開不可",
+          "reason": "記事案に【PR】を含めてください。"
+        }
+      ]
+    }
+  ]
+}
