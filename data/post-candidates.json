@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T00:51:09.340Z",
+  "generatedAt": "2026-09-03T00:58:23.874Z",
   "genres": [
     "キッチン・調理",
     "スマホ・PC周辺",
@@ -40,10 +40,10 @@
         "provider": "rakuten",
         "label": "楽天市場",
         "name": "CICIBELLA 4way 冷却ハンディファンPRO",
-        "listingName": "衝撃セール990円〜【楽天1位☆テレビ紹介】4way 冷却ハンディファンPRO 2026 ハンディファン 冷却プレート 扇風機 シシベラ ハンディファン 静音 軽量 強風 小型 冷却モード 充電式 冷却 携帯扇風機 卓上扇風機 小型扇風機 cicibella 手持ち扇風機「MONOQLO受賞」＜公式＞",
+        "listingName": "衝撃セール970円〜【楽天1位☆テレビ紹介】4way 冷却ハンディファンPRO 2026 ハンディファン 冷却プレート 扇風機 シシベラ ハンディファン 静音 軽量 強風 小型 冷却モード 充電式 冷却 携帯扇風機 卓上扇風機 小型扇風機 cicibella 手持ち扇風機「MONOQLO受賞」＜公式＞",
         "price": 2780,
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcicib%2Fi%2F10003314%2F&rafcid=wsc_i_is_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cicib/cabinet/0304ss/day1/e1-2_990.jpg?_ex=128x128",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cicib/cabinet/0304ss/day2/e1-2_970.jpg?_ex=128x128",
         "shopName": "CICI BELLA",
         "rank": null,
         "reviewCount": null,
@@ -54,10 +54,10 @@
           "provider": "rakuten",
           "label": "楽天市場",
           "name": "CICIBELLA 4way 冷却ハンディファンPRO",
-          "listingName": "衝撃セール990円〜【楽天1位☆テレビ紹介】4way 冷却ハンディファンPRO 2026 ハンディファン 冷却プレート 扇風機 シシベラ ハンディファン 静音 軽量 強風 小型 冷却モード 充電式 冷却 携帯扇風機 卓上扇風機 小型扇風機 cicibella 手持ち扇風機「MONOQLO受賞」＜公式＞",
+          "listingName": "衝撃セール970円〜【楽天1位☆テレビ紹介】4way 冷却ハンディファンPRO 2026 ハンディファン 冷却プレート 扇風機 シシベラ ハンディファン 静音 軽量 強風 小型 冷却モード 充電式 冷却 携帯扇風機 卓上扇風機 小型扇風機 cicibella 手持ち扇風機「MONOQLO受賞」＜公式＞",
           "price": 2780,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcicib%2Fi%2F10003314%2F&rafcid=wsc_i_is_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cicib/cabinet/0304ss/day1/e1-2_990.jpg?_ex=128x128",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cicib/cabinet/0304ss/day2/e1-2_970.jpg?_ex=128x128",
           "shopName": "CICI BELLA",
           "rank": null,
           "reviewCount": null,
@@ -118,18 +118,99 @@
       ]
     },
     {
+      "id": "trend:kitchen:cuisinart-official:10000006",
+      "candidateType": "discovery",
+      "genre": "キッチン・調理",
+      "target": "料理や片付けを効率よくしたい人",
+      "problem": "調理道具や保存用品を選びきれない",
+      "reason": "キッチン・調理の候補として、楽天市場リアルタイムランキング2位の商品。",
+      "caution": "サイズ・熱源対応・食洗機対応を販売ページで確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "キッチン・調理 / リアルタイムランキング 2位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ucg62.5dkfa796.g00ucg62.5dkfb86c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcuisinart-official%2Ftoa29%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "【期間限定価格】9/11まで15,950円！9/12以降は22,880円 クイジナート TOA-29SJ ノンフライオーブントースター シルバー レシピブック 魚 ノンフライ 熱風調理 ヘルシー 揚げ直し ノンフライ調理 シンプル操作 スタイリッシュ【Cuisinart公式ショップ】",
+        "price": "15950",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00ucg62.5dkfa796.g00ucg62.5dkfb86c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcuisinart-official%2Ftoa29%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cuisinart-official/cabinet/09424790/imgrc0127916001.jpg?_ex=128x128",
+        "shopName": "クイジナート　公式　楽天市場店",
+        "rank": 2,
+        "reviewCount": 505,
+        "reviewAverage": 4.59
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "【期間限定価格】9/11まで15,950円！9/12以降は22,880円 クイジナート TOA-29SJ ノンフライオーブントースター シルバー レシピブック 魚 ノンフライ 熱風調理 ヘルシー 揚げ直し ノンフライ調理 シンプル操作 スタイリッシュ【Cuisinart公式ショップ】",
+          "price": "15950",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ucg62.5dkfa796.g00ucg62.5dkfb86c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcuisinart-official%2Ftoa29%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cuisinart-official/cabinet/09424790/imgrc0127916001.jpg?_ex=128x128",
+          "shopName": "クイジナート　公式　楽天市場店",
+          "rank": 2,
+          "reviewCount": 505,
+          "reviewAverage": 4.59
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "キッチン・調理 / 楽天リアルタイム 2位 / 評価 4.59（505件）",
+      "reviewDraft": "{\n  \"id\": \"review-kitchen-cuisinart-official-10000006\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"キッチン・調理\",\n  \"target\": \"料理や片付けを効率よくしたい人\",\n  \"problem\": \"調理道具や保存用品を選びきれない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"サイズ・熱源対応・食洗機対応を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"cuisinart-official:10000006\"\n  }\n}",
+      "score": 113,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 1,
+          "utility": 4,
+          "functionality": 2,
+          "time_saving": 2,
+          "comparative_advantage": 4,
+          "trust": 4,
+          "total": 17
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 4,
+          "desirability": 3,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 18
+        },
+        "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 0,
+          "conversation_potential": 2,
+          "click_intent": 1,
+          "total": 5
+        },
+        "value_reason": "価格情報 ¥15,950、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品名・説明に意外性の根拠がある、商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
+        "hook": "9/11まで15,950円！9/12以降は22,880円 クイジナ…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
       "id": "trend:daily-household:masam1963:10000020",
       "candidateType": "discovery",
       "genre": "日用品・家事",
       "target": "毎日の家事を少し楽にしたい人",
       "problem": "日用品を値段だけで選んで失敗したくない",
-      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング1位の商品。",
+      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング10位の商品。",
       "caution": "素材との相性と使用方法を販売ページで確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "日用品・家事 / リアルタイムランキング 1位",
+          "title": "日用品・家事 / リアルタイムランキング 10位",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00tml82.5dkfa5d5.g00tml82.5dkfbf81/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmasam1963%2Fpd-302%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
@@ -141,7 +222,7 @@
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00tml82.5dkfa5d5.g00tml82.5dkfbf81/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmasam1963%2Fpd-302%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
         "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/masam1963/cabinet/09239711/la1c.jpg?_ex=128x128",
         "shopName": "Pierre",
-        "rank": 1,
+        "rank": 10,
         "reviewCount": 381,
         "reviewAverage": 4.16
       },
@@ -154,15 +235,15 @@
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00tml82.5dkfa5d5.g00tml82.5dkfbf81/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmasam1963%2Fpd-302%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/masam1963/cabinet/09239711/la1c.jpg?_ex=128x128",
           "shopName": "Pierre",
-          "rank": 1,
+          "rank": 10,
           "reviewCount": 381,
           "reviewAverage": 4.16
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "日用品・家事 / 楽天リアルタイム 1位 / 評価 4.16（381件）",
+      "selectionSummary": "日用品・家事 / 楽天リアルタイム 10位 / 評価 4.16（381件）",
       "reviewDraft": "{\n  \"id\": \"review-daily-household-masam1963-10000020\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"masam1963:10000020\"\n  }\n}",
-      "score": 116,
+      "score": 107,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
@@ -199,71 +280,233 @@
       }
     },
     {
-      "id": "trend:kitchen:cuisinart-official:10000006",
+      "id": "trend:daily-household:shark:10000207",
       "candidateType": "discovery",
-      "genre": "キッチン・調理",
-      "target": "料理や片付けを効率よくしたい人",
-      "problem": "調理道具や保存用品を選びきれない",
-      "reason": "キッチン・調理の候補として、楽天市場リアルタイムランキング12位の商品。",
-      "caution": "サイズ・熱源対応・食洗機対応を販売ページで確認してください。",
+      "genre": "日用品・家事",
+      "target": "毎日の家事を少し楽にしたい人",
+      "problem": "日用品を値段だけで選んで失敗したくない",
+      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング12位の商品。",
+      "caution": "素材との相性と使用方法を販売ページで確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "キッチン・調理 / リアルタイムランキング 12位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ucg62.5dkfa796.g00ucg62.5dkfb86c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcuisinart-official%2Ftoa29%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+          "title": "日用品・家事 / リアルタイムランキング 12位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00toap2.5dkfafc0.g00toap2.5dkfbce1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fcs100j%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
       "primaryOffer": {
         "provider": "rakuten",
         "label": "楽天市場",
-        "name": "【期間限定価格】9/11まで15,950円！9/12以降は22,880円 クイジナート TOA-29SJ ノンフライオーブントースター シルバー レシピブック 魚 ノンフライ 熱風調理 ヘルシー 揚げ直し ノンフライ調理 シンプル操作 スタイリッシュ【Cuisinart公式ショップ】",
-        "price": "15950",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00ucg62.5dkfa796.g00ucg62.5dkfb86c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcuisinart-official%2Ftoa29%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cuisinart-official/cabinet/09424790/imgrc0127916001.jpg?_ex=128x128",
-        "shopName": "クイジナート　公式　楽天市場店",
+        "name": "24％OFF セール ポイント10倍 【Shark 公式】Shark シャーク EVOPOWER SYSTEM STD コードレススティッククリーナー エヴォパワーシステムスタンダード CS100J / 掃除機 コードレス コードレス掃除機 スティック掃除機 ハンディクリーナー ハンディー 吸引力 収納 布団",
+        "price": "24860",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00toap2.5dkfafc0.g00toap2.5dkfbce1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fcs100j%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/shark/cabinet/renamethum/p10/cs100j_24off.jpg?_ex=128x128",
+        "shopName": "SharkNinja公式楽天市場店",
         "rank": 12,
-        "reviewCount": 505,
-        "reviewAverage": 4.59
+        "reviewCount": 458,
+        "reviewAverage": 4.45
       },
       "purchaseOptions": [
         {
           "provider": "rakuten",
           "label": "楽天市場",
-          "name": "【期間限定価格】9/11まで15,950円！9/12以降は22,880円 クイジナート TOA-29SJ ノンフライオーブントースター シルバー レシピブック 魚 ノンフライ 熱風調理 ヘルシー 揚げ直し ノンフライ調理 シンプル操作 スタイリッシュ【Cuisinart公式ショップ】",
-          "price": "15950",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ucg62.5dkfa796.g00ucg62.5dkfb86c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcuisinart-official%2Ftoa29%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cuisinart-official/cabinet/09424790/imgrc0127916001.jpg?_ex=128x128",
-          "shopName": "クイジナート　公式　楽天市場店",
+          "name": "24％OFF セール ポイント10倍 【Shark 公式】Shark シャーク EVOPOWER SYSTEM STD コードレススティッククリーナー エヴォパワーシステムスタンダード CS100J / 掃除機 コードレス コードレス掃除機 スティック掃除機 ハンディクリーナー ハンディー 吸引力 収納 布団",
+          "price": "24860",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00toap2.5dkfafc0.g00toap2.5dkfbce1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fcs100j%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/shark/cabinet/renamethum/p10/cs100j_24off.jpg?_ex=128x128",
+          "shopName": "SharkNinja公式楽天市場店",
           "rank": 12,
-          "reviewCount": 505,
-          "reviewAverage": 4.59
+          "reviewCount": 458,
+          "reviewAverage": 4.45
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "キッチン・調理 / 楽天リアルタイム 12位 / 評価 4.59（505件）",
-      "reviewDraft": "{\n  \"id\": \"review-kitchen-cuisinart-official-10000006\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"キッチン・調理\",\n  \"target\": \"料理や片付けを効率よくしたい人\",\n  \"problem\": \"調理道具や保存用品を選びきれない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"サイズ・熱源対応・食洗機対応を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"cuisinart-official:10000006\"\n  }\n}",
-      "score": 103,
+      "selectionSummary": "日用品・家事 / 楽天リアルタイム 12位 / 評価 4.45（458件）",
+      "reviewDraft": "{\n  \"id\": \"review-daily-household-shark-10000207\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"shark:10000207\"\n  }\n}",
+      "score": 107,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
         "value_score": {
-          "price_advantage": 1,
-          "utility": 4,
+          "price_advantage": 5,
+          "utility": 5,
           "functionality": 2,
           "time_saving": 2,
           "comparative_advantage": 3,
           "trust": 4,
-          "total": 16
+          "total": 21
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 2,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 15
+        },
+        "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
+          "click_intent": 2,
+          "total": 5
+        },
+        "value_reason": "価格情報 ¥24,860、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
+        "hook": "24％OFF セール ポイント10倍 Shark シャーク EVO…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:daily-household:kurashi-zakka:10002489",
+      "candidateType": "discovery",
+      "genre": "日用品・家事",
+      "target": "毎日の家事を少し楽にしたい人",
+      "problem": "日用品を値段だけで選んで失敗したくない",
+      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング16位の商品。",
+      "caution": "素材との相性と使用方法を販売ページで確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "日用品・家事 / リアルタイムランキング 16位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qx1g2.5dkfacb4.g00qx1g2.5dkfb347/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashi-zakka%2Fsin-001%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "＼50％OFFクーポン！9/1～9/13／sakuraku 深層HERBAL WHITE 洗濯洗剤 「▼衣類の白さがずっと続く」自然派の洗浄成分 蛍光剤無配合 無リン 無香料 手肌にやさしい「▼汗・皮脂汚れ・においの強力消臭」 「▼洗濯するだけで 洗濯槽のカビ予防」「▼血液汚れこすらず落とす」",
+        "price": "3790",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00qx1g2.5dkfacb4.g00qx1g2.5dkfb347/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashi-zakka%2Fsin-001%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kurashi-zakka/cabinet/item/roomth/sin-001_00_2608fl.jpg?_ex=128x128",
+        "shopName": "くらしの雑貨屋さん",
+        "rank": 16,
+        "reviewCount": 240,
+        "reviewAverage": 4.32
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "＼50％OFFクーポン！9/1～9/13／sakuraku 深層HERBAL WHITE 洗濯洗剤 「▼衣類の白さがずっと続く」自然派の洗浄成分 蛍光剤無配合 無リン 無香料 手肌にやさしい「▼汗・皮脂汚れ・においの強力消臭」 「▼洗濯するだけで 洗濯槽のカビ予防」「▼血液汚れこすらず落とす」",
+          "price": "3790",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qx1g2.5dkfacb4.g00qx1g2.5dkfb347/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashi-zakka%2Fsin-001%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kurashi-zakka/cabinet/item/roomth/sin-001_00_2608fl.jpg?_ex=128x128",
+          "shopName": "くらしの雑貨屋さん",
+          "rank": 16,
+          "reviewCount": 240,
+          "reviewAverage": 4.32
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "日用品・家事 / 楽天リアルタイム 16位 / 評価 4.32（240件）",
+      "reviewDraft": "{\n  \"id\": \"review-daily-household-kurashi-zakka-10002489\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"kurashi-zakka:10002489\"\n  }\n}",
+      "score": 101,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 5,
+          "utility": 3,
+          "functionality": 2,
+          "time_saving": 1,
+          "comparative_advantage": 3,
+          "trust": 4,
+          "total": 18
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 2,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 15
+        },
+        "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 4
+        },
+        "value_reason": "価格情報 ¥3,790、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
+        "hook": "＼50％OFFクーポン！9/1～9/13／sakuraku 深層H…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:daily-household:angelingg:10001033",
+      "candidateType": "discovery",
+      "genre": "日用品・家事",
+      "target": "毎日の家事を少し楽にしたい人",
+      "problem": "日用品を値段だけで選んで失敗したくない",
+      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング20位の商品。",
+      "caution": "素材との相性と使用方法を販売ページで確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "日用品・家事 / リアルタイムランキング 20位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ugxh2.5dkfa173.g00ugxh2.5dkfb6ca/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fangelingg%2Fag-r-00180%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "【2時間限定50%オフクーポン★スーパーセール】ほこり取り スポンジ ダスタースポンジ ほこり取りスポンジ 掃除スポンジ 埃取り ホコリ取り 掃除用品 掃除グッズ 便利グッズ 水拭き 繰り返し使える 水洗い可能 髪の毛取り 巾木掃除 サッシ掃除 洗濯機まわり",
+        "price": "1280",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00ugxh2.5dkfa173.g00ugxh2.5dkfb6ca/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fangelingg%2Fag-r-00180%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/angelingg/cabinet/ag-r-00180/ag-r-00180.jpg?_ex=128x128",
+        "shopName": "Angeling（エンジェリング）",
+        "rank": 20,
+        "reviewCount": 73,
+        "reviewAverage": 4.47
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "【2時間限定50%オフクーポン★スーパーセール】ほこり取り スポンジ ダスタースポンジ ほこり取りスポンジ 掃除スポンジ 埃取り ホコリ取り 掃除用品 掃除グッズ 便利グッズ 水拭き 繰り返し使える 水洗い可能 髪の毛取り 巾木掃除 サッシ掃除 洗濯機まわり",
+          "price": "1280",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ugxh2.5dkfa173.g00ugxh2.5dkfb6ca/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fangelingg%2Fag-r-00180%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/angelingg/cabinet/ag-r-00180/ag-r-00180.jpg?_ex=128x128",
+          "shopName": "Angeling（エンジェリング）",
+          "rank": 20,
+          "reviewCount": 73,
+          "reviewAverage": 4.47
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "日用品・家事 / 楽天リアルタイム 20位 / 評価 4.47（73件）",
+      "reviewDraft": "{\n  \"id\": \"review-daily-household-angelingg-10001033\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"angelingg:10001033\"\n  }\n}",
+      "score": 95,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 5,
+          "utility": 5,
+          "functionality": 2,
+          "time_saving": 2,
+          "comparative_advantage": 3,
+          "trust": 3,
+          "total": 20
         },
         "discovery_score": {
           "instant_understanding": 4,
           "novelty": 4,
-          "desirability": 3,
+          "desirability": 4,
           "social_visual": 2,
           "giftability": 0,
           "value_story": 5,
-          "total": 18
+          "total": 19
         },
         "x_score": {
           "scroll_stop": 2,
@@ -272,10 +515,10 @@
           "click_intent": 1,
           "total": 5
         },
-        "value_reason": "価格情報 ¥15,950、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "value_reason": "価格情報 ¥1,280、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
         "discovery_reason": "商品名・説明に意外性の根拠がある、商品画像URLあり（画像内容は未解析）。",
         "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
-        "hook": "9/11まで15,950円！9/12以降は22,880円 クイジナ…は、紹介前に根拠をもう少し確認したい。",
+        "hook": "ほこり取り スポンジ ダスタースポンジ ほこり取りスポンジ 掃除ス…は、紹介前に根拠をもう少し確認したい。",
         "confidence": "high"
       }
     },
@@ -285,13 +528,13 @@
       "genre": "防災",
       "target": "非常時の備えを見直したい人",
       "problem": "防災用品を何から揃えるか迷っている",
-      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング68位の商品。",
+      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング64位の商品。",
       "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "防災・備え / リアルタイムランキング 68位",
+          "title": "防災・備え / リアルタイムランキング 64位",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
@@ -303,8 +546,8 @@
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
         "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/biyoudou/cabinet/new-biyoudo/products/350mlless/biyoudo_350ml_thumb.jpg?_ex=128x128",
         "shopName": "BIYOUDO 公式ストア",
-        "rank": 68,
-        "reviewCount": 54571,
+        "rank": 64,
+        "reviewCount": 54604,
         "reviewAverage": 4.81
       },
       "purchaseOptions": [
@@ -316,13 +559,13 @@
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/biyoudou/cabinet/new-biyoudo/products/350mlless/biyoudo_350ml_thumb.jpg?_ex=128x128",
           "shopName": "BIYOUDO 公式ストア",
-          "rank": 68,
-          "reviewCount": 54571,
+          "rank": 64,
+          "reviewCount": 54604,
           "reviewAverage": 4.81
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 68位 / 評価 4.81（54571件）",
+      "selectionSummary": "防災・備え / 楽天リアルタイム 64位 / 評価 4.81（54604件）",
       "reviewDraft": "{\n  \"id\": \"review-preparedness-biyoudou-10000164\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"biyoudou:10000164\"\n  }\n}",
       "score": 95,
       "socialStrategy": {
@@ -357,249 +600,6 @@
         "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
         "reason_to_post": "X Score 3/10。投稿基準または確認根拠が不足している。",
         "hook": "BIYOUDO 水 シリカ水 500ml×42本 350ml×48…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:preparedness:furumiyashop:10000146",
-      "candidateType": "discovery",
-      "genre": "防災",
-      "target": "非常時の備えを見直したい人",
-      "problem": "防災用品を何から揃えるか迷っている",
-      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング124位の商品。",
-      "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "防災・備え / リアルタイムランキング 124位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tzq92.5dkfa9a4.g00tzq92.5dkfb441/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffurumiyashop%2Fcdb00p60%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "【クーポン利用で最安2380円】楽天1位25冠達成！モバイルバッテリー 大容量 23600mAh PD22.5W 急速充電 Type-C出入力 4本ケーブル内蔵 軽量 iphone スマホ充電器 携帯充電器 タイプc対応 残量表示 LEDライト 防災グッズ PSE認証済 Lightning iPhone/Android全機種対応",
-        "price": "2980",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tzq92.5dkfa9a4.g00tzq92.5dkfb441/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffurumiyashop%2Fcdb00p60%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/furumiyashop/cabinet/zt/p60-2380.jpg?_ex=128x128",
-        "shopName": "古宮shop",
-        "rank": 124,
-        "reviewCount": 5398,
-        "reviewAverage": 4.52
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "【クーポン利用で最安2380円】楽天1位25冠達成！モバイルバッテリー 大容量 23600mAh PD22.5W 急速充電 Type-C出入力 4本ケーブル内蔵 軽量 iphone スマホ充電器 携帯充電器 タイプc対応 残量表示 LEDライト 防災グッズ PSE認証済 Lightning iPhone/Android全機種対応",
-          "price": "2980",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tzq92.5dkfa9a4.g00tzq92.5dkfb441/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffurumiyashop%2Fcdb00p60%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/furumiyashop/cabinet/zt/p60-2380.jpg?_ex=128x128",
-          "shopName": "古宮shop",
-          "rank": 124,
-          "reviewCount": 5398,
-          "reviewAverage": 4.52
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 124位 / 評価 4.52（5398件）",
-      "reviewDraft": "{\n  \"id\": \"review-preparedness-furumiyashop-10000146\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"furumiyashop:10000146\"\n  }\n}",
-      "score": 94,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 5,
-          "utility": 4,
-          "functionality": 5,
-          "time_saving": 2,
-          "comparative_advantage": 3,
-          "trust": 5,
-          "total": 24
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
-          "desirability": 3,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 16
-        },
-        "x_score": {
-          "scroll_stop": 2,
-          "short_copy_fit": 0,
-          "conversation_potential": 1,
-          "click_intent": 2,
-          "total": 5
-        },
-        "value_reason": "価格情報 ¥2,980、機能情報が具体的、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
-        "hook": "25冠達成！モバイルバッテリー 大容量 23600mAh PD22…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:preparedness:supplement-life:10000060",
-      "candidateType": "discovery",
-      "genre": "防災",
-      "target": "非常時の備えを見直したい人",
-      "problem": "防災用品を何から揃えるか迷っている",
-      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング263位の商品。",
-      "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "防災・備え / リアルタイムランキング 263位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tivg2.5dkfa005.g00tivg2.5dkfb1d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupplement-life%2Fps-100%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "【楽天1位】【最新の炭入り・半永久保存】 100回分 非常用トイレ 防災トイレ 防災用トイレ 防災用品 防災セット 防災グッズ 災害用トイレ 災害トイレ 非常トイレ 簡易トイレ 携帯トイレ 非常用持ち出し袋 大便 小便 災害 備蓄 地震 震災 避難 凝固剤 保存食 非常食 防災食",
-        "price": "4999",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tivg2.5dkfa005.g00tivg2.5dkfb1d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupplement-life%2Fps-100%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/supplement-life/cabinet/plm1/b100.jpg?_ex=128x128",
-        "shopName": "Life Reach",
-        "rank": 263,
-        "reviewCount": 801,
-        "reviewAverage": 4.64
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "【楽天1位】【最新の炭入り・半永久保存】 100回分 非常用トイレ 防災トイレ 防災用トイレ 防災用品 防災セット 防災グッズ 災害用トイレ 災害トイレ 非常トイレ 簡易トイレ 携帯トイレ 非常用持ち出し袋 大便 小便 災害 備蓄 地震 震災 避難 凝固剤 保存食 非常食 防災食",
-          "price": "4999",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tivg2.5dkfa005.g00tivg2.5dkfb1d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupplement-life%2Fps-100%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/supplement-life/cabinet/plm1/b100.jpg?_ex=128x128",
-          "shopName": "Life Reach",
-          "rank": 263,
-          "reviewCount": 801,
-          "reviewAverage": 4.64
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 263位 / 評価 4.64（801件）",
-      "reviewDraft": "{\n  \"id\": \"review-preparedness-supplement-life-10000060\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"supplement-life:10000060\"\n  }\n}",
-      "score": 92,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 2,
-          "utility": 3,
-          "functionality": 3,
-          "time_saving": 1,
-          "comparative_advantage": 3,
-          "trust": 4,
-          "total": 16
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
-          "desirability": 3,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 16
-        },
-        "x_score": {
-          "scroll_stop": 1,
-          "short_copy_fit": 0,
-          "conversation_potential": 1,
-          "click_intent": 1,
-          "total": 3
-        },
-        "value_reason": "価格情報 ¥4,999、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 3/10。投稿基準または確認根拠が不足している。",
-        "hook": "100回分 非常用トイレ 防災トイレ 防災用トイレ 防災用品 防災…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:baby-kids:x-plosion:10000023",
-      "candidateType": "discovery",
-      "genre": "子育て・ベビー",
-      "target": "子どもの生活用品を効率よく選びたい人",
-      "problem": "ベビー・キッズ用品のサイズや用途で迷う",
-      "reason": "子育て・ベビーの候補として、楽天市場リアルタイムランキング27位の商品。",
-      "caution": "対象年齢・サイズ・安全上の注意を販売ページで確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "子育て・ベビー / リアルタイムランキング 27位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sxk42.5dkfacca.g00sxk42.5dkfb4c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fx-plosion%2F10000019%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "プロテイン WPC エクスプロージョン 3kg ミルクチョコレート味 ホエイプロテイン 3キロ 最安値 大容量 筋肉 タンパク質 高たんぱく 運動 ダイエット 置き換え 男性 女性 子供 こども",
-        "price": "13790",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00sxk42.5dkfacca.g00sxk42.5dkfb4c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fx-plosion%2F10000019%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/x-plosion/cabinet/yec/11362306/241227_10000019.jpg?_ex=128x128",
-        "shopName": "X-PLOSION 公式オンラインショップ",
-        "rank": 27,
-        "reviewCount": 2373,
-        "reviewAverage": 4.46
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "プロテイン WPC エクスプロージョン 3kg ミルクチョコレート味 ホエイプロテイン 3キロ 最安値 大容量 筋肉 タンパク質 高たんぱく 運動 ダイエット 置き換え 男性 女性 子供 こども",
-          "price": "13790",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sxk42.5dkfacca.g00sxk42.5dkfb4c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fx-plosion%2F10000019%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/x-plosion/cabinet/yec/11362306/241227_10000019.jpg?_ex=128x128",
-          "shopName": "X-PLOSION 公式オンラインショップ",
-          "rank": 27,
-          "reviewCount": 2373,
-          "reviewAverage": 4.46
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "子育て・ベビー / 楽天リアルタイム 27位 / 評価 4.46（2373件）",
-      "reviewDraft": "{\n  \"id\": \"review-baby-kids-x-plosion-10000023\",\n  \"enabled\": false,\n  \"priority\": 55,\n  \"genre\": \"子育て・ベビー\",\n  \"target\": \"子どもの生活用品を効率よく選びたい人\",\n  \"problem\": \"ベビー・キッズ用品のサイズや用途で迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"対象年齢・サイズ・安全上の注意を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"x-plosion:10000023\"\n  }\n}",
-      "score": 88,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 1,
-          "utility": 2,
-          "functionality": 3,
-          "time_saving": 1,
-          "comparative_advantage": 3,
-          "trust": 5,
-          "total": 15
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
-          "desirability": 3,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 16
-        },
-        "x_score": {
-          "scroll_stop": 1,
-          "short_copy_fit": 2,
-          "conversation_potential": 1,
-          "click_intent": 1,
-          "total": 5
-        },
-        "value_reason": "価格情報 ¥13,790、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
-        "hook": "プロテイン WPC エクスプロージョン 3kg ミルクチョコレート…は、紹介前に根拠をもう少し確認したい。",
         "confidence": "high"
       }
     }
