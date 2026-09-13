@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T00:55:49.129Z",
+  "generatedAt": "2026-09-13T00:38:38.164Z",
   "genres": [
     "キッチン・調理",
     "スマホ・PC周辺",
@@ -118,18 +118,99 @@
       ]
     },
     {
-      "id": "trend:storage-interior:e-kurashi:10048736",
+      "id": "trend:storage-interior:kurashi-zakka:10002336",
       "candidateType": "discovery",
       "genre": "収納・インテリア",
       "target": "部屋をすっきり使いたい人",
       "problem": "収納用品や生活家具のサイズ選びで迷う",
-      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング3位の商品。",
+      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング7位の商品。",
       "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "収納・インテリア / リアルタイムランキング 3位",
+          "title": "収納・インテリア / リアルタイムランキング 7位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qx1g2.5dkfacb4.g00qx1g2.5dkfb347/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashi-zakka%2Fsrn-502%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "＼50％OFFクーポン！9/1～9/13／「sakuraku 水切りラック 伸縮かご」シンク上 お皿が立つ スリム 水切りかご 大容量 食器 水切り 伸縮 キッチン ラック シンク 洗い物 同色水切りトレー 食器 立てる【意匠登録出願済】",
+        "price": "9900",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00qx1g2.5dkfacb4.g00qx1g2.5dkfb347/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashi-zakka%2Fsrn-502%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kurashi-zakka/cabinet/jin-501_thum2605.jpg?_ex=128x128",
+        "shopName": "くらしの雑貨屋さん",
+        "rank": 7,
+        "reviewCount": 1544,
+        "reviewAverage": 4.5
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "＼50％OFFクーポン！9/1～9/13／「sakuraku 水切りラック 伸縮かご」シンク上 お皿が立つ スリム 水切りかご 大容量 食器 水切り 伸縮 キッチン ラック シンク 洗い物 同色水切りトレー 食器 立てる【意匠登録出願済】",
+          "price": "9900",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qx1g2.5dkfacb4.g00qx1g2.5dkfb347/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashi-zakka%2Fsrn-502%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kurashi-zakka/cabinet/jin-501_thum2605.jpg?_ex=128x128",
+          "shopName": "くらしの雑貨屋さん",
+          "rank": 7,
+          "reviewCount": 1544,
+          "reviewAverage": 4.5
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "収納・インテリア / 楽天リアルタイム 7位 / 評価 4.5（1544件）",
+      "reviewDraft": "{\n  \"id\": \"review-storage-interior-kurashi-zakka-10002336\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"収納・インテリア\",\n  \"target\": \"部屋をすっきり使いたい人\",\n  \"problem\": \"収納用品や生活家具のサイズ選びで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"設置場所の寸法・耐荷重・組み立て条件を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"kurashi-zakka:10002336\"\n  }\n}",
+      "score": 113,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 5,
+          "utility": 4,
+          "functionality": 3,
+          "time_saving": 2,
+          "comparative_advantage": 4,
+          "trust": 5,
+          "total": 23
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 3,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 16
+        },
+        "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
+          "click_intent": 2,
+          "total": 5
+        },
+        "value_reason": "価格情報 ¥9,900、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
+        "hook": "＼50％OFFクーポン！9/1～9/13／「sakuraku 水切…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:storage-interior:e-kurashi:10048736",
+      "candidateType": "discovery",
+      "genre": "収納・インテリア",
+      "target": "部屋をすっきり使いたい人",
+      "problem": "収納用品や生活家具のサイズ選びで迷う",
+      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング9位の商品。",
+      "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "収納・インテリア / リアルタイムランキング 9位",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
@@ -141,8 +222,8 @@
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
         "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/rank-img/021/main-xaedt-01.jpg?_ex=128x128",
         "shopName": "くらしのeショップ",
-        "rank": 3,
-        "reviewCount": 6397,
+        "rank": 9,
+        "reviewCount": 6409,
         "reviewAverage": 4.41
       },
       "purchaseOptions": [
@@ -154,15 +235,15 @@
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/rank-img/021/main-xaedt-01.jpg?_ex=128x128",
           "shopName": "くらしのeショップ",
-          "rank": 3,
-          "reviewCount": 6397,
+          "rank": 9,
+          "reviewCount": 6409,
           "reviewAverage": 4.41
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "収納・インテリア / 楽天リアルタイム 3位 / 評価 4.41（6397件）",
+      "selectionSummary": "収納・インテリア / 楽天リアルタイム 9位 / 評価 4.41（6409件）",
       "reviewDraft": "{\n  \"id\": \"review-storage-interior-e-kurashi-10048736\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"収納・インテリア\",\n  \"target\": \"部屋をすっきり使いたい人\",\n  \"problem\": \"収納用品や生活家具のサイズ選びで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"設置場所の寸法・耐荷重・組み立て条件を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"e-kurashi:10048736\"\n  }\n}",
-      "score": 117,
+      "score": 111,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
@@ -199,180 +280,18 @@
       }
     },
     {
-      "id": "trend:kitchen:ringerhut:10000331",
-      "candidateType": "discovery",
-      "genre": "キッチン・調理",
-      "target": "料理や片付けを効率よくしたい人",
-      "problem": "調理道具や保存用品を選びきれない",
-      "reason": "キッチン・調理の候補として、楽天市場リアルタイムランキング6位の商品。",
-      "caution": "サイズ・熱源対応・食洗機対応を販売ページで確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "キッチン・調理 / リアルタイムランキング 6位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qc3c2.5dkfa001.g00qc3c2.5dkfb640/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fringerhut%2Fc128%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "S ＼550円相当！ぎょうざ1パックおまけつき！／【衝撃の26％OFF！！5,200→3,800円！】 リンガーハット 長崎ちゃんぽん 8食 チャンポン 冷凍 簡単 調理 仕送り 麺 スープ セット 国産野菜100％ ぎょうざ 餃子 おまけ 食いしんぼう祭",
-        "price": "3800",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00qc3c2.5dkfa001.g00qc3c2.5dkfb640/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fringerhut%2Fc128%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ringerhut/cabinet/imgrc0192441716.jpg?_ex=128x128",
-        "shopName": "リンガーハット楽天市場店",
-        "rank": 6,
-        "reviewCount": 3773,
-        "reviewAverage": 4.72
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "S ＼550円相当！ぎょうざ1パックおまけつき！／【衝撃の26％OFF！！5,200→3,800円！】 リンガーハット 長崎ちゃんぽん 8食 チャンポン 冷凍 簡単 調理 仕送り 麺 スープ セット 国産野菜100％ ぎょうざ 餃子 おまけ 食いしんぼう祭",
-          "price": "3800",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qc3c2.5dkfa001.g00qc3c2.5dkfb640/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fringerhut%2Fc128%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ringerhut/cabinet/imgrc0192441716.jpg?_ex=128x128",
-          "shopName": "リンガーハット楽天市場店",
-          "rank": 6,
-          "reviewCount": 3773,
-          "reviewAverage": 4.72
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "キッチン・調理 / 楽天リアルタイム 6位 / 評価 4.72（3773件）",
-      "reviewDraft": "{\n  \"id\": \"review-kitchen-ringerhut-10000331\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"キッチン・調理\",\n  \"target\": \"料理や片付けを効率よくしたい人\",\n  \"problem\": \"調理道具や保存用品を選びきれない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"サイズ・熱源対応・食洗機対応を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"ringerhut:10000331\"\n  }\n}",
-      "score": 114,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 2,
-          "utility": 4,
-          "functionality": 3,
-          "time_saving": 4,
-          "comparative_advantage": 4,
-          "trust": 5,
-          "total": 22
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
-          "desirability": 3,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 16
-        },
-        "x_score": {
-          "scroll_stop": 2,
-          "short_copy_fit": 0,
-          "conversation_potential": 1,
-          "click_intent": 2,
-          "total": 5
-        },
-        "value_reason": "価格情報 ¥3,800、時短・省力につながる記述あり、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
-        "hook": "S ＼550円相当！ぎょうざ1パックおまけつき！／ リンガーハット…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:preparedness:ringerhut:10000329",
-      "candidateType": "discovery",
-      "genre": "防災",
-      "target": "非常時の備えを見直したい人",
-      "problem": "防災用品を何から揃えるか迷っている",
-      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング28位の商品。",
-      "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "防災・備え / リアルタイムランキング 28位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qc3c2.5dkfa001.g00qc3c2.5dkfb640/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fringerhut%2Fc127%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "S【衝撃の25％OFF！5,100→3,825円！】 リンガーハット 野菜たっぷりちゃんぽん3食＆野菜たっぷり皿うどん3食セット 長崎ちゃんぽん 長崎皿うどん 皿うどん ちゃんぽん チャンポン ちゃんぽん麺 スープ 非常食 惣菜 具入り お取り寄せ 食いしんぼう祭",
-        "price": "3825",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00qc3c2.5dkfa001.g00qc3c2.5dkfb640/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fringerhut%2Fc127%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ringerhut/cabinet/imgrc0192442339.jpg?_ex=128x128",
-        "shopName": "リンガーハット楽天市場店",
-        "rank": 28,
-        "reviewCount": 349,
-        "reviewAverage": 4.64
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "S【衝撃の25％OFF！5,100→3,825円！】 リンガーハット 野菜たっぷりちゃんぽん3食＆野菜たっぷり皿うどん3食セット 長崎ちゃんぽん 長崎皿うどん 皿うどん ちゃんぽん チャンポン ちゃんぽん麺 スープ 非常食 惣菜 具入り お取り寄せ 食いしんぼう祭",
-          "price": "3825",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qc3c2.5dkfa001.g00qc3c2.5dkfb640/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fringerhut%2Fc127%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ringerhut/cabinet/imgrc0192442339.jpg?_ex=128x128",
-          "shopName": "リンガーハット楽天市場店",
-          "rank": 28,
-          "reviewCount": 349,
-          "reviewAverage": 4.64
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 28位 / 評価 4.64（349件）",
-      "reviewDraft": "{\n  \"id\": \"review-preparedness-ringerhut-10000329\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"ringerhut:10000329\"\n  }\n}",
-      "score": 100,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 2,
-          "utility": 3,
-          "functionality": 3,
-          "time_saving": 1,
-          "comparative_advantage": 3,
-          "trust": 4,
-          "total": 16
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
-          "desirability": 2,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 15
-        },
-        "x_score": {
-          "scroll_stop": 1,
-          "short_copy_fit": 0,
-          "conversation_potential": 1,
-          "click_intent": 1,
-          "total": 3
-        },
-        "value_reason": "価格情報 ¥3,825、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 3/10。投稿基準または確認根拠が不足している。",
-        "hook": "S リンガーハット 野菜たっぷりちゃんぽん3食＆野菜たっぷり皿うど…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
       "id": "trend:preparedness:biyoudou:10000164",
       "candidateType": "discovery",
       "genre": "防災",
       "target": "非常時の備えを見直したい人",
       "problem": "防災用品を何から揃えるか迷っている",
-      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング113位の商品。",
+      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング114位の商品。",
       "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "防災・備え / リアルタイムランキング 113位",
+          "title": "防災・備え / リアルタイムランキング 114位",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
@@ -384,8 +303,8 @@
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
         "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/biyoudou/cabinet/new-biyoudo/products/350mlless/biyoudo_350ml_thumb.jpg?_ex=128x128",
         "shopName": "BIYOUDO 公式ストア",
-        "rank": 113,
-        "reviewCount": 54830,
+        "rank": 114,
+        "reviewCount": 54855,
         "reviewAverage": 4.81
       },
       "purchaseOptions": [
@@ -397,13 +316,13 @@
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/biyoudou/cabinet/new-biyoudo/products/350mlless/biyoudo_350ml_thumb.jpg?_ex=128x128",
           "shopName": "BIYOUDO 公式ストア",
-          "rank": 113,
-          "reviewCount": 54830,
+          "rank": 114,
+          "reviewCount": 54855,
           "reviewAverage": 4.81
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 113位 / 評価 4.81（54830件）",
+      "selectionSummary": "防災・備え / 楽天リアルタイム 114位 / 評価 4.81（54855件）",
       "reviewDraft": "{\n  \"id\": \"review-preparedness-biyoudou-10000164\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"biyoudou:10000164\"\n  }\n}",
       "score": 95,
       "socialStrategy": {
@@ -442,62 +361,62 @@
       }
     },
     {
-      "id": "trend:baby-kids:x-plosion:10000023",
+      "id": "trend:preparedness:furumiyashop:10000146",
       "candidateType": "discovery",
-      "genre": "子育て・ベビー",
-      "target": "子どもの生活用品を効率よく選びたい人",
-      "problem": "ベビー・キッズ用品のサイズや用途で迷う",
-      "reason": "子育て・ベビーの候補として、楽天市場リアルタイムランキング20位の商品。",
-      "caution": "対象年齢・サイズ・安全上の注意を販売ページで確認してください。",
+      "genre": "防災",
+      "target": "非常時の備えを見直したい人",
+      "problem": "防災用品を何から揃えるか迷っている",
+      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング64位の商品。",
+      "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "子育て・ベビー / リアルタイムランキング 20位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sxk42.5dkfacca.g00sxk42.5dkfb4c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fx-plosion%2F10000019%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+          "title": "防災・備え / リアルタイムランキング 64位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tzq92.5dkfa9a4.g00tzq92.5dkfb441/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffurumiyashop%2Fcdb00p60%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
       "primaryOffer": {
         "provider": "rakuten",
         "label": "楽天市場",
-        "name": "プロテイン WPC エクスプロージョン 3kg ミルクチョコレート味 ホエイプロテイン 3キロ 最安値 大容量 筋肉 タンパク質 高たんぱく 運動 ダイエット 置き換え 男性 女性 子供 こども",
-        "price": "13790",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00sxk42.5dkfacca.g00sxk42.5dkfb4c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fx-plosion%2F10000019%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/x-plosion/cabinet/yec/11362306/241227_10000019.jpg?_ex=128x128",
-        "shopName": "X-PLOSION 公式オンラインショップ",
-        "rank": 20,
-        "reviewCount": 2386,
-        "reviewAverage": 4.45
+        "name": "【クーポン利用で最安2380円】楽天1位26冠！モバイルバッテリー 大容量 23600mAh PD22.5W 急速充電 Type-C出入力 4本ケーブル内蔵 軽量 iphone スマホ充電器 携帯充電器 タイプc対応 残量表示 LEDライト 防災グッズ PSE認証済 Lightning iPhone/Android全機種対応",
+        "price": "2980",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tzq92.5dkfa9a4.g00tzq92.5dkfb441/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffurumiyashop%2Fcdb00p60%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/furumiyashop/cabinet/zt/p60-2380.jpg?_ex=128x128",
+        "shopName": "古宮shop",
+        "rank": 64,
+        "reviewCount": 5757,
+        "reviewAverage": 4.51
       },
       "purchaseOptions": [
         {
           "provider": "rakuten",
           "label": "楽天市場",
-          "name": "プロテイン WPC エクスプロージョン 3kg ミルクチョコレート味 ホエイプロテイン 3キロ 最安値 大容量 筋肉 タンパク質 高たんぱく 運動 ダイエット 置き換え 男性 女性 子供 こども",
-          "price": "13790",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sxk42.5dkfacca.g00sxk42.5dkfb4c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fx-plosion%2F10000019%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/x-plosion/cabinet/yec/11362306/241227_10000019.jpg?_ex=128x128",
-          "shopName": "X-PLOSION 公式オンラインショップ",
-          "rank": 20,
-          "reviewCount": 2386,
-          "reviewAverage": 4.45
+          "name": "【クーポン利用で最安2380円】楽天1位26冠！モバイルバッテリー 大容量 23600mAh PD22.5W 急速充電 Type-C出入力 4本ケーブル内蔵 軽量 iphone スマホ充電器 携帯充電器 タイプc対応 残量表示 LEDライト 防災グッズ PSE認証済 Lightning iPhone/Android全機種対応",
+          "price": "2980",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tzq92.5dkfa9a4.g00tzq92.5dkfb441/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffurumiyashop%2Fcdb00p60%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/furumiyashop/cabinet/zt/p60-2380.jpg?_ex=128x128",
+          "shopName": "古宮shop",
+          "rank": 64,
+          "reviewCount": 5757,
+          "reviewAverage": 4.51
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "子育て・ベビー / 楽天リアルタイム 20位 / 評価 4.45（2386件）",
-      "reviewDraft": "{\n  \"id\": \"review-baby-kids-x-plosion-10000023\",\n  \"enabled\": false,\n  \"priority\": 55,\n  \"genre\": \"子育て・ベビー\",\n  \"target\": \"子どもの生活用品を効率よく選びたい人\",\n  \"problem\": \"ベビー・キッズ用品のサイズや用途で迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"対象年齢・サイズ・安全上の注意を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"x-plosion:10000023\"\n  }\n}",
-      "score": 95,
+      "selectionSummary": "防災・備え / 楽天リアルタイム 64位 / 評価 4.51（5757件）",
+      "reviewDraft": "{\n  \"id\": \"review-preparedness-furumiyashop-10000146\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"furumiyashop:10000146\"\n  }\n}",
+      "score": 94,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
         "value_score": {
-          "price_advantage": 1,
-          "utility": 2,
-          "functionality": 3,
-          "time_saving": 1,
+          "price_advantage": 5,
+          "utility": 4,
+          "functionality": 5,
+          "time_saving": 2,
           "comparative_advantage": 3,
           "trust": 5,
-          "total": 15
+          "total": 24
         },
         "discovery_score": {
           "instant_understanding": 4,
@@ -509,16 +428,16 @@
           "total": 16
         },
         "x_score": {
-          "scroll_stop": 1,
-          "short_copy_fit": 2,
+          "scroll_stop": 2,
+          "short_copy_fit": 0,
           "conversation_potential": 1,
-          "click_intent": 1,
+          "click_intent": 2,
           "total": 5
         },
-        "value_reason": "価格情報 ¥13,790、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "value_reason": "価格情報 ¥2,980、機能情報が具体的、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
         "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
         "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
-        "hook": "プロテイン WPC エクスプロージョン 3kg ミルクチョコレート…は、紹介前に根拠をもう少し確認したい。",
+        "hook": "26冠！モバイルバッテリー 大容量 23600mAh PD22.5…は、紹介前に根拠をもう少し確認したい。",
         "confidence": "high"
       }
     },
@@ -528,13 +447,13 @@
       "genre": "防災",
       "target": "非常時の備えを見直したい人",
       "problem": "防災用品を何から揃えるか迷っている",
-      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング41位の商品。",
+      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング127位の商品。",
       "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "防災・備え / リアルタイムランキング 41位",
+          "title": "防災・備え / リアルタイムランキング 127位",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00pwdg2.5dkfa895.g00pwdg2.5dkfbde3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatsuya%2Fus30%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
@@ -546,8 +465,8 @@
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00pwdg2.5dkfa895.g00pwdg2.5dkfbde3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatsuya%2Fus30%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
         "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/matsuya/cabinet/wakama/13783546/13853742/2609mt_300sale_thm.jpg?_ex=128x128",
         "shopName": "松屋フーズ",
-        "rank": 41,
-        "reviewCount": 14032,
+        "rank": 127,
+        "reviewCount": 14034,
         "reviewAverage": 4.63
       },
       "purchaseOptions": [
@@ -559,13 +478,13 @@
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00pwdg2.5dkfa895.g00pwdg2.5dkfbde3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatsuya%2Fus30%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/matsuya/cabinet/wakama/13783546/13853742/2609mt_300sale_thm.jpg?_ex=128x128",
           "shopName": "松屋フーズ",
-          "rank": 41,
-          "reviewCount": 14032,
+          "rank": 127,
+          "reviewCount": 14034,
           "reviewAverage": 4.63
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 41位 / 評価 4.63（14032件）",
+      "selectionSummary": "防災・備え / 楽天リアルタイム 127位 / 評価 4.63（14034件）",
       "reviewDraft": "{\n  \"id\": \"review-preparedness-matsuya-10000085\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"matsuya:10000085\"\n  }\n}",
       "score": 94,
       "socialStrategy": {
@@ -600,6 +519,87 @@
         "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
         "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
         "hook": "S 牛めしの具（プレミアム仕様）135g 牛めし 選択制 大容量リ…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:preparedness:gorilla55:10001472",
+      "candidateType": "discovery",
+      "genre": "防災",
+      "target": "非常時の備えを見直したい人",
+      "problem": "防災用品を何から揃えるか迷っている",
+      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング147位の商品。",
+      "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "防災・備え / リアルタイムランキング 147位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qujs2.5dkfaae9.g00qujs2.5dkfbff6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgorilla55%2Fcamping_mat8%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "【Bears Rock】 車中泊 マット 8cm 腰に優しい 寝返りもしやすい 段差解消 自動膨張式 2バルブ マットレス 車中泊＆キャンプ用 敷布団 車 トラック ふとん インフレータブル インフレーター キャンプ 防災 車中泊マット ヴォクシー セレナ エアーマット 腰らく MT-108F",
+        "price": "7350",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00qujs2.5dkfaae9.g00qujs2.5dkfbff6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgorilla55%2Fcamping_mat8%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/gorilla55/cabinet/outdoor/04973527/mat8/mat8_main.jpg?_ex=128x128",
+        "shopName": "アウトドア専門店　ゴリラ",
+        "rank": 147,
+        "reviewCount": 2649,
+        "reviewAverage": 4.58
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "【Bears Rock】 車中泊 マット 8cm 腰に優しい 寝返りもしやすい 段差解消 自動膨張式 2バルブ マットレス 車中泊＆キャンプ用 敷布団 車 トラック ふとん インフレータブル インフレーター キャンプ 防災 車中泊マット ヴォクシー セレナ エアーマット 腰らく MT-108F",
+          "price": "7350",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qujs2.5dkfaae9.g00qujs2.5dkfbff6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgorilla55%2Fcamping_mat8%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/gorilla55/cabinet/outdoor/04973527/mat8/mat8_main.jpg?_ex=128x128",
+          "shopName": "アウトドア専門店　ゴリラ",
+          "rank": 147,
+          "reviewCount": 2649,
+          "reviewAverage": 4.58
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "防災・備え / 楽天リアルタイム 147位 / 評価 4.58（2649件）",
+      "reviewDraft": "{\n  \"id\": \"review-preparedness-gorilla55-10001472\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"gorilla55:10001472\"\n  }\n}",
+      "score": 94,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 2,
+          "utility": 3,
+          "functionality": 3,
+          "time_saving": 4,
+          "comparative_advantage": 3,
+          "trust": 5,
+          "total": 20
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 3,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 16
+        },
+        "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 4
+        },
+        "value_reason": "価格情報 ¥7,350、時短・省力につながる記述あり、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
+        "hook": "車中泊 マット 8cm 腰に優しい 寝返りもしやすい 段差解消 自…は、紹介前に根拠をもう少し確認したい。",
         "confidence": "high"
       }
     }
