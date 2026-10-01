@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T01:51:45.003Z",
+  "generatedAt": "2026-10-01T01:49:28.852Z",
   "genres": [
     "キッチン・調理",
     "スマホ・PC周辺",
@@ -118,180 +118,18 @@
       ]
     },
     {
-      "id": "trend:pet-care:kurashikenkou:10225574",
-      "candidateType": "discovery",
-      "genre": "ペット用品",
-      "target": "犬や猫の生活用品を見直したい人",
-      "problem": "ペット用品を安全性やサイズで選びきれない",
-      "reason": "ペット用品の候補として、楽天市場リアルタイムランキング7位の商品。",
-      "caution": "年齢・体格・健康状態に合うか、商品説明を確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "ペット用品 / リアルタイムランキング 7位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qhoa2.5dkfa30d.g00qhoa2.5dkfb0c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashikenkou%2F312068%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "＼緑茶ラベルレスとフレーバー24本が激アツ価格！／お茶 緑茶 ほうじ茶 ペットボトル 500ml 24本 48本 選べる ラベルレス 密閉抽出 香り高い 旨みすっきり 飲みやすい 食事 朝に合う まとめ買い 箱買い ケース アイリスのお茶 緑 焙じ茶 アイリスオーヤマ アイリスフーズ *",
-        "price": "1180",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00qhoa2.5dkfa30d.g00qhoa2.5dkfb0c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashikenkou%2F312068%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kurashikenkou/cabinet/11663202/13368735/imgrc0105764902.jpg?_ex=128x128",
-        "shopName": "暮らし健康ネット館",
-        "rank": 7,
-        "reviewCount": 6853,
-        "reviewAverage": 4.75
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "＼緑茶ラベルレスとフレーバー24本が激アツ価格！／お茶 緑茶 ほうじ茶 ペットボトル 500ml 24本 48本 選べる ラベルレス 密閉抽出 香り高い 旨みすっきり 飲みやすい 食事 朝に合う まとめ買い 箱買い ケース アイリスのお茶 緑 焙じ茶 アイリスオーヤマ アイリスフーズ *",
-          "price": "1180",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qhoa2.5dkfa30d.g00qhoa2.5dkfb0c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashikenkou%2F312068%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kurashikenkou/cabinet/11663202/13368735/imgrc0105764902.jpg?_ex=128x128",
-          "shopName": "暮らし健康ネット館",
-          "rank": 7,
-          "reviewCount": 6853,
-          "reviewAverage": 4.75
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "ペット用品 / 楽天リアルタイム 7位 / 評価 4.75（6853件）",
-      "reviewDraft": "{\n  \"id\": \"review-pet-care-kurashikenkou-10225574\",\n  \"enabled\": false,\n  \"priority\": 55,\n  \"genre\": \"ペット用品\",\n  \"target\": \"犬や猫の生活用品を見直したい人\",\n  \"problem\": \"ペット用品を安全性やサイズで選びきれない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"年齢・体格・健康状態に合うか、商品説明を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"kurashikenkou:10225574\"\n  }\n}",
-      "score": 109,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 3,
-          "utility": 2,
-          "functionality": 2,
-          "time_saving": 1,
-          "comparative_advantage": 4,
-          "trust": 5,
-          "total": 17
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
-          "desirability": 3,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 16
-        },
-        "x_score": {
-          "scroll_stop": 1,
-          "short_copy_fit": 0,
-          "conversation_potential": 1,
-          "click_intent": 1,
-          "total": 3
-        },
-        "value_reason": "価格情報 ¥1,180、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 3/10。投稿基準または確認根拠が不足している。",
-        "hook": "＼緑茶ラベルレスとフレーバー24本が激アツ価格！／お茶 緑茶 ほう…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:beauty-grooming:shuuemura:10000018",
-      "candidateType": "discovery",
-      "genre": "美容・身だしなみ",
-      "target": "毎日の身だしなみ用品を見直したい人",
-      "problem": "定番のケア用品を自分に合うものへ替えたい",
-      "reason": "美容・身だしなみの候補として、楽天市場リアルタイムランキング23位の商品。",
-      "caution": "肌質・香り・成分との相性はあるため、商品説明を確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "美容・身だしなみ / リアルタイムランキング 23位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tl4n2.5dkfa941.g00tl4n2.5dkfb291/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshuuemura%2Fshu30001jp%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "【ポイント10倍 9/24 10:00～10/1 9:59まで】アルティム8∞ ベストセラーキット / ブライト クレンジングオイル キット | シュウウエムラクレンジング クレンジング 楽天市場店限定 洗顔 メイク落とし 毛穴 洗顔料 スキンケア 美容 化粧落とし 送料無料 楽天ベストコスメ",
-        "price": "13200",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tl4n2.5dkfa941.g00tl4n2.5dkfb291/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshuuemura%2Fshu30001jp%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/shuuemura/cabinet/12824584/13204797/13525001/new.jpg?_ex=128x128",
-        "shopName": "シュウ ウエムラ 公式ショップ",
-        "rank": 23,
-        "reviewCount": 35289,
-        "reviewAverage": 4.84
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "【ポイント10倍 9/24 10:00～10/1 9:59まで】アルティム8∞ ベストセラーキット / ブライト クレンジングオイル キット | シュウウエムラクレンジング クレンジング 楽天市場店限定 洗顔 メイク落とし 毛穴 洗顔料 スキンケア 美容 化粧落とし 送料無料 楽天ベストコスメ",
-          "price": "13200",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tl4n2.5dkfa941.g00tl4n2.5dkfb291/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshuuemura%2Fshu30001jp%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/shuuemura/cabinet/12824584/13204797/13525001/new.jpg?_ex=128x128",
-          "shopName": "シュウ ウエムラ 公式ショップ",
-          "rank": 23,
-          "reviewCount": 35289,
-          "reviewAverage": 4.84
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "美容・身だしなみ / 楽天リアルタイム 23位 / 評価 4.84（35289件）",
-      "reviewDraft": "{\n  \"id\": \"review-beauty-grooming-shuuemura-10000018\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"美容・身だしなみ\",\n  \"target\": \"毎日の身だしなみ用品を見直したい人\",\n  \"problem\": \"定番のケア用品を自分に合うものへ替えたい\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"肌質・香り・成分との相性はあるため、商品説明を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"shuuemura:10000018\"\n  }\n}",
-      "score": 98,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 1,
-          "utility": 2,
-          "functionality": 2,
-          "time_saving": 1,
-          "comparative_advantage": 3,
-          "trust": 5,
-          "total": 14
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 4,
-          "desirability": 3,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 18
-        },
-        "x_score": {
-          "scroll_stop": 2,
-          "short_copy_fit": 0,
-          "conversation_potential": 2,
-          "click_intent": 1,
-          "total": 5
-        },
-        "value_reason": "価格情報 ¥13,200、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品名・説明に意外性の根拠がある、商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
-        "hook": "アルティム8∞ ベストセラーキット / ブライト クレンジングオイ…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
       "id": "trend:preparedness:biyoudou:10000164",
       "candidateType": "discovery",
       "genre": "防災",
       "target": "非常時の備えを見直したい人",
       "problem": "防災用品を何から揃えるか迷っている",
-      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング87位の商品。",
+      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング74位の商品。",
       "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "防災・備え / リアルタイムランキング 87位",
+          "title": "防災・備え / リアルタイムランキング 74位",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
@@ -303,8 +141,8 @@
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
         "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/biyoudou/cabinet/new-biyoudo/products/350mlless/biyoudo_350ml_thumb.jpg?_ex=128x128",
         "shopName": "BIYOUDO 公式ストア",
-        "rank": 87,
-        "reviewCount": 55249,
+        "rank": 74,
+        "reviewCount": 55278,
         "reviewAverage": 4.81
       },
       "purchaseOptions": [
@@ -316,13 +154,13 @@
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/biyoudou/cabinet/new-biyoudo/products/350mlless/biyoudo_350ml_thumb.jpg?_ex=128x128",
           "shopName": "BIYOUDO 公式ストア",
-          "rank": 87,
-          "reviewCount": 55249,
+          "rank": 74,
+          "reviewCount": 55278,
           "reviewAverage": 4.81
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 87位 / 評価 4.81（55249件）",
+      "selectionSummary": "防災・備え / 楽天リアルタイム 74位 / 評価 4.81（55278件）",
       "reviewDraft": "{\n  \"id\": \"review-preparedness-biyoudou-10000164\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"biyoudou:10000164\"\n  }\n}",
       "score": 95,
       "socialStrategy": {
@@ -361,62 +199,62 @@
       }
     },
     {
-      "id": "trend:preparedness:dajie:10000000",
+      "id": "trend:preparedness:furumiyashop:10000146",
       "candidateType": "discovery",
       "genre": "防災",
       "target": "非常時の備えを見直したい人",
       "problem": "防災用品を何から揃えるか迷っている",
-      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング300位の商品。",
+      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング186位の商品。",
       "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "防災・備え / リアルタイムランキング 300位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uki02.5dkfa28d.g00uki02.5dkfbf25/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdajie%2Fstoole%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+          "title": "防災・備え / リアルタイムランキング 186位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tzq92.5dkfa9a4.g00tzq92.5dkfb441/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffurumiyashop%2Fcdb00p60%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
       "primaryOffer": {
         "provider": "rakuten",
         "label": "楽天市場",
-        "name": "【決算セール！全品15％OFF！】 公式 スツーレ® 簡易トイレ 非常用トイレ 携帯トイレ 防災トイレ 折りたたみ 耐荷重100kg 排便袋＆凝固剤付き 軽量 2サイズ ポータブルトイレ 災害 防災 非常用 防災グッズ",
-        "price": "3380",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00uki02.5dkfa28d.g00uki02.5dkfbf25/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdajie%2Fstoole%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dajie/cabinet/10598746/imgrc0114884020.jpg?_ex=128x128",
-        "shopName": "スツーレ楽天市場店",
-        "rank": 300,
-        "reviewCount": 6762,
-        "reviewAverage": 4.64
+        "name": "【クーポン利用で最安2380円】楽天1位26冠！モバイルバッテリー 大容量 23600mAh PD22.5W 急速充電 Type-C出入力 4本ケーブル内蔵 軽量 iphone スマホ充電器 携帯充電器 タイプc対応 残量表示 LEDライト 防災グッズ PSE認証済 Lightning iPhone/Android全機種対応",
+        "price": "2980",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tzq92.5dkfa9a4.g00tzq92.5dkfb441/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffurumiyashop%2Fcdb00p60%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/furumiyashop/cabinet/zt/p60-2380.jpg?_ex=128x128",
+        "shopName": "古宮shop",
+        "rank": 186,
+        "reviewCount": 6313,
+        "reviewAverage": 4.52
       },
       "purchaseOptions": [
         {
           "provider": "rakuten",
           "label": "楽天市場",
-          "name": "【決算セール！全品15％OFF！】 公式 スツーレ® 簡易トイレ 非常用トイレ 携帯トイレ 防災トイレ 折りたたみ 耐荷重100kg 排便袋＆凝固剤付き 軽量 2サイズ ポータブルトイレ 災害 防災 非常用 防災グッズ",
-          "price": "3380",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uki02.5dkfa28d.g00uki02.5dkfbf25/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdajie%2Fstoole%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dajie/cabinet/10598746/imgrc0114884020.jpg?_ex=128x128",
-          "shopName": "スツーレ楽天市場店",
-          "rank": 300,
-          "reviewCount": 6762,
-          "reviewAverage": 4.64
+          "name": "【クーポン利用で最安2380円】楽天1位26冠！モバイルバッテリー 大容量 23600mAh PD22.5W 急速充電 Type-C出入力 4本ケーブル内蔵 軽量 iphone スマホ充電器 携帯充電器 タイプc対応 残量表示 LEDライト 防災グッズ PSE認証済 Lightning iPhone/Android全機種対応",
+          "price": "2980",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tzq92.5dkfa9a4.g00tzq92.5dkfb441/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffurumiyashop%2Fcdb00p60%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/furumiyashop/cabinet/zt/p60-2380.jpg?_ex=128x128",
+          "shopName": "古宮shop",
+          "rank": 186,
+          "reviewCount": 6313,
+          "reviewAverage": 4.52
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 300位 / 評価 4.64（6762件）",
-      "reviewDraft": "{\n  \"id\": \"review-preparedness-dajie-10000000\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"dajie:10000000\"\n  }\n}",
+      "selectionSummary": "防災・備え / 楽天リアルタイム 186位 / 評価 4.52（6313件）",
+      "reviewDraft": "{\n  \"id\": \"review-preparedness-furumiyashop-10000146\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"furumiyashop:10000146\"\n  }\n}",
       "score": 94,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
         "value_score": {
           "price_advantage": 5,
-          "utility": 3,
-          "functionality": 3,
-          "time_saving": 1,
+          "utility": 4,
+          "functionality": 5,
+          "time_saving": 2,
           "comparative_advantage": 3,
           "trust": 5,
-          "total": 20
+          "total": 24
         },
         "discovery_score": {
           "instant_understanding": 4,
@@ -431,70 +269,151 @@
           "scroll_stop": 2,
           "short_copy_fit": 0,
           "conversation_potential": 1,
-          "click_intent": 1,
-          "total": 4
+          "click_intent": 2,
+          "total": 5
         },
-        "value_reason": "価格情報 ¥3,380、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "value_reason": "価格情報 ¥2,980、機能情報が具体的、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
         "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
-        "hook": "公式 スツーレ® 簡易トイレ 非常用トイレ 携帯トイレ 防災トイレ…は、紹介前に根拠をもう少し確認したい。",
+        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
+        "hook": "26冠！モバイルバッテリー 大容量 23600mAh PD22.5…は、紹介前に根拠をもう少し確認したい。",
         "confidence": "high"
       }
     },
     {
-      "id": "trend:daily-household:dyson:10002092",
+      "id": "trend:baby-kids:netbaby:10027922",
       "candidateType": "discovery",
-      "genre": "日用品・家事",
-      "target": "毎日の家事を少し楽にしたい人",
-      "problem": "日用品を値段だけで選んで失敗したくない",
-      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング27位の商品。",
-      "caution": "素材との相性と使用方法を販売ページで確認してください。",
+      "genre": "子育て・ベビー",
+      "target": "子どもの生活用品を効率よく選びたい人",
+      "problem": "ベビー・キッズ用品のサイズや用途で迷う",
+      "reason": "子育て・ベビーの候補として、楽天市場リアルタイムランキング23位の商品。",
+      "caution": "対象年齢・サイズ・安全上の注意を販売ページで確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "日用品・家事 / リアルタイムランキング 27位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s44m2.5dkfa9a2.g00s44m2.5dkfb79d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F593813-01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+          "title": "子育て・ベビー / リアルタイムランキング 23位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd42.5dkfaa59.g00pzd42.5dkfb1ad/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404196%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
       "primaryOffer": {
         "provider": "rakuten",
         "label": "楽天市場",
-        "name": "【期間限定P10倍】 ダイソン Dyson Cyclone V10 Fluffy 掃除機 コードレス掃除機 dyson SV58 AD-A NKLCPR ダイソン公式 新品 ダイソン掃除機 スティック掃除機 ハンディクリーナー ハンディ掃除機 コードレス サイクロン",
-        "price": "29900",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00s44m2.5dkfa9a2.g00s44m2.5dkfb79d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F593813-01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dyson/cabinet/product/13169084/sv58ad_point_em.jpg?_ex=128x128",
-        "shopName": "Dyson公式 楽天市場店",
-        "rank": 27,
-        "reviewCount": 128,
-        "reviewAverage": 4.19
+        "name": "【1種類を選べる】グーン ぐんぐん吸収パンツ ディズニー・プリンセス おむつ(3個)【mmw】【グーン(GOO.N)】[オムツ 紙おむつ 紙オムツ]",
+        "price": "4359",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd42.5dkfaa59.g00pzd42.5dkfb1ad/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404196%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/netbaby/cabinet/196/404196.jpg?_ex=128x128",
+        "shopName": "楽天24 ベビー館",
+        "rank": 23,
+        "reviewCount": 6895,
+        "reviewAverage": 4.67
       },
       "purchaseOptions": [
         {
           "provider": "rakuten",
           "label": "楽天市場",
-          "name": "【期間限定P10倍】 ダイソン Dyson Cyclone V10 Fluffy 掃除機 コードレス掃除機 dyson SV58 AD-A NKLCPR ダイソン公式 新品 ダイソン掃除機 スティック掃除機 ハンディクリーナー ハンディ掃除機 コードレス サイクロン",
-          "price": "29900",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s44m2.5dkfa9a2.g00s44m2.5dkfb79d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F593813-01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dyson/cabinet/product/13169084/sv58ad_point_em.jpg?_ex=128x128",
-          "shopName": "Dyson公式 楽天市場店",
-          "rank": 27,
-          "reviewCount": 128,
-          "reviewAverage": 4.19
+          "name": "【1種類を選べる】グーン ぐんぐん吸収パンツ ディズニー・プリンセス おむつ(3個)【mmw】【グーン(GOO.N)】[オムツ 紙おむつ 紙オムツ]",
+          "price": "4359",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd42.5dkfaa59.g00pzd42.5dkfb1ad/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404196%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/netbaby/cabinet/196/404196.jpg?_ex=128x128",
+          "shopName": "楽天24 ベビー館",
+          "rank": 23,
+          "reviewCount": 6895,
+          "reviewAverage": 4.67
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "日用品・家事 / 楽天リアルタイム 27位 / 評価 4.19（128件）",
-      "reviewDraft": "{\n  \"id\": \"review-daily-household-dyson-10002092\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"dyson:10002092\"\n  }\n}",
-      "score": 88,
+      "selectionSummary": "子育て・ベビー / 楽天リアルタイム 23位 / 評価 4.67（6895件）",
+      "reviewDraft": "{\n  \"id\": \"review-baby-kids-netbaby-10027922\",\n  \"enabled\": false,\n  \"priority\": 55,\n  \"genre\": \"子育て・ベビー\",\n  \"target\": \"子どもの生活用品を効率よく選びたい人\",\n  \"problem\": \"ベビー・キッズ用品のサイズや用途で迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"対象年齢・サイズ・安全上の注意を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"netbaby:10027922\"\n  }\n}",
+      "score": 92,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
         "value_score": {
-          "price_advantage": 1,
-          "utility": 4,
+          "price_advantage": 2,
+          "utility": 2,
           "functionality": 2,
-          "time_saving": 2,
+          "time_saving": 1,
+          "comparative_advantage": 3,
+          "trust": 5,
+          "total": 15
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 3,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 16
+        },
+        "x_score": {
+          "scroll_stop": 1,
+          "short_copy_fit": 2,
+          "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 5
+        },
+        "value_reason": "価格情報 ¥4,359、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
+        "hook": "グーン ぐんぐん吸収パンツ ディズニー・プリンセス おむつ(3個)…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:preparedness:rifurekuto:10000098",
+      "candidateType": "discovery",
+      "genre": "防災",
+      "target": "非常時の備えを見直したい人",
+      "problem": "防災用品を何から揃えるか迷っている",
+      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング117位の商品。",
+      "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "防災・備え / リアルタイムランキング 117位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6ur2.5dkfa6a4.g00s6ur2.5dkfb94a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frifurekuto%2F200%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "＼10/1限定！4本購入で1本プレゼント！／【百花ボトルはちみつ】 国産 非加熱 百花 無添加 国産純粋はちみつ 百花蜜 岡山産 ふるさと 蜂蜜 ハチミツ 非常食 常備食 蜜切ボトル 逆止弁 HONEY 国産蜂蜜 ハニー 国産ハチミツ 日本製 100％純粋 生はちみつ ふくみつ",
+        "price": "2480",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6ur2.5dkfa6a4.g00s6ur2.5dkfb94a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frifurekuto%2F200%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rifurekuto/cabinet/04744393/06754699/imgrc0075270354.jpg?_ex=128x128",
+        "shopName": "生はちみつ専門店　ふくみつ",
+        "rank": 117,
+        "reviewCount": 479,
+        "reviewAverage": 4.84
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "＼10/1限定！4本購入で1本プレゼント！／【百花ボトルはちみつ】 国産 非加熱 百花 無添加 国産純粋はちみつ 百花蜜 岡山産 ふるさと 蜂蜜 ハチミツ 非常食 常備食 蜜切ボトル 逆止弁 HONEY 国産蜂蜜 ハニー 国産ハチミツ 日本製 100％純粋 生はちみつ ふくみつ",
+          "price": "2480",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s6ur2.5dkfa6a4.g00s6ur2.5dkfb94a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frifurekuto%2F200%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rifurekuto/cabinet/04744393/06754699/imgrc0075270354.jpg?_ex=128x128",
+          "shopName": "生はちみつ専門店　ふくみつ",
+          "rank": 117,
+          "reviewCount": 479,
+          "reviewAverage": 4.84
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "防災・備え / 楽天リアルタイム 117位 / 評価 4.84（479件）",
+      "reviewDraft": "{\n  \"id\": \"review-preparedness-rifurekuto-10000098\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"rifurekuto:10000098\"\n  }\n}",
+      "score": 89,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 3,
+          "utility": 3,
+          "functionality": 2,
+          "time_saving": 1,
           "comparative_advantage": 3,
           "trust": 4,
           "total": 16
@@ -502,92 +421,11 @@
         "discovery_score": {
           "instant_understanding": 4,
           "novelty": 4,
-          "desirability": 2,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 17
-        },
-        "x_score": {
-          "scroll_stop": 1,
-          "short_copy_fit": 0,
-          "conversation_potential": 2,
-          "click_intent": 1,
-          "total": 4
-        },
-        "value_reason": "価格情報 ¥29,900、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品名・説明に意外性の根拠がある、商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
-        "hook": "ダイソン Dyson Cyclone V10 Fluffy 掃除機…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:baby-kids:kanseikukan:10000006",
-      "candidateType": "discovery",
-      "genre": "子育て・ベビー",
-      "target": "子どもの生活用品を効率よく選びたい人",
-      "problem": "ベビー・キッズ用品のサイズや用途で迷う",
-      "reason": "子育て・ベビーの候補として、楽天市場リアルタイムランキング28位の商品。",
-      "caution": "対象年齢・サイズ・安全上の注意を販売ページで確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "子育て・ベビー / リアルタイムランキング 28位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uk352.5dkfa359.g00uk352.5dkfb8d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkanseikukan%2Fyuunysleep01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "【 公式】ユニースリープ 1位獲得 新生児～24か月 絶壁予防 ベビー枕 赤ちゃん枕 寝返り防止 横向き枕 ユニースリープ枕 夜泣き 絶壁防止 出産祝い 出産準備 向き癖防止 YUUNYSLEEP 送料無料 ベビーピロー 孫 プレゼント",
-        "price": "11900",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00uk352.5dkfa359.g00uk352.5dkfb8d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkanseikukan%2Fyuunysleep01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kanseikukan/cabinet/10705115/thum1re.jpg?_ex=128x128",
-        "shopName": "ユニースリープ公式楽天市場店",
-        "rank": 28,
-        "reviewCount": 2628,
-        "reviewAverage": 4.51
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "【 公式】ユニースリープ 1位獲得 新生児～24か月 絶壁予防 ベビー枕 赤ちゃん枕 寝返り防止 横向き枕 ユニースリープ枕 夜泣き 絶壁防止 出産祝い 出産準備 向き癖防止 YUUNYSLEEP 送料無料 ベビーピロー 孫 プレゼント",
-          "price": "11900",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uk352.5dkfa359.g00uk352.5dkfb8d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkanseikukan%2Fyuunysleep01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kanseikukan/cabinet/10705115/thum1re.jpg?_ex=128x128",
-          "shopName": "ユニースリープ公式楽天市場店",
-          "rank": 28,
-          "reviewCount": 2628,
-          "reviewAverage": 4.51
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "子育て・ベビー / 楽天リアルタイム 28位 / 評価 4.51（2628件）",
-      "reviewDraft": "{\n  \"id\": \"review-baby-kids-kanseikukan-10000006\",\n  \"enabled\": false,\n  \"priority\": 55,\n  \"genre\": \"子育て・ベビー\",\n  \"target\": \"子どもの生活用品を効率よく選びたい人\",\n  \"problem\": \"ベビー・キッズ用品のサイズや用途で迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"対象年齢・サイズ・安全上の注意を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"kanseikukan:10000006\"\n  }\n}",
-      "score": 87,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 1,
-          "utility": 2,
-          "functionality": 2,
-          "time_saving": 1,
-          "comparative_advantage": 3,
-          "trust": 5,
-          "total": 14
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
           "desirability": 4,
           "social_visual": 2,
           "giftability": 4,
           "value_story": 5,
-          "total": 21
+          "total": 23
         },
         "x_score": {
           "scroll_stop": 2,
@@ -596,10 +434,172 @@
           "click_intent": 2,
           "total": 6
         },
-        "value_reason": "価格情報 ¥11,900、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "ギフト用途の記述がある、商品画像URLあり（画像内容は未解析）。",
+        "value_reason": "価格情報 ¥2,480、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品名・説明に意外性の根拠がある、ギフト用途の記述がある、商品画像URLあり（画像内容は未解析）。",
         "reason_to_post": "X Score 6/10。投稿基準または確認根拠が不足している。",
-        "hook": "ユニースリープ 1位獲得 新生児～24か月 絶壁予防 ベビー枕 赤…は、紹介前に根拠をもう少し確認したい。",
+        "hook": "＼10/1限定！4本購入で1本プレゼント！／ 国産 非加熱 百花 …は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:daily-household:scope:10005932",
+      "candidateType": "discovery",
+      "genre": "日用品・家事",
+      "target": "毎日の家事を少し楽にしたい人",
+      "problem": "日用品を値段だけで選んで失敗したくない",
+      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング54位の商品。",
+      "caution": "素材との相性と使用方法を販売ページで確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "日用品・家事 / リアルタイムランキング 54位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pkgg2.5dkfaa05.g00pkgg2.5dkfbb6a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fscope%2Fgj-410400%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "【10月2日9:59まで期間限定価格】ジョージ ジェンセン ダマスク / エジプト ティータオル [ Georg Jensen Damask Egypt キッチンタオル ]",
+        "price": "1520",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00pkgg2.5dkfaa05.g00pkgg2.5dkfbb6a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fscope%2Fgj-410400%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/scope/cabinet/fs/gea12b11_a_im01.jpg?_ex=128x128",
+        "shopName": "scope version.R",
+        "rank": 54,
+        "reviewCount": 8294,
+        "reviewAverage": 4.74
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "【10月2日9:59まで期間限定価格】ジョージ ジェンセン ダマスク / エジプト ティータオル [ Georg Jensen Damask Egypt キッチンタオル ]",
+          "price": "1520",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pkgg2.5dkfaa05.g00pkgg2.5dkfbb6a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fscope%2Fgj-410400%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/scope/cabinet/fs/gea12b11_a_im01.jpg?_ex=128x128",
+          "shopName": "scope version.R",
+          "rank": 54,
+          "reviewCount": 8294,
+          "reviewAverage": 4.74
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "日用品・家事 / 楽天リアルタイム 54位 / 評価 4.74（8294件）",
+      "reviewDraft": "{\n  \"id\": \"review-daily-household-scope-10005932\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"scope:10005932\"\n  }\n}",
+      "score": 84,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 3,
+          "utility": 4,
+          "functionality": 2,
+          "time_saving": 2,
+          "comparative_advantage": 3,
+          "trust": 5,
+          "total": 19
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 4,
+          "desirability": 3,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 18
+        },
+        "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 2,
+          "conversation_potential": 2,
+          "click_intent": 1,
+          "total": 7
+        },
+        "value_reason": "価格情報 ¥1,520、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品名・説明に意外性の根拠がある、商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 7/10。投稿基準または確認根拠が不足している。",
+        "hook": "ジョージ ジェンセン ダマスク / エジプト ティータオル [ G…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:mobile-pc:larutan:10000093",
+      "candidateType": "discovery",
+      "genre": "スマホ・PC周辺",
+      "target": "スマホやPCを快適に使いたい人",
+      "problem": "充電・持ち運び・周辺機器の買い替えで迷う",
+      "reason": "スマホ・PC周辺の候補として、楽天市場リアルタイムランキング224位の商品。",
+      "caution": "対応端子・対応機種・出力条件を販売ページで確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "スマホ・PC周辺 / リアルタイムランキング 224位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00txfw2.5dkfae13.g00txfw2.5dkfbe92/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flarutan%2Fn026m%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "口コミ6400件!!TVで紹介★芸能人愛用＜レビュー特典＞楽天1位16冠！モバイルミルクウォーマー LARUTAN USB ミルクウォーマー ボトルウォーマー 哺乳瓶ウォーマー ミルク 保温 バッテリー 温め 充電式 持ち運び 携帯 外出 便利 充電 赤ちゃん ポータブル 離乳食 ラルタン",
+        "price": "5980",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00txfw2.5dkfae13.g00txfw2.5dkfbe92/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flarutan%2Fn026m%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/larutan/cabinet/larutan/n026m/n026m-search-image/n026m-a-top.jpg?_ex=128x128",
+        "shopName": "LARUTANオンラインショップ",
+        "rank": 224,
+        "reviewCount": 6538,
+        "reviewAverage": 4.6
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "口コミ6400件!!TVで紹介★芸能人愛用＜レビュー特典＞楽天1位16冠！モバイルミルクウォーマー LARUTAN USB ミルクウォーマー ボトルウォーマー 哺乳瓶ウォーマー ミルク 保温 バッテリー 温め 充電式 持ち運び 携帯 外出 便利 充電 赤ちゃん ポータブル 離乳食 ラルタン",
+          "price": "5980",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00txfw2.5dkfae13.g00txfw2.5dkfbe92/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flarutan%2Fn026m%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/larutan/cabinet/larutan/n026m/n026m-search-image/n026m-a-top.jpg?_ex=128x128",
+          "shopName": "LARUTANオンラインショップ",
+          "rank": 224,
+          "reviewCount": 6538,
+          "reviewAverage": 4.6
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "スマホ・PC周辺 / 楽天リアルタイム 224位 / 評価 4.6（6538件）",
+      "reviewDraft": "{\n  \"id\": \"review-mobile-pc-larutan-10000093\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"スマホ・PC周辺\",\n  \"target\": \"スマホやPCを快適に使いたい人\",\n  \"problem\": \"充電・持ち運び・周辺機器の買い替えで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"対応端子・対応機種・出力条件を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"larutan:10000093\"\n  }\n}",
+      "score": 84,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 2,
+          "utility": 4,
+          "functionality": 3,
+          "time_saving": 2,
+          "comparative_advantage": 3,
+          "trust": 5,
+          "total": 19
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 4,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 17
+        },
+        "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 4
+        },
+        "value_reason": "価格情報 ¥5,980、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
+        "hook": "この商品は、紹介前に根拠をもう少し確認したい。",
         "confidence": "high"
       }
     }
