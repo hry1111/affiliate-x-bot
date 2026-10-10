@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T02:48:42.295Z",
+  "generatedAt": "2026-10-10T02:08:22.084Z",
   "genres": [
     "キッチン・調理",
     "スマホ・PC周辺",
@@ -118,467 +118,386 @@
       ]
     },
     {
-      "id": "trend:storage-interior:e-kurashi:10048736",
+      "id": "trend:baby-kids:zoff:10004562",
       "candidateType": "discovery",
-      "genre": "収納・インテリア",
-      "target": "部屋をすっきり使いたい人",
-      "problem": "収納用品や生活家具のサイズ選びで迷う",
-      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング4位の商品。",
-      "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
+      "genre": "子育て・ベビー",
+      "target": "子どもの生活用品を効率よく選びたい人",
+      "problem": "ベビー・キッズ用品のサイズや用途で迷う",
+      "reason": "子育て・ベビーの候補として、楽天市場リアルタイムランキング5位の商品。",
+      "caution": "対象年齢・サイズ・安全上の注意を販売ページで確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "収納・インテリア / リアルタイムランキング 4位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+          "title": "子育て・ベビー / リアルタイムランキング 5位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s2yh2.5dkfa57f.g00s2yh2.5dkfb5cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzoff%2Flucky_bag_ec%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
       "primaryOffer": {
         "provider": "rakuten",
         "label": "楽天市場",
-        "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
-        "price": "4999",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/rank-img/021/main-xaedt-01.jpg?_ex=128x128",
-        "shopName": "くらしのeショップ",
-        "rank": 4,
-        "reviewCount": 6684,
-        "reviewAverage": 4.42
+        "name": "|【Zoff 福袋2027 】〈12月上旬頃から順次発送〉ゾフ店舗で使える10,000円のメガネ券・調光レンズクーポン付き！ 在庫なくなり次第販売終了 LISA LARSON メガネラグ メガネマット メガネ置き リサラーソン マイキー メガネ 福袋 lucky bag レディース メンズ キッズ|",
+        "price": "6600",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00s2yh2.5dkfa57f.g00s2yh2.5dkfb5cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzoff%2Flucky_bag_ec%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/zoff/cabinet/mail/2027fuku_1006.jpg?_ex=128x128",
+        "shopName": "Zoff （ゾフ）　楽天市場店",
+        "rank": 5,
+        "reviewCount": 1042,
+        "reviewAverage": 4.38
       },
       "purchaseOptions": [
         {
           "provider": "rakuten",
           "label": "楽天市場",
-          "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
-          "price": "4999",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/rank-img/021/main-xaedt-01.jpg?_ex=128x128",
-          "shopName": "くらしのeショップ",
-          "rank": 4,
-          "reviewCount": 6684,
-          "reviewAverage": 4.42
+          "name": "|【Zoff 福袋2027 】〈12月上旬頃から順次発送〉ゾフ店舗で使える10,000円のメガネ券・調光レンズクーポン付き！ 在庫なくなり次第販売終了 LISA LARSON メガネラグ メガネマット メガネ置き リサラーソン マイキー メガネ 福袋 lucky bag レディース メンズ キッズ|",
+          "price": "6600",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s2yh2.5dkfa57f.g00s2yh2.5dkfb5cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzoff%2Flucky_bag_ec%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/zoff/cabinet/mail/2027fuku_1006.jpg?_ex=128x128",
+          "shopName": "Zoff （ゾフ）　楽天市場店",
+          "rank": 5,
+          "reviewCount": 1042,
+          "reviewAverage": 4.38
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "収納・インテリア / 楽天リアルタイム 4位 / 評価 4.42（6684件）",
-      "reviewDraft": "{\n  \"id\": \"review-storage-interior-e-kurashi-10048736\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"収納・インテリア\",\n  \"target\": \"部屋をすっきり使いたい人\",\n  \"problem\": \"収納用品や生活家具のサイズ選びで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"設置場所の寸法・耐荷重・組み立て条件を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"e-kurashi:10048736\"\n  }\n}",
-      "score": 116,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 2,
-          "utility": 3,
-          "functionality": 2,
-          "time_saving": 1,
-          "comparative_advantage": 4,
-          "trust": 5,
-          "total": 17
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
-          "desirability": 3,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 16
-        },
-        "x_score": {
-          "scroll_stop": 1,
-          "short_copy_fit": 0,
-          "conversation_potential": 1,
-          "click_intent": 1,
-          "total": 3
-        },
-        "value_reason": "価格情報 ¥4,999、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 3/10。投稿基準または確認根拠が不足している。",
-        "hook": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/5…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:daily-household:dyson:10002092",
-      "candidateType": "discovery",
-      "genre": "日用品・家事",
-      "target": "毎日の家事を少し楽にしたい人",
-      "problem": "日用品を値段だけで選んで失敗したくない",
-      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング15位の商品。",
-      "caution": "素材との相性と使用方法を販売ページで確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "日用品・家事 / リアルタイムランキング 15位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s44m2.5dkfa9a2.g00s44m2.5dkfb79d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F593813-01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "【期間限定P10倍】 ダイソン Dyson Cyclone V10 Fluffy 掃除機 コードレス掃除機 dyson SV58 AD-A NKLCPR ダイソン公式 新品 ダイソン掃除機 スティック掃除機 ハンディクリーナー ハンディ掃除機 コードレス サイクロン",
-        "price": "29900",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00s44m2.5dkfa9a2.g00s44m2.5dkfb79d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F593813-01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dyson/cabinet/product/13169084/sv58ad_point_em.jpg?_ex=128x128",
-        "shopName": "Dyson公式 楽天市場店",
-        "rank": 15,
-        "reviewCount": 140,
-        "reviewAverage": 4.15
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "【期間限定P10倍】 ダイソン Dyson Cyclone V10 Fluffy 掃除機 コードレス掃除機 dyson SV58 AD-A NKLCPR ダイソン公式 新品 ダイソン掃除機 スティック掃除機 ハンディクリーナー ハンディ掃除機 コードレス サイクロン",
-          "price": "29900",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s44m2.5dkfa9a2.g00s44m2.5dkfb79d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F593813-01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dyson/cabinet/product/13169084/sv58ad_point_em.jpg?_ex=128x128",
-          "shopName": "Dyson公式 楽天市場店",
-          "rank": 15,
-          "reviewCount": 140,
-          "reviewAverage": 4.15
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "日用品・家事 / 楽天リアルタイム 15位 / 評価 4.15（140件）",
-      "reviewDraft": "{\n  \"id\": \"review-daily-household-dyson-10002092\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"dyson:10002092\"\n  }\n}",
-      "score": 100,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 1,
-          "utility": 4,
-          "functionality": 2,
-          "time_saving": 2,
-          "comparative_advantage": 3,
-          "trust": 4,
-          "total": 16
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 4,
-          "desirability": 2,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 17
-        },
-        "x_score": {
-          "scroll_stop": 1,
-          "short_copy_fit": 0,
-          "conversation_potential": 2,
-          "click_intent": 1,
-          "total": 4
-        },
-        "value_reason": "価格情報 ¥29,900、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品名・説明に意外性の根拠がある、商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
-        "hook": "ダイソン Dyson Cyclone V10 Fluffy 掃除機…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:preparedness:akol:10000484",
-      "candidateType": "discovery",
-      "genre": "防災",
-      "target": "非常時の備えを見直したい人",
-      "problem": "防災用品を何から揃えるか迷っている",
-      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング259位の商品。",
-      "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "防災・備え / リアルタイムランキング 259位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00q6ur2.5dkfa96b.g00q6ur2.5dkfb49f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakol%2F1011801%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "保存水 備蓄水 10年保存水 1.8l 6本入 2ケース 12本 10年保存可能 防災 防災グッズ 非常時 災害 ミネラルウォーター 軟水 国産 海洋深層水 飲料水 非常食 地震 自然災害 法人 オフィス 学校 病院 自治体 災害備蓄",
-        "price": "3860",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00q6ur2.5dkfa96b.g00q6ur2.5dkfb49f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakol%2F1011801%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/akol/cabinet/06635893/07531328/imgrc0112807065.jpg?_ex=128x128",
-        "shopName": "海洋深層水のアコール",
-        "rank": 259,
-        "reviewCount": 1341,
-        "reviewAverage": 4.75
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "保存水 備蓄水 10年保存水 1.8l 6本入 2ケース 12本 10年保存可能 防災 防災グッズ 非常時 災害 ミネラルウォーター 軟水 国産 海洋深層水 飲料水 非常食 地震 自然災害 法人 オフィス 学校 病院 自治体 災害備蓄",
-          "price": "3860",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00q6ur2.5dkfa96b.g00q6ur2.5dkfb49f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakol%2F1011801%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/akol/cabinet/06635893/07531328/imgrc0112807065.jpg?_ex=128x128",
-          "shopName": "海洋深層水のアコール",
-          "rank": 259,
-          "reviewCount": 1341,
-          "reviewAverage": 4.75
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 259位 / 評価 4.75（1341件）",
-      "reviewDraft": "{\n  \"id\": \"review-preparedness-akol-10000484\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"akol:10000484\"\n  }\n}",
-      "score": 95,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 2,
-          "utility": 3,
-          "functionality": 2,
-          "time_saving": 1,
-          "comparative_advantage": 3,
-          "trust": 5,
-          "total": 16
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
-          "desirability": 3,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 16
-        },
-        "x_score": {
-          "scroll_stop": 1,
-          "short_copy_fit": 0,
-          "conversation_potential": 1,
-          "click_intent": 1,
-          "total": 3
-        },
-        "value_reason": "価格情報 ¥3,860、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 3/10。投稿基準または確認根拠が不足している。",
-        "hook": "保存水 備蓄水 10年保存水 1.8l 6本入 2ケース 12本 …は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:preparedness:kurashikenkou:10225715",
-      "candidateType": "discovery",
-      "genre": "防災",
-      "target": "非常時の備えを見直したい人",
-      "problem": "防災用品を何から揃えるか迷っている",
-      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング181位の商品。",
-      "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "防災・備え / リアルタイムランキング 181位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qhoa2.5dkfa30d.g00qhoa2.5dkfb0c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashikenkou%2F314624%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "米 パックご飯 180g ×48食 大容量 ご飯パック パックごはん レトルトご飯 パック米 パックライス 備蓄 米 お米 白米 非常食 防災 保存食 常温保存可 キャンプ 低温製法米のおいしいごはん アイリスオーヤマ アイリスフーズ",
-        "price": "4980",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00qhoa2.5dkfa30d.g00qhoa2.5dkfb0c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashikenkou%2F314624%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kurashikenkou/cabinet/11663202/13792743/enet_314624.jpg?_ex=128x128",
-        "shopName": "暮らし健康ネット館",
-        "rank": 181,
-        "reviewCount": 122,
-        "reviewAverage": 4.75
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "米 パックご飯 180g ×48食 大容量 ご飯パック パックごはん レトルトご飯 パック米 パックライス 備蓄 米 お米 白米 非常食 防災 保存食 常温保存可 キャンプ 低温製法米のおいしいごはん アイリスオーヤマ アイリスフーズ",
-          "price": "4980",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qhoa2.5dkfa30d.g00qhoa2.5dkfb0c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashikenkou%2F314624%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kurashikenkou/cabinet/11663202/13792743/enet_314624.jpg?_ex=128x128",
-          "shopName": "暮らし健康ネット館",
-          "rank": 181,
-          "reviewCount": 122,
-          "reviewAverage": 4.75
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 181位 / 評価 4.75（122件）",
-      "reviewDraft": "{\n  \"id\": \"review-preparedness-kurashikenkou-10225715\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"kurashikenkou:10225715\"\n  }\n}",
-      "score": 86,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 2,
-          "utility": 3,
-          "functionality": 3,
-          "time_saving": 1,
-          "comparative_advantage": 3,
-          "trust": 4,
-          "total": 16
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
-          "desirability": 2,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 15
-        },
-        "x_score": {
-          "scroll_stop": 1,
-          "short_copy_fit": 0,
-          "conversation_potential": 1,
-          "click_intent": 1,
-          "total": 3
-        },
-        "value_reason": "価格情報 ¥4,980、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 3/10。投稿基準または確認根拠が不足している。",
-        "hook": "米 パックご飯 180g ×48食 大容量 ご飯パック パックごは…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:mobile-pc:busyman:10000122",
-      "candidateType": "discovery",
-      "genre": "スマホ・PC周辺",
-      "target": "スマホやPCを快適に使いたい人",
-      "problem": "充電・持ち運び・周辺機器の買い替えで迷う",
-      "reason": "スマホ・PC周辺の候補として、楽天市場リアルタイムランキング229位の商品。",
-      "caution": "対応端子・対応機種・出力条件を販売ページで確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "スマホ・PC周辺 / リアルタイムランキング 229位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rb6l2.5dkfa626.g00rb6l2.5dkfb513/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbusyman%2Fpp003393%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "スーツケース 機内持込 軽量 キャリーバッグ TSAロック USBポート ドリンクホルダー 静音 人気 修学旅行 大容量 頑丈 かわいい おすすめ SSサイズ Sサイズ Mサイズ Lサイズ 子供 T9088 TANOBI【キャンペーン参加で3年間品質保証獲得！】",
-        "price": "3980",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00rb6l2.5dkfa626.g00rb6l2.5dkfb513/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbusyman%2Fpp003393%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/busyman/cabinet/shangpinpage/05136642/06214436/9088-2601-sssml.jpg?_ex=128x128",
-        "shopName": "スーツケース専門店 busyman",
-        "rank": 229,
-        "reviewCount": 18288,
-        "reviewAverage": 4.41
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "スーツケース 機内持込 軽量 キャリーバッグ TSAロック USBポート ドリンクホルダー 静音 人気 修学旅行 大容量 頑丈 かわいい おすすめ SSサイズ Sサイズ Mサイズ Lサイズ 子供 T9088 TANOBI【キャンペーン参加で3年間品質保証獲得！】",
-          "price": "3980",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rb6l2.5dkfa626.g00rb6l2.5dkfb513/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbusyman%2Fpp003393%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/busyman/cabinet/shangpinpage/05136642/06214436/9088-2601-sssml.jpg?_ex=128x128",
-          "shopName": "スーツケース専門店 busyman",
-          "rank": 229,
-          "reviewCount": 18288,
-          "reviewAverage": 4.41
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "スマホ・PC周辺 / 楽天リアルタイム 229位 / 評価 4.41（18288件）",
-      "reviewDraft": "{\n  \"id\": \"review-mobile-pc-busyman-10000122\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"スマホ・PC周辺\",\n  \"target\": \"スマホやPCを快適に使いたい人\",\n  \"problem\": \"充電・持ち運び・周辺機器の買い替えで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"対応端子・対応機種・出力条件を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"busyman:10000122\"\n  }\n}",
-      "score": 84,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 2,
-          "utility": 4,
-          "functionality": 5,
-          "time_saving": 2,
-          "comparative_advantage": 3,
-          "trust": 5,
-          "total": 21
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
-          "desirability": 5,
-          "social_visual": 3,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 19
-        },
-        "x_score": {
-          "scroll_stop": 2,
-          "short_copy_fit": 0,
-          "conversation_potential": 1,
-          "click_intent": 2,
-          "total": 5
-        },
-        "value_reason": "価格情報 ¥3,980、機能情報が具体的、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
-        "hook": "スーツケース 機内持込 軽量 キャリーバッグ TSAロック USB…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:daily-household:nanobig:10000898",
-      "candidateType": "discovery",
-      "genre": "日用品・家事",
-      "target": "毎日の家事を少し楽にしたい人",
-      "problem": "日用品を値段だけで選んで失敗したくない",
-      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング226位の商品。",
-      "caution": "素材との相性と使用方法を販売ページで確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "日用品・家事 / リアルタイムランキング 226位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rdz22.5dkfab8f.g00rdz22.5dkfb44e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnanobig%2Fcleaner-cordless-rr11%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "【クーポンで1900円オフ】2026新モデル【2年保証】掃除機 コードレス掃除機 Orage史上 超高性能 RR11 軽量 人気 1位 自立 自走式 スティック クリーナー サイクロン 強力吸引 充電式 掃除機 ジェネリック家電 布団クリーナー",
-        "price": "13500",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00rdz22.5dkfab8f.g00rdz22.5dkfb44e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnanobig%2Fcleaner-cordless-rr11%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/nanobig/cabinet/02988222/oragerr11/oragerr11_main.jpg?_ex=128x128",
-        "shopName": "ナノビッグ楽天市場店",
-        "rank": 226,
-        "reviewCount": 3679,
-        "reviewAverage": 4.51
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "【クーポンで1900円オフ】2026新モデル【2年保証】掃除機 コードレス掃除機 Orage史上 超高性能 RR11 軽量 人気 1位 自立 自走式 スティック クリーナー サイクロン 強力吸引 充電式 掃除機 ジェネリック家電 布団クリーナー",
-          "price": "13500",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rdz22.5dkfab8f.g00rdz22.5dkfb44e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnanobig%2Fcleaner-cordless-rr11%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/nanobig/cabinet/02988222/oragerr11/oragerr11_main.jpg?_ex=128x128",
-          "shopName": "ナノビッグ楽天市場店",
-          "rank": 226,
-          "reviewCount": 3679,
-          "reviewAverage": 4.51
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "日用品・家事 / 楽天リアルタイム 226位 / 評価 4.51（3679件）",
-      "reviewDraft": "{\n  \"id\": \"review-daily-household-nanobig-10000898\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"nanobig:10000898\"\n  }\n}",
-      "score": 84,
+      "selectionSummary": "子育て・ベビー / 楽天リアルタイム 5位 / 評価 4.38（1042件）",
+      "reviewDraft": "{\n  \"id\": \"review-baby-kids-zoff-10004562\",\n  \"enabled\": false,\n  \"priority\": 55,\n  \"genre\": \"子育て・ベビー\",\n  \"target\": \"子どもの生活用品を効率よく選びたい人\",\n  \"problem\": \"ベビー・キッズ用品のサイズや用途で迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"対象年齢・サイズ・安全上の注意を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"zoff:10004562\"\n  }\n}",
+      "score": 110,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
         "value_score": {
           "price_advantage": 5,
-          "utility": 5,
-          "functionality": 4,
-          "time_saving": 2,
+          "utility": 2,
+          "functionality": 2,
+          "time_saving": 1,
+          "comparative_advantage": 4,
+          "trust": 5,
+          "total": 19
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 3,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 16
+        },
+        "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 4
+        },
+        "value_reason": "価格情報 ¥6,600、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
+        "hook": "| 〈12月上旬頃から順次発送〉ゾフ店舗で使える10,000円のメ…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:baby-kids:netbaby:10035957",
+      "candidateType": "discovery",
+      "genre": "子育て・ベビー",
+      "target": "子どもの生活用品を効率よく選びたい人",
+      "problem": "ベビー・キッズ用品のサイズや用途で迷う",
+      "reason": "子育て・ベビーの候補として、楽天市場リアルタイムランキング12位の商品。",
+      "caution": "対象年齢・サイズ・安全上の注意を販売ページで確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "子育て・ベビー / リアルタイムランキング 12位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd42.5dkfaa59.g00pzd42.5dkfb1ad/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404758%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "【1種類を選べる】メリーズ エアスルー パンツ 梱販販売用(3袋入×1箱)【メリーズ】[おむつ オムツ 紙おむつ 紙オムツ さらさらエアスルー]",
+        "price": "6460",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd42.5dkfaa59.g00pzd42.5dkfb1ad/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404758%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/netbaby/cabinet/758/404758.jpg?_ex=128x128",
+        "shopName": "楽天24 ベビー館",
+        "rank": 12,
+        "reviewCount": 4084,
+        "reviewAverage": 4.83
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "【1種類を選べる】メリーズ エアスルー パンツ 梱販販売用(3袋入×1箱)【メリーズ】[おむつ オムツ 紙おむつ 紙オムツ さらさらエアスルー]",
+          "price": "6460",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd42.5dkfaa59.g00pzd42.5dkfb1ad/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404758%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/netbaby/cabinet/758/404758.jpg?_ex=128x128",
+          "shopName": "楽天24 ベビー館",
+          "rank": 12,
+          "reviewCount": 4084,
+          "reviewAverage": 4.83
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "子育て・ベビー / 楽天リアルタイム 12位 / 評価 4.83（4084件）",
+      "reviewDraft": "{\n  \"id\": \"review-baby-kids-netbaby-10035957\",\n  \"enabled\": false,\n  \"priority\": 55,\n  \"genre\": \"子育て・ベビー\",\n  \"target\": \"子どもの生活用品を効率よく選びたい人\",\n  \"problem\": \"ベビー・キッズ用品のサイズや用途で迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"対象年齢・サイズ・安全上の注意を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"netbaby:10035957\"\n  }\n}",
+      "score": 104,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 2,
+          "utility": 2,
+          "functionality": 2,
+          "time_saving": 1,
           "comparative_advantage": 3,
           "trust": 5,
-          "total": 24
+          "total": 15
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 3,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 16
+        },
+        "x_score": {
+          "scroll_stop": 1,
+          "short_copy_fit": 2,
+          "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 5
+        },
+        "value_reason": "価格情報 ¥6,460、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
+        "hook": "メリーズ エアスルー パンツ 梱販販売用(3袋入×1箱) [おむつ…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:preparedness:biyoudou:10000164",
+      "candidateType": "discovery",
+      "genre": "防災",
+      "target": "非常時の備えを見直したい人",
+      "problem": "防災用品を何から揃えるか迷っている",
+      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング70位の商品。",
+      "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "防災・備え / リアルタイムランキング 70位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "【365日最短翌日お届け】BIYOUDO 水 シリカ水 500ml×42本 350ml×48本 ナチュラルミネラルウォーター ラベルレス 軟水 美容ミネラル シリカ含有 天然水 シリカウォーター 保存料なし プロテイン スムージー 酵素ドリンク 等にも 保存水 防災 備蓄 国産 日本製 美陽堂 公式",
+        "price": "2380",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/biyoudou/cabinet/new-biyoudo/products/350mlless/biyoudo_350ml_thumb.jpg?_ex=128x128",
+        "shopName": "BIYOUDO 公式ストア",
+        "rank": 70,
+        "reviewCount": 55437,
+        "reviewAverage": 4.81
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "【365日最短翌日お届け】BIYOUDO 水 シリカ水 500ml×42本 350ml×48本 ナチュラルミネラルウォーター ラベルレス 軟水 美容ミネラル シリカ含有 天然水 シリカウォーター 保存料なし プロテイン スムージー 酵素ドリンク 等にも 保存水 防災 備蓄 国産 日本製 美陽堂 公式",
+          "price": "2380",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/biyoudou/cabinet/new-biyoudo/products/350mlless/biyoudo_350ml_thumb.jpg?_ex=128x128",
+          "shopName": "BIYOUDO 公式ストア",
+          "rank": 70,
+          "reviewCount": 55437,
+          "reviewAverage": 4.81
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "防災・備え / 楽天リアルタイム 70位 / 評価 4.81（55437件）",
+      "reviewDraft": "{\n  \"id\": \"review-preparedness-biyoudou-10000164\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"biyoudou:10000164\"\n  }\n}",
+      "score": 95,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 3,
+          "utility": 3,
+          "functionality": 2,
+          "time_saving": 1,
+          "comparative_advantage": 3,
+          "trust": 5,
+          "total": 17
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 3,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 16
+        },
+        "x_score": {
+          "scroll_stop": 1,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 3
+        },
+        "value_reason": "価格情報 ¥2,380、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 3/10。投稿基準または確認根拠が不足している。",
+        "hook": "BIYOUDO 水 シリカ水 500ml×42本 350ml×48…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:preparedness:matsuya:10000085",
+      "candidateType": "discovery",
+      "genre": "防災",
+      "target": "非常時の備えを見直したい人",
+      "problem": "防災用品を何から揃えるか迷っている",
+      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング241位の商品。",
+      "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "防災・備え / リアルタイムランキング 241位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pwdg2.5dkfa895.g00pwdg2.5dkfbde3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatsuya%2Fus30%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "S【衝撃の60％OFF！クーポン利用で1食200円~！】 牛めしの具（プレミアム仕様）135g 選択制 牛めし 大容量リピ確定BOX 松屋 公式 牛丼の具 まつや 牛丼 単身赴任 非常食 セール 半額",
+        "price": "2740",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00pwdg2.5dkfa895.g00pwdg2.5dkfbde3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatsuya%2Fus30%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/matsuya/cabinet/13915628/2610mt_sale_thm_300.jpg?_ex=128x128",
+        "shopName": "松屋フーズ",
+        "rank": 241,
+        "reviewCount": 14122,
+        "reviewAverage": 4.63
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "S【衝撃の60％OFF！クーポン利用で1食200円~！】 牛めしの具（プレミアム仕様）135g 選択制 牛めし 大容量リピ確定BOX 松屋 公式 牛丼の具 まつや 牛丼 単身赴任 非常食 セール 半額",
+          "price": "2740",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pwdg2.5dkfa895.g00pwdg2.5dkfbde3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatsuya%2Fus30%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/matsuya/cabinet/13915628/2610mt_sale_thm_300.jpg?_ex=128x128",
+          "shopName": "松屋フーズ",
+          "rank": 241,
+          "reviewCount": 14122,
+          "reviewAverage": 4.63
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "防災・備え / 楽天リアルタイム 241位 / 評価 4.63（14122件）",
+      "reviewDraft": "{\n  \"id\": \"review-preparedness-matsuya-10000085\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"matsuya:10000085\"\n  }\n}",
+      "score": 94,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 5,
+          "utility": 3,
+          "functionality": 3,
+          "time_saving": 1,
+          "comparative_advantage": 3,
+          "trust": 5,
+          "total": 20
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 3,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 16
+        },
+        "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 2,
+          "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 6
+        },
+        "value_reason": "価格情報 ¥2,740、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 6/10。投稿基準または確認根拠が不足している。",
+        "hook": "S 牛めしの具（プレミアム仕様）135g 選択制 牛めし 大容量リ…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:storage-interior:sawaicoffee-tea:10001136",
+      "candidateType": "discovery",
+      "genre": "収納・インテリア",
+      "target": "部屋をすっきり使いたい人",
+      "problem": "収納用品や生活家具のサイズ選びで迷う",
+      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング28位の商品。",
+      "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "収納・インテリア / リアルタイムランキング 28位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00powb2.5dkfa82b.g00powb2.5dkfbecc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsawaicoffee-tea%2Fac-sale-1960%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "澤井珈琲｜送料無料 コーヒー コーヒー豆 コーヒー粉 珈琲豆 豆のまま \"グルメ大賞9度受賞の1番選ばれるコーヒーセット\" 1kg 2kg 3kg 抱えきれないコーヒー福袋 フォルティシモ ビクトリー 人気 ブラジル エチオピア 中強煎り 深煎り リラックスタイム 【RD】【TS】",
+        "price": "2788",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00powb2.5dkfa82b.g00powb2.5dkfbecc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsawaicoffee-tea%2Fac-sale-1960%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sawaicoffee-tea/cabinet/thum/ff26/ac-sale-1960_01.jpg?_ex=128x128",
+        "shopName": "澤井珈琲Beans＆Leaf",
+        "rank": 28,
+        "reviewCount": 50273,
+        "reviewAverage": 4.7
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "澤井珈琲｜送料無料 コーヒー コーヒー豆 コーヒー粉 珈琲豆 豆のまま \"グルメ大賞9度受賞の1番選ばれるコーヒーセット\" 1kg 2kg 3kg 抱えきれないコーヒー福袋 フォルティシモ ビクトリー 人気 ブラジル エチオピア 中強煎り 深煎り リラックスタイム 【RD】【TS】",
+          "price": "2788",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00powb2.5dkfa82b.g00powb2.5dkfbecc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsawaicoffee-tea%2Fac-sale-1960%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sawaicoffee-tea/cabinet/thum/ff26/ac-sale-1960_01.jpg?_ex=128x128",
+          "shopName": "澤井珈琲Beans＆Leaf",
+          "rank": 28,
+          "reviewCount": 50273,
+          "reviewAverage": 4.7
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "収納・インテリア / 楽天リアルタイム 28位 / 評価 4.7（50273件）",
+      "reviewDraft": "{\n  \"id\": \"review-storage-interior-sawaicoffee-tea-10001136\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"収納・インテリア\",\n  \"target\": \"部屋をすっきり使いたい人\",\n  \"problem\": \"収納用品や生活家具のサイズ選びで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"設置場所の寸法・耐荷重・組み立て条件を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"sawaicoffee-tea:10001136\"\n  }\n}",
+      "score": 92,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 3,
+          "utility": 3,
+          "functionality": 3,
+          "time_saving": 1,
+          "comparative_advantage": 3,
+          "trust": 5,
+          "total": 18
         },
         "discovery_score": {
           "instant_understanding": 4,
@@ -593,13 +512,94 @@
           "scroll_stop": 2,
           "short_copy_fit": 0,
           "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 4
+        },
+        "value_reason": "価格情報 ¥2,788、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
+        "hook": "澤井珈琲｜送料無料 コーヒー コーヒー豆 コーヒー粉 珈琲豆 豆の…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:kitchen:plywood:10022493",
+      "candidateType": "discovery",
+      "genre": "キッチン・調理",
+      "target": "料理や片付けを効率よくしたい人",
+      "problem": "調理道具や保存用品を選びきれない",
+      "reason": "キッチン・調理の候補として、楽天市場リアルタイムランキング22位の商品。",
+      "caution": "サイズ・熱源対応・食洗機対応を販売ページで確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "キッチン・調理 / リアルタイムランキング 22位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd82.5dkfa72b.g00pzd82.5dkfbf31/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fplywood%2F20149424%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "●楽天1位 【豪華レシピ2冊付き】 レコルト 自動調理ポット ラージ RSY-3 自動調理ラージrecolte Auto Cooking Pot Large 自動調理 大容量 防水 ミキサー ブレンダー 豆乳メーカー スープメーカー◇電気 レシピ付 離乳食 保温 氷OK 送料無料 P10倍",
+        "price": "19800",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd82.5dkfa72b.g00pzd82.5dkfbf31/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fplywood%2F20149424%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/plywood/cabinet/503/20149424.jpg?_ex=128x128",
+        "shopName": "plywood キッチン・インテリア雑貨",
+        "rank": 22,
+        "reviewCount": 420,
+        "reviewAverage": 4.74
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "●楽天1位 【豪華レシピ2冊付き】 レコルト 自動調理ポット ラージ RSY-3 自動調理ラージrecolte Auto Cooking Pot Large 自動調理 大容量 防水 ミキサー ブレンダー 豆乳メーカー スープメーカー◇電気 レシピ付 離乳食 保温 氷OK 送料無料 P10倍",
+          "price": "19800",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd82.5dkfa72b.g00pzd82.5dkfbf31/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fplywood%2F20149424%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/plywood/cabinet/503/20149424.jpg?_ex=128x128",
+          "shopName": "plywood キッチン・インテリア雑貨",
+          "rank": 22,
+          "reviewCount": 420,
+          "reviewAverage": 4.74
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "キッチン・調理 / 楽天リアルタイム 22位 / 評価 4.74（420件）",
+      "reviewDraft": "{\n  \"id\": \"review-kitchen-plywood-10022493\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"キッチン・調理\",\n  \"target\": \"料理や片付けを効率よくしたい人\",\n  \"problem\": \"調理道具や保存用品を選びきれない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"サイズ・熱源対応・食洗機対応を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"plywood:10022493\"\n  }\n}",
+      "score": 92,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 1,
+          "utility": 4,
+          "functionality": 5,
+          "time_saving": 4,
+          "comparative_advantage": 3,
+          "trust": 4,
+          "total": 21
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 2,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 15
+        },
+        "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
           "click_intent": 2,
           "total": 5
         },
-        "value_reason": "価格情報 ¥13,500、機能情報が具体的、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "value_reason": "価格情報 ¥19,800、機能情報が具体的、時短・省力につながる記述あり、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
         "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
         "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
-        "hook": "2026新モデル 掃除機 コードレス掃除機 Orage史上 超高性…は、紹介前に根拠をもう少し確認したい。",
+        "hook": "● レコルト 自動調理ポット ラージ RSY-3 自動調理ラージr…は、紹介前に根拠をもう少し確認したい。",
         "confidence": "high"
       }
     }
