@@ -1,0 +1,3306 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-22T01:16:31.126Z",
+  "candidateDataGeneratedAt": "2026-10-22T01:16:31.049Z",
+  "rankingSnapshotGeneratedAt": "2026-10-22T01:16:31.049Z",
+  "opportunities": [
+    {
+      "id": "research:2026-10-22:trend:preparedness:biyoudou:10000164",
+      "candidateId": "trend:preparedness:biyoudou:10000164",
+      "genre": "防災",
+      "target": "非常時の備えを見直したい人",
+      "candidateType": "discovery",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "【365日最短翌日お届け】BIYOUDO 水 シリカ水 500ml×42本 350ml×48本 ナチュラルミネラルウォーター ラベルレス 軟水 美容ミネラル シリカ含有 天然水 シリカウォーター 保存料なし プロテイン スムージー 酵素ドリンク 等にも 保存水 防災 備蓄 国産 日本製 美陽堂 公式",
+        "price": 2380,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "BIYOUDO 公式ストア",
+        "rank": 59,
+        "reviewCount": 55701,
+        "reviewAverage": 4.81
+      },
+      "demandReason": [
+        "楽天ランキング59位を確認しました。",
+        "有効な季節テーマ「防災・備え」に一致しています。",
+        "前回比: 順位42位上昇、レビュー8件増加。",
+        "評価4.81、レビュー55701件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00rkpv2.5dkfa2ea.g00rkpv2.5dkfb6d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiyoudou%2F10000164%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "防災・備え / リアルタイムランキング 59位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:preparedness:3rwebshop:10008952",
+          "name": "【国内メーカー★全世界対応】 折りたたみケトル 海外対応 海外 対応 海外旅行 持ち運び ケトル タビケトル 旅行 トラベルケトル 折りたたみ 電気 ケトル 電気ケトル ポータブルケトル 旅行 便利 キャンプ コンパクトケトル アウトドア 防災 温度調節 保温 車中泊 一人暮らし",
+          "rank": 286
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 24,
+            "max": 30,
+            "reason": "楽天ランキング59位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 19,
+            "max": 25,
+            "reason": "有効な季節テーマ「防災・備え」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": true,
+            "score": 20,
+            "max": 20,
+            "reason": "前回比: 順位42位上昇、レビュー8件増加。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 15,
+            "max": 15,
+            "reason": "評価4.81、レビュー55701件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 78,
+        "max": 90,
+        "normalized": 87,
+        "priority": "高",
+        "confidence": "高"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "高",
+      "confidence": "高",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:preparedness:3rwebshop:10008952",
+      "candidateId": "trend:preparedness:3rwebshop:10008952",
+      "genre": "防災",
+      "target": "非常時の備えを見直したい人",
+      "candidateType": "discovery",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "【国内メーカー★全世界対応】 折りたたみケトル 海外対応 海外 対応 海外旅行 持ち運び ケトル タビケトル 旅行 トラベルケトル 折りたたみ 電気 ケトル 電気ケトル ポータブルケトル 旅行 便利 キャンプ コンパクトケトル アウトドア 防災 温度調節 保温 車中泊 一人暮らし",
+        "price": 5480,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00qkvp2.5dkfac82.g00qkvp2.5dkfb5dd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F3rwebshop%2F3r-assike06%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "スリーアールプラザ",
+        "rank": 286,
+        "reviewCount": 1095,
+        "reviewAverage": 4.46
+      },
+      "demandReason": [
+        "楽天ランキング286位を確認しました。",
+        "有効な季節テーマ「防災・備え」に一致しています。",
+        "評価4.46、レビュー1095件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00qkvp2.5dkfac82.g00qkvp2.5dkfb5dd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F3rwebshop%2F3r-assike06%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "防災・備え / リアルタイムランキング 286位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:preparedness:biyoudou:10000164",
+          "name": "【365日最短翌日お届け】BIYOUDO 水 シリカ水 500ml×42本 350ml×48本 ナチュラルミネラルウォーター ラベルレス 軟水 美容ミネラル シリカ含有 天然水 シリカウォーター 保存料なし プロテイン スムージー 酵素ドリンク 等にも 保存水 防災 備蓄 国産 日本製 美陽堂 公式",
+          "rank": 59
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 2,
+            "max": 30,
+            "reason": "楽天ランキング286位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 19,
+            "max": 25,
+            "reason": "有効な季節テーマ「防災・備え」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 12,
+            "max": 15,
+            "reason": "評価4.46、レビュー1095件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 33,
+        "max": 70,
+        "normalized": 47,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:daily-household:tac-online:10005862",
+      "candidateId": "trend:daily-household:tac-online:10005862",
+      "genre": "日用品・家事",
+      "target": "毎日の家事を少し楽にしたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "【正規品 】マキタ 掃除機 コードレス CL116DW 新品 日本製 1年保証 バッテリーセット 掃除機 ハンディ マキタ 充電式クリーナー マキタコードレスクリーナー コードレス掃除機マキタ コードレス 車用掃除機 カークリーナー cl116dwi",
+        "price": 12480,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00rxu72.5dkfa90b.g00rxu72.5dkfba03/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftac-online%2Fcl116dw%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "タックオンライン　楽天市場店",
+        "rank": 77,
+        "reviewCount": 590,
+        "reviewAverage": 4.46
+      },
+      "demandReason": [
+        "楽天ランキング77位を確認しました。",
+        "有効な季節テーマ「日用品・家事」に一致しています。",
+        "評価4.46、レビュー590件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00rxu72.5dkfa90b.g00rxu72.5dkfba03/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftac-online%2Fcl116dw%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "日用品・家事 / リアルタイムランキング 77位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:daily-household:rakuten24:11228828",
+          "name": "【1種類を選べる】アリエール 洗濯洗剤 ジェルボール プロ 詰め替え 超メガジャンボ(4袋セット)【アリエール ジェルボール】[洗剤 洗濯 ジェルボール 超メガジャンボ]",
+          "rank": 125
+        },
+        {
+          "id": "trend:daily-household:nene777:10000018",
+          "name": "掃除機 コードレス【楽天12連冠達成！吸引力完全進化110Kpa超強力!革新版グリーンLEDライト付＆60分連続稼働＆自立式&次世代LED液晶ディスプレイ】掃除機サイクロン式3段吸引力絡まないヘッド LED液晶ディスプレイ軽量低騒音伸縮パイプ HEPA多重濾過着脱式バッテリー3年保証",
+          "rank": 153
+        },
+        {
+          "id": "trend:daily-household:terada-ya:10011352",
+          "name": "● 精米機 家庭用 日本製 精米器 家庭用精米機 山本電気 YE-RC52 MB-RC52 匠味米 小型 1〜5合 精米機家庭用 白米 無洗米 玄米 ホワイト 白 ブラック レッド ライスクリーナー コンパクト 家電 1年保証 正規販売店",
+          "rank": 178
+        },
+        {
+          "id": "trend:daily-household:omutsufactory:10001843",
+          "name": "10月22日(木)★到着可能★ おむつケーキ はらぺこあおむし 出産祝い 1位 名入れ 刺繍 オムツケーキ 3段 男の子 女の子 知育玩具 キャラクター ギフトセット ハロウィン Sassy 豪華 赤ちゃん 身長計 バスタオル オーガニックコットン 専門 ランキング",
+          "rank": 289
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 22,
+            "max": 30,
+            "reason": "楽天ランキング77位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 16,
+            "max": 25,
+            "reason": "有効な季節テーマ「日用品・家事」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 11,
+            "max": 15,
+            "reason": "評価4.46、レビュー590件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 49,
+        "max": 70,
+        "normalized": 70,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:daily-household:rakuten24:11228828",
+      "candidateId": "trend:daily-household:rakuten24:11228828",
+      "genre": "日用品・家事",
+      "target": "毎日の家事を少し楽にしたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "【1種類を選べる】アリエール 洗濯洗剤 ジェルボール プロ 詰め替え 超メガジャンボ(4袋セット)【アリエール ジェルボール】[洗剤 洗濯 ジェルボール 超メガジャンボ]",
+        "price": 14580,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00r1362.5dkfa9cf.g00r1362.5dkfbbf1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F405191%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "楽天24",
+        "rank": 125,
+        "reviewCount": 215,
+        "reviewAverage": 4.79
+      },
+      "demandReason": [
+        "楽天ランキング125位を確認しました。",
+        "有効な季節テーマ「日用品・家事」に一致しています。",
+        "評価4.79、レビュー215件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00r1362.5dkfa9cf.g00r1362.5dkfbbf1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F405191%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "日用品・家事 / リアルタイムランキング 125位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:daily-household:tac-online:10005862",
+          "name": "【正規品 】マキタ 掃除機 コードレス CL116DW 新品 日本製 1年保証 バッテリーセット 掃除機 ハンディ マキタ 充電式クリーナー マキタコードレスクリーナー コードレス掃除機マキタ コードレス 車用掃除機 カークリーナー cl116dwi",
+          "rank": 77
+        },
+        {
+          "id": "trend:daily-household:nene777:10000018",
+          "name": "掃除機 コードレス【楽天12連冠達成！吸引力完全進化110Kpa超強力!革新版グリーンLEDライト付＆60分連続稼働＆自立式&次世代LED液晶ディスプレイ】掃除機サイクロン式3段吸引力絡まないヘッド LED液晶ディスプレイ軽量低騒音伸縮パイプ HEPA多重濾過着脱式バッテリー3年保証",
+          "rank": 153
+        },
+        {
+          "id": "trend:daily-household:terada-ya:10011352",
+          "name": "● 精米機 家庭用 日本製 精米器 家庭用精米機 山本電気 YE-RC52 MB-RC52 匠味米 小型 1〜5合 精米機家庭用 白米 無洗米 玄米 ホワイト 白 ブラック レッド ライスクリーナー コンパクト 家電 1年保証 正規販売店",
+          "rank": 178
+        },
+        {
+          "id": "trend:daily-household:omutsufactory:10001843",
+          "name": "10月22日(木)★到着可能★ おむつケーキ はらぺこあおむし 出産祝い 1位 名入れ 刺繍 オムツケーキ 3段 男の子 女の子 知育玩具 キャラクター ギフトセット ハロウィン Sassy 豪華 赤ちゃん 身長計 バスタオル オーガニックコットン 専門 ランキング",
+          "rank": 289
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 18,
+            "max": 30,
+            "reason": "楽天ランキング125位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 16,
+            "max": 25,
+            "reason": "有効な季節テーマ「日用品・家事」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 9,
+            "max": 15,
+            "reason": "評価4.79、レビュー215件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 43,
+        "max": 70,
+        "normalized": 61,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:daily-household:nene777:10000018",
+      "candidateId": "trend:daily-household:nene777:10000018",
+      "genre": "日用品・家事",
+      "target": "毎日の家事を少し楽にしたい人",
+      "candidateType": "discovery",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "掃除機 コードレス【楽天12連冠達成！吸引力完全進化110Kpa超強力!革新版グリーンLEDライト付＆60分連続稼働＆自立式&次世代LED液晶ディスプレイ】掃除機サイクロン式3段吸引力絡まないヘッド LED液晶ディスプレイ軽量低騒音伸縮パイプ HEPA多重濾過着脱式バッテリー3年保証",
+        "price": 12800,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00upsp2.5dkfa34c.g00upsp2.5dkfb26c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnene777%2Fcompass1747365900%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "NENE777楽天市場店",
+        "rank": 153,
+        "reviewCount": 5160,
+        "reviewAverage": 4.6
+      },
+      "demandReason": [
+        "楽天ランキング153位を確認しました。",
+        "有効な季節テーマ「日用品・家事」に一致しています。",
+        "評価4.6、レビュー5160件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00upsp2.5dkfa34c.g00upsp2.5dkfb26c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnene777%2Fcompass1747365900%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "日用品・家事 / リアルタイムランキング 153位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:daily-household:tac-online:10005862",
+          "name": "【正規品 】マキタ 掃除機 コードレス CL116DW 新品 日本製 1年保証 バッテリーセット 掃除機 ハンディ マキタ 充電式クリーナー マキタコードレスクリーナー コードレス掃除機マキタ コードレス 車用掃除機 カークリーナー cl116dwi",
+          "rank": 77
+        },
+        {
+          "id": "trend:daily-household:rakuten24:11228828",
+          "name": "【1種類を選べる】アリエール 洗濯洗剤 ジェルボール プロ 詰め替え 超メガジャンボ(4袋セット)【アリエール ジェルボール】[洗剤 洗濯 ジェルボール 超メガジャンボ]",
+          "rank": 125
+        },
+        {
+          "id": "trend:daily-household:terada-ya:10011352",
+          "name": "● 精米機 家庭用 日本製 精米器 家庭用精米機 山本電気 YE-RC52 MB-RC52 匠味米 小型 1〜5合 精米機家庭用 白米 無洗米 玄米 ホワイト 白 ブラック レッド ライスクリーナー コンパクト 家電 1年保証 正規販売店",
+          "rank": 178
+        },
+        {
+          "id": "trend:daily-household:omutsufactory:10001843",
+          "name": "10月22日(木)★到着可能★ おむつケーキ はらぺこあおむし 出産祝い 1位 名入れ 刺繍 オムツケーキ 3段 男の子 女の子 知育玩具 キャラクター ギフトセット ハロウィン Sassy 豪華 赤ちゃん 身長計 バスタオル オーガニックコットン 専門 ランキング",
+          "rank": 289
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 15,
+            "max": 30,
+            "reason": "楽天ランキング153位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 16,
+            "max": 25,
+            "reason": "有効な季節テーマ「日用品・家事」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 14,
+            "max": 15,
+            "reason": "評価4.6、レビュー5160件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 45,
+        "max": 70,
+        "normalized": 64,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:daily-household:terada-ya:10011352",
+      "candidateId": "trend:daily-household:terada-ya:10011352",
+      "genre": "日用品・家事",
+      "target": "毎日の家事を少し楽にしたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "● 精米機 家庭用 日本製 精米器 家庭用精米機 山本電気 YE-RC52 MB-RC52 匠味米 小型 1〜5合 精米機家庭用 白米 無洗米 玄米 ホワイト 白 ブラック レッド ライスクリーナー コンパクト 家電 1年保証 正規販売店",
+        "price": 15800,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tgjw2.5dkfad71.g00tgjw2.5dkfb8d4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fterada-ya%2Fmk-7c-12-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "家電 アラモード",
+        "rank": 178,
+        "reviewCount": 167,
+        "reviewAverage": 4.71
+      },
+      "demandReason": [
+        "楽天ランキング178位を確認しました。",
+        "有効な季節テーマ「日用品・家事」に一致しています。",
+        "評価4.71、レビュー167件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00tgjw2.5dkfad71.g00tgjw2.5dkfb8d4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fterada-ya%2Fmk-7c-12-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "日用品・家事 / リアルタイムランキング 178位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:daily-household:tac-online:10005862",
+          "name": "【正規品 】マキタ 掃除機 コードレス CL116DW 新品 日本製 1年保証 バッテリーセット 掃除機 ハンディ マキタ 充電式クリーナー マキタコードレスクリーナー コードレス掃除機マキタ コードレス 車用掃除機 カークリーナー cl116dwi",
+          "rank": 77
+        },
+        {
+          "id": "trend:daily-household:rakuten24:11228828",
+          "name": "【1種類を選べる】アリエール 洗濯洗剤 ジェルボール プロ 詰め替え 超メガジャンボ(4袋セット)【アリエール ジェルボール】[洗剤 洗濯 ジェルボール 超メガジャンボ]",
+          "rank": 125
+        },
+        {
+          "id": "trend:daily-household:nene777:10000018",
+          "name": "掃除機 コードレス【楽天12連冠達成！吸引力完全進化110Kpa超強力!革新版グリーンLEDライト付＆60分連続稼働＆自立式&次世代LED液晶ディスプレイ】掃除機サイクロン式3段吸引力絡まないヘッド LED液晶ディスプレイ軽量低騒音伸縮パイプ HEPA多重濾過着脱式バッテリー3年保証",
+          "rank": 153
+        },
+        {
+          "id": "trend:daily-household:omutsufactory:10001843",
+          "name": "10月22日(木)★到着可能★ おむつケーキ はらぺこあおむし 出産祝い 1位 名入れ 刺繍 オムツケーキ 3段 男の子 女の子 知育玩具 キャラクター ギフトセット ハロウィン Sassy 豪華 赤ちゃん 身長計 バスタオル オーガニックコットン 専門 ランキング",
+          "rank": 289
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 12,
+            "max": 30,
+            "reason": "楽天ランキング178位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 16,
+            "max": 25,
+            "reason": "有効な季節テーマ「日用品・家事」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 8,
+            "max": 15,
+            "reason": "評価4.71、レビュー167件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 36,
+        "max": 70,
+        "normalized": 51,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:kitchen:yckaden:10000142",
+      "candidateId": "trend:kitchen:yckaden:10000142",
+      "genre": "キッチン・調理",
+      "target": "料理や片付けを効率よくしたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "ノンフライヤー＜楽天1位！COUPONで5,990円！＞【油を使わずにカリッと調理】家庭用ノンフライヤー 3L 電気フライヤー ノンオイル 油を使わない 低カロリー 揚げ物 1~3人用 可視窓 エアーフライヤー LEDディスプレイ タッチパネル タイマー レシピ付 2年保証 PSE",
+        "price": 6990,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00ukno2.5dkfa8ef.g00ukno2.5dkfbce2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyckaden%2Fww-5011dss%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "YC家電　楽天市場店",
+        "rank": 233,
+        "reviewCount": 1186,
+        "reviewAverage": 4.41
+      },
+      "demandReason": [
+        "楽天ランキング233位を確認しました。",
+        "有効な季節テーマ「キッチン・調理」に一致しています。",
+        "評価4.41、レビュー1186件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00ukno2.5dkfa8ef.g00ukno2.5dkfbce2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyckaden%2Fww-5011dss%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "キッチン・調理 / リアルタイムランキング 233位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:kitchen:shark:10000489",
+          "name": "最大20％OFF セール ポイント10倍 【Ninja 公式】Ninja Crispi クリスピー FN101J FN100J【公式限定レシピ本特典あり】 / シャークニンジャ 電気調理器 電気フライヤー ノンフライヤー エアフライヤー 卓上 家庭用 自動調理器 揚げ物 グリル ロースト ほったらかし 調理家電",
+          "rank": 268
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 7,
+            "max": 30,
+            "reason": "楽天ランキング233位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 15,
+            "max": 25,
+            "reason": "有効な季節テーマ「キッチン・調理」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 12,
+            "max": 15,
+            "reason": "評価4.41、レビュー1186件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 34,
+        "max": 70,
+        "normalized": 49,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:kitchen:shark:10000489",
+      "candidateId": "trend:kitchen:shark:10000489",
+      "genre": "キッチン・調理",
+      "target": "料理や片付けを効率よくしたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "最大20％OFF セール ポイント10倍 【Ninja 公式】Ninja Crispi クリスピー FN101J FN100J【公式限定レシピ本特典あり】 / シャークニンジャ 電気調理器 電気フライヤー ノンフライヤー エアフライヤー 卓上 家庭用 自動調理器 揚げ物 グリル ロースト ほったらかし 調理家電",
+        "price": 15840,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00toap2.5dkfafc0.g00toap2.5dkfbce1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Ffn101j%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "SharkNinja公式楽天市場店",
+        "rank": 268,
+        "reviewCount": 153,
+        "reviewAverage": 4.54
+      },
+      "demandReason": [
+        "楽天ランキング268位を確認しました。",
+        "有効な季節テーマ「キッチン・調理」に一致しています。",
+        "前回比: 順位75位低下、レビュー0件増加。",
+        "評価4.54、レビュー153件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00toap2.5dkfafc0.g00toap2.5dkfbce1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Ffn101j%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "キッチン・調理 / リアルタイムランキング 268位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:kitchen:yckaden:10000142",
+          "name": "ノンフライヤー＜楽天1位！COUPONで5,990円！＞【油を使わずにカリッと調理】家庭用ノンフライヤー 3L 電気フライヤー ノンオイル 油を使わない 低カロリー 揚げ物 1~3人用 可視窓 エアーフライヤー LEDディスプレイ タッチパネル タイマー レシピ付 2年保証 PSE",
+          "rank": 233
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 3,
+            "max": 30,
+            "reason": "楽天ランキング268位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 15,
+            "max": 25,
+            "reason": "有効な季節テーマ「キッチン・調理」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": true,
+            "score": 0,
+            "max": 20,
+            "reason": "前回比: 順位75位低下、レビュー0件増加。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 8,
+            "max": 15,
+            "reason": "評価4.54、レビュー153件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 26,
+        "max": 90,
+        "normalized": 29,
+        "priority": "低",
+        "confidence": "高"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "低",
+      "confidence": "高",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:storage-interior:e-kurashi:10048736",
+      "candidateId": "trend:storage-interior:e-kurashi:10048736",
+      "genre": "収納・インテリア",
+      "target": "部屋をすっきり使いたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+        "price": 4999,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "くらしのeショップ",
+        "rank": 54,
+        "reviewCount": 6809,
+        "reviewAverage": 4.42
+      },
+      "demandReason": [
+        "楽天ランキング54位を確認しました。",
+        "有効な季節テーマ「収納・インテリア」に一致しています。",
+        "前回比: 順位46位低下、レビュー8件増加。",
+        "評価4.42、レビュー6809件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "収納・インテリア / リアルタイムランキング 54位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:storage-interior:sawaicoffee-tea:10001136",
+          "name": "澤井珈琲｜送料無料 コーヒー コーヒー豆 コーヒー粉 珈琲豆 豆のまま \"グルメ大賞9度受賞の1番選ばれるコーヒーセット\" 1kg 2kg 3kg 抱えきれないコーヒー福袋 フォルティシモ ビクトリー 人気 ブラジル エチオピア 中強煎り 深煎り リラックスタイム 【RD】【TS】",
+          "rank": 104
+        },
+        {
+          "id": "trend:storage-interior:e-kurashi:10048739",
+          "name": "天板 水に強い 耐荷重10kg ズレない 板 中が透けない 壁付き チェスト 専用 チェスト用 収納ケース用 収納ボックス用 シェルフ 棚 【天板のみ ※本体別売り】 山善 YAMAZEN 【送料無料】",
+          "rank": 132
+        },
+        {
+          "id": "trend:storage-interior:stylife:14015907",
+          "name": "agnes b. ENFANT ロゴ ペアレンツバッグ マザーズバッグ アニエスベー マタニティウェア・ベビー用品 マザーズバッグ・おむつポーチ ブラック【送料無料】",
+          "rank": 164
+        },
+        {
+          "id": "trend:storage-interior:terada-ya:10011352",
+          "name": "● 精米機 家庭用 日本製 精米器 家庭用精米機 山本電気 YE-RC52 MB-RC52 匠味米 小型 1〜5合 精米機家庭用 白米 無洗米 玄米 ホワイト 白 ブラック レッド ライスクリーナー コンパクト 家電 1年保証 正規販売店",
+          "rank": 178
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 25,
+            "max": 30,
+            "reason": "楽天ランキング54位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 15,
+            "max": 25,
+            "reason": "有効な季節テーマ「収納・インテリア」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": true,
+            "score": 0,
+            "max": 20,
+            "reason": "前回比: 順位46位低下、レビュー8件増加。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 15,
+            "max": 15,
+            "reason": "評価4.42、レビュー6809件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 55,
+        "max": 90,
+        "normalized": 61,
+        "priority": "中",
+        "confidence": "高"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "高",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:storage-interior:sawaicoffee-tea:10001136",
+      "candidateId": "trend:storage-interior:sawaicoffee-tea:10001136",
+      "genre": "収納・インテリア",
+      "target": "部屋をすっきり使いたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "澤井珈琲｜送料無料 コーヒー コーヒー豆 コーヒー粉 珈琲豆 豆のまま \"グルメ大賞9度受賞の1番選ばれるコーヒーセット\" 1kg 2kg 3kg 抱えきれないコーヒー福袋 フォルティシモ ビクトリー 人気 ブラジル エチオピア 中強煎り 深煎り リラックスタイム 【RD】【TS】",
+        "price": 2788,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00powb2.5dkfa82b.g00powb2.5dkfbecc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsawaicoffee-tea%2Fac-sale-1960%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "澤井珈琲Beans＆Leaf",
+        "rank": 104,
+        "reviewCount": 50333,
+        "reviewAverage": 4.7
+      },
+      "demandReason": [
+        "楽天ランキング104位を確認しました。",
+        "有効な季節テーマ「収納・インテリア」に一致しています。",
+        "前回比: 順位2位低下、レビュー3件増加。",
+        "評価4.7、レビュー50333件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00powb2.5dkfa82b.g00powb2.5dkfbecc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsawaicoffee-tea%2Fac-sale-1960%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "収納・インテリア / リアルタイムランキング 104位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:storage-interior:e-kurashi:10048736",
+          "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+          "rank": 54
+        },
+        {
+          "id": "trend:storage-interior:e-kurashi:10048739",
+          "name": "天板 水に強い 耐荷重10kg ズレない 板 中が透けない 壁付き チェスト 専用 チェスト用 収納ケース用 収納ボックス用 シェルフ 棚 【天板のみ ※本体別売り】 山善 YAMAZEN 【送料無料】",
+          "rank": 132
+        },
+        {
+          "id": "trend:storage-interior:stylife:14015907",
+          "name": "agnes b. ENFANT ロゴ ペアレンツバッグ マザーズバッグ アニエスベー マタニティウェア・ベビー用品 マザーズバッグ・おむつポーチ ブラック【送料無料】",
+          "rank": 164
+        },
+        {
+          "id": "trend:storage-interior:terada-ya:10011352",
+          "name": "● 精米機 家庭用 日本製 精米器 家庭用精米機 山本電気 YE-RC52 MB-RC52 匠味米 小型 1〜5合 精米機家庭用 白米 無洗米 玄米 ホワイト 白 ブラック レッド ライスクリーナー コンパクト 家電 1年保証 正規販売店",
+          "rank": 178
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 20,
+            "max": 30,
+            "reason": "楽天ランキング104位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 15,
+            "max": 25,
+            "reason": "有効な季節テーマ「収納・インテリア」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": true,
+            "score": 0,
+            "max": 20,
+            "reason": "前回比: 順位2位低下、レビュー3件増加。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 15,
+            "max": 15,
+            "reason": "評価4.7、レビュー50333件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 50,
+        "max": 90,
+        "normalized": 56,
+        "priority": "中",
+        "confidence": "高"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "高",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:storage-interior:e-kurashi:10048739",
+      "candidateId": "trend:storage-interior:e-kurashi:10048739",
+      "genre": "収納・インテリア",
+      "target": "部屋をすっきり使いたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "天板 水に強い 耐荷重10kg ズレない 板 中が透けない 壁付き チェスト 専用 チェスト用 収納ケース用 収納ボックス用 シェルフ 棚 【天板のみ ※本体別売り】 山善 YAMAZEN 【送料無料】",
+        "price": 2299,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1y43%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "くらしのeショップ",
+        "rank": 132,
+        "reviewCount": 1828,
+        "reviewAverage": 4.52
+      },
+      "demandReason": [
+        "楽天ランキング132位を確認しました。",
+        "有効な季節テーマ「収納・インテリア」に一致しています。",
+        "前回比: 順位36位低下、レビュー6件増加。",
+        "評価4.52、レビュー1828件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1y43%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "収納・インテリア / リアルタイムランキング 132位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:storage-interior:e-kurashi:10048736",
+          "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+          "rank": 54
+        },
+        {
+          "id": "trend:storage-interior:sawaicoffee-tea:10001136",
+          "name": "澤井珈琲｜送料無料 コーヒー コーヒー豆 コーヒー粉 珈琲豆 豆のまま \"グルメ大賞9度受賞の1番選ばれるコーヒーセット\" 1kg 2kg 3kg 抱えきれないコーヒー福袋 フォルティシモ ビクトリー 人気 ブラジル エチオピア 中強煎り 深煎り リラックスタイム 【RD】【TS】",
+          "rank": 104
+        },
+        {
+          "id": "trend:storage-interior:stylife:14015907",
+          "name": "agnes b. ENFANT ロゴ ペアレンツバッグ マザーズバッグ アニエスベー マタニティウェア・ベビー用品 マザーズバッグ・おむつポーチ ブラック【送料無料】",
+          "rank": 164
+        },
+        {
+          "id": "trend:storage-interior:terada-ya:10011352",
+          "name": "● 精米機 家庭用 日本製 精米器 家庭用精米機 山本電気 YE-RC52 MB-RC52 匠味米 小型 1〜5合 精米機家庭用 白米 無洗米 玄米 ホワイト 白 ブラック レッド ライスクリーナー コンパクト 家電 1年保証 正規販売店",
+          "rank": 178
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 17,
+            "max": 30,
+            "reason": "楽天ランキング132位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 15,
+            "max": 25,
+            "reason": "有効な季節テーマ「収納・インテリア」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": true,
+            "score": 0,
+            "max": 20,
+            "reason": "前回比: 順位36位低下、レビュー6件増加。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 13,
+            "max": 15,
+            "reason": "評価4.52、レビュー1828件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 45,
+        "max": 90,
+        "normalized": 50,
+        "priority": "中",
+        "confidence": "高"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "高",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:storage-interior:stylife:14015907",
+      "candidateId": "trend:storage-interior:stylife:14015907",
+      "genre": "収納・インテリア",
+      "target": "部屋をすっきり使いたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "agnes b. ENFANT ロゴ ペアレンツバッグ マザーズバッグ アニエスベー マタニティウェア・ベビー用品 マザーズバッグ・おむつポーチ ブラック【送料無料】",
+        "price": 26400,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00rf712.5dkfa918.g00rf712.5dkfbeb4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstylife%2Fhj6008%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "Rakuten Fashion",
+        "rank": 164,
+        "reviewCount": 55,
+        "reviewAverage": 4.45
+      },
+      "demandReason": [
+        "楽天ランキング164位を確認しました。",
+        "有効な季節テーマ「収納・インテリア」に一致しています。",
+        "評価4.45、レビュー55件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00rf712.5dkfa918.g00rf712.5dkfbeb4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstylife%2Fhj6008%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "収納・インテリア / リアルタイムランキング 164位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:storage-interior:e-kurashi:10048736",
+          "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+          "rank": 54
+        },
+        {
+          "id": "trend:storage-interior:sawaicoffee-tea:10001136",
+          "name": "澤井珈琲｜送料無料 コーヒー コーヒー豆 コーヒー粉 珈琲豆 豆のまま \"グルメ大賞9度受賞の1番選ばれるコーヒーセット\" 1kg 2kg 3kg 抱えきれないコーヒー福袋 フォルティシモ ビクトリー 人気 ブラジル エチオピア 中強煎り 深煎り リラックスタイム 【RD】【TS】",
+          "rank": 104
+        },
+        {
+          "id": "trend:storage-interior:e-kurashi:10048739",
+          "name": "天板 水に強い 耐荷重10kg ズレない 板 中が透けない 壁付き チェスト 専用 チェスト用 収納ケース用 収納ボックス用 シェルフ 棚 【天板のみ ※本体別売り】 山善 YAMAZEN 【送料無料】",
+          "rank": 132
+        },
+        {
+          "id": "trend:storage-interior:terada-ya:10011352",
+          "name": "● 精米機 家庭用 日本製 精米器 家庭用精米機 山本電気 YE-RC52 MB-RC52 匠味米 小型 1〜5合 精米機家庭用 白米 無洗米 玄米 ホワイト 白 ブラック レッド ライスクリーナー コンパクト 家電 1年保証 正規販売店",
+          "rank": 178
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 14,
+            "max": 30,
+            "reason": "楽天ランキング164位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 15,
+            "max": 25,
+            "reason": "有効な季節テーマ「収納・インテリア」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 6,
+            "max": 15,
+            "reason": "評価4.45、レビュー55件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 35,
+        "max": 70,
+        "normalized": 50,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:storage-interior:terada-ya:10011352",
+      "candidateId": "trend:storage-interior:terada-ya:10011352",
+      "genre": "収納・インテリア",
+      "target": "部屋をすっきり使いたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "● 精米機 家庭用 日本製 精米器 家庭用精米機 山本電気 YE-RC52 MB-RC52 匠味米 小型 1〜5合 精米機家庭用 白米 無洗米 玄米 ホワイト 白 ブラック レッド ライスクリーナー コンパクト 家電 1年保証 正規販売店",
+        "price": 15800,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tgjw2.5dkfad71.g00tgjw2.5dkfb8d4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fterada-ya%2Fmk-7c-12-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "家電 アラモード",
+        "rank": 178,
+        "reviewCount": 167,
+        "reviewAverage": 4.71
+      },
+      "demandReason": [
+        "楽天ランキング178位を確認しました。",
+        "有効な季節テーマ「収納・インテリア」に一致しています。",
+        "評価4.71、レビュー167件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00tgjw2.5dkfad71.g00tgjw2.5dkfb8d4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fterada-ya%2Fmk-7c-12-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "収納・インテリア / リアルタイムランキング 178位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:storage-interior:e-kurashi:10048736",
+          "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+          "rank": 54
+        },
+        {
+          "id": "trend:storage-interior:sawaicoffee-tea:10001136",
+          "name": "澤井珈琲｜送料無料 コーヒー コーヒー豆 コーヒー粉 珈琲豆 豆のまま \"グルメ大賞9度受賞の1番選ばれるコーヒーセット\" 1kg 2kg 3kg 抱えきれないコーヒー福袋 フォルティシモ ビクトリー 人気 ブラジル エチオピア 中強煎り 深煎り リラックスタイム 【RD】【TS】",
+          "rank": 104
+        },
+        {
+          "id": "trend:storage-interior:e-kurashi:10048739",
+          "name": "天板 水に強い 耐荷重10kg ズレない 板 中が透けない 壁付き チェスト 専用 チェスト用 収納ケース用 収納ボックス用 シェルフ 棚 【天板のみ ※本体別売り】 山善 YAMAZEN 【送料無料】",
+          "rank": 132
+        },
+        {
+          "id": "trend:storage-interior:stylife:14015907",
+          "name": "agnes b. ENFANT ロゴ ペアレンツバッグ マザーズバッグ アニエスベー マタニティウェア・ベビー用品 マザーズバッグ・おむつポーチ ブラック【送料無料】",
+          "rank": 164
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 12,
+            "max": 30,
+            "reason": "楽天ランキング178位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 15,
+            "max": 25,
+            "reason": "有効な季節テーマ「収納・インテリア」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 8,
+            "max": 15,
+            "reason": "評価4.71、レビュー167件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 35,
+        "max": 70,
+        "normalized": 50,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:beauty-grooming:kao-haircare:10000003",
+      "candidateId": "trend:beauty-grooming:kao-haircare:10000003",
+      "genre": "美容・身だしなみ",
+      "target": "毎日の身だしなみ用品を見直したい人",
+      "candidateType": "discovery",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "【公式】 melt メルト シャンプー＆トリートメント セット / モイスト /ポンプ 480ml /インバス /花王 Kao",
+        "price": 1848,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00ur6y2.5dkfad4c.g00ur6y2.5dkfb8a6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkao-haircare%2Fmelt-01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "【公式】花王ヘアケア 楽天市場店",
+        "rank": 5,
+        "reviewCount": 51,
+        "reviewAverage": 4.59
+      },
+      "demandReason": [
+        "楽天ランキング5位を確認しました。",
+        "有効な季節テーマ「美容・身だしなみ」に一致しています。",
+        "評価4.59、レビュー51件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00ur6y2.5dkfad4c.g00ur6y2.5dkfb8a6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkao-haircare%2Fmelt-01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "美容・身だしなみ / リアルタイムランキング 5位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:beauty-grooming:shuuemura:10000018",
+          "name": "【ポイント10倍 10/20 00:00～10/21 23:59まで】アルティム8∞ ベストセラーキット / ブライト クレンジングオイル キット | シュウウエムラクレンジング クレンジング 楽天市場店限定 洗顔 メイク落とし 毛穴 洗顔料 スキンケア 美容 化粧落とし 送料無料 楽天ベストコスメ",
+          "rank": 66
+        },
+        {
+          "id": "trend:beauty-grooming:larocheposay:10000039",
+          "name": "【公式】楽天限定★トーンアップUV 人気サンプルセット / 30mL/ ローズ＋ / ホワイト/ クリア/ ティント/ ローズ＋ BIGサイズ 50mL / 日焼け止め / SPF50+ / 正規品/ ダーマコスメ",
+          "rank": 151
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 30,
+            "max": 30,
+            "reason": "楽天ランキング5位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 15,
+            "max": 25,
+            "reason": "有効な季節テーマ「美容・身だしなみ」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 6,
+            "max": 15,
+            "reason": "評価4.59、レビュー51件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 51,
+        "max": 70,
+        "normalized": 73,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:beauty-grooming:shuuemura:10000018",
+      "candidateId": "trend:beauty-grooming:shuuemura:10000018",
+      "genre": "美容・身だしなみ",
+      "target": "毎日の身だしなみ用品を見直したい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "【ポイント10倍 10/20 00:00～10/21 23:59まで】アルティム8∞ ベストセラーキット / ブライト クレンジングオイル キット | シュウウエムラクレンジング クレンジング 楽天市場店限定 洗顔 メイク落とし 毛穴 洗顔料 スキンケア 美容 化粧落とし 送料無料 楽天ベストコスメ",
+        "price": 13200,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tl4n2.5dkfa941.g00tl4n2.5dkfb291/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshuuemura%2Fshu30001jp%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "シュウ ウエムラ 公式ショップ",
+        "rank": 66,
+        "reviewCount": 35583,
+        "reviewAverage": 4.84
+      },
+      "demandReason": [
+        "楽天ランキング66位を確認しました。",
+        "有効な季節テーマ「美容・身だしなみ」に一致しています。",
+        "前回比: 順位64位低下、レビュー26件増加。",
+        "評価4.84、レビュー35583件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00tl4n2.5dkfa941.g00tl4n2.5dkfb291/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshuuemura%2Fshu30001jp%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "美容・身だしなみ / リアルタイムランキング 66位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:beauty-grooming:kao-haircare:10000003",
+          "name": "【公式】 melt メルト シャンプー＆トリートメント セット / モイスト /ポンプ 480ml /インバス /花王 Kao",
+          "rank": 5
+        },
+        {
+          "id": "trend:beauty-grooming:larocheposay:10000039",
+          "name": "【公式】楽天限定★トーンアップUV 人気サンプルセット / 30mL/ ローズ＋ / ホワイト/ クリア/ ティント/ ローズ＋ BIGサイズ 50mL / 日焼け止め / SPF50+ / 正規品/ ダーマコスメ",
+          "rank": 151
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 24,
+            "max": 30,
+            "reason": "楽天ランキング66位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 15,
+            "max": 25,
+            "reason": "有効な季節テーマ「美容・身だしなみ」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": true,
+            "score": 2,
+            "max": 20,
+            "reason": "前回比: 順位64位低下、レビュー26件増加。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 15,
+            "max": 15,
+            "reason": "評価4.84、レビュー35583件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 56,
+        "max": 90,
+        "normalized": 62,
+        "priority": "中",
+        "confidence": "高"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "高",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:beauty-grooming:larocheposay:10000039",
+      "candidateId": "trend:beauty-grooming:larocheposay:10000039",
+      "genre": "美容・身だしなみ",
+      "target": "毎日の身だしなみ用品を見直したい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "【公式】楽天限定★トーンアップUV 人気サンプルセット / 30mL/ ローズ＋ / ホワイト/ クリア/ ティント/ ローズ＋ BIGサイズ 50mL / 日焼け止め / SPF50+ / 正規品/ ダーマコスメ",
+        "price": 4070,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00twl62.5dkfa774.g00twl62.5dkfb136/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flarocheposay%2Fl00332ropenkit%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "ラ ロッシュ ポゼ 公式ショップ",
+        "rank": 151,
+        "reviewCount": 11736,
+        "reviewAverage": 4.69
+      },
+      "demandReason": [
+        "楽天ランキング151位を確認しました。",
+        "有効な季節テーマ「美容・身だしなみ」に一致しています。",
+        "前回比: 順位150位低下、レビュー5件増加。",
+        "評価4.69、レビュー11736件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00twl62.5dkfa774.g00twl62.5dkfb136/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flarocheposay%2Fl00332ropenkit%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "美容・身だしなみ / リアルタイムランキング 151位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:beauty-grooming:kao-haircare:10000003",
+          "name": "【公式】 melt メルト シャンプー＆トリートメント セット / モイスト /ポンプ 480ml /インバス /花王 Kao",
+          "rank": 5
+        },
+        {
+          "id": "trend:beauty-grooming:shuuemura:10000018",
+          "name": "【ポイント10倍 10/20 00:00～10/21 23:59まで】アルティム8∞ ベストセラーキット / ブライト クレンジングオイル キット | シュウウエムラクレンジング クレンジング 楽天市場店限定 洗顔 メイク落とし 毛穴 洗顔料 スキンケア 美容 化粧落とし 送料無料 楽天ベストコスメ",
+          "rank": 66
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 15,
+            "max": 30,
+            "reason": "楽天ランキング151位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 15,
+            "max": 25,
+            "reason": "有効な季節テーマ「美容・身だしなみ」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": true,
+            "score": 0,
+            "max": 20,
+            "reason": "前回比: 順位150位低下、レビュー5件増加。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 15,
+            "max": 15,
+            "reason": "評価4.69、レビュー11736件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 45,
+        "max": 90,
+        "normalized": 50,
+        "priority": "中",
+        "confidence": "高"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "高",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:mobile-pc:sanwadirect:10098306",
+      "candidateId": "trend:mobile-pc:sanwadirect:10098306",
+      "genre": "スマホ・PC周辺",
+      "target": "スマホやPCを快適に使いたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "【楽天1位受賞】指紋認証リーダー USB パソコン PC用 USB接続 Windows Hello Windows11 10対応 指紋 10件登録",
+        "price": 5280,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00pmmb2.5dkfa27a.g00pmmb2.5dkfb994/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsanwadirect%2F400-fprd1%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "サンワダイレクト楽天市場店",
+        "rank": 39,
+        "reviewCount": 95,
+        "reviewAverage": 4.49
+      },
+      "demandReason": [
+        "楽天ランキング39位を確認しました。",
+        "有効な季節テーマ「スマホ・PC周辺」に一致しています。",
+        "評価4.49、レビュー95件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00pmmb2.5dkfa27a.g00pmmb2.5dkfb994/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsanwadirect%2F400-fprd1%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "スマホ・PC周辺 / リアルタイムランキング 39位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:mobile-pc:libetee:10000012",
+          "name": "【ヒルナンデス紹介★楽天1位】地上波テレビ出演 スーツケース キャリーケース 永久保証 機内持ち込み フロントオープン キャスターロック 軽量 静音 ドリンクホルダー USBポート 多機能 Libetee リベティ 出張 旅行 翌日配送",
+          "rank": 147
+        },
+        {
+          "id": "trend:mobile-pc:gracevally:10000003",
+          "name": "楽天ランキング1位＼半額セール20%クーポン＆P2倍で2,174円！／2024年間MVP ワイヤレスイヤホン bluetoothイヤホン 残量表示 Bluetooth6.0 ENC ノイズキャンセリング 自動ペアリング 36H連続再生 Type‐C急速充電 IPX7防水 AAC対応 マイク内蔵 iPhone/Android 旅行",
+          "rank": 258
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 26,
+            "max": 30,
+            "reason": "楽天ランキング39位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 16,
+            "max": 25,
+            "reason": "有効な季節テーマ「スマホ・PC周辺」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 7,
+            "max": 15,
+            "reason": "評価4.49、レビュー95件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 49,
+        "max": 70,
+        "normalized": 70,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:mobile-pc:libetee:10000012",
+      "candidateId": "trend:mobile-pc:libetee:10000012",
+      "genre": "スマホ・PC周辺",
+      "target": "スマホやPCを快適に使いたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "【ヒルナンデス紹介★楽天1位】地上波テレビ出演 スーツケース キャリーケース 永久保証 機内持ち込み フロントオープン キャスターロック 軽量 静音 ドリンクホルダー USBポート 多機能 Libetee リベティ 出張 旅行 翌日配送",
+        "price": 29800,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00u60a2.5dkfa090.g00u60a2.5dkfbc9a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flibetee%2Fsuitcase01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "Libetee",
+        "rank": 147,
+        "reviewCount": 4545,
+        "reviewAverage": 4.55
+      },
+      "demandReason": [
+        "楽天ランキング147位を確認しました。",
+        "有効な季節テーマ「スマホ・PC周辺」に一致しています。",
+        "評価4.55、レビュー4545件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00u60a2.5dkfa090.g00u60a2.5dkfbc9a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flibetee%2Fsuitcase01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "スマホ・PC周辺 / リアルタイムランキング 147位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:mobile-pc:sanwadirect:10098306",
+          "name": "【楽天1位受賞】指紋認証リーダー USB パソコン PC用 USB接続 Windows Hello Windows11 10対応 指紋 10件登録",
+          "rank": 39
+        },
+        {
+          "id": "trend:mobile-pc:gracevally:10000003",
+          "name": "楽天ランキング1位＼半額セール20%クーポン＆P2倍で2,174円！／2024年間MVP ワイヤレスイヤホン bluetoothイヤホン 残量表示 Bluetooth6.0 ENC ノイズキャンセリング 自動ペアリング 36H連続再生 Type‐C急速充電 IPX7防水 AAC対応 マイク内蔵 iPhone/Android 旅行",
+          "rank": 258
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 15,
+            "max": 30,
+            "reason": "楽天ランキング147位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 16,
+            "max": 25,
+            "reason": "有効な季節テーマ「スマホ・PC周辺」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 14,
+            "max": 15,
+            "reason": "評価4.55、レビュー4545件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 45,
+        "max": 70,
+        "normalized": 64,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:mobile-pc:gracevally:10000003",
+      "candidateId": "trend:mobile-pc:gracevally:10000003",
+      "genre": "スマホ・PC周辺",
+      "target": "スマホやPCを快適に使いたい人",
+      "candidateType": "discovery",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "楽天ランキング1位＼半額セール20%クーポン＆P2倍で2,174円！／2024年間MVP ワイヤレスイヤホン bluetoothイヤホン 残量表示 Bluetooth6.0 ENC ノイズキャンセリング 自動ペアリング 36H連続再生 Type‐C急速充電 IPX7防水 AAC対応 マイク内蔵 iPhone/Android 旅行",
+        "price": 2780,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00u9312.5dkfa590.g00u9312.5dkfb0ae/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgracevally%2Fgrace-x1%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "GraceVally 楽天市場店",
+        "rank": 258,
+        "reviewCount": 50830,
+        "reviewAverage": 4.51
+      },
+      "demandReason": [
+        "楽天ランキング258位を確認しました。",
+        "有効な季節テーマ「スマホ・PC周辺」に一致しています。",
+        "評価4.51、レビュー50830件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00u9312.5dkfa590.g00u9312.5dkfb0ae/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgracevally%2Fgrace-x1%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "スマホ・PC周辺 / リアルタイムランキング 258位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:mobile-pc:sanwadirect:10098306",
+          "name": "【楽天1位受賞】指紋認証リーダー USB パソコン PC用 USB接続 Windows Hello Windows11 10対応 指紋 10件登録",
+          "rank": 39
+        },
+        {
+          "id": "trend:mobile-pc:libetee:10000012",
+          "name": "【ヒルナンデス紹介★楽天1位】地上波テレビ出演 スーツケース キャリーケース 永久保証 機内持ち込み フロントオープン キャスターロック 軽量 静音 ドリンクホルダー USBポート 多機能 Libetee リベティ 出張 旅行 翌日配送",
+          "rank": 147
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 4,
+            "max": 30,
+            "reason": "楽天ランキング258位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 16,
+            "max": 25,
+            "reason": "有効な季節テーマ「スマホ・PC周辺」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 15,
+            "max": 15,
+            "reason": "評価4.51、レビュー50830件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 35,
+        "max": 70,
+        "normalized": 50,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:car-accessories:suruga:10004617",
+      "candidateId": "trend:car-accessories:suruga:10004617",
+      "genre": "車用品",
+      "target": "車内環境や手入れを快適にしたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "ユピテル 前後2カメラ ドライブレコーダー SN-TW7690d フロントカメラ 4K 記録 STARVIS 駐車監視標準装備 ADAS＆GPS＆HDR搭載 3.0インチモニター【プラス1年保証で安心】【電源直結モデル】【取説DLタイプ】",
+        "price": 20900,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00pl492.5dkfa1f0.g00pl492.5dkfb4be/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuruga%2Fsn-tw7690d%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "スルガオンライン",
+        "rank": 112,
+        "reviewCount": 58,
+        "reviewAverage": 4.81
+      },
+      "demandReason": [
+        "楽天ランキング112位を確認しました。",
+        "有効な季節テーマ「車用品」に一致しています。",
+        "評価4.81、レビュー58件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00pl492.5dkfa1f0.g00pl492.5dkfb4be/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuruga%2Fsn-tw7690d%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "車用品 / リアルタイムランキング 112位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 19,
+            "max": 30,
+            "reason": "楽天ランキング112位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 14,
+            "max": 25,
+            "reason": "有効な季節テーマ「車用品」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 7,
+            "max": 15,
+            "reason": "評価4.81、レビュー58件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 40,
+        "max": 70,
+        "normalized": 57,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:pet-care:libetee:10000012",
+      "candidateId": "trend:pet-care:libetee:10000012",
+      "genre": "ペット用品",
+      "target": "犬や猫の生活用品を見直したい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "【ヒルナンデス紹介★楽天1位】地上波テレビ出演 スーツケース キャリーケース 永久保証 機内持ち込み フロントオープン キャスターロック 軽量 静音 ドリンクホルダー USBポート 多機能 Libetee リベティ 出張 旅行 翌日配送",
+        "price": 29800,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00u60a2.5dkfa090.g00u60a2.5dkfbc9a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flibetee%2Fsuitcase01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "Libetee",
+        "rank": 147,
+        "reviewCount": 4545,
+        "reviewAverage": 4.55
+      },
+      "demandReason": [
+        "楽天ランキング147位を確認しました。",
+        "有効な季節テーマ「ペット用品」に一致しています。",
+        "評価4.55、レビュー4545件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00u60a2.5dkfa090.g00u60a2.5dkfbc9a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flibetee%2Fsuitcase01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "ペット用品 / リアルタイムランキング 147位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:pet-care:lifedrinkcompany:10000014",
+          "name": "【最安値に挑戦中！】水 ミネラルウォーター 彩水-あやみず- やさしい軟水 500ml 48本 送料無料※一部地域除く ペットボトル ラベルレス ライフドリンクカンパニー LIFEDRINK 国産 天然水 軟水 備蓄水 非常用 (※採水地指定不可）",
+          "rank": 172
+        },
+        {
+          "id": "trend:pet-care:excitech:10000320",
+          "name": "【現役CA監修】 スーツケース キャリーケース 超軽量 【レビュー特典 有】 機内持ち込み 可能 S サイズ M サイズ L サイズ 大容量 拡張機能付き ストッパー付き 旅行 ビジネス 出張 修学旅行 海外旅行 国内旅行 送料無料",
+          "rank": 138
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 15,
+            "max": 30,
+            "reason": "楽天ランキング147位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 14,
+            "max": 25,
+            "reason": "有効な季節テーマ「ペット用品」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 14,
+            "max": 15,
+            "reason": "評価4.55、レビュー4545件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 43,
+        "max": 70,
+        "normalized": 61,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:pet-care:lifedrinkcompany:10000014",
+      "candidateId": "trend:pet-care:lifedrinkcompany:10000014",
+      "genre": "ペット用品",
+      "target": "犬や猫の生活用品を見直したい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "【最安値に挑戦中！】水 ミネラルウォーター 彩水-あやみず- やさしい軟水 500ml 48本 送料無料※一部地域除く ペットボトル ラベルレス ライフドリンクカンパニー LIFEDRINK 国産 天然水 軟水 備蓄水 非常用 (※採水地指定不可）",
+        "price": 2370,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tkn42.5dkfae80.g00tkn42.5dkfbcdb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifedrinkcompany%2Fayamizu-500-48%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "LIFEDRINKオンラインストア",
+        "rank": 172,
+        "reviewCount": 3982,
+        "reviewAverage": 4.68
+      },
+      "demandReason": [
+        "楽天ランキング172位を確認しました。",
+        "有効な季節テーマ「ペット用品」に一致しています。",
+        "前回比: 順位43位低下、レビュー4件増加。",
+        "評価4.68、レビュー3982件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00tkn42.5dkfae80.g00tkn42.5dkfbcdb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifedrinkcompany%2Fayamizu-500-48%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "ペット用品 / リアルタイムランキング 172位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:pet-care:libetee:10000012",
+          "name": "【ヒルナンデス紹介★楽天1位】地上波テレビ出演 スーツケース キャリーケース 永久保証 機内持ち込み フロントオープン キャスターロック 軽量 静音 ドリンクホルダー USBポート 多機能 Libetee リベティ 出張 旅行 翌日配送",
+          "rank": 147
+        },
+        {
+          "id": "trend:pet-care:excitech:10000320",
+          "name": "【現役CA監修】 スーツケース キャリーケース 超軽量 【レビュー特典 有】 機内持ち込み 可能 S サイズ M サイズ L サイズ 大容量 拡張機能付き ストッパー付き 旅行 ビジネス 出張 修学旅行 海外旅行 国内旅行 送料無料",
+          "rank": 138
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 13,
+            "max": 30,
+            "reason": "楽天ランキング172位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 14,
+            "max": 25,
+            "reason": "有効な季節テーマ「ペット用品」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": true,
+            "score": 0,
+            "max": 20,
+            "reason": "前回比: 順位43位低下、レビュー4件増加。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 14,
+            "max": 15,
+            "reason": "評価4.68、レビュー3982件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 41,
+        "max": 90,
+        "normalized": 46,
+        "priority": "中",
+        "confidence": "高"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "高",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:pet-care:excitech:10000320",
+      "candidateId": "trend:pet-care:excitech:10000320",
+      "genre": "ペット用品",
+      "target": "犬や猫の生活用品を見直したい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "【現役CA監修】 スーツケース キャリーケース 超軽量 【レビュー特典 有】 機内持ち込み 可能 S サイズ M サイズ L サイズ 大容量 拡張機能付き ストッパー付き 旅行 ビジネス 出張 修学旅行 海外旅行 国内旅行 送料無料",
+        "price": 8990,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00stve2.5dkfa32b.g00stve2.5dkfbac9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fexcitech%2Fexci-suitcase-001%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "いいねONLINE公式 楽天市場店",
+        "rank": 138,
+        "reviewCount": 2989,
+        "reviewAverage": 4.51
+      },
+      "demandReason": [
+        "楽天ランキング138位を確認しました。",
+        "有効な季節テーマ「ペット用品」に一致しています。",
+        "評価4.51、レビュー2989件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00stve2.5dkfa32b.g00stve2.5dkfbac9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fexcitech%2Fexci-suitcase-001%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "ペット用品 / リアルタイムランキング 138位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:pet-care:libetee:10000012",
+          "name": "【ヒルナンデス紹介★楽天1位】地上波テレビ出演 スーツケース キャリーケース 永久保証 機内持ち込み フロントオープン キャスターロック 軽量 静音 ドリンクホルダー USBポート 多機能 Libetee リベティ 出張 旅行 翌日配送",
+          "rank": 147
+        },
+        {
+          "id": "trend:pet-care:lifedrinkcompany:10000014",
+          "name": "【最安値に挑戦中！】水 ミネラルウォーター 彩水-あやみず- やさしい軟水 500ml 48本 送料無料※一部地域除く ペットボトル ラベルレス ライフドリンクカンパニー LIFEDRINK 国産 天然水 軟水 備蓄水 非常用 (※採水地指定不可）",
+          "rank": 172
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 16,
+            "max": 30,
+            "reason": "楽天ランキング138位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 14,
+            "max": 25,
+            "reason": "有効な季節テーマ「ペット用品」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 13,
+            "max": 15,
+            "reason": "評価4.51、レビュー2989件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 43,
+        "max": 70,
+        "normalized": 61,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:baby-kids:sanho-store:10000068",
+      "candidateId": "trend:baby-kids:sanho-store:10000068",
+      "genre": "子育て・ベビー",
+      "target": "子どもの生活用品を効率よく選びたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "【予約】 ベビー枕 ジオピロー 【公式】 新生児 から使える 絶壁防止 ドーナツ枕 出産祝い シルク 枕カバー 赤ちゃん 枕 向き癖 洗える メッシュ 頭の形 ベビーまくら 0歳 1歳 2歳 ベビー 通気性 予防 子供枕 キッズ枕 おしゃれ 出産準備 ギフト プレゼント giopillow",
+        "price": 7980,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00ss1u2.5dkfa6e2.g00ss1u2.5dkfbea8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsanho-store%2Fgiopillow%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "三豊ストア",
+        "rank": 48,
+        "reviewCount": 12403,
+        "reviewAverage": 4.51
+      },
+      "demandReason": [
+        "楽天ランキング48位を確認しました。",
+        "有効な季節テーマ「子育て・ベビー」に一致しています。",
+        "前回比: 順位16位上昇、レビュー16件増加。",
+        "評価4.51、レビュー12403件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00ss1u2.5dkfa6e2.g00ss1u2.5dkfbea8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsanho-store%2Fgiopillow%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "子育て・ベビー / リアルタイムランキング 48位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:baby-kids:e-kurashi:10048736",
+          "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+          "rank": 54
+        },
+        {
+          "id": "trend:baby-kids:matsuya-omatome:10001258",
+          "name": "★【最大10万P 当選！】＆【楽天モバイル契約者限定クーポン】　エリクシールデーケアレボリューショントーンアップSP＋aa(ベビーピンク)SPF50+PA++++35g【送料無料】 ELIXIR",
+          "rank": 75
+        },
+        {
+          "id": "trend:baby-kids:kanseikukan:10000006",
+          "name": "【 公式】ユニースリープ 1位獲得 新生児～24か月 絶壁予防 ベビー枕 赤ちゃん枕 寝返り防止 横向き枕 ユニースリープ枕 夜泣き 絶壁防止 出産祝い 出産準備 向き癖防止 YUUNYSLEEP 送料無料 ベビーピロー 孫 プレゼント",
+          "rank": 82
+        },
+        {
+          "id": "trend:baby-kids:dwinguler2023:10000000",
+          "name": "プレイマット 赤ちゃん クッションマット 抗菌 防水 防音 ベビーマット ラグマット もちもち 床暖房対応 大判 厚手 PVC 北欧 おしゃれ シームレス ギフト Dwinguler デュングレ",
+          "rank": 135
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 25,
+            "max": 30,
+            "reason": "楽天ランキング48位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 14,
+            "max": 25,
+            "reason": "有効な季節テーマ「子育て・ベビー」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": true,
+            "score": 20,
+            "max": 20,
+            "reason": "前回比: 順位16位上昇、レビュー16件増加。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 15,
+            "max": 15,
+            "reason": "評価4.51、レビュー12403件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 74,
+        "max": 90,
+        "normalized": 82,
+        "priority": "高",
+        "confidence": "高"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "高",
+      "confidence": "高",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:baby-kids:e-kurashi:10048736",
+      "candidateId": "trend:baby-kids:e-kurashi:10048736",
+      "genre": "子育て・ベビー",
+      "target": "子どもの生活用品を効率よく選びたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+        "price": 4999,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "くらしのeショップ",
+        "rank": 54,
+        "reviewCount": 6809,
+        "reviewAverage": 4.42
+      },
+      "demandReason": [
+        "楽天ランキング54位を確認しました。",
+        "有効な季節テーマ「子育て・ベビー」に一致しています。",
+        "前回比: 順位46位低下、レビュー8件増加。",
+        "評価4.42、レビュー6809件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "子育て・ベビー / リアルタイムランキング 54位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:baby-kids:sanho-store:10000068",
+          "name": "【予約】 ベビー枕 ジオピロー 【公式】 新生児 から使える 絶壁防止 ドーナツ枕 出産祝い シルク 枕カバー 赤ちゃん 枕 向き癖 洗える メッシュ 頭の形 ベビーまくら 0歳 1歳 2歳 ベビー 通気性 予防 子供枕 キッズ枕 おしゃれ 出産準備 ギフト プレゼント giopillow",
+          "rank": 48
+        },
+        {
+          "id": "trend:baby-kids:matsuya-omatome:10001258",
+          "name": "★【最大10万P 当選！】＆【楽天モバイル契約者限定クーポン】　エリクシールデーケアレボリューショントーンアップSP＋aa(ベビーピンク)SPF50+PA++++35g【送料無料】 ELIXIR",
+          "rank": 75
+        },
+        {
+          "id": "trend:baby-kids:kanseikukan:10000006",
+          "name": "【 公式】ユニースリープ 1位獲得 新生児～24か月 絶壁予防 ベビー枕 赤ちゃん枕 寝返り防止 横向き枕 ユニースリープ枕 夜泣き 絶壁防止 出産祝い 出産準備 向き癖防止 YUUNYSLEEP 送料無料 ベビーピロー 孫 プレゼント",
+          "rank": 82
+        },
+        {
+          "id": "trend:baby-kids:dwinguler2023:10000000",
+          "name": "プレイマット 赤ちゃん クッションマット 抗菌 防水 防音 ベビーマット ラグマット もちもち 床暖房対応 大判 厚手 PVC 北欧 おしゃれ シームレス ギフト Dwinguler デュングレ",
+          "rank": 135
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 25,
+            "max": 30,
+            "reason": "楽天ランキング54位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 14,
+            "max": 25,
+            "reason": "有効な季節テーマ「子育て・ベビー」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": true,
+            "score": 0,
+            "max": 20,
+            "reason": "前回比: 順位46位低下、レビュー8件増加。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 15,
+            "max": 15,
+            "reason": "評価4.42、レビュー6809件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 54,
+        "max": 90,
+        "normalized": 60,
+        "priority": "中",
+        "confidence": "高"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "高",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:baby-kids:matsuya-omatome:10001258",
+      "candidateId": "trend:baby-kids:matsuya-omatome:10001258",
+      "genre": "子育て・ベビー",
+      "target": "子どもの生活用品を効率よく選びたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "★【最大10万P 当選！】＆【楽天モバイル契約者限定クーポン】　エリクシールデーケアレボリューショントーンアップSP＋aa(ベビーピンク)SPF50+PA++++35g【送料無料】 ELIXIR",
+        "price": 2711,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tokd2.5dkfad78.g00tokd2.5dkfb275/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatsuya-omatome%2F19593-1%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "MATSUYACOSMETICS　2号店",
+        "rank": 75,
+        "reviewCount": 101,
+        "reviewAverage": 4.53
+      },
+      "demandReason": [
+        "楽天ランキング75位を確認しました。",
+        "有効な季節テーマ「子育て・ベビー」に一致しています。",
+        "評価4.53、レビュー101件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00tokd2.5dkfad78.g00tokd2.5dkfb275/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatsuya-omatome%2F19593-1%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "子育て・ベビー / リアルタイムランキング 75位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:baby-kids:sanho-store:10000068",
+          "name": "【予約】 ベビー枕 ジオピロー 【公式】 新生児 から使える 絶壁防止 ドーナツ枕 出産祝い シルク 枕カバー 赤ちゃん 枕 向き癖 洗える メッシュ 頭の形 ベビーまくら 0歳 1歳 2歳 ベビー 通気性 予防 子供枕 キッズ枕 おしゃれ 出産準備 ギフト プレゼント giopillow",
+          "rank": 48
+        },
+        {
+          "id": "trend:baby-kids:e-kurashi:10048736",
+          "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+          "rank": 54
+        },
+        {
+          "id": "trend:baby-kids:kanseikukan:10000006",
+          "name": "【 公式】ユニースリープ 1位獲得 新生児～24か月 絶壁予防 ベビー枕 赤ちゃん枕 寝返り防止 横向き枕 ユニースリープ枕 夜泣き 絶壁防止 出産祝い 出産準備 向き癖防止 YUUNYSLEEP 送料無料 ベビーピロー 孫 プレゼント",
+          "rank": 82
+        },
+        {
+          "id": "trend:baby-kids:dwinguler2023:10000000",
+          "name": "プレイマット 赤ちゃん クッションマット 抗菌 防水 防音 ベビーマット ラグマット もちもち 床暖房対応 大判 厚手 PVC 北欧 おしゃれ シームレス ギフト Dwinguler デュングレ",
+          "rank": 135
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 23,
+            "max": 30,
+            "reason": "楽天ランキング75位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 14,
+            "max": 25,
+            "reason": "有効な季節テーマ「子育て・ベビー」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 8,
+            "max": 15,
+            "reason": "評価4.53、レビュー101件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 45,
+        "max": 70,
+        "normalized": 64,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:baby-kids:kanseikukan:10000006",
+      "candidateId": "trend:baby-kids:kanseikukan:10000006",
+      "genre": "子育て・ベビー",
+      "target": "子どもの生活用品を効率よく選びたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "【 公式】ユニースリープ 1位獲得 新生児～24か月 絶壁予防 ベビー枕 赤ちゃん枕 寝返り防止 横向き枕 ユニースリープ枕 夜泣き 絶壁防止 出産祝い 出産準備 向き癖防止 YUUNYSLEEP 送料無料 ベビーピロー 孫 プレゼント",
+        "price": 11900,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00uk352.5dkfa359.g00uk352.5dkfb8d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkanseikukan%2Fyuunysleep01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "ユニースリープ公式楽天市場店",
+        "rank": 82,
+        "reviewCount": 2688,
+        "reviewAverage": 4.51
+      },
+      "demandReason": [
+        "楽天ランキング82位を確認しました。",
+        "有効な季節テーマ「子育て・ベビー」に一致しています。",
+        "評価4.51、レビュー2688件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00uk352.5dkfa359.g00uk352.5dkfb8d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkanseikukan%2Fyuunysleep01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "子育て・ベビー / リアルタイムランキング 82位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:baby-kids:sanho-store:10000068",
+          "name": "【予約】 ベビー枕 ジオピロー 【公式】 新生児 から使える 絶壁防止 ドーナツ枕 出産祝い シルク 枕カバー 赤ちゃん 枕 向き癖 洗える メッシュ 頭の形 ベビーまくら 0歳 1歳 2歳 ベビー 通気性 予防 子供枕 キッズ枕 おしゃれ 出産準備 ギフト プレゼント giopillow",
+          "rank": 48
+        },
+        {
+          "id": "trend:baby-kids:e-kurashi:10048736",
+          "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+          "rank": 54
+        },
+        {
+          "id": "trend:baby-kids:matsuya-omatome:10001258",
+          "name": "★【最大10万P 当選！】＆【楽天モバイル契約者限定クーポン】　エリクシールデーケアレボリューショントーンアップSP＋aa(ベビーピンク)SPF50+PA++++35g【送料無料】 ELIXIR",
+          "rank": 75
+        },
+        {
+          "id": "trend:baby-kids:dwinguler2023:10000000",
+          "name": "プレイマット 赤ちゃん クッションマット 抗菌 防水 防音 ベビーマット ラグマット もちもち 床暖房対応 大判 厚手 PVC 北欧 おしゃれ シームレス ギフト Dwinguler デュングレ",
+          "rank": 135
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 22,
+            "max": 30,
+            "reason": "楽天ランキング82位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 14,
+            "max": 25,
+            "reason": "有効な季節テーマ「子育て・ベビー」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 13,
+            "max": 15,
+            "reason": "評価4.51、レビュー2688件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 49,
+        "max": 70,
+        "normalized": 70,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:baby-kids:dwinguler2023:10000000",
+      "candidateId": "trend:baby-kids:dwinguler2023:10000000",
+      "genre": "子育て・ベビー",
+      "target": "子どもの生活用品を効率よく選びたい人",
+      "candidateType": "research",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "プレイマット 赤ちゃん クッションマット 抗菌 防水 防音 ベビーマット ラグマット もちもち 床暖房対応 大判 厚手 PVC 北欧 おしゃれ シームレス ギフト Dwinguler デュングレ",
+        "price": 17800,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00ug8u2.5dkfadb0.g00ug8u2.5dkfbb89/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdwinguler2023%2Fd20230001%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "Dwinguler",
+        "rank": 135,
+        "reviewCount": 6689,
+        "reviewAverage": 4.77
+      },
+      "demandReason": [
+        "楽天ランキング135位を確認しました。",
+        "有効な季節テーマ「子育て・ベビー」に一致しています。",
+        "評価4.77、レビュー6689件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00ug8u2.5dkfadb0.g00ug8u2.5dkfbb89/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdwinguler2023%2Fd20230001%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "子育て・ベビー / リアルタイムランキング 135位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:baby-kids:sanho-store:10000068",
+          "name": "【予約】 ベビー枕 ジオピロー 【公式】 新生児 から使える 絶壁防止 ドーナツ枕 出産祝い シルク 枕カバー 赤ちゃん 枕 向き癖 洗える メッシュ 頭の形 ベビーまくら 0歳 1歳 2歳 ベビー 通気性 予防 子供枕 キッズ枕 おしゃれ 出産準備 ギフト プレゼント giopillow",
+          "rank": 48
+        },
+        {
+          "id": "trend:baby-kids:e-kurashi:10048736",
+          "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+          "rank": 54
+        },
+        {
+          "id": "trend:baby-kids:matsuya-omatome:10001258",
+          "name": "★【最大10万P 当選！】＆【楽天モバイル契約者限定クーポン】　エリクシールデーケアレボリューショントーンアップSP＋aa(ベビーピンク)SPF50+PA++++35g【送料無料】 ELIXIR",
+          "rank": 75
+        },
+        {
+          "id": "trend:baby-kids:kanseikukan:10000006",
+          "name": "【 公式】ユニースリープ 1位獲得 新生児～24か月 絶壁予防 ベビー枕 赤ちゃん枕 寝返り防止 横向き枕 ユニースリープ枕 夜泣き 絶壁防止 出産祝い 出産準備 向き癖防止 YUUNYSLEEP 送料無料 ベビーピロー 孫 プレゼント",
+          "rank": 82
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 17,
+            "max": 30,
+            "reason": "楽天ランキング135位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 14,
+            "max": 25,
+            "reason": "有効な季節テーマ「子育て・ベビー」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 15,
+            "max": 15,
+            "reason": "評価4.77、レビュー6689件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 46,
+        "max": 70,
+        "normalized": 66,
+        "priority": "中",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "中",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:cicibella-4way-handy-fan-pro",
+      "candidateId": "cicibella-4way-handy-fan-pro",
+      "genre": "夏の暮らし",
+      "target": "通勤・買い物・屋外イベントで持ち運べる暑さ対策を探している人",
+      "candidateType": "ready",
+      "selectionStatus": "採用済み",
+      "offer": {
+        "provider": "rakuten",
+        "name": "CICIBELLA 4way 冷却ハンディファンPRO",
+        "price": 2780,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00sa332.5dkfaffc.g00sa332.5dkfb63a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcicib%2Fe1-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcicib%2Fi%2F10003314%2F&rafcid=wsc_i_is_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "CICI BELLA",
+        "rank": null,
+        "reviewCount": null,
+        "reviewAverage": null
+      },
+      "demandReason": [
+        "有効な季節テーマ「夏の暑さ対策」に一致しています。",
+        "手動確認で競合記事0件として確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "参考記事メタデータ",
+          "source": "https://360life.shinyusha.co.jp/articles/-/6667",
+          "checkedAt": "2026-07-28",
+          "detail": "360LiFE: 2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較"
+        },
+        {
+          "type": "参考記事メタデータ",
+          "source": "https://my-best.com/2226",
+          "checkedAt": "2026-07-28",
+          "detail": "mybest: 徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [],
+      "referenceArticles": [
+        {
+          "url": "https://360life.shinyusha.co.jp/articles/-/6667",
+          "title": "2026年 ハンディファンのおすすめランキング21選。冷却プレート付きなど多様なタイプの人気製品を比較",
+          "publisher": "360LiFE",
+          "checkedAt": "2026-07-28",
+          "whyLikelyTop": "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+          "structurePatterns": [
+            "用途別の悩みを導入で整理する",
+            "選び方と比較軸を先に示す",
+            "タイプ別に候補を分ける",
+            "購入前の確認事項で締める"
+          ],
+          "comparisonAxes": [
+            "風量",
+            "静音性",
+            "冷却プレートの有無",
+            "持ち運びやすさ",
+            "連続使用時間"
+          ]
+        },
+        {
+          "url": "https://my-best.com/2226",
+          "title": "徹底比較 ハンディファン・ハンディ扇風機のおすすめ人気ランキング",
+          "publisher": "mybest",
+          "checkedAt": "2026-07-28",
+          "whyLikelyTop": "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。",
+          "structurePatterns": [
+            "用途別の悩みを導入で整理する",
+            "選び方と比較軸を先に示す",
+            "購入前の確認事項で締める"
+          ],
+          "comparisonAxes": [
+            "風量",
+            "バッテリーの持ち",
+            "持ち運びやすさ",
+            "静かさ"
+          ]
+        }
+      ],
+      "topReasonAnalysis": [
+        "比較対象をタイプ別に分け、測定方法と比較項目を明示しているため、購入判断に必要な情報を探しやすい構成と分析する。",
+        "利用場面に対応する比較軸を複数示し、候補を同じ観点で見比べられる情報設計と分析する。"
+      ],
+      "structurePatterns": [
+        "用途別の悩みを導入で整理する",
+        "選び方と比較軸を先に示す",
+        "タイプ別に候補を分ける",
+        "購入前の確認事項で締める"
+      ],
+      "comparisonAxes": [
+        "風量",
+        "静音性",
+        "冷却プレートの有無",
+        "持ち運びやすさ",
+        "連続使用時間",
+        "バッテリーの持ち",
+        "静かさ"
+      ],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": false,
+            "score": null,
+            "max": 30,
+            "reason": "ランキング順位を取得できません。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 20,
+            "max": 25,
+            "reason": "有効な季節テーマ「夏の暑さ対策」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": false,
+            "score": null,
+            "max": 15,
+            "reason": "レビュー件数を取得できません。"
+          },
+          {
+            "name": "競合記事数",
+            "available": true,
+            "score": 10,
+            "max": 10,
+            "reason": "手動確認で競合記事0件として確認しました。"
+          }
+        ],
+        "score": 30,
+        "max": 35,
+        "normalized": 86,
+        "priority": "高",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "高",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    },
+    {
+      "id": "research:2026-10-22:trend:daily-household:omutsufactory:10001843",
+      "candidateId": "trend:daily-household:omutsufactory:10001843",
+      "genre": "日用品・家事",
+      "target": "毎日の家事を少し楽にしたい人",
+      "candidateType": "discovery",
+      "selectionStatus": "確認待ち",
+      "offer": {
+        "provider": "rakuten",
+        "name": "10月22日(木)★到着可能★ おむつケーキ はらぺこあおむし 出産祝い 1位 名入れ 刺繍 オムツケーキ 3段 男の子 女の子 知育玩具 キャラクター ギフトセット ハロウィン Sassy 豪華 赤ちゃん 身長計 バスタオル オーガニックコットン 専門 ランキング",
+        "price": 5500,
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00r2762.5dkfa0c7.g00r2762.5dkfbc89/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomutsufactory%2Fstandard_m%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "shopName": "おむつケーキ研究所",
+        "rank": 289,
+        "reviewCount": 2134,
+        "reviewAverage": 4.84
+      },
+      "demandReason": [
+        "楽天ランキング289位を確認しました。",
+        "有効な季節テーマ「日用品・家事」に一致しています。",
+        "評価4.84、レビュー2134件を確認しました。"
+      ],
+      "demandEvidence": [
+        {
+          "type": "楽天ランキング",
+          "source": "https://hb.afl.rakuten.co.jp/hgc/g00r2762.5dkfa0c7.g00r2762.5dkfbc89/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomutsufactory%2Fstandard_m%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "checkedAt": "2026-10-22T01:16:31.126Z",
+          "detail": "日用品・家事 / リアルタイムランキング 289位"
+        }
+      ],
+      "searchDemand": {
+        "monthlySearchVolume": null,
+        "status": "未取得",
+        "reason": "正確な検索数を取得するAPIを設定していないため、推測値は表示しません。"
+      },
+      "relatedProducts": [
+        {
+          "id": "trend:daily-household:tac-online:10005862",
+          "name": "【正規品 】マキタ 掃除機 コードレス CL116DW 新品 日本製 1年保証 バッテリーセット 掃除機 ハンディ マキタ 充電式クリーナー マキタコードレスクリーナー コードレス掃除機マキタ コードレス 車用掃除機 カークリーナー cl116dwi",
+          "rank": 77
+        },
+        {
+          "id": "trend:daily-household:rakuten24:11228828",
+          "name": "【1種類を選べる】アリエール 洗濯洗剤 ジェルボール プロ 詰め替え 超メガジャンボ(4袋セット)【アリエール ジェルボール】[洗剤 洗濯 ジェルボール 超メガジャンボ]",
+          "rank": 125
+        },
+        {
+          "id": "trend:daily-household:nene777:10000018",
+          "name": "掃除機 コードレス【楽天12連冠達成！吸引力完全進化110Kpa超強力!革新版グリーンLEDライト付＆60分連続稼働＆自立式&次世代LED液晶ディスプレイ】掃除機サイクロン式3段吸引力絡まないヘッド LED液晶ディスプレイ軽量低騒音伸縮パイプ HEPA多重濾過着脱式バッテリー3年保証",
+          "rank": 153
+        },
+        {
+          "id": "trend:daily-household:terada-ya:10011352",
+          "name": "● 精米機 家庭用 日本製 精米器 家庭用精米機 山本電気 YE-RC52 MB-RC52 匠味米 小型 1〜5合 精米機家庭用 白米 無洗米 玄米 ホワイト 白 ブラック レッド ライスクリーナー コンパクト 家電 1年保証 正規販売店",
+          "rank": 178
+        }
+      ],
+      "referenceArticles": [],
+      "topReasonAnalysis": [],
+      "structurePatterns": [],
+      "comparisonAxes": [],
+      "demandScore": {
+        "components": [
+          {
+            "name": "楽天ランキング",
+            "available": true,
+            "score": 1,
+            "max": 30,
+            "reason": "楽天ランキング289位を確認しました。"
+          },
+          {
+            "name": "季節一致度",
+            "available": true,
+            "score": 16,
+            "max": 25,
+            "reason": "有効な季節テーマ「日用品・家事」に一致しています。"
+          },
+          {
+            "name": "トレンド上昇",
+            "available": false,
+            "score": null,
+            "max": 20,
+            "reason": "前回比較できる順位履歴がありません。"
+          },
+          {
+            "name": "レビュー根拠",
+            "available": true,
+            "score": 13,
+            "max": 15,
+            "reason": "評価4.84、レビュー2134件を確認しました。"
+          },
+          {
+            "name": "競合記事数",
+            "available": false,
+            "score": null,
+            "max": 10,
+            "reason": "競合記事数は未確認です。"
+          }
+        ],
+        "score": 30,
+        "max": 70,
+        "normalized": 43,
+        "priority": "低",
+        "confidence": "中"
+      },
+      "experience": {
+        "type": "none",
+        "experienceId": null,
+        "checkedAt": null
+      },
+      "articlePriority": "低",
+      "confidence": "中",
+      "checkedAt": "2026-10-22T01:16:31.126Z"
+    }
+  ]
+}
