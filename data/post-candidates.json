@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T02:01:43.534Z",
+  "generatedAt": "2026-10-29T02:08:52.508Z",
   "genres": [
     "キッチン・調理",
     "スマホ・PC周辺",
@@ -123,13 +123,13 @@
       "genre": "防災",
       "target": "非常時の備えを見直したい人",
       "problem": "防災用品を何から揃えるか迷っている",
-      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング1位の商品。",
+      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング5位の商品。",
       "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "防災・備え / リアルタイムランキング 1位",
+          "title": "防災・備え / リアルタイムランキング 5位",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00sulx2.5dkfac31.g00sulx2.5dkfbe16/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpykespeak%2Fp0244%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
@@ -137,12 +137,12 @@
         "provider": "rakuten",
         "label": "楽天市場",
         "name": "＼最安値挑戦中！1回あたり約22円／ 簡易トイレ 非常用トイレ 災害用 携帯トイレ 防災 防災グッズ 非常用簡易トイレ 災害 災害用品 ポータブルトイレ 凝固剤付 排便袋付 防災トイレ 備蓄 車用 台風 避難グッズ 地震対策グッズ",
-        "price": "3380",
+        "price": "1480",
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00sulx2.5dkfac31.g00sulx2.5dkfbe16/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpykespeak%2Fp0244%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
         "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/pykespeak/cabinet/event/marasonre/p0244_top_0228-7r-3.jpg?_ex=128x128",
         "shopName": "PYKES PEAK Direct",
-        "rank": 1,
-        "reviewCount": 1236,
+        "rank": 5,
+        "reviewCount": 1239,
         "reviewAverage": 4.49
       },
       "purchaseOptions": [
@@ -150,100 +150,19 @@
           "provider": "rakuten",
           "label": "楽天市場",
           "name": "＼最安値挑戦中！1回あたり約22円／ 簡易トイレ 非常用トイレ 災害用 携帯トイレ 防災 防災グッズ 非常用簡易トイレ 災害 災害用品 ポータブルトイレ 凝固剤付 排便袋付 防災トイレ 備蓄 車用 台風 避難グッズ 地震対策グッズ",
-          "price": "3380",
+          "price": "1480",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00sulx2.5dkfac31.g00sulx2.5dkfbe16/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpykespeak%2Fp0244%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/pykespeak/cabinet/event/marasonre/p0244_top_0228-7r-3.jpg?_ex=128x128",
           "shopName": "PYKES PEAK Direct",
-          "rank": 1,
-          "reviewCount": 1236,
+          "rank": 5,
+          "reviewCount": 1239,
           "reviewAverage": 4.49
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 1位 / 評価 4.49（1236件）",
+      "selectionSummary": "防災・備え / 楽天リアルタイム 5位 / 評価 4.49（1239件）",
       "reviewDraft": "{\n  \"id\": \"review-preparedness-pykespeak-10002322\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"pykespeak:10002322\"\n  }\n}",
-      "score": 134,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 2,
-          "utility": 4,
-          "functionality": 2,
-          "time_saving": 2,
-          "comparative_advantage": 4,
-          "trust": 5,
-          "total": 19
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
-          "desirability": 3,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 16
-        },
-        "x_score": {
-          "scroll_stop": 2,
-          "short_copy_fit": 0,
-          "conversation_potential": 1,
-          "click_intent": 1,
-          "total": 4
-        },
-        "value_reason": "価格情報 ¥3,380、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
-        "hook": "＼値挑戦中！1回あたり約22円／ 簡易トイレ 非常用トイレ 災害用…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:preparedness:dajie:10000003",
-      "candidateType": "discovery",
-      "genre": "防災",
-      "target": "非常時の備えを見直したい人",
-      "problem": "防災用品を何から揃えるか迷っている",
-      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング3位の商品。",
-      "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "防災・備え / リアルタイムランキング 3位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uki02.5dkfa28d.g00uki02.5dkfbf25/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdajie%2Fstoole_powder%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "公式 スツーレ® 簡易トイレ 非常用トイレ 防災トイレ 携帯トイレ 凝固剤 15年保存 10回 50回 120回 ポータブルトイレ 抗菌消臭 排便袋付 持ち運び 車中泊 防災 災害用 非常用 防災グッズ",
-        "price": "1000",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00uki02.5dkfa28d.g00uki02.5dkfbf25/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdajie%2Fstoole_powder%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dajie/cabinet/11553754/0703_aka.jpg?_ex=128x128",
-        "shopName": "スツーレ楽天市場店",
-        "rank": 3,
-        "reviewCount": 1896,
-        "reviewAverage": 4.61
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "公式 スツーレ® 簡易トイレ 非常用トイレ 防災トイレ 携帯トイレ 凝固剤 15年保存 10回 50回 120回 ポータブルトイレ 抗菌消臭 排便袋付 持ち運び 車中泊 防災 災害用 非常用 防災グッズ",
-          "price": "1000",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uki02.5dkfa28d.g00uki02.5dkfbf25/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdajie%2Fstoole_powder%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dajie/cabinet/11553754/0703_aka.jpg?_ex=128x128",
-          "shopName": "スツーレ楽天市場店",
-          "rank": 3,
-          "reviewCount": 1896,
-          "reviewAverage": 4.61
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 3位 / 評価 4.61（1896件）",
-      "reviewDraft": "{\n  \"id\": \"review-preparedness-dajie-10000003\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"dajie:10000003\"\n  }\n}",
-      "score": 132,
+      "score": 130,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
@@ -272,91 +191,10 @@
           "click_intent": 1,
           "total": 4
         },
-        "value_reason": "価格情報 ¥1,000、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "value_reason": "価格情報 ¥1,480、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
         "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
         "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
-        "hook": "公式 スツーレ® 簡易トイレ 非常用トイレ 防災トイレ 携帯トイレ…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:preparedness:h2brothers:10001880",
-      "candidateType": "discovery",
-      "genre": "防災",
-      "target": "非常時の備えを見直したい人",
-      "problem": "防災用品を何から揃えるか迷っている",
-      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング5位の商品。",
-      "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "防災・備え / リアルタイムランキング 5位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sk3q2.5dkfaec9.g00sk3q2.5dkfba4d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fh2brothers%2Fportabletoilet01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "【20%OFF★防臭袋全回数分付き★日本防災安全協会認証品】簡易トイレ 非常用トイレ 防災グッズ 防災 非常用簡易トイレ 携帯トイレ 災害用トイレ 60〜600回 15年保存 凝固剤 ONESTEP",
-        "price": "1080",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00sk3q2.5dkfaec9.g00sk3q2.5dkfba4d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fh2brothers%2Fportabletoilet01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/h2brothers/cabinet/medical/portabletoilet01r2.jpg?_ex=128x128",
-        "shopName": "ONE STEP",
-        "rank": 5,
-        "reviewCount": 10785,
-        "reviewAverage": 4.56
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "【20%OFF★防臭袋全回数分付き★日本防災安全協会認証品】簡易トイレ 非常用トイレ 防災グッズ 防災 非常用簡易トイレ 携帯トイレ 災害用トイレ 60〜600回 15年保存 凝固剤 ONESTEP",
-          "price": "1080",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sk3q2.5dkfaec9.g00sk3q2.5dkfba4d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fh2brothers%2Fportabletoilet01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/h2brothers/cabinet/medical/portabletoilet01r2.jpg?_ex=128x128",
-          "shopName": "ONE STEP",
-          "rank": 5,
-          "reviewCount": 10785,
-          "reviewAverage": 4.56
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 5位 / 評価 4.56（10785件）",
-      "reviewDraft": "{\n  \"id\": \"review-preparedness-h2brothers-10001880\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"h2brothers:10001880\"\n  }\n}",
-      "score": 130,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 5,
-          "utility": 3,
-          "functionality": 2,
-          "time_saving": 1,
-          "comparative_advantage": 4,
-          "trust": 5,
-          "total": 20
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
-          "desirability": 3,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 16
-        },
-        "x_score": {
-          "scroll_stop": 2,
-          "short_copy_fit": 2,
-          "conversation_potential": 1,
-          "click_intent": 1,
-          "total": 6
-        },
-        "value_reason": "価格情報 ¥1,080、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 6/10。投稿基準または確認根拠が不足している。",
-        "hook": "簡易トイレ 非常用トイレ 防災グッズ 防災 非常用簡易トイレ 携帯…は、紹介前に根拠をもう少し確認したい。",
+        "hook": "＼値挑戦中！1回あたり約22円／ 簡易トイレ 非常用トイレ 災害用…は、紹介前に根拠をもう少し確認したい。",
         "confidence": "high"
       }
     },
@@ -385,7 +223,7 @@
         "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/hiromifashionhouse/cabinet/12169031/12169039/imgrc0130480880.jpg?_ex=128x128",
         "shopName": "Hiromi Fashion House",
         "rank": 7,
-        "reviewCount": 7235,
+        "reviewCount": 7239,
         "reviewAverage": 4.52
       },
       "purchaseOptions": [
@@ -398,12 +236,12 @@
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/hiromifashionhouse/cabinet/12169031/12169039/imgrc0130480880.jpg?_ex=128x128",
           "shopName": "Hiromi Fashion House",
           "rank": 7,
-          "reviewCount": 7235,
+          "reviewCount": 7239,
           "reviewAverage": 4.52
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 7位 / 評価 4.52（7235件）",
+      "selectionSummary": "防災・備え / 楽天リアルタイム 7位 / 評価 4.52（7239件）",
       "reviewDraft": "{\n  \"id\": \"review-preparedness-hiromifashionhouse-10005004\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"hiromifashionhouse:10005004\"\n  }\n}",
       "score": 128,
       "socialStrategy": {
@@ -442,7 +280,7 @@
       }
     },
     {
-      "id": "trend:preparedness:dajie:10000000",
+      "id": "trend:preparedness:h2brothers:10001880",
       "candidateType": "discovery",
       "genre": "防災",
       "target": "非常時の備えを見直したい人",
@@ -454,46 +292,46 @@
         {
           "publisher": "楽天市場",
           "title": "防災・備え / リアルタイムランキング 11位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uki02.5dkfa28d.g00uki02.5dkfbf25/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdajie%2Fstoole%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sk3q2.5dkfaec9.g00sk3q2.5dkfba4d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fh2brothers%2Fportabletoilet01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
       "primaryOffer": {
         "provider": "rakuten",
         "label": "楽天市場",
-        "name": "公式 スツーレ® 簡易トイレ 非常用トイレ 携帯トイレ 防災トイレ 折りたたみ 耐荷重100kg 排便袋＆凝固剤付き 軽量 2サイズ ポータブルトイレ 災害 防災 非常用 防災グッズ",
-        "price": "3380",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00uki02.5dkfa28d.g00uki02.5dkfbf25/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdajie%2Fstoole%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dajie/cabinet/10598746/imgrc0114884020.jpg?_ex=128x128",
-        "shopName": "スツーレ楽天市場店",
+        "name": "【20％OFF★防臭袋全回数分付き★日本防災安全協会認証品】簡易トイレ 非常用トイレ 防災グッズ 防災 非常用簡易トイレ 携帯トイレ 災害用トイレ 60〜600回 15年保存 凝固剤 ONESTEP",
+        "price": "1180",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00sk3q2.5dkfaec9.g00sk3q2.5dkfba4d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fh2brothers%2Fportabletoilet01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/h2brothers/cabinet/medical/portabletoilet01r4.jpg?_ex=128x128",
+        "shopName": "ONE STEP",
         "rank": 11,
-        "reviewCount": 6788,
-        "reviewAverage": 4.63
+        "reviewCount": 10786,
+        "reviewAverage": 4.56
       },
       "purchaseOptions": [
         {
           "provider": "rakuten",
           "label": "楽天市場",
-          "name": "公式 スツーレ® 簡易トイレ 非常用トイレ 携帯トイレ 防災トイレ 折りたたみ 耐荷重100kg 排便袋＆凝固剤付き 軽量 2サイズ ポータブルトイレ 災害 防災 非常用 防災グッズ",
-          "price": "3380",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uki02.5dkfa28d.g00uki02.5dkfbf25/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdajie%2Fstoole%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dajie/cabinet/10598746/imgrc0114884020.jpg?_ex=128x128",
-          "shopName": "スツーレ楽天市場店",
+          "name": "【20％OFF★防臭袋全回数分付き★日本防災安全協会認証品】簡易トイレ 非常用トイレ 防災グッズ 防災 非常用簡易トイレ 携帯トイレ 災害用トイレ 60〜600回 15年保存 凝固剤 ONESTEP",
+          "price": "1180",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sk3q2.5dkfaec9.g00sk3q2.5dkfba4d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fh2brothers%2Fportabletoilet01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/h2brothers/cabinet/medical/portabletoilet01r4.jpg?_ex=128x128",
+          "shopName": "ONE STEP",
           "rank": 11,
-          "reviewCount": 6788,
-          "reviewAverage": 4.63
+          "reviewCount": 10786,
+          "reviewAverage": 4.56
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 11位 / 評価 4.63（6788件）",
-      "reviewDraft": "{\n  \"id\": \"review-preparedness-dajie-10000000\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"dajie:10000000\"\n  }\n}",
+      "selectionSummary": "防災・備え / 楽天リアルタイム 11位 / 評価 4.56（10786件）",
+      "reviewDraft": "{\n  \"id\": \"review-preparedness-h2brothers-10001880\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"h2brothers:10001880\"\n  }\n}",
       "score": 124,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
         "value_score": {
-          "price_advantage": 2,
+          "price_advantage": 3,
           "utility": 3,
-          "functionality": 3,
+          "functionality": 2,
           "time_saving": 1,
           "comparative_advantage": 3,
           "trust": 5,
@@ -515,70 +353,70 @@
           "click_intent": 1,
           "total": 5
         },
-        "value_reason": "価格情報 ¥3,380、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "value_reason": "価格情報 ¥1,180、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
         "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
         "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
-        "hook": "公式 スツーレ® 簡易トイレ 非常用トイレ 携帯トイレ 防災トイレ…は、紹介前に根拠をもう少し確認したい。",
+        "hook": "簡易トイレ 非常用トイレ 防災グッズ 防災 非常用簡易トイレ 携帯…は、紹介前に根拠をもう少し確認したい。",
         "confidence": "high"
       }
     },
     {
-      "id": "trend:preparedness:peaceup:10010947",
+      "id": "trend:preparedness:r1-shop:10000062",
       "candidateType": "discovery",
       "genre": "防災",
       "target": "非常時の備えを見直したい人",
       "problem": "防災用品を何から揃えるか迷っている",
-      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング9位の商品。",
+      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング13位の商品。",
       "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "防災・備え / リアルタイムランキング 9位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rk7o2.5dkfa342.g00rk7o2.5dkfb2e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpeaceup%2F10001680%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+          "title": "防災・備え / リアルタイムランキング 13位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ue8b2.5dkfa830.g00ue8b2.5dkfb8a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr1-shop%2Fcsd-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
       "primaryOffer": {
         "provider": "rakuten",
         "label": "楽天市場",
-        "name": "4人用/3日分 36食 非常食セット 5年保存 アルファ米 缶入りパン 4人分 3日間 生きのびる パンが選べる 防災食セット 長期保存 尾西 携帯おにぎり ご飯 お米 ひだまりパン 防災グッズ 保存食 企業 組合 法人向け 災害備蓄 JHJ JHH",
-        "price": "13500",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00rk7o2.5dkfa342.g00rk7o2.5dkfb2e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpeaceup%2F10001680%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/peaceup/cabinet/items-thumbnail2/10001680sku-01.jpg?_ex=128x128",
-        "shopName": "防災用品・災害対策　ピースアップ",
-        "rank": 9,
-        "reviewCount": 591,
-        "reviewAverage": 4.64
+        "name": "「楽天総合1位」「半永久保存 防災士監修」簡易トイレ 非常用トイレセット 防災用品 防災グッズ 防災セット 50+10回分 非常用簡易トイレ 防臭袋 アウトドア 介護用 防災 携帯トイレ 台風 洪水 災害時 断水時 簡単使用 長期保存",
+        "price": "1280",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00ue8b2.5dkfa830.g00ue8b2.5dkfb8a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr1-shop%2Fcsd-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/r1-shop/cabinet/09975530/09975535/csdgai/zt.jpg?_ex=128x128",
+        "shopName": "RONE_SHOP",
+        "rank": 13,
+        "reviewCount": 7340,
+        "reviewAverage": 4.5
       },
       "purchaseOptions": [
         {
           "provider": "rakuten",
           "label": "楽天市場",
-          "name": "4人用/3日分 36食 非常食セット 5年保存 アルファ米 缶入りパン 4人分 3日間 生きのびる パンが選べる 防災食セット 長期保存 尾西 携帯おにぎり ご飯 お米 ひだまりパン 防災グッズ 保存食 企業 組合 法人向け 災害備蓄 JHJ JHH",
-          "price": "13500",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rk7o2.5dkfa342.g00rk7o2.5dkfb2e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpeaceup%2F10001680%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/peaceup/cabinet/items-thumbnail2/10001680sku-01.jpg?_ex=128x128",
-          "shopName": "防災用品・災害対策　ピースアップ",
-          "rank": 9,
-          "reviewCount": 591,
-          "reviewAverage": 4.64
+          "name": "「楽天総合1位」「半永久保存 防災士監修」簡易トイレ 非常用トイレセット 防災用品 防災グッズ 防災セット 50+10回分 非常用簡易トイレ 防臭袋 アウトドア 介護用 防災 携帯トイレ 台風 洪水 災害時 断水時 簡単使用 長期保存",
+          "price": "1280",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ue8b2.5dkfa830.g00ue8b2.5dkfb8a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr1-shop%2Fcsd-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/r1-shop/cabinet/09975530/09975535/csdgai/zt.jpg?_ex=128x128",
+          "shopName": "RONE_SHOP",
+          "rank": 13,
+          "reviewCount": 7340,
+          "reviewAverage": 4.5
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "防災・備え / 楽天リアルタイム 9位 / 評価 4.64（591件）",
-      "reviewDraft": "{\n  \"id\": \"review-preparedness-peaceup-10010947\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"peaceup:10010947\"\n  }\n}",
-      "score": 121,
+      "selectionSummary": "防災・備え / 楽天リアルタイム 13位 / 評価 4.5（7340件）",
+      "reviewDraft": "{\n  \"id\": \"review-preparedness-r1-shop-10000062\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"r1-shop:10000062\"\n  }\n}",
+      "score": 122,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
         "value_score": {
-          "price_advantage": 1,
+          "price_advantage": 3,
           "utility": 3,
           "functionality": 3,
-          "time_saving": 1,
-          "comparative_advantage": 4,
-          "trust": 4,
-          "total": 16
+          "time_saving": 4,
+          "comparative_advantage": 3,
+          "trust": 5,
+          "total": 21
         },
         "discovery_score": {
           "instant_understanding": 4,
@@ -590,16 +428,178 @@
           "total": 16
         },
         "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
+          "click_intent": 2,
+          "total": 5
+        },
+        "value_reason": "価格情報 ¥1,280、時短・省力につながる記述あり、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
+        "hook": "「楽天総合1位」「半永久保存 防災士監修」簡易トイレ 非常用トイレ…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:preparedness:dajie:10000003",
+      "candidateType": "discovery",
+      "genre": "防災",
+      "target": "非常時の備えを見直したい人",
+      "problem": "防災用品を何から揃えるか迷っている",
+      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング15位の商品。",
+      "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "防災・備え / リアルタイムランキング 15位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uki02.5dkfa28d.g00uki02.5dkfbf25/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdajie%2Fstoole_powder%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "公式 スツーレ® 簡易トイレ 非常用トイレ 防災トイレ 携帯トイレ 凝固剤 15年保存 10回 50回 120回 ポータブルトイレ 抗菌消臭 排便袋付 持ち運び 車中泊 防災 災害用 非常用 防災グッズ",
+        "price": "3480",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00uki02.5dkfa28d.g00uki02.5dkfbf25/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdajie%2Fstoole_powder%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dajie/cabinet/11553754/0703_aka.jpg?_ex=128x128",
+        "shopName": "スツーレ楽天市場店",
+        "rank": 15,
+        "reviewCount": 1898,
+        "reviewAverage": 4.61
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "公式 スツーレ® 簡易トイレ 非常用トイレ 防災トイレ 携帯トイレ 凝固剤 15年保存 10回 50回 120回 ポータブルトイレ 抗菌消臭 排便袋付 持ち運び 車中泊 防災 災害用 非常用 防災グッズ",
+          "price": "3480",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uki02.5dkfa28d.g00uki02.5dkfbf25/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdajie%2Fstoole_powder%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dajie/cabinet/11553754/0703_aka.jpg?_ex=128x128",
+          "shopName": "スツーレ楽天市場店",
+          "rank": 15,
+          "reviewCount": 1898,
+          "reviewAverage": 4.61
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "防災・備え / 楽天リアルタイム 15位 / 評価 4.61（1898件）",
+      "reviewDraft": "{\n  \"id\": \"review-preparedness-dajie-10000003\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"dajie:10000003\"\n  }\n}",
+      "score": 120,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 2,
+          "utility": 4,
+          "functionality": 2,
+          "time_saving": 2,
+          "comparative_advantage": 3,
+          "trust": 5,
+          "total": 18
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 3,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 16
+        },
+        "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 4
+        },
+        "value_reason": "価格情報 ¥3,480、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
+        "hook": "公式 スツーレ® 簡易トイレ 非常用トイレ 防災トイレ 携帯トイレ…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:preparedness:nagomilab:10000046",
+      "candidateType": "discovery",
+      "genre": "防災",
+      "target": "非常時の備えを見直したい人",
+      "problem": "防災用品を何から揃えるか迷っている",
+      "reason": "防災・備えの候補として、楽天市場リアルタイムランキング19位の商品。",
+      "caution": "家族構成と保管場所に合う内容・数量か確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "防災・備え / リアルタイムランキング 19位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s56g2.5dkfa6f8.g00s56g2.5dkfb88a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnagomilab%2Ftg11550z%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "【楽天ランキング1位】【防災士共同開発】簡易トイレ 非常用 トイレ 非常用トイレ 凝固剤 持ち出し袋 50回 100回 緊急簡易トイレ消臭 非常用簡易トイレ 抗菌 滅菌 清潔 臭わない 抗菌消臭簡易トイレ 災害用トイレ 日本製 防災 防災グッズ 防災用品 地震 災害 防災のミカタ",
+        "price": "4480",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00s56g2.5dkfa6f8.g00s56g2.5dkfb88a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnagomilab%2Ftg11550z%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/nagomilab/cabinet/shohin01/50_100sum.jpg?_ex=128x128",
+        "shopName": "防災グッズ防災セット防災のミカタ",
+        "rank": 19,
+        "reviewCount": 439,
+        "reviewAverage": 4.5
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "【楽天ランキング1位】【防災士共同開発】簡易トイレ 非常用 トイレ 非常用トイレ 凝固剤 持ち出し袋 50回 100回 緊急簡易トイレ消臭 非常用簡易トイレ 抗菌 滅菌 清潔 臭わない 抗菌消臭簡易トイレ 災害用トイレ 日本製 防災 防災グッズ 防災用品 地震 災害 防災のミカタ",
+          "price": "4480",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s56g2.5dkfa6f8.g00s56g2.5dkfb88a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnagomilab%2Ftg11550z%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/nagomilab/cabinet/shohin01/50_100sum.jpg?_ex=128x128",
+          "shopName": "防災グッズ防災セット防災のミカタ",
+          "rank": 19,
+          "reviewCount": 439,
+          "reviewAverage": 4.5
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "防災・備え / 楽天リアルタイム 19位 / 評価 4.5（439件）",
+      "reviewDraft": "{\n  \"id\": \"review-preparedness-nagomilab-10000046\",\n  \"enabled\": false,\n  \"priority\": 75,\n  \"genre\": \"防災\",\n  \"target\": \"非常時の備えを見直したい人\",\n  \"problem\": \"防災用品を何から揃えるか迷っている\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"家族構成と保管場所に合う内容・数量か確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"nagomilab:10000046\"\n  }\n}",
+      "score": 110,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 2,
+          "utility": 3,
+          "functionality": 2,
+          "time_saving": 1,
+          "comparative_advantage": 3,
+          "trust": 4,
+          "total": 15
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 2,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 15
+        },
+        "x_score": {
           "scroll_stop": 1,
           "short_copy_fit": 0,
           "conversation_potential": 1,
           "click_intent": 1,
           "total": 3
         },
-        "value_reason": "価格情報 ¥13,500、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "value_reason": "価格情報 ¥4,480、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
         "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
         "reason_to_post": "X Score 3/10。投稿基準または確認根拠が不足している。",
-        "hook": "4人用/3日分 36食 非常食セット 5年保存 アルファ米 缶入り…は、紹介前に根拠をもう少し確認したい。",
+        "hook": "簡易トイレ 非常用 トイレ 非常用トイレ 凝固剤 持ち出し袋 50…は、紹介前に根拠をもう少し確認したい。",
         "confidence": "high"
       }
     }
