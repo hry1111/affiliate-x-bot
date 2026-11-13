@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T03:38:18.764Z",
+  "generatedAt": "2026-11-13T03:10:09.944Z",
   "genres": [
     "キッチン・調理",
     "スマホ・PC周辺",
@@ -123,13 +123,13 @@
       "genre": "収納・インテリア",
       "target": "部屋をすっきり使いたい人",
       "problem": "収納用品や生活家具のサイズ選びで迷う",
-      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング10位の商品。",
+      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング3位の商品。",
       "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "収納・インテリア / リアルタイムランキング 10位",
+          "title": "収納・インテリア / リアルタイムランキング 3位",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00pojb2.5dkfa890.g00pojb2.5dkfb759/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsockkobe%2F810379%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
@@ -141,8 +141,8 @@
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00pojb2.5dkfa890.g00pojb2.5dkfb759/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsockkobe%2F810379%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
         "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sockkobe/cabinet/main-sale/810379-3498yen.jpg?_ex=128x128",
         "shopName": "aimerfeel楽天市場店",
-        "rank": 10,
-        "reviewCount": 2407,
+        "rank": 3,
+        "reviewCount": 2413,
         "reviewAverage": 4.61
       },
       "purchaseOptions": [
@@ -154,15 +154,15 @@
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00pojb2.5dkfa890.g00pojb2.5dkfb759/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsockkobe%2F810379%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sockkobe/cabinet/main-sale/810379-3498yen.jpg?_ex=128x128",
           "shopName": "aimerfeel楽天市場店",
-          "rank": 10,
-          "reviewCount": 2407,
+          "rank": 3,
+          "reviewCount": 2413,
           "reviewAverage": 4.61
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "収納・インテリア / 楽天リアルタイム 10位 / 評価 4.61（2407件）",
+      "selectionSummary": "収納・インテリア / 楽天リアルタイム 3位 / 評価 4.61（2413件）",
       "reviewDraft": "{\n  \"id\": \"review-storage-interior-sockkobe-10014431\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"収納・インテリア\",\n  \"target\": \"部屋をすっきり使いたい人\",\n  \"problem\": \"収納用品や生活家具のサイズ選びで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"設置場所の寸法・耐荷重・組み立て条件を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"sockkobe:10014431\"\n  }\n}",
-      "score": 110,
+      "score": 117,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "HYBRID",
@@ -193,89 +193,8 @@
         },
         "value_reason": "価格情報 ¥5,830、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
         "discovery_reason": "ギフト用途の記述がある、商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "楽天ランキング10位の確認情報があり、短文で魅力を説明できる。投稿前に価格・在庫を再確認する。",
+        "reason_to_post": "楽天ランキング3位の確認情報があり、短文で魅力を説明できる。投稿前に価格・在庫を再確認する。",
         "hook": "＼楽天月間1位／ルームウェア 部屋着 セットアップ リブモールニッ…、発想が面白くて¥5,830の実用性も気になる。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:mobile-pc:hitidear:10000115",
-      "candidateType": "discovery",
-      "genre": "スマホ・PC周辺",
-      "target": "スマホやPCを快適に使いたい人",
-      "problem": "充電・持ち運び・周辺機器の買い替えで迷う",
-      "reason": "スマホ・PC周辺の候補として、楽天市場リアルタイムランキング24位の商品。",
-      "caution": "対応端子・対応機種・出力条件を販売ページで確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "スマホ・PC周辺 / リアルタイムランキング 24位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uab62.5dkfa9b3.g00uab62.5dkfb258/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitidear%2Fq8-1%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "【クーポンで最安2080円】「年間ランキング受賞」「楽天1位」モバイルバッテリー 半固体電池 大容量 20800mAh 4本ケーブル内蔵 燃えにくい 準固体電池 超軽量 小型 ワイヤレス充電 6台同時充電 3way蓄電 MFi認証 持ち運び便利 残量表示 iPhone/iPad/Android対応",
-        "price": "2980",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00uab62.5dkfa9b3.g00uab62.5dkfb258/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitidear%2Fq8-1%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/hitidear/cabinet/10065696/10914652/q8-2080.jpg?_ex=128x128",
-        "shopName": "Hitidear",
-        "rank": 24,
-        "reviewCount": 8996,
-        "reviewAverage": 4.45
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "【クーポンで最安2080円】「年間ランキング受賞」「楽天1位」モバイルバッテリー 半固体電池 大容量 20800mAh 4本ケーブル内蔵 燃えにくい 準固体電池 超軽量 小型 ワイヤレス充電 6台同時充電 3way蓄電 MFi認証 持ち運び便利 残量表示 iPhone/iPad/Android対応",
-          "price": "2980",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uab62.5dkfa9b3.g00uab62.5dkfb258/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitidear%2Fq8-1%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/hitidear/cabinet/10065696/10914652/q8-2080.jpg?_ex=128x128",
-          "shopName": "Hitidear",
-          "rank": 24,
-          "reviewCount": 8996,
-          "reviewAverage": 4.45
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "スマホ・PC周辺 / 楽天リアルタイム 24位 / 評価 4.45（8996件）",
-      "reviewDraft": "{\n  \"id\": \"review-mobile-pc-hitidear-10000115\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"スマホ・PC周辺\",\n  \"target\": \"スマホやPCを快適に使いたい人\",\n  \"problem\": \"充電・持ち運び・周辺機器の買い替えで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"対応端子・対応機種・出力条件を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"hitidear:10000115\"\n  }\n}",
-      "score": 101,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "HYBRID",
-        "value_score": {
-          "price_advantage": 5,
-          "utility": 5,
-          "functionality": 5,
-          "time_saving": 2,
-          "comparative_advantage": 3,
-          "trust": 5,
-          "total": 25
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 4,
-          "desirability": 5,
-          "social_visual": 3,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 21
-        },
-        "x_score": {
-          "scroll_stop": 3,
-          "short_copy_fit": 0,
-          "conversation_potential": 2,
-          "click_intent": 2,
-          "total": 7
-        },
-        "value_reason": "価格情報 ¥2,980、機能情報が具体的、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品名・説明に意外性の根拠がある、商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "楽天ランキング24位の確認情報があり、短文で魅力を説明できる。投稿前に価格・在庫を再確認する。",
-        "hook": "「年間ランキング受賞」「 」モバイルバッテリー 半固体電池 大容量…、発想が面白くて¥2,980の実用性も気になる。",
         "confidence": "high"
       }
     },
@@ -285,13 +204,13 @@
       "genre": "収納・インテリア",
       "target": "部屋をすっきり使いたい人",
       "problem": "収納用品や生活家具のサイズ選びで迷う",
-      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング26位の商品。",
+      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング12位の商品。",
       "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "収納・インテリア / リアルタイムランキング 26位",
+          "title": "収納・インテリア / リアルタイムランキング 12位",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
@@ -303,8 +222,8 @@
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
         "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/rank-img/021/main-xaedt-01.jpg?_ex=128x128",
         "shopName": "くらしのeショップ",
-        "rank": 26,
-        "reviewCount": 6995,
+        "rank": 12,
+        "reviewCount": 7001,
         "reviewAverage": 4.42
       },
       "purchaseOptions": [
@@ -316,15 +235,15 @@
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/rank-img/021/main-xaedt-01.jpg?_ex=128x128",
           "shopName": "くらしのeショップ",
-          "rank": 26,
-          "reviewCount": 6995,
+          "rank": 12,
+          "reviewCount": 7001,
           "reviewAverage": 4.42
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "収納・インテリア / 楽天リアルタイム 26位 / 評価 4.42（6995件）",
+      "selectionSummary": "収納・インテリア / 楽天リアルタイム 12位 / 評価 4.42（7001件）",
       "reviewDraft": "{\n  \"id\": \"review-storage-interior-e-kurashi-10048736\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"収納・インテリア\",\n  \"target\": \"部屋をすっきり使いたい人\",\n  \"problem\": \"収納用品や生活家具のサイズ選びで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"設置場所の寸法・耐荷重・組み立て条件を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"e-kurashi:10048736\"\n  }\n}",
-      "score": 94,
+      "score": 108,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
@@ -361,139 +280,139 @@
       }
     },
     {
-      "id": "trend:daily-household:enetroom:10181071",
+      "id": "trend:mobile-pc:tokyopt:10000012",
+      "candidateType": "discovery",
+      "genre": "スマホ・PC周辺",
+      "target": "スマホやPCを快適に使いたい人",
+      "problem": "充電・持ち運び・周辺機器の買い替えで迷う",
+      "reason": "スマホ・PC周辺の候補として、楽天市場リアルタイムランキング81位の商品。",
+      "caution": "対応端子・対応機種・出力条件を販売ページで確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "スマホ・PC周辺 / リアルタイムランキング 81位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00up2r2.5dkfa8f0.g00up2r2.5dkfb792/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftokyopt%2Fjsqmax%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "【クーポンで1,980円～】 楽天1位 加湿器 コードレス 卓上 小型 大容量 超音波加湿器 350ml 除菌 超音波式 卓上加湿器 ミスト 次亜塩素酸水対応 持ち運び 静音設計 USB 充電式 空焚き防止 7色LED お手入れ簡単 車載/寝室/オフィス用 ポータブル 持ち運び",
+        "price": "2380",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00up2r2.5dkfa8f0.g00up2r2.5dkfb792/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftokyopt%2Fjsqmax%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/tokyopt/cabinet/magic-x/1980-.jpg?_ex=128x128",
+        "shopName": "PTダイレクト",
+        "rank": 81,
+        "reviewCount": 1091,
+        "reviewAverage": 4.52
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "【クーポンで1,980円～】 楽天1位 加湿器 コードレス 卓上 小型 大容量 超音波加湿器 350ml 除菌 超音波式 卓上加湿器 ミスト 次亜塩素酸水対応 持ち運び 静音設計 USB 充電式 空焚き防止 7色LED お手入れ簡単 車載/寝室/オフィス用 ポータブル 持ち運び",
+          "price": "2380",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00up2r2.5dkfa8f0.g00up2r2.5dkfb792/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftokyopt%2Fjsqmax%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/tokyopt/cabinet/magic-x/1980-.jpg?_ex=128x128",
+          "shopName": "PTダイレクト",
+          "rank": 81,
+          "reviewCount": 1091,
+          "reviewAverage": 4.52
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "スマホ・PC周辺 / 楽天リアルタイム 81位 / 評価 4.52（1091件）",
+      "reviewDraft": "{\n  \"id\": \"review-mobile-pc-tokyopt-10000012\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"スマホ・PC周辺\",\n  \"target\": \"スマホやPCを快適に使いたい人\",\n  \"problem\": \"充電・持ち運び・周辺機器の買い替えで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"対応端子・対応機種・出力条件を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"tokyopt:10000012\"\n  }\n}",
+      "score": 84,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 5,
+          "utility": 4,
+          "functionality": 5,
+          "time_saving": 4,
+          "comparative_advantage": 3,
+          "trust": 5,
+          "total": 26
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 4,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 17
+        },
+        "x_score": {
+          "scroll_stop": 3,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
+          "click_intent": 2,
+          "total": 6
+        },
+        "value_reason": "価格情報 ¥2,380、機能情報が具体的、時短・省力につながる記述あり、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 6/10。投稿基準または確認根拠が不足している。",
+        "hook": "加湿器 コードレス 卓上 小型 大容量 超音波加湿器 350ml …は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:daily-household:rakuten24:11128644",
       "candidateType": "discovery",
       "genre": "日用品・家事",
       "target": "毎日の家事を少し楽にしたい人",
       "problem": "日用品を値段だけで選んで失敗したくない",
-      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング282位の商品。",
+      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング243位の商品。",
       "caution": "素材との相性と使用方法を販売ページで確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "日用品・家事 / リアルタイムランキング 282位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00prke2.5dkfa2dd.g00prke2.5dkfb63e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2F516696%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+          "title": "日用品・家事 / リアルタイムランキング 243位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00r1362.5dkfa9cf.g00r1362.5dkfbbf1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F404889%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
       "primaryOffer": {
         "provider": "rakuten",
         "label": "楽天市場",
-        "name": "＼レビュー2,800件突破／ 掃除機 コードレス スタンド付 サイクロン アイリスオーヤマ スティッククリーナー スタンド 静電モップ サイクロン式 充電式 コードなし ハンディ 2way 軽量 コンパクト 黒 白 ブラック ホワイト SCD-185P SCD-185PM【選べる充電スタンド付】",
-        "price": "9880",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00prke2.5dkfa2dd.g00prke2.5dkfb63e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2F516696%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/ranking/imgrc0094859504.jpg?_ex=128x128",
-        "shopName": "便利生活　マイルーム",
-        "rank": 282,
-        "reviewCount": 2903,
-        "reviewAverage": 4.13
+        "name": "【1種類を選べる】アタック 抗菌EX 洗濯洗剤 詰替 超特大サイズ 梱販売用(6袋入)【アタック】",
+        "price": "6171",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00r1362.5dkfa9cf.g00r1362.5dkfbbf1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F404889%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/889/404889.jpg?_ex=128x128",
+        "shopName": "楽天24",
+        "rank": 243,
+        "reviewCount": 4308,
+        "reviewAverage": 4.68
       },
       "purchaseOptions": [
         {
           "provider": "rakuten",
           "label": "楽天市場",
-          "name": "＼レビュー2,800件突破／ 掃除機 コードレス スタンド付 サイクロン アイリスオーヤマ スティッククリーナー スタンド 静電モップ サイクロン式 充電式 コードなし ハンディ 2way 軽量 コンパクト 黒 白 ブラック ホワイト SCD-185P SCD-185PM【選べる充電スタンド付】",
-          "price": "9880",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00prke2.5dkfa2dd.g00prke2.5dkfb63e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2F516696%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/ranking/imgrc0094859504.jpg?_ex=128x128",
-          "shopName": "便利生活　マイルーム",
-          "rank": 282,
-          "reviewCount": 2903,
-          "reviewAverage": 4.13
+          "name": "【1種類を選べる】アタック 抗菌EX 洗濯洗剤 詰替 超特大サイズ 梱販売用(6袋入)【アタック】",
+          "price": "6171",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00r1362.5dkfa9cf.g00r1362.5dkfbbf1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F404889%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/889/404889.jpg?_ex=128x128",
+          "shopName": "楽天24",
+          "rank": 243,
+          "reviewCount": 4308,
+          "reviewAverage": 4.68
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "日用品・家事 / 楽天リアルタイム 282位 / 評価 4.13（2903件）",
-      "reviewDraft": "{\n  \"id\": \"review-daily-household-enetroom-10181071\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"enetroom:10181071\"\n  }\n}",
-      "score": 83,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 1,
-          "utility": 5,
-          "functionality": 5,
-          "time_saving": 2,
-          "comparative_advantage": 3,
-          "trust": 4,
-          "total": 20
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 4,
-          "desirability": 2,
-          "social_visual": 5,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 20
-        },
-        "x_score": {
-          "scroll_stop": 2,
-          "short_copy_fit": 0,
-          "conversation_potential": 2,
-          "click_intent": 1,
-          "total": 5
-        },
-        "value_reason": "価格情報 ¥9,880、機能情報が具体的、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品名・説明に意外性の根拠がある、商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
-        "hook": "＼レビュー2,800件突破／ 掃除機 コードレス スタンド付 サイ…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:beauty-grooming:kerastase-varie:10000005",
-      "candidateType": "discovery",
-      "genre": "美容・身だしなみ",
-      "target": "毎日の身だしなみ用品を見直したい人",
-      "problem": "定番のケア用品を自分に合うものへ替えたい",
-      "reason": "美容・身だしなみの候補として、楽天市場リアルタイムランキング195位の商品。",
-      "caution": "肌質・香り・成分との相性はあるため、商品説明を確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "美容・身だしなみ / リアルタイムランキング 195位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnoa2.5dkface0.g00tnoa2.5dkfb6fe/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkerastase-varie%2Fch-huilc_120%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "2026ホリデー ヘアオイル ユイル クロノロジスト◆ミニサイズ30mL/本体75mLセット(2026ホリデー)/付替え用レフィル75mL/本体75mL+レフィル75mLセット/レフィル75mL 2本セット◆洗い流さない トリートメント アウトバス クリスマス ギフト コフレ◆ケラスターゼ",
-        "price": "7260",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnoa2.5dkface0.g00tnoa2.5dkfb6fe/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkerastase-varie%2Fch-huilc_120%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kerastase-varie/cabinet/thumbna/ch-huilc_120/261102_2.jpg?_ex=128x128",
-        "shopName": "ケラスターゼ公式ショップ",
-        "rank": 195,
-        "reviewCount": 8109,
-        "reviewAverage": 4.75
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "2026ホリデー ヘアオイル ユイル クロノロジスト◆ミニサイズ30mL/本体75mLセット(2026ホリデー)/付替え用レフィル75mL/本体75mL+レフィル75mLセット/レフィル75mL 2本セット◆洗い流さない トリートメント アウトバス クリスマス ギフト コフレ◆ケラスターゼ",
-          "price": "7260",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tnoa2.5dkface0.g00tnoa2.5dkfb6fe/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkerastase-varie%2Fch-huilc_120%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kerastase-varie/cabinet/thumbna/ch-huilc_120/261102_2.jpg?_ex=128x128",
-          "shopName": "ケラスターゼ公式ショップ",
-          "rank": 195,
-          "reviewCount": 8109,
-          "reviewAverage": 4.75
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "美容・身だしなみ / 楽天リアルタイム 195位 / 評価 4.75（8109件）",
-      "reviewDraft": "{\n  \"id\": \"review-beauty-grooming-kerastase-varie-10000005\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"美容・身だしなみ\",\n  \"target\": \"毎日の身だしなみ用品を見直したい人\",\n  \"problem\": \"定番のケア用品を自分に合うものへ替えたい\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"肌質・香り・成分との相性はあるため、商品説明を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"kerastase-varie:10000005\"\n  }\n}",
-      "score": 80,
+      "selectionSummary": "日用品・家事 / 楽天リアルタイム 243位 / 評価 4.68（4308件）",
+      "reviewDraft": "{\n  \"id\": \"review-daily-household-rakuten24-11128644\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"rakuten24:11128644\"\n  }\n}",
+      "score": 84,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
         "value_score": {
           "price_advantage": 2,
-          "utility": 2,
-          "functionality": 3,
+          "utility": 3,
+          "functionality": 2,
           "time_saving": 1,
           "comparative_advantage": 3,
           "trust": 5,
@@ -502,104 +421,185 @@
         "discovery_score": {
           "instant_understanding": 4,
           "novelty": 2,
-          "desirability": 4,
-          "social_visual": 3,
-          "giftability": 4,
+          "desirability": 3,
+          "social_visual": 2,
+          "giftability": 0,
           "value_story": 5,
-          "total": 22
+          "total": 16
         },
         "x_score": {
-          "scroll_stop": 2,
-          "short_copy_fit": 0,
-          "conversation_potential": 2,
-          "click_intent": 2,
+          "scroll_stop": 1,
+          "short_copy_fit": 3,
+          "conversation_potential": 1,
+          "click_intent": 1,
           "total": 6
         },
-        "value_reason": "価格情報 ¥7,260、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "ギフト用途の記述がある、商品画像URLあり（画像内容は未解析）。",
+        "value_reason": "価格情報 ¥6,171、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
         "reason_to_post": "X Score 6/10。投稿基準または確認根拠が不足している。",
-        "hook": "2026ホリデー ヘアオイル ユイル クロノロジスト◆ミニサイズ3…は、紹介前に根拠をもう少し確認したい。",
+        "hook": "アタック 抗菌EX 洗濯洗剤 詰替 超特大サイズ 梱販売用(6袋入)は、紹介前に根拠をもう少し確認したい。",
         "confidence": "high"
       }
     },
     {
-      "id": "trend:kitchen:ringerhut:10000331",
+      "id": "trend:mobile-pc:b4u-shop:10002773",
       "candidateType": "discovery",
-      "genre": "キッチン・調理",
-      "target": "料理や片付けを効率よくしたい人",
-      "problem": "調理道具や保存用品を選びきれない",
-      "reason": "キッチン・調理の候補として、楽天市場リアルタイムランキング250位の商品。",
-      "caution": "サイズ・熱源対応・食洗機対応を販売ページで確認してください。",
+      "genre": "スマホ・PC周辺",
+      "target": "スマホやPCを快適に使いたい人",
+      "problem": "充電・持ち運び・周辺機器の買い替えで迷う",
+      "reason": "スマホ・PC周辺の候補として、楽天市場リアルタイムランキング281位の商品。",
+      "caution": "対応端子・対応機種・出力条件を販売ページで確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "キッチン・調理 / リアルタイムランキング 250位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qc3c2.5dkfa001.g00qc3c2.5dkfb640/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fringerhut%2Fc128%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+          "title": "スマホ・PC周辺 / リアルタイムランキング 281位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u01m2.5dkfac43.g00u01m2.5dkfb882/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fb4u-shop%2F2zk1127e%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
       "primaryOffer": {
         "provider": "rakuten",
         "label": "楽天市場",
-        "name": "S【衝撃の25％OFF！5,200→3,900円！】 リンガーハット 長崎ちゃんぽん 8食 チャンポン 冷凍 簡単 調理 仕送り 麺 スープ セット 国産野菜100％ チャンポン麺 具材 惣菜 具 取り寄せ 非常食 ギフト グルメ",
-        "price": "3900",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00qc3c2.5dkfa001.g00qc3c2.5dkfb640/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fringerhut%2Fc128%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ringerhut/cabinet/imgrc0190428692.jpg?_ex=128x128",
-        "shopName": "リンガーハット楽天市場店",
-        "rank": 250,
-        "reviewCount": 3981,
-        "reviewAverage": 4.72
+        "name": "【300円OFF 13日配布 ZIPで紹介!】B4U 公式 新 キャリーケース 機内持ち込み スーツケース TSAロック フロントオープン ストッパー付き 前開き ベージュ ピンク 2泊3日 3泊4日 Sサイズ Mサイズ 20インチ 24インチ USB充電 カップホルダー 静音 軽量 大容量 RFID保護 1年保証",
+        "price": "9980",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00u01m2.5dkfac43.g00u01m2.5dkfb882/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fb4u-shop%2F2zk1127e%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/b4u-shop/cabinet/11061659/12879328/2zk-main-260317.jpg?_ex=128x128",
+        "shopName": "B4U",
+        "rank": 281,
+        "reviewCount": 9495,
+        "reviewAverage": 4.47
       },
       "purchaseOptions": [
         {
           "provider": "rakuten",
           "label": "楽天市場",
-          "name": "S【衝撃の25％OFF！5,200→3,900円！】 リンガーハット 長崎ちゃんぽん 8食 チャンポン 冷凍 簡単 調理 仕送り 麺 スープ セット 国産野菜100％ チャンポン麺 具材 惣菜 具 取り寄せ 非常食 ギフト グルメ",
-          "price": "3900",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qc3c2.5dkfa001.g00qc3c2.5dkfb640/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fringerhut%2Fc128%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ringerhut/cabinet/imgrc0190428692.jpg?_ex=128x128",
-          "shopName": "リンガーハット楽天市場店",
-          "rank": 250,
-          "reviewCount": 3981,
-          "reviewAverage": 4.72
+          "name": "【300円OFF 13日配布 ZIPで紹介!】B4U 公式 新 キャリーケース 機内持ち込み スーツケース TSAロック フロントオープン ストッパー付き 前開き ベージュ ピンク 2泊3日 3泊4日 Sサイズ Mサイズ 20インチ 24インチ USB充電 カップホルダー 静音 軽量 大容量 RFID保護 1年保証",
+          "price": "9980",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u01m2.5dkfac43.g00u01m2.5dkfb882/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fb4u-shop%2F2zk1127e%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/b4u-shop/cabinet/11061659/12879328/2zk-main-260317.jpg?_ex=128x128",
+          "shopName": "B4U",
+          "rank": 281,
+          "reviewCount": 9495,
+          "reviewAverage": 4.47
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "キッチン・調理 / 楽天リアルタイム 250位 / 評価 4.72（3981件）",
-      "reviewDraft": "{\n  \"id\": \"review-kitchen-ringerhut-10000331\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"キッチン・調理\",\n  \"target\": \"料理や片付けを効率よくしたい人\",\n  \"problem\": \"調理道具や保存用品を選びきれない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"サイズ・熱源対応・食洗機対応を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"ringerhut:10000331\"\n  }\n}",
-      "score": 79,
+      "selectionSummary": "スマホ・PC周辺 / 楽天リアルタイム 281位 / 評価 4.47（9495件）",
+      "reviewDraft": "{\n  \"id\": \"review-mobile-pc-b4u-shop-10002773\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"スマホ・PC周辺\",\n  \"target\": \"スマホやPCを快適に使いたい人\",\n  \"problem\": \"充電・持ち運び・周辺機器の買い替えで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"対応端子・対応機種・出力条件を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"b4u-shop:10002773\"\n  }\n}",
+      "score": 84,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
         "value_score": {
-          "price_advantage": 2,
+          "price_advantage": 1,
           "utility": 4,
-          "functionality": 3,
-          "time_saving": 4,
+          "functionality": 5,
+          "time_saving": 2,
           "comparative_advantage": 3,
           "trust": 5,
-          "total": 21
+          "total": 20
         },
         "discovery_score": {
           "instant_understanding": 4,
           "novelty": 2,
           "desirability": 4,
           "social_visual": 2,
-          "giftability": 4,
+          "giftability": 0,
           "value_story": 5,
-          "total": 21
+          "total": 17
         },
         "x_score": {
           "scroll_stop": 2,
           "short_copy_fit": 0,
-          "conversation_potential": 2,
-          "click_intent": 2,
-          "total": 6
+          "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 4
         },
-        "value_reason": "価格情報 ¥3,900、時短・省力につながる記述あり、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "ギフト用途の記述がある、商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 6/10。投稿基準または確認根拠が不足している。",
-        "hook": "S リンガーハット 長崎ちゃんぽん 8食 チャンポン 冷凍 簡単 …は、紹介前に根拠をもう少し確認したい。",
+        "value_reason": "価格情報 ¥9,980、機能情報が具体的、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
+        "hook": "B4U 公式 新 キャリーケース 機内持ち込み スーツケース TS…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:daily-household:nene777:10000018",
+      "candidateType": "discovery",
+      "genre": "日用品・家事",
+      "target": "毎日の家事を少し楽にしたい人",
+      "problem": "日用品を値段だけで選んで失敗したくない",
+      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング211位の商品。",
+      "caution": "素材との相性と使用方法を販売ページで確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "日用品・家事 / リアルタイムランキング 211位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00upsp2.5dkfa34c.g00upsp2.5dkfb26c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnene777%2Fcompass1747365900%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "掃除機 コードレス【楽天12連冠達成！吸引力完全進化110Kpa超強力!革新版グリーンLEDライト付＆60分連続稼働＆自立式&次世代LED液晶ディスプレイ】掃除機サイクロン式3段吸引力絡まないヘッド LED液晶ディスプレイ軽量低騒音伸縮パイプ HEPA多重濾過着脱式バッテリー3年保証",
+        "price": "12980",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00upsp2.5dkfa34c.g00upsp2.5dkfb26c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnene777%2Fcompass1747365900%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/nene777/cabinet/compass1792658274.jpg?_ex=128x128",
+        "shopName": "NENE777楽天市場店",
+        "rank": 211,
+        "reviewCount": 5386,
+        "reviewAverage": 4.59
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "掃除機 コードレス【楽天12連冠達成！吸引力完全進化110Kpa超強力!革新版グリーンLEDライト付＆60分連続稼働＆自立式&次世代LED液晶ディスプレイ】掃除機サイクロン式3段吸引力絡まないヘッド LED液晶ディスプレイ軽量低騒音伸縮パイプ HEPA多重濾過着脱式バッテリー3年保証",
+          "price": "12980",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00upsp2.5dkfa34c.g00upsp2.5dkfb26c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnene777%2Fcompass1747365900%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/nene777/cabinet/compass1792658274.jpg?_ex=128x128",
+          "shopName": "NENE777楽天市場店",
+          "rank": 211,
+          "reviewCount": 5386,
+          "reviewAverage": 4.59
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "日用品・家事 / 楽天リアルタイム 211位 / 評価 4.59（5386件）",
+      "reviewDraft": "{\n  \"id\": \"review-daily-household-nene777-10000018\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"nene777:10000018\"\n  }\n}",
+      "score": 84,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 1,
+          "utility": 4,
+          "functionality": 3,
+          "time_saving": 2,
+          "comparative_advantage": 3,
+          "trust": 5,
+          "total": 18
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 3,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 16
+        },
+        "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 4
+        },
+        "value_reason": "価格情報 ¥12,980、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
+        "hook": "掃除機 コードレス 掃除機サイクロン式3段吸引力絡まないヘッド L…は、紹介前に根拠をもう少し確認したい。",
         "confidence": "high"
       }
     }
