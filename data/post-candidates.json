@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T03:52:56.460Z",
+  "generatedAt": "2026-11-21T03:47:23.507Z",
   "genres": [
     "キッチン・調理",
     "スマホ・PC周辺",
@@ -123,13 +123,13 @@
       "genre": "美容・身だしなみ",
       "target": "毎日の身だしなみ用品を見直したい人",
       "problem": "定番のケア用品を自分に合うものへ替えたい",
-      "reason": "美容・身だしなみの候補として、楽天市場リアルタイムランキング5位の商品。",
+      "reason": "美容・身だしなみの候補として、楽天市場リアルタイムランキング3位の商品。",
       "caution": "肌質・香り・成分との相性はあるため、商品説明を確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "美容・身だしなみ / リアルタイムランキング 5位",
+          "title": "美容・身だしなみ / リアルタイムランキング 3位",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00tl4n2.5dkfa941.g00tl4n2.5dkfb291/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshuuemura%2Fshu30001jp%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
@@ -141,8 +141,8 @@
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00tl4n2.5dkfa941.g00tl4n2.5dkfb291/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshuuemura%2Fshu30001jp%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
         "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/shuuemura/cabinet/12824584/12825927/14173013/imgrc0144873782.jpg?_ex=128x128",
         "shopName": "シュウ ウエムラ 公式ショップ",
-        "rank": 5,
-        "reviewCount": 36132,
+        "rank": 3,
+        "reviewCount": 36149,
         "reviewAverage": 4.84
       },
       "purchaseOptions": [
@@ -154,15 +154,15 @@
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00tl4n2.5dkfa941.g00tl4n2.5dkfb291/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshuuemura%2Fshu30001jp%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/shuuemura/cabinet/12824584/12825927/14173013/imgrc0144873782.jpg?_ex=128x128",
           "shopName": "シュウ ウエムラ 公式ショップ",
-          "rank": 5,
-          "reviewCount": 36132,
+          "rank": 3,
+          "reviewCount": 36149,
           "reviewAverage": 4.84
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "美容・身だしなみ / 楽天リアルタイム 5位 / 評価 4.84（36132件）",
+      "selectionSummary": "美容・身だしなみ / 楽天リアルタイム 3位 / 評価 4.84（36149件）",
       "reviewDraft": "{\n  \"id\": \"review-beauty-grooming-shuuemura-10000018\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"美容・身だしなみ\",\n  \"target\": \"毎日の身だしなみ用品を見直したい人\",\n  \"problem\": \"定番のケア用品を自分に合うものへ替えたい\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"肌質・香り・成分との相性はあるため、商品説明を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"shuuemura:10000018\"\n  }\n}",
-      "score": 116,
+      "score": 118,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
@@ -199,18 +199,261 @@
       }
     },
     {
-      "id": "trend:storage-interior:e-kurashi:10048736",
+      "id": "trend:storage-interior:zoff:10004562",
       "candidateType": "discovery",
       "genre": "収納・インテリア",
       "target": "部屋をすっきり使いたい人",
       "problem": "収納用品や生活家具のサイズ選びで迷う",
-      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング7位の商品。",
+      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング9位の商品。",
       "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "収納・インテリア / リアルタイムランキング 7位",
+          "title": "収納・インテリア / リアルタイムランキング 9位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s2yh2.5dkfa57f.g00s2yh2.5dkfb5cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzoff%2Flucky_bag_ec%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "|【Zoff 福袋2027 】〈27年1月上旬頃から順次発送〉ゾフ店舗で使える10,000円のメガネ券・調光レンズクーポン付き！ 在庫なくなり次第販売終了 LISA LARSON メガネラグ メガネマット メガネ置き リサラーソン マイキー メガネ 福袋 レディース メンズ ブラックフライデー",
+        "price": "6600",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00s2yh2.5dkfa57f.g00s2yh2.5dkfb5cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzoff%2Flucky_bag_ec%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/zoff/cabinet/mail/2027fuku_1006.jpg?_ex=128x128",
+        "shopName": "Zoff （ゾフ）　楽天市場店",
+        "rank": 9,
+        "reviewCount": 1067,
+        "reviewAverage": 4.39
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "|【Zoff 福袋2027 】〈27年1月上旬頃から順次発送〉ゾフ店舗で使える10,000円のメガネ券・調光レンズクーポン付き！ 在庫なくなり次第販売終了 LISA LARSON メガネラグ メガネマット メガネ置き リサラーソン マイキー メガネ 福袋 レディース メンズ ブラックフライデー",
+          "price": "6600",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s2yh2.5dkfa57f.g00s2yh2.5dkfb5cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzoff%2Flucky_bag_ec%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/zoff/cabinet/mail/2027fuku_1006.jpg?_ex=128x128",
+          "shopName": "Zoff （ゾフ）　楽天市場店",
+          "rank": 9,
+          "reviewCount": 1067,
+          "reviewAverage": 4.39
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "収納・インテリア / 楽天リアルタイム 9位 / 評価 4.39（1067件）",
+      "reviewDraft": "{\n  \"id\": \"review-storage-interior-zoff-10004562\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"収納・インテリア\",\n  \"target\": \"部屋をすっきり使いたい人\",\n  \"problem\": \"収納用品や生活家具のサイズ選びで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"設置場所の寸法・耐荷重・組み立て条件を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"zoff:10004562\"\n  }\n}",
+      "score": 111,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 5,
+          "utility": 3,
+          "functionality": 2,
+          "time_saving": 1,
+          "comparative_advantage": 4,
+          "trust": 5,
+          "total": 20
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 3,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 16
+        },
+        "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 4
+        },
+        "value_reason": "価格情報 ¥6,600、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
+        "hook": "| 〈27年1月上旬頃から順次発送〉ゾフ店舗で使える10,000円…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:storage-interior:lindt-chocolate:10002178",
+      "candidateType": "discovery",
+      "genre": "収納・インテリア",
+      "target": "部屋をすっきり使いたい人",
+      "problem": "収納用品や生活家具のサイズ選びで迷う",
+      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング13位の商品。",
+      "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "収納・インテリア / リアルタイムランキング 13位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sjjg2.5dkfa995.g00sjjg2.5dkfb91b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flindt-chocolate%2Fblackfriday_a%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "【公式】 リンツ Lindt チョコレート ブラックフライデーバッグ 2026 BlackFriday",
+        "price": "4980",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00sjjg2.5dkfa995.g00sjjg2.5dkfb91b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flindt-chocolate%2Fblackfriday_a%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/lindt-chocolate/cabinet/imgrc0124772013.jpg?_ex=128x128",
+        "shopName": "リンツ チョコレート 楽天市場店",
+        "rank": 13,
+        "reviewCount": 60,
+        "reviewAverage": 4.93
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "【公式】 リンツ Lindt チョコレート ブラックフライデーバッグ 2026 BlackFriday",
+          "price": "4980",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sjjg2.5dkfa995.g00sjjg2.5dkfb91b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flindt-chocolate%2Fblackfriday_a%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/lindt-chocolate/cabinet/imgrc0124772013.jpg?_ex=128x128",
+          "shopName": "リンツ チョコレート 楽天市場店",
+          "rank": 13,
+          "reviewCount": 60,
+          "reviewAverage": 4.93
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "収納・インテリア / 楽天リアルタイム 13位 / 評価 4.93（60件）",
+      "reviewDraft": "{\n  \"id\": \"review-storage-interior-lindt-chocolate-10002178\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"収納・インテリア\",\n  \"target\": \"部屋をすっきり使いたい人\",\n  \"problem\": \"収納用品や生活家具のサイズ選びで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"設置場所の寸法・耐荷重・組み立て条件を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"lindt-chocolate:10002178\"\n  }\n}",
+      "score": 98,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 2,
+          "utility": 3,
+          "functionality": 2,
+          "time_saving": 1,
+          "comparative_advantage": 3,
+          "trust": 3,
+          "total": 14
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 2,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 15
+        },
+        "x_score": {
+          "scroll_stop": 1,
+          "short_copy_fit": 3,
+          "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 6
+        },
+        "value_reason": "価格情報 ¥4,980、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 6/10。投稿基準または確認根拠が不足している。",
+        "hook": "リンツ Lindt チョコレート ブラックフライデーバッグ 202…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:storage-interior:vesync:10000022",
+      "candidateType": "discovery",
+      "genre": "収納・インテリア",
+      "target": "部屋をすっきり使いたい人",
+      "problem": "収納用品や生活家具のサイズ選びで迷う",
+      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング21位の商品。",
+      "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "収納・インテリア / リアルタイムランキング 21位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u8eb2.5dkfae13.g00u8eb2.5dkfb4ab/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvesync%2Fkaapafcsnjp0106y%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "【11/19 20時～★2,900円クーポン】COSORI DCモーター搭載 ノンフライヤー 6L 大容量 95%オイルカット 最高230℃まで 360°熱風循環 ヘルシー トレーニング 体重管理 大人数向け 家庭用 パーティー 特典レシピ本付き TurboBlaze CAF-DC601 ブラック[メーカー保証2年]",
+        "price": "19980",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00u8eb2.5dkfae13.g00u8eb2.5dkfb4ab/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvesync%2Fkaapafcsnjp0106y%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/vesync/cabinet/09152443/10953403/imgrc0092746154.jpg?_ex=128x128",
+        "shopName": "Vesync公式　楽天市場店",
+        "rank": 21,
+        "reviewCount": 890,
+        "reviewAverage": 4.76
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "【11/19 20時～★2,900円クーポン】COSORI DCモーター搭載 ノンフライヤー 6L 大容量 95%オイルカット 最高230℃まで 360°熱風循環 ヘルシー トレーニング 体重管理 大人数向け 家庭用 パーティー 特典レシピ本付き TurboBlaze CAF-DC601 ブラック[メーカー保証2年]",
+          "price": "19980",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u8eb2.5dkfae13.g00u8eb2.5dkfb4ab/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvesync%2Fkaapafcsnjp0106y%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/vesync/cabinet/09152443/10953403/imgrc0092746154.jpg?_ex=128x128",
+          "shopName": "Vesync公式　楽天市場店",
+          "rank": 21,
+          "reviewCount": 890,
+          "reviewAverage": 4.76
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "収納・インテリア / 楽天リアルタイム 21位 / 評価 4.76（890件）",
+      "reviewDraft": "{\n  \"id\": \"review-storage-interior-vesync-10000022\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"収納・インテリア\",\n  \"target\": \"部屋をすっきり使いたい人\",\n  \"problem\": \"収納用品や生活家具のサイズ選びで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"設置場所の寸法・耐荷重・組み立て条件を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"vesync:10000022\"\n  }\n}",
+      "score": 98,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 5,
+          "utility": 3,
+          "functionality": 3,
+          "time_saving": 1,
+          "comparative_advantage": 3,
+          "trust": 4,
+          "total": 19
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 3,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 16
+        },
+        "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 4
+        },
+        "value_reason": "価格情報 ¥19,980、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
+        "hook": "COSORI DCモーター搭載 ノンフライヤー 6L 大容量 95…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:storage-interior:e-kurashi:10048736",
+      "candidateType": "discovery",
+      "genre": "収納・インテリア",
+      "target": "部屋をすっきり使いたい人",
+      "problem": "収納用品や生活家具のサイズ選びで迷う",
+      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング23位の商品。",
+      "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "収納・インテリア / リアルタイムランキング 23位",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
@@ -222,8 +465,8 @@
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
         "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/rank-img/021/main-xaedt-01.jpg?_ex=128x128",
         "shopName": "くらしのeショップ",
-        "rank": 7,
-        "reviewCount": 7068,
+        "rank": 23,
+        "reviewCount": 7074,
         "reviewAverage": 4.42
       },
       "purchaseOptions": [
@@ -235,15 +478,15 @@
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/rank-img/021/main-xaedt-01.jpg?_ex=128x128",
           "shopName": "くらしのeショップ",
-          "rank": 7,
-          "reviewCount": 7068,
+          "rank": 23,
+          "reviewCount": 7074,
           "reviewAverage": 4.42
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "収納・インテリア / 楽天リアルタイム 7位 / 評価 4.42（7068件）",
+      "selectionSummary": "収納・インテリア / 楽天リアルタイム 23位 / 評価 4.42（7074件）",
       "reviewDraft": "{\n  \"id\": \"review-storage-interior-e-kurashi-10048736\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"収納・インテリア\",\n  \"target\": \"部屋をすっきり使いたい人\",\n  \"problem\": \"収納用品や生活家具のサイズ選びで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"設置場所の寸法・耐荷重・組み立て条件を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"e-kurashi:10048736\"\n  }\n}",
-      "score": 113,
+      "score": 97,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
@@ -252,9 +495,9 @@
           "utility": 3,
           "functionality": 2,
           "time_saving": 1,
-          "comparative_advantage": 4,
+          "comparative_advantage": 3,
           "trust": 5,
-          "total": 17
+          "total": 16
         },
         "discovery_score": {
           "instant_understanding": 4,
@@ -280,180 +523,18 @@
       }
     },
     {
-      "id": "trend:beauty-grooming:norganic:10000076",
-      "candidateType": "discovery",
-      "genre": "美容・身だしなみ",
-      "target": "毎日の身だしなみ用品を見直したい人",
-      "problem": "定番のケア用品を自分に合うものへ替えたい",
-      "reason": "美容・身だしなみの候補として、楽天市場リアルタイムランキング11位の商品。",
-      "caution": "肌質・香り・成分との相性はあるため、商品説明を確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "美容・身だしなみ / リアルタイムランキング 11位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00t1jg2.5dkfa4de.g00t1jg2.5dkfb60d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnorganic%2Fnr-luckybag2022%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "✩1000円OFFクーポン✩【1時間で10000個突破】N organic Basic 福袋2027 60%OFF 豪華11点セット 数量限定 楽天限定 [ 化粧水 乳液 クレンジング 美容液 スキンケア セット 福袋 ギフト 大容量 nオーガニック エヌオーガニック ]",
-        "price": "11000",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00t1jg2.5dkfa4de.g00t1jg2.5dkfb60d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnorganic%2Fnr-luckybag2022%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/norganic/cabinet/luckybag_2027/basic/basic_ht_bf.jpg?_ex=128x128",
-        "shopName": "エヌオーガニック楽天市場店",
-        "rank": 11,
-        "reviewCount": 2972,
-        "reviewAverage": 4.46
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "✩1000円OFFクーポン✩【1時間で10000個突破】N organic Basic 福袋2027 60%OFF 豪華11点セット 数量限定 楽天限定 [ 化粧水 乳液 クレンジング 美容液 スキンケア セット 福袋 ギフト 大容量 nオーガニック エヌオーガニック ]",
-          "price": "11000",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00t1jg2.5dkfa4de.g00t1jg2.5dkfb60d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnorganic%2Fnr-luckybag2022%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/norganic/cabinet/luckybag_2027/basic/basic_ht_bf.jpg?_ex=128x128",
-          "shopName": "エヌオーガニック楽天市場店",
-          "rank": 11,
-          "reviewCount": 2972,
-          "reviewAverage": 4.46
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "美容・身だしなみ / 楽天リアルタイム 11位 / 評価 4.46（2972件）",
-      "reviewDraft": "{\n  \"id\": \"review-beauty-grooming-norganic-10000076\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"美容・身だしなみ\",\n  \"target\": \"毎日の身だしなみ用品を見直したい人\",\n  \"problem\": \"定番のケア用品を自分に合うものへ替えたい\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"肌質・香り・成分との相性はあるため、商品説明を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"norganic:10000076\"\n  }\n}",
-      "score": 109,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 5,
-          "utility": 2,
-          "functionality": 4,
-          "time_saving": 1,
-          "comparative_advantage": 3,
-          "trust": 5,
-          "total": 20
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 4,
-          "desirability": 4,
-          "social_visual": 2,
-          "giftability": 4,
-          "value_story": 5,
-          "total": 23
-        },
-        "x_score": {
-          "scroll_stop": 2,
-          "short_copy_fit": 0,
-          "conversation_potential": 2,
-          "click_intent": 2,
-          "total": 6
-        },
-        "value_reason": "価格情報 ¥11,000、機能情報が具体的、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品名・説明に意外性の根拠がある、ギフト用途の記述がある、商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 6/10。投稿基準または確認根拠が不足している。",
-        "hook": "✩1000円OFFクーポン✩ N organic Basic 福袋…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:storage-interior:zoff:10004562",
-      "candidateType": "discovery",
-      "genre": "収納・インテリア",
-      "target": "部屋をすっきり使いたい人",
-      "problem": "収納用品や生活家具のサイズ選びで迷う",
-      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング15位の商品。",
-      "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "収納・インテリア / リアルタイムランキング 15位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s2yh2.5dkfa57f.g00s2yh2.5dkfb5cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzoff%2Flucky_bag_ec%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "|【Zoff 福袋2027 】〈12月上旬頃から順次発送〉ゾフ店舗で使える10,000円のメガネ券・調光レンズクーポン付き！ 在庫なくなり次第販売終了 LISA LARSON メガネラグ メガネマット メガネ置き リサラーソン マイキー メガネ 福袋 レディース メンズ ブラックフライデー",
-        "price": "6600",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00s2yh2.5dkfa57f.g00s2yh2.5dkfb5cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzoff%2Flucky_bag_ec%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/zoff/cabinet/mail/2027fuku_1006.jpg?_ex=128x128",
-        "shopName": "Zoff （ゾフ）　楽天市場店",
-        "rank": 15,
-        "reviewCount": 1066,
-        "reviewAverage": 4.39
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "|【Zoff 福袋2027 】〈12月上旬頃から順次発送〉ゾフ店舗で使える10,000円のメガネ券・調光レンズクーポン付き！ 在庫なくなり次第販売終了 LISA LARSON メガネラグ メガネマット メガネ置き リサラーソン マイキー メガネ 福袋 レディース メンズ ブラックフライデー",
-          "price": "6600",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s2yh2.5dkfa57f.g00s2yh2.5dkfb5cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzoff%2Flucky_bag_ec%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/zoff/cabinet/mail/2027fuku_1006.jpg?_ex=128x128",
-          "shopName": "Zoff （ゾフ）　楽天市場店",
-          "rank": 15,
-          "reviewCount": 1066,
-          "reviewAverage": 4.39
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "収納・インテリア / 楽天リアルタイム 15位 / 評価 4.39（1066件）",
-      "reviewDraft": "{\n  \"id\": \"review-storage-interior-zoff-10004562\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"収納・インテリア\",\n  \"target\": \"部屋をすっきり使いたい人\",\n  \"problem\": \"収納用品や生活家具のサイズ選びで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"設置場所の寸法・耐荷重・組み立て条件を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"zoff:10004562\"\n  }\n}",
-      "score": 105,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 5,
-          "utility": 3,
-          "functionality": 2,
-          "time_saving": 1,
-          "comparative_advantage": 3,
-          "trust": 5,
-          "total": 19
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
-          "desirability": 3,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 16
-        },
-        "x_score": {
-          "scroll_stop": 2,
-          "short_copy_fit": 0,
-          "conversation_potential": 1,
-          "click_intent": 1,
-          "total": 4
-        },
-        "value_reason": "価格情報 ¥6,600、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
-        "hook": "| 〈12月上旬頃から順次発送〉ゾフ店舗で使える10,000円のメ…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
       "id": "trend:beauty-grooming:attenir:10000252",
       "candidateType": "discovery",
       "genre": "美容・身だしなみ",
       "target": "毎日の身だしなみ用品を見直したい人",
       "problem": "定番のケア用品を自分に合うものへ替えたい",
-      "reason": "美容・身だしなみの候補として、楽天市場リアルタイムランキング20位の商品。",
+      "reason": "美容・身だしなみの候補として、楽天市場リアルタイムランキング27位の商品。",
       "caution": "肌質・香り・成分との相性はあるため、商品説明を確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "美容・身だしなみ / リアルタイムランキング 20位",
+          "title": "美容・身だしなみ / リアルタイムランキング 27位",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00tna62.5dkfa056.g00tna62.5dkfb68b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fattenir%2F166013%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
@@ -465,8 +546,8 @@
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00tna62.5dkfa056.g00tna62.5dkfb68b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fattenir%2F166013%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
         "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/attenir/cabinet/thum/166013_main_2608-2.jpg?_ex=128x128",
         "shopName": "アテニア公式ショップ　楽天市場店",
-        "rank": 20,
-        "reviewCount": 50508,
+        "rank": 27,
+        "reviewCount": 50519,
         "reviewAverage": 4.8
       },
       "purchaseOptions": [
@@ -478,15 +559,15 @@
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00tna62.5dkfa056.g00tna62.5dkfb68b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fattenir%2F166013%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/attenir/cabinet/thum/166013_main_2608-2.jpg?_ex=128x128",
           "shopName": "アテニア公式ショップ　楽天市場店",
-          "rank": 20,
-          "reviewCount": 50508,
+          "rank": 27,
+          "reviewCount": 50519,
           "reviewAverage": 4.8
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "美容・身だしなみ / 楽天リアルタイム 20位 / 評価 4.8（50508件）",
+      "selectionSummary": "美容・身だしなみ / 楽天リアルタイム 27位 / 評価 4.8（50519件）",
       "reviewDraft": "{\n  \"id\": \"review-beauty-grooming-attenir-10000252\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"美容・身だしなみ\",\n  \"target\": \"毎日の身だしなみ用品を見直したい人\",\n  \"problem\": \"定番のケア用品を自分に合うものへ替えたい\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"肌質・香り・成分との相性はあるため、商品説明を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"attenir:10000252\"\n  }\n}",
-      "score": 101,
+      "score": 94,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
@@ -519,87 +600,6 @@
         "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
         "reason_to_post": "X Score 3/10。投稿基準または確認根拠が不足している。",
         "hook": "大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:baby-kids:netbaby:10035957",
-      "candidateType": "discovery",
-      "genre": "子育て・ベビー",
-      "target": "子どもの生活用品を効率よく選びたい人",
-      "problem": "ベビー・キッズ用品のサイズや用途で迷う",
-      "reason": "子育て・ベビーの候補として、楽天市場リアルタイムランキング18位の商品。",
-      "caution": "対象年齢・サイズ・安全上の注意を販売ページで確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "子育て・ベビー / リアルタイムランキング 18位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd42.5dkfaa59.g00pzd42.5dkfb1ad/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404758%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "【1種類を選べる】メリーズ エアスルー パンツ 梱販販売用(3袋入×1箱)【メリーズ】[おむつ オムツ 紙おむつ 紙オムツ さらさらエアスルー]",
-        "price": "6460",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd42.5dkfaa59.g00pzd42.5dkfb1ad/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404758%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/netbaby/cabinet/758/404758.jpg?_ex=128x128",
-        "shopName": "楽天24 ベビー館",
-        "rank": 18,
-        "reviewCount": 4140,
-        "reviewAverage": 4.83
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "【1種類を選べる】メリーズ エアスルー パンツ 梱販販売用(3袋入×1箱)【メリーズ】[おむつ オムツ 紙おむつ 紙オムツ さらさらエアスルー]",
-          "price": "6460",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd42.5dkfaa59.g00pzd42.5dkfb1ad/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404758%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/netbaby/cabinet/758/404758.jpg?_ex=128x128",
-          "shopName": "楽天24 ベビー館",
-          "rank": 18,
-          "reviewCount": 4140,
-          "reviewAverage": 4.83
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "子育て・ベビー / 楽天リアルタイム 18位 / 評価 4.83（4140件）",
-      "reviewDraft": "{\n  \"id\": \"review-baby-kids-netbaby-10035957\",\n  \"enabled\": false,\n  \"priority\": 55,\n  \"genre\": \"子育て・ベビー\",\n  \"target\": \"子どもの生活用品を効率よく選びたい人\",\n  \"problem\": \"ベビー・キッズ用品のサイズや用途で迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"対象年齢・サイズ・安全上の注意を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"netbaby:10035957\"\n  }\n}",
-      "score": 98,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 2,
-          "utility": 2,
-          "functionality": 2,
-          "time_saving": 1,
-          "comparative_advantage": 3,
-          "trust": 5,
-          "total": 15
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
-          "desirability": 3,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 16
-        },
-        "x_score": {
-          "scroll_stop": 1,
-          "short_copy_fit": 2,
-          "conversation_potential": 1,
-          "click_intent": 1,
-          "total": 5
-        },
-        "value_reason": "価格情報 ¥6,460、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
-        "hook": "メリーズ エアスルー パンツ 梱販販売用(3袋入×1箱) [おむつ…は、紹介前に根拠をもう少し確認したい。",
         "confidence": "high"
       }
     }
