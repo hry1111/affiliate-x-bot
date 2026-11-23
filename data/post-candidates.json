@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T02:50:43.457Z",
+  "generatedAt": "2026-11-23T03:32:05.211Z",
   "genres": [
     "キッチン・調理",
     "スマホ・PC周辺",
@@ -123,13 +123,13 @@
       "genre": "美容・身だしなみ",
       "target": "毎日の身だしなみ用品を見直したい人",
       "problem": "定番のケア用品を自分に合うものへ替えたい",
-      "reason": "美容・身だしなみの候補として、楽天市場リアルタイムランキング6位の商品。",
+      "reason": "美容・身だしなみの候補として、楽天市場リアルタイムランキング9位の商品。",
       "caution": "肌質・香り・成分との相性はあるため、商品説明を確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "美容・身だしなみ / リアルタイムランキング 6位",
+          "title": "美容・身だしなみ / リアルタイムランキング 9位",
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00tl4n2.5dkfa941.g00tl4n2.5dkfb291/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshuuemura%2Fshu30001jp%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
@@ -141,8 +141,8 @@
         "url": "https://hb.afl.rakuten.co.jp/hgc/g00tl4n2.5dkfa941.g00tl4n2.5dkfb291/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshuuemura%2Fshu30001jp%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
         "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/shuuemura/cabinet/12824584/12825927/14173013/imgrc0144873782.jpg?_ex=128x128",
         "shopName": "シュウ ウエムラ 公式ショップ",
-        "rank": 6,
-        "reviewCount": 36189,
+        "rank": 9,
+        "reviewCount": 36246,
         "reviewAverage": 4.84
       },
       "purchaseOptions": [
@@ -154,15 +154,15 @@
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00tl4n2.5dkfa941.g00tl4n2.5dkfb291/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshuuemura%2Fshu30001jp%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/shuuemura/cabinet/12824584/12825927/14173013/imgrc0144873782.jpg?_ex=128x128",
           "shopName": "シュウ ウエムラ 公式ショップ",
-          "rank": 6,
-          "reviewCount": 36189,
+          "rank": 9,
+          "reviewCount": 36246,
           "reviewAverage": 4.84
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "美容・身だしなみ / 楽天リアルタイム 6位 / 評価 4.84（36189件）",
+      "selectionSummary": "美容・身だしなみ / 楽天リアルタイム 9位 / 評価 4.84（36246件）",
       "reviewDraft": "{\n  \"id\": \"review-beauty-grooming-shuuemura-10000018\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"美容・身だしなみ\",\n  \"target\": \"毎日の身だしなみ用品を見直したい人\",\n  \"problem\": \"定番のケア用品を自分に合うものへ替えたい\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"肌質・香り・成分との相性はあるため、商品説明を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"shuuemura:10000018\"\n  }\n}",
-      "score": 115,
+      "score": 112,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
@@ -199,61 +199,142 @@
       }
     },
     {
-      "id": "trend:storage-interior:zoff:10004562",
+      "id": "trend:daily-household:masam1963:10000020",
       "candidateType": "discovery",
-      "genre": "収納・インテリア",
-      "target": "部屋をすっきり使いたい人",
-      "problem": "収納用品や生活家具のサイズ選びで迷う",
-      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング15位の商品。",
-      "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
+      "genre": "日用品・家事",
+      "target": "毎日の家事を少し楽にしたい人",
+      "problem": "日用品を値段だけで選んで失敗したくない",
+      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング11位の商品。",
+      "caution": "素材との相性と使用方法を販売ページで確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "収納・インテリア / リアルタイムランキング 15位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s2yh2.5dkfa57f.g00s2yh2.5dkfb5cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzoff%2Flucky_bag_ec%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+          "title": "日用品・家事 / リアルタイムランキング 11位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tml82.5dkfa5d5.g00tml82.5dkfbf81/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmasam1963%2Fpd-302%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
       "primaryOffer": {
         "provider": "rakuten",
         "label": "楽天市場",
-        "name": "|【Zoff 福袋2027 】〈27年1月上旬頃から順次発送〉ゾフ店舗で使える10,000円のメガネ券・調光レンズクーポン付き！ 在庫なくなり次第販売終了 LISA LARSON メガネラグ メガネマット メガネ置き リサラーソン マイキー メガネ 福袋 レディース メンズ ブラックフライデー",
-        "price": "6600",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00s2yh2.5dkfa57f.g00s2yh2.5dkfb5cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzoff%2Flucky_bag_ec%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/zoff/cabinet/mail/2027fuku_1006.jpg?_ex=128x128",
-        "shopName": "Zoff （ゾフ）　楽天市場店",
-        "rank": 15,
-        "reviewCount": 1067,
-        "reviewAverage": 4.39
+        "name": "ピエール ダルジャン ラベンダーの香り 正規品 オーガニック 多目的 洗剤 万能クリーナー 無添加洗剤 お風呂 掃除 グッズ 水垢 クリーナー 浴室 鏡うろことり 掃除洗剤 マルチクリーナー 換気扇掃除 キッチン シンク 焦げ落とし ガスコンロ 油 汚れ 落とし 便利グッズ",
+        "price": "3300",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tml82.5dkfa5d5.g00tml82.5dkfbf81/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmasam1963%2Fpd-302%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/masam1963/cabinet/09239711/la1c.jpg?_ex=128x128",
+        "shopName": "Pierre",
+        "rank": 11,
+        "reviewCount": 537,
+        "reviewAverage": 4.22
       },
       "purchaseOptions": [
         {
           "provider": "rakuten",
           "label": "楽天市場",
-          "name": "|【Zoff 福袋2027 】〈27年1月上旬頃から順次発送〉ゾフ店舗で使える10,000円のメガネ券・調光レンズクーポン付き！ 在庫なくなり次第販売終了 LISA LARSON メガネラグ メガネマット メガネ置き リサラーソン マイキー メガネ 福袋 レディース メンズ ブラックフライデー",
-          "price": "6600",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s2yh2.5dkfa57f.g00s2yh2.5dkfb5cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzoff%2Flucky_bag_ec%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/zoff/cabinet/mail/2027fuku_1006.jpg?_ex=128x128",
-          "shopName": "Zoff （ゾフ）　楽天市場店",
-          "rank": 15,
-          "reviewCount": 1067,
-          "reviewAverage": 4.39
+          "name": "ピエール ダルジャン ラベンダーの香り 正規品 オーガニック 多目的 洗剤 万能クリーナー 無添加洗剤 お風呂 掃除 グッズ 水垢 クリーナー 浴室 鏡うろことり 掃除洗剤 マルチクリーナー 換気扇掃除 キッチン シンク 焦げ落とし ガスコンロ 油 汚れ 落とし 便利グッズ",
+          "price": "3300",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tml82.5dkfa5d5.g00tml82.5dkfbf81/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmasam1963%2Fpd-302%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/masam1963/cabinet/09239711/la1c.jpg?_ex=128x128",
+          "shopName": "Pierre",
+          "rank": 11,
+          "reviewCount": 537,
+          "reviewAverage": 4.22
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "収納・インテリア / 楽天リアルタイム 15位 / 評価 4.39（1067件）",
-      "reviewDraft": "{\n  \"id\": \"review-storage-interior-zoff-10004562\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"収納・インテリア\",\n  \"target\": \"部屋をすっきり使いたい人\",\n  \"problem\": \"収納用品や生活家具のサイズ選びで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"設置場所の寸法・耐荷重・組み立て条件を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"zoff:10004562\"\n  }\n}",
-      "score": 105,
+      "selectionSummary": "日用品・家事 / 楽天リアルタイム 11位 / 評価 4.22（537件）",
+      "reviewDraft": "{\n  \"id\": \"review-daily-household-masam1963-10000020\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"masam1963:10000020\"\n  }\n}",
+      "score": 108,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 2,
+          "utility": 5,
+          "functionality": 2,
+          "time_saving": 2,
+          "comparative_advantage": 3,
+          "trust": 4,
+          "total": 18
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 4,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 17
+        },
+        "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 4
+        },
+        "value_reason": "価格情報 ¥3,300、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
+        "hook": "ピエール ダルジャン ラベンダーの香り 正規品 オーガニック 多目…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:storage-interior:vesync:10000022",
+      "candidateType": "discovery",
+      "genre": "収納・インテリア",
+      "target": "部屋をすっきり使いたい人",
+      "problem": "収納用品や生活家具のサイズ選びで迷う",
+      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング16位の商品。",
+      "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "収納・インテリア / リアルタイムランキング 16位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u8eb2.5dkfae13.g00u8eb2.5dkfb4ab/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvesync%2Fkaapafcsnjp0106y%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "【2,900円クーポン】COSORI DCモーター搭載 ノンフライヤー 6L 大容量 95%オイルカット 最高230℃まで 360°熱風循環 ヘルシー トレーニング 体重管理 大人数向け 家庭用 パーティー 特典レシピ本付き TurboBlaze CAF-DC601 ブラック[メーカー保証2年]",
+        "price": "19980",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00u8eb2.5dkfae13.g00u8eb2.5dkfb4ab/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvesync%2Fkaapafcsnjp0106y%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/vesync/cabinet/09152443/10953403/imgrc0092746154.jpg?_ex=128x128",
+        "shopName": "Vesync公式　楽天市場店",
+        "rank": 16,
+        "reviewCount": 900,
+        "reviewAverage": 4.75
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "【2,900円クーポン】COSORI DCモーター搭載 ノンフライヤー 6L 大容量 95%オイルカット 最高230℃まで 360°熱風循環 ヘルシー トレーニング 体重管理 大人数向け 家庭用 パーティー 特典レシピ本付き TurboBlaze CAF-DC601 ブラック[メーカー保証2年]",
+          "price": "19980",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u8eb2.5dkfae13.g00u8eb2.5dkfb4ab/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvesync%2Fkaapafcsnjp0106y%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/vesync/cabinet/09152443/10953403/imgrc0092746154.jpg?_ex=128x128",
+          "shopName": "Vesync公式　楽天市場店",
+          "rank": 16,
+          "reviewCount": 900,
+          "reviewAverage": 4.75
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "収納・インテリア / 楽天リアルタイム 16位 / 評価 4.75（900件）",
+      "reviewDraft": "{\n  \"id\": \"review-storage-interior-vesync-10000022\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"収納・インテリア\",\n  \"target\": \"部屋をすっきり使いたい人\",\n  \"problem\": \"収納用品や生活家具のサイズ選びで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"設置場所の寸法・耐荷重・組み立て条件を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"vesync:10000022\"\n  }\n}",
+      "score": 104,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
         "value_score": {
           "price_advantage": 5,
           "utility": 3,
-          "functionality": 2,
+          "functionality": 3,
           "time_saving": 1,
           "comparative_advantage": 3,
-          "trust": 5,
+          "trust": 4,
           "total": 19
         },
         "discovery_score": {
@@ -272,322 +353,79 @@
           "click_intent": 1,
           "total": 4
         },
-        "value_reason": "価格情報 ¥6,600、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "value_reason": "価格情報 ¥19,980、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
         "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
         "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
-        "hook": "| 〈27年1月上旬頃から順次発送〉ゾフ店舗で使える10,000円…は、紹介前に根拠をもう少し確認したい。",
+        "hook": "COSORI DCモーター搭載 ノンフライヤー 6L 大容量 95…は、紹介前に根拠をもう少し確認したい。",
         "confidence": "high"
       }
     },
     {
-      "id": "trend:storage-interior:gourmetcoffee:10008458",
+      "id": "trend:daily-household:dinos-tv:10011548",
       "candidateType": "discovery",
-      "genre": "収納・インテリア",
-      "target": "部屋をすっきり使いたい人",
-      "problem": "収納用品や生活家具のサイズ選びで迷う",
-      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング22位の商品。",
-      "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
+      "genre": "日用品・家事",
+      "target": "毎日の家事を少し楽にしたい人",
+      "problem": "日用品を値段だけで選んで失敗したくない",
+      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング21位の商品。",
+      "caution": "素材との相性と使用方法を販売ページで確認してください。",
       "postMode": "discovery",
       "sourceReferences": [
         {
           "publisher": "楽天市場",
-          "title": "収納・インテリア / リアルタイムランキング 22位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pl5f2.5dkfa844.g00pl5f2.5dkfb568/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgourmetcoffee%2F3537%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+          "title": "日用品・家事 / リアルタイムランキング 21位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tsor2.5dkfac85.g00tsor2.5dkfb6e8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdinos-tv%2Far2780%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
         }
       ],
       "primaryOffer": {
         "provider": "rakuten",
         "label": "楽天市場",
-        "name": "[500gお得袋]HONUKOPEスペシャルティ珈琲　特別企画/珈琲豆　粉　ブラックホヌコペ　加藤珈琲店　高品質　コーヒー",
-        "price": "1404",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00pl5f2.5dkfa844.g00pl5f2.5dkfb568/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgourmetcoffee%2F3537%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/gourmetcoffee/cabinet/3500/3537r.jpg?_ex=128x128",
-        "shopName": "グルメコーヒー豆専門！加藤珈琲店",
-        "rank": 22,
-        "reviewCount": 578,
-        "reviewAverage": 4.8
+        "name": "＼LINE友だち登録で700円オフクーポン／ レイコップ コードレスUV布団クリーナー 特別セット レイコップ いいものプレミアム ディノス dinos 布団クリーナー ダニ アレルギー 花粉 ハウスダスト 新生活 コードレス コードレス式 掃除機 家電 AR2780",
+        "price": "14800",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00tsor2.5dkfac85.g00tsor2.5dkfb6e8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdinos-tv%2Far2780%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dinos-tv/cabinet/ir_267/ar2780_rakutentv99.jpg?_ex=128x128",
+        "shopName": "ディノスTVショッピング楽天市場店",
+        "rank": 21,
+        "reviewCount": 81,
+        "reviewAverage": 4.56
       },
       "purchaseOptions": [
         {
           "provider": "rakuten",
           "label": "楽天市場",
-          "name": "[500gお得袋]HONUKOPEスペシャルティ珈琲　特別企画/珈琲豆　粉　ブラックホヌコペ　加藤珈琲店　高品質　コーヒー",
-          "price": "1404",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pl5f2.5dkfa844.g00pl5f2.5dkfb568/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgourmetcoffee%2F3537%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/gourmetcoffee/cabinet/3500/3537r.jpg?_ex=128x128",
-          "shopName": "グルメコーヒー豆専門！加藤珈琲店",
-          "rank": 22,
-          "reviewCount": 578,
-          "reviewAverage": 4.8
+          "name": "＼LINE友だち登録で700円オフクーポン／ レイコップ コードレスUV布団クリーナー 特別セット レイコップ いいものプレミアム ディノス dinos 布団クリーナー ダニ アレルギー 花粉 ハウスダスト 新生活 コードレス コードレス式 掃除機 家電 AR2780",
+          "price": "14800",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tsor2.5dkfac85.g00tsor2.5dkfb6e8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdinos-tv%2Far2780%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dinos-tv/cabinet/ir_267/ar2780_rakutentv99.jpg?_ex=128x128",
+          "shopName": "ディノスTVショッピング楽天市場店",
+          "rank": 21,
+          "reviewCount": 81,
+          "reviewAverage": 4.56
         }
       ],
       "copyVariants": [],
-      "selectionSummary": "収納・インテリア / 楽天リアルタイム 22位 / 評価 4.8（578件）",
-      "reviewDraft": "{\n  \"id\": \"review-storage-interior-gourmetcoffee-10008458\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"収納・インテリア\",\n  \"target\": \"部屋をすっきり使いたい人\",\n  \"problem\": \"収納用品や生活家具のサイズ選びで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"設置場所の寸法・耐荷重・組み立て条件を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"gourmetcoffee:10008458\"\n  }\n}",
+      "selectionSummary": "日用品・家事 / 楽天リアルタイム 21位 / 評価 4.56（81件）",
+      "reviewDraft": "{\n  \"id\": \"review-daily-household-dinos-tv-10011548\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"dinos-tv:10011548\"\n  }\n}",
       "score": 94,
       "socialStrategy": {
         "version": "1.0",
         "post_type": "REJECT",
         "value_score": {
-          "price_advantage": 3,
-          "utility": 3,
-          "functionality": 2,
-          "time_saving": 1,
+          "price_advantage": 5,
+          "utility": 4,
+          "functionality": 3,
+          "time_saving": 2,
           "comparative_advantage": 3,
-          "trust": 4,
-          "total": 16
+          "trust": 3,
+          "total": 20
         },
         "discovery_score": {
           "instant_understanding": 4,
           "novelty": 2,
-          "desirability": 3,
+          "desirability": 2,
           "social_visual": 2,
           "giftability": 0,
           "value_story": 5,
-          "total": 16
-        },
-        "x_score": {
-          "scroll_stop": 1,
-          "short_copy_fit": 2,
-          "conversation_potential": 1,
-          "click_intent": 1,
-          "total": 5
-        },
-        "value_reason": "価格情報 ¥1,404、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
-        "hook": "[500gお得袋]HONUKOPEスペシャルティ珈琲 特別企画/珈…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:daily-household:babycareshop:10000000",
-      "candidateType": "discovery",
-      "genre": "日用品・家事",
-      "target": "毎日の家事を少し楽にしたい人",
-      "problem": "日用品を値段だけで選んで失敗したくない",
-      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング289位の商品。",
-      "caution": "素材との相性と使用方法を販売ページで確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "日用品・家事 / リアルタイムランキング 289位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ujcf2.5dkfad36.g00ujcf2.5dkfb17f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbabycareshop%2Fbc20230001%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "【最大20%OFF！BF限定クーポン】★楽天1位 70冠★おしりふき 80枚×12パック 厚手で水分たっぷりのおしりふき 厚手 おしりふき 大判 厚手 手口ふき ウェットティッシュ 新生児 おしりふき 水99.9 おしりふき ふた付き タオル並み【Bc Babycare】",
-        "price": "4350",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00ujcf2.5dkfad36.g00ujcf2.5dkfb17f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbabycareshop%2Fbc20230001%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/babycareshop/cabinet/item/babywipes/imgrc0118558245.jpg?_ex=128x128",
-        "shopName": "Babycare楽天市場店",
-        "rank": 289,
-        "reviewCount": 1627,
-        "reviewAverage": 4.8
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "【最大20%OFF！BF限定クーポン】★楽天1位 70冠★おしりふき 80枚×12パック 厚手で水分たっぷりのおしりふき 厚手 おしりふき 大判 厚手 手口ふき ウェットティッシュ 新生児 おしりふき 水99.9 おしりふき ふた付き タオル並み【Bc Babycare】",
-          "price": "4350",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ujcf2.5dkfad36.g00ujcf2.5dkfb17f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbabycareshop%2Fbc20230001%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/babycareshop/cabinet/item/babywipes/imgrc0118558245.jpg?_ex=128x128",
-          "shopName": "Babycare楽天市場店",
-          "rank": 289,
-          "reviewCount": 1627,
-          "reviewAverage": 4.8
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "日用品・家事 / 楽天リアルタイム 289位 / 評価 4.8（1627件）",
-      "reviewDraft": "{\n  \"id\": \"review-daily-household-babycareshop-10000000\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"babycareshop:10000000\"\n  }\n}",
-      "score": 85,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 5,
-          "utility": 3,
-          "functionality": 2,
-          "time_saving": 1,
-          "comparative_advantage": 3,
-          "trust": 5,
-          "total": 19
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 4,
-          "desirability": 3,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 18
-        },
-        "x_score": {
-          "scroll_stop": 2,
-          "short_copy_fit": 0,
-          "conversation_potential": 2,
-          "click_intent": 1,
-          "total": 5
-        },
-        "value_reason": "価格情報 ¥4,350、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品名・説明に意外性の根拠がある、商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
-        "hook": "★ 70冠★おしりふき 80枚×12パック 厚手で水分たっぷりのお…は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:daily-household:rakuten24:11128650",
-      "candidateType": "discovery",
-      "genre": "日用品・家事",
-      "target": "毎日の家事を少し楽にしたい人",
-      "problem": "日用品を値段だけで選んで失敗したくない",
-      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング113位の商品。",
-      "caution": "素材との相性と使用方法を販売ページで確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "日用品・家事 / リアルタイムランキング 113位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00r1362.5dkfa9cf.g00r1362.5dkfbbf1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F404888%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "【1種類を選べる】アタックZERO 洗濯洗剤 詰替用(1460g×6個入)【アタックZERO】",
-        "price": "10794",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00r1362.5dkfa9cf.g00r1362.5dkfbbf1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F404888%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/888/404888.jpg?_ex=128x128",
-        "shopName": "楽天24",
-        "rank": 113,
-        "reviewCount": 1365,
-        "reviewAverage": 4.77
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "【1種類を選べる】アタックZERO 洗濯洗剤 詰替用(1460g×6個入)【アタックZERO】",
-          "price": "10794",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00r1362.5dkfa9cf.g00r1362.5dkfbbf1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F404888%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/888/404888.jpg?_ex=128x128",
-          "shopName": "楽天24",
-          "rank": 113,
-          "reviewCount": 1365,
-          "reviewAverage": 4.77
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "日用品・家事 / 楽天リアルタイム 113位 / 評価 4.77（1365件）",
-      "reviewDraft": "{\n  \"id\": \"review-daily-household-rakuten24-11128650\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"rakuten24:11128650\"\n  }\n}",
-      "score": 85,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 1,
-          "utility": 3,
-          "functionality": 2,
-          "time_saving": 1,
-          "comparative_advantage": 3,
-          "trust": 5,
           "total": 15
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
-          "desirability": 3,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 16
-        },
-        "x_score": {
-          "scroll_stop": 1,
-          "short_copy_fit": 3,
-          "conversation_potential": 1,
-          "click_intent": 1,
-          "total": 6
-        },
-        "value_reason": "価格情報 ¥10,794、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
-        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
-        "reason_to_post": "X Score 6/10。投稿基準または確認根拠が不足している。",
-        "hook": "アタックZERO 洗濯洗剤 詰替用(1460g×6個入)は、紹介前に根拠をもう少し確認したい。",
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "trend:daily-household:toucher-home:10000264",
-      "candidateType": "discovery",
-      "genre": "日用品・家事",
-      "target": "毎日の家事を少し楽にしたい人",
-      "problem": "日用品を値段だけで選んで失敗したくない",
-      "reason": "日用品・家事の候補として、楽天市場リアルタイムランキング63位の商品。",
-      "caution": "素材との相性と使用方法を販売ページで確認してください。",
-      "postMode": "discovery",
-      "sourceReferences": [
-        {
-          "publisher": "楽天市場",
-          "title": "日用品・家事 / リアルタイムランキング 63位",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qcmk2.5dkfa6a8.g00qcmk2.5dkfb67a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoucher-home%2F10000264%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
-        }
-      ],
-      "primaryOffer": {
-        "provider": "rakuten",
-        "label": "楽天市場",
-        "name": "【1枚690円！20周年クーポン】 【12月より価格改定】 日本製 ホテルスタイルタオル ビッグフェイスタオル 【圧縮】 【お試しSALE】 楽天1位受賞 / 約40×100cm タオル 小さめ バスタオル 厚手 吸水 1枚 メディア掲載 #バスタオルやめました",
-        "price": "890",
-        "url": "https://hb.afl.rakuten.co.jp/hgc/g00qcmk2.5dkfa6a8.g00qcmk2.5dkfb67a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoucher-home%2F10000264%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/toucher-home/cabinet/image02/hslft_01scx.jpg?_ex=128x128",
-        "shopName": "タオル直販店 ヒオリエ／日織恵",
-        "rank": 63,
-        "reviewCount": 118280,
-        "reviewAverage": 4.49
-      },
-      "purchaseOptions": [
-        {
-          "provider": "rakuten",
-          "label": "楽天市場",
-          "name": "【1枚690円！20周年クーポン】 【12月より価格改定】 日本製 ホテルスタイルタオル ビッグフェイスタオル 【圧縮】 【お試しSALE】 楽天1位受賞 / 約40×100cm タオル 小さめ バスタオル 厚手 吸水 1枚 メディア掲載 #バスタオルやめました",
-          "price": "890",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qcmk2.5dkfa6a8.g00qcmk2.5dkfb67a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoucher-home%2F10000264%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/toucher-home/cabinet/image02/hslft_01scx.jpg?_ex=128x128",
-          "shopName": "タオル直販店 ヒオリエ／日織恵",
-          "rank": 63,
-          "reviewCount": 118280,
-          "reviewAverage": 4.49
-        }
-      ],
-      "copyVariants": [],
-      "selectionSummary": "日用品・家事 / 楽天リアルタイム 63位 / 評価 4.49（118280件）",
-      "reviewDraft": "{\n  \"id\": \"review-daily-household-toucher-home-10000264\",\n  \"enabled\": false,\n  \"priority\": 65,\n  \"genre\": \"日用品・家事\",\n  \"target\": \"毎日の家事を少し楽にしたい人\",\n  \"problem\": \"日用品を値段だけで選んで失敗したくない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"素材との相性と使用方法を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"toucher-home:10000264\"\n  }\n}",
-      "score": 84,
-      "socialStrategy": {
-        "version": "1.0",
-        "post_type": "REJECT",
-        "value_score": {
-          "price_advantage": 5,
-          "utility": 3,
-          "functionality": 2,
-          "time_saving": 1,
-          "comparative_advantage": 3,
-          "trust": 5,
-          "total": 19
-        },
-        "discovery_score": {
-          "instant_understanding": 4,
-          "novelty": 2,
-          "desirability": 3,
-          "social_visual": 2,
-          "giftability": 0,
-          "value_story": 5,
-          "total": 16
         },
         "x_score": {
           "scroll_stop": 2,
@@ -596,10 +434,172 @@
           "click_intent": 1,
           "total": 4
         },
-        "value_reason": "価格情報 ¥890、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "value_reason": "価格情報 ¥14,800、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
         "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
         "reason_to_post": "X Score 4/10。投稿基準または確認根拠が不足している。",
-        "hook": "日本製 ホテルスタイルタオル ビッグフェイスタオル 受賞 / 約4…は、紹介前に根拠をもう少し確認したい。",
+        "hook": "＼LINE友だち登録で700円オフクーポン／ レイコップ コードレ…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:storage-interior:e-kurashi:10048736",
+      "candidateType": "discovery",
+      "genre": "収納・インテリア",
+      "target": "部屋をすっきり使いたい人",
+      "problem": "収納用品や生活家具のサイズ選びで迷う",
+      "reason": "収納・インテリアの候補として、楽天市場リアルタイムランキング27位の商品。",
+      "caution": "設置場所の寸法・耐荷重・組み立て条件を確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "収納・インテリア / リアルタイムランキング 27位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+        "price": "4999",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/rank-img/021/main-xaedt-01.jpg?_ex=128x128",
+        "shopName": "くらしのeショップ",
+        "rank": 27,
+        "reviewCount": 7104,
+        "reviewAverage": 4.42
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+          "price": "4999",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/rank-img/021/main-xaedt-01.jpg?_ex=128x128",
+          "shopName": "くらしのeショップ",
+          "rank": 27,
+          "reviewCount": 7104,
+          "reviewAverage": 4.42
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "収納・インテリア / 楽天リアルタイム 27位 / 評価 4.42（7104件）",
+      "reviewDraft": "{\n  \"id\": \"review-storage-interior-e-kurashi-10048736\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"収納・インテリア\",\n  \"target\": \"部屋をすっきり使いたい人\",\n  \"problem\": \"収納用品や生活家具のサイズ選びで迷う\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"設置場所の寸法・耐荷重・組み立て条件を確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"e-kurashi:10048736\"\n  }\n}",
+      "score": 93,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 2,
+          "utility": 3,
+          "functionality": 2,
+          "time_saving": 1,
+          "comparative_advantage": 3,
+          "trust": 5,
+          "total": 16
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 3,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 16
+        },
+        "x_score": {
+          "scroll_stop": 1,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
+          "click_intent": 1,
+          "total": 3
+        },
+        "value_reason": "価格情報 ¥4,999、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 3/10。投稿基準または確認根拠が不足している。",
+        "hook": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/5…は、紹介前に根拠をもう少し確認したい。",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "trend:kitchen:plywood:10022493",
+      "candidateType": "discovery",
+      "genre": "キッチン・調理",
+      "target": "料理や片付けを効率よくしたい人",
+      "problem": "調理道具や保存用品を選びきれない",
+      "reason": "キッチン・調理の候補として、楽天市場リアルタイムランキング22位の商品。",
+      "caution": "サイズ・熱源対応・食洗機対応を販売ページで確認してください。",
+      "postMode": "discovery",
+      "sourceReferences": [
+        {
+          "publisher": "楽天市場",
+          "title": "キッチン・調理 / リアルタイムランキング 22位",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd82.5dkfa72b.g00pzd82.5dkfbf31/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fplywood%2F20149424%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76"
+        }
+      ],
+      "primaryOffer": {
+        "provider": "rakuten",
+        "label": "楽天市場",
+        "name": "●楽天1位 【豪華レシピ2冊付き】 正規品 レコルト 自動調理ポット ラージ RSY-3 自動調理ラージrecolte Auto Cooking Pot Large 自動調理 大容量 防水 ミキサー ブレンダー 豆乳メーカー スープメーカー◇電気 レシピ付 離乳食 保温 氷OK 送料無料 P10倍",
+        "price": "19800",
+        "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd82.5dkfa72b.g00pzd82.5dkfbf31/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fplywood%2F20149424%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+        "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/plywood/cabinet/503/20149424.jpg?_ex=128x128",
+        "shopName": "plywood キッチン・インテリア雑貨",
+        "rank": 22,
+        "reviewCount": 569,
+        "reviewAverage": 4.74
+      },
+      "purchaseOptions": [
+        {
+          "provider": "rakuten",
+          "label": "楽天市場",
+          "name": "●楽天1位 【豪華レシピ2冊付き】 正規品 レコルト 自動調理ポット ラージ RSY-3 自動調理ラージrecolte Auto Cooking Pot Large 自動調理 大容量 防水 ミキサー ブレンダー 豆乳メーカー スープメーカー◇電気 レシピ付 離乳食 保温 氷OK 送料無料 P10倍",
+          "price": "19800",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd82.5dkfa72b.g00pzd82.5dkfbf31/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fplywood%2F20149424%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/plywood/cabinet/503/20149424.jpg?_ex=128x128",
+          "shopName": "plywood キッチン・インテリア雑貨",
+          "rank": 22,
+          "reviewCount": 569,
+          "reviewAverage": 4.74
+        }
+      ],
+      "copyVariants": [],
+      "selectionSummary": "キッチン・調理 / 楽天リアルタイム 22位 / 評価 4.74（569件）",
+      "reviewDraft": "{\n  \"id\": \"review-kitchen-plywood-10022493\",\n  \"enabled\": false,\n  \"priority\": 60,\n  \"genre\": \"キッチン・調理\",\n  \"target\": \"料理や片付けを効率よくしたい人\",\n  \"problem\": \"調理道具や保存用品を選びきれない\",\n  \"postMode\": \"research\",\n  \"reason\": \"比較記事と商品仕様を確認した上で、自分の言葉で選定理由を入力してください。\",\n  \"caution\": \"サイズ・熱源対応・食洗機対応を販売ページで確認してください。\",\n  \"primaryProvider\": \"rakuten\",\n  \"sourceReferences\": [],\n  \"rakuten\": {\n    \"itemCode\": \"plywood:10022493\"\n  }\n}",
+      "score": 93,
+      "socialStrategy": {
+        "version": "1.0",
+        "post_type": "REJECT",
+        "value_score": {
+          "price_advantage": 1,
+          "utility": 4,
+          "functionality": 5,
+          "time_saving": 4,
+          "comparative_advantage": 3,
+          "trust": 4,
+          "total": 21
+        },
+        "discovery_score": {
+          "instant_understanding": 4,
+          "novelty": 2,
+          "desirability": 3,
+          "social_visual": 2,
+          "giftability": 0,
+          "value_story": 5,
+          "total": 16
+        },
+        "x_score": {
+          "scroll_stop": 2,
+          "short_copy_fit": 0,
+          "conversation_potential": 1,
+          "click_intent": 2,
+          "total": 5
+        },
+        "value_reason": "価格情報 ¥19,800、機能情報が具体的、時短・省力につながる記述あり、確認可能な根拠 1件。価格だけでなく実用面も比較できる。",
+        "discovery_reason": "商品画像URLあり（画像内容は未解析）。",
+        "reason_to_post": "X Score 5/10。投稿基準または確認根拠が不足している。",
+        "hook": "● 正規品 レコルト 自動調理ポット ラージ RSY-3 自動調理…は、紹介前に根拠をもう少し確認したい。",
         "confidence": "high"
       }
     }
