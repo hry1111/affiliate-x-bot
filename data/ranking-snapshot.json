@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T04:48:37.270Z",
+  "generatedAt": "2026-11-28T04:33:40.679Z",
   "topics": [
     {
       "id": "daily-household",
@@ -12,23 +12,6 @@
       },
       "items": [
         {
-          "key": "rakuten:rcmdse:16154229",
-          "name": "液晶テレビ 32型 ベゼルレス VAパネル ダブルチューナー 裏録画 3波 地デジ BS 110度CS 壁掛け対応 ホテルモード 日本製LSI搭載 simplus シンプラス SP-32TVD-01【送料無料】【レビュー報告でテレビ用クリーナー】【メーカー1年保証】",
-          "price": "25999",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ramc2.5dkfa7ca.g00ramc2.5dkfbd02/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frcmdse%2Fw3-4582665371009%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rcmdse/cabinet/w301/w3-4582665371009.jpg?_ex=128x128",
-          "shopName": "リコメン堂生活館",
-          "itemCode": "rcmdse:16154229",
-          "rank": 34,
-          "reviewCount": 88,
-          "reviewAverage": 4.2,
-          "source": {
-            "type": "rakuten-ranking",
-            "period": "realtime",
-            "genreId": null
-          }
-        },
-        {
           "key": "rakuten:masam1963:10000020",
           "name": "ピエール ダルジャン ラベンダーの香り 正規品 300g 多目的 洗剤 オーガニック 万能クリーナー 無添加洗剤 お風呂 掃除 グッズ 浴室 水垢 クリーナー 鏡うろことり 掃除洗剤 マルチクリーナー 換気扇掃除 ガスコンロ 油 汚れ 落とし キッチン シンク 焦げ落とし 便利グッズ",
           "price": "3300",
@@ -36,8 +19,8 @@
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/masam1963/cabinet/09239711/la1c.jpg?_ex=128x128",
           "shopName": "Pierre",
           "itemCode": "masam1963:10000020",
-          "rank": 58,
-          "reviewCount": 549,
+          "rank": 95,
+          "reviewCount": 556,
           "reviewAverage": 4.22,
           "source": {
             "type": "rakuten-ranking",
@@ -46,16 +29,16 @@
           }
         },
         {
-          "key": "rakuten:nanobig:10000935",
-          "name": "【クーポンで2000円オフ】2027年モデル orage RR35 自動ゴミ回収ステーション コードレス掃除機【2年保証】自動ゴミ収集ドック ごみ収集 掃除機 紙パック 軽量 自立 自走式 スティック クリーナー 強力吸引 充電式 ジェネリック家電 福袋",
-          "price": "19980",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rdz22.5dkfab8f.g00rdz22.5dkfb44e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnanobig%2Fcleaner-cordless-rr35-sale%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/nanobig/cabinet/02988222/oragerr35/oragerr35_main.jpg?_ex=128x128",
-          "shopName": "ナノビッグ楽天市場店",
-          "itemCode": "nanobig:10000935",
-          "rank": 95,
-          "reviewCount": 85,
-          "reviewAverage": 4.6,
+          "key": "rakuten:toucher-home:10000264",
+          "name": "【1枚690円！20周年クーポン】 【12月より価格改定】 日本製 ホテルスタイルタオル ビッグフェイスタオル 【圧縮】 【お試しSALE】 楽天1位受賞 / 約40×100cm タオル 小さめ バスタオル 厚手 吸水 1枚 メディア掲載 #バスタオルやめました",
+          "price": "890",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qcmk2.5dkfa6a8.g00qcmk2.5dkfb67a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoucher-home%2F10000264%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/toucher-home/cabinet/image02/hslft_01scx.jpg?_ex=128x128",
+          "shopName": "タオル直販店 ヒオリエ／日織恵",
+          "itemCode": "toucher-home:10000264",
+          "rank": 223,
+          "reviewCount": 118373,
+          "reviewAverage": 4.49,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -63,16 +46,16 @@
           }
         },
         {
-          "key": "rakuten:nene777:10000018",
-          "name": "掃除機 コードレス【楽天12連冠達成！吸引力完全進化110Kpa超強力!革新版グリーンLEDライト付＆60分連続稼働＆自立式&次世代LED液晶ディスプレイ】掃除機サイクロン式3段吸引力絡まないヘッド LED液晶ディスプレイ軽量低騒音伸縮パイプ HEPA多重濾過着脱式バッテリー3年保証",
-          "price": "12980",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00upsp2.5dkfa34c.g00upsp2.5dkfb26c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnene777%2Fcompass1747365900%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/nene777/cabinet/compass1792658274.jpg?_ex=128x128",
-          "shopName": "NENE777楽天市場店",
-          "itemCode": "nene777:10000018",
-          "rank": 145,
-          "reviewCount": 5531,
-          "reviewAverage": 4.59,
+          "key": "rakuten:rakuten24:11128644",
+          "name": "【1種類を選べる】アタック 抗菌EX 洗濯洗剤 詰替 超特大サイズ 梱販売用(6袋入)【アタック】",
+          "price": "6171",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00r1362.5dkfa9cf.g00r1362.5dkfbbf1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F404889%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/889/404889.jpg?_ex=128x128",
+          "shopName": "楽天24",
+          "itemCode": "rakuten24:11128644",
+          "rank": 238,
+          "reviewCount": 4330,
+          "reviewAverage": 4.68,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -80,16 +63,33 @@
           }
         },
         {
-          "key": "rakuten:nene777:10000018",
-          "name": "掃除機 コードレス【楽天12連冠達成！吸引力完全進化110Kpa超強力!革新版グリーンLEDライト付＆60分連続稼働＆自立式&次世代LED液晶ディスプレイ】掃除機サイクロン式3段吸引力絡まないヘッド LED液晶ディスプレイ軽量低騒音伸縮パイプ HEPA多重濾過着脱式バッテリー3年保証",
-          "price": "12980",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00upsp2.5dkfa34c.g00upsp2.5dkfb26c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnene777%2Fcompass1747365900%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/nene777/cabinet/compass1792658274.jpg?_ex=128x128",
-          "shopName": "NENE777楽天市場店",
-          "itemCode": "nene777:10000018",
-          "rank": 172,
-          "reviewCount": 5531,
-          "reviewAverage": 4.59,
+          "key": "rakuten:denkichiweb:10032191",
+          "name": "【エントリーでポイント10倍！】東芝 TOSHIBA スティック型掃除機 トルネオ コードレス 紙パック式 VC-CLP54-C シフォンベージュ〈VCCLP54-C〉",
+          "price": "20560",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u2bx2.5dkfaaac.g00u2bx2.5dkfb24a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkichiweb%2F4904530130038%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/denkichiweb/cabinet/12203101/4904530130038_1.jpg?_ex=128x128",
+          "shopName": "デンキチWeb 楽天市場店",
+          "itemCode": "denkichiweb:10032191",
+          "rank": 269,
+          "reviewCount": 69,
+          "reviewAverage": 4.46,
+          "source": {
+            "type": "rakuten-ranking",
+            "period": "realtime",
+            "genreId": null
+          }
+        },
+        {
+          "key": "rakuten:yamayuu:10019814",
+          "name": "特典付 分別ごみ箱【 ソロウ ペダルオープン ツイン 45L 35L 20L スリム 13L ワイド45L 】SOLOW ゴミ箱45l 45リットル 35リットル ゴミ袋 縦 横 蓋付き キッチンゴミ箱 両開きゴミ箱 観音開き ペダル付き 足踏み 抗菌 カウンター下 公式 おしゃれ シンプル 公式 白黒 グレー",
+          "price": "3850",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qn4o2.5dkfa0e9.g00qn4o2.5dkfb360/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamayuu%2Fri-gslw0005%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/yamayuu/cabinet/01023319/02707641/11653063/ri-solow_sam01y.jpg?_ex=128x128",
+          "shopName": "くらしのもり",
+          "itemCode": "yamayuu:10019814",
+          "rank": 285,
+          "reviewCount": 5481,
+          "reviewAverage": 4.52,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -108,16 +108,16 @@
       },
       "items": [
         {
-          "key": "rakuten:roomy:10018139",
-          "name": "【特典＋36種類レシピ付】レコルト スープメーカー 豆乳メーカー スープ 全自動 豆乳機 自動調理 ポタージュメーカー ミキサー ブレンダー 保温 豆乳 おかゆ お粥 離乳食 自動調理器 スムージー 味噌汁 レシピ 800mL 1L 大容量 RSY-3［ recolte 自動調理ポット ラージ ］",
-          "price": "19800",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qb0l2.5dkfab4f.g00qb0l2.5dkfbdbb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fwin26feb09a01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/roomy/cabinet/500cart_all/500cart_11g/sp-8/win2006-to010-1_gt05.jpg?_ex=128x128",
-          "shopName": "インテリアショップ roomy",
-          "itemCode": "roomy:10018139",
-          "rank": 97,
-          "reviewCount": 752,
-          "reviewAverage": 4.71,
+          "key": "rakuten:sfd-ymt:10003797",
+          "name": "＼ただ今早割特価／今なら“カニ鍋の素”をサービス中！ “カット済み”特大タラバ蟹 1kg 年末配送の追加料金なし 包丁もハサミも不要！身入りの心配なし！極太の棒肉がジュ～シ～！化粧箱入り 鍋セット カニ鍋セット",
+          "price": "9999",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qaoz2.5dkfa472.g00qaoz2.5dkfb324/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsfd-ymt%2Fbt-00041%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sfd-ymt/cabinet/00661828/bt-00041b-first_lg.jpg?_ex=128x128",
+          "shopName": "海の幸なのにYAMATO",
+          "itemCode": "sfd-ymt:10003797",
+          "rank": 72,
+          "reviewCount": 149,
+          "reviewAverage": 4.3,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -125,15 +125,32 @@
           }
         },
         {
-          "key": "rakuten:roomy:10015766",
-          "name": "●楽天1位●【2大特典付き＋30レシピ付】レコルト 豆乳メーカー 全自動 豆乳機 スープメーカー 自動調理 ポタージュメーカー ミキサー ブレンダー 保温 スープ 豆乳 おかゆ おから お粥 離乳食 自動調理器 スムージー 味噌汁 豆乳マシン RSY-2［ recolte 自動調理ポット ］",
-          "price": "13200",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qb0l2.5dkfab4f.g00qb0l2.5dkfbdbb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fwin20oct27h03%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/roomy/cabinet/500cart_all/500cart_11g/sp-4/win2006-nx014-1_gt01.jpg?_ex=128x128",
-          "shopName": "インテリアショップ roomy",
-          "itemCode": "roomy:10015766",
-          "rank": 106,
-          "reviewCount": 23379,
+          "key": "rakuten:beautypark2017:10005029",
+          "name": "【楽天1位/正規店】recolte レコルト 自動調理ポット ラージ クリームホワイト/ナチュラルブラック RSY-3ブレンダー ミキサー フードプロセッサー スープ 豆乳 大容量 800ml 豆乳メーカー スムージーメーカー ポタージュメーカー 離乳食",
+          "price": "19800",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sqjg2.5dkfa316.g00sqjg2.5dkfb745/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeautypark2017%2Frecolte-pot-l%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/beautypark2017/cabinet/kaden/recolte/pot/imgrc0157768450.jpg?_ex=128x128",
+          "shopName": "BEAUTY PARK 楽天市場店",
+          "itemCode": "beautypark2017:10005029",
+          "rank": 114,
+          "reviewCount": 311,
+          "reviewAverage": 4.74,
+          "source": {
+            "type": "rakuten-ranking",
+            "period": "realtime",
+            "genreId": null
+          }
+        },
+        {
+          "key": "rakuten:ryohinseikatsukan:10000111",
+          "name": "【100%抽選P】ノンフライヤー COSORI 4.7L CAF-L501-KJP ノン フライヤー 揚げ物 卓上 電気フライヤー エアフライヤー 大容量 コンパクト ノンオイルフライヤー 一人暮らし 調理家電 便利 家庭用 自宅用 油なし ヘルシー 温度調整 食洗器可 キッチン家電 1台6役 【グレー】",
+          "price": "13980",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00twdh2.5dkfa554.g00twdh2.5dkfbadd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fryohinseikatsukan%2Ftsuhan-123-ea123-1%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/ryohinseikatsukan/cabinet/08427320/08789668/501new/02501.jpg?_ex=128x128",
+          "shopName": "良品生活館",
+          "itemCode": "ryohinseikatsukan:10000111",
+          "rank": 221,
+          "reviewCount": 1739,
           "reviewAverage": 4.68,
           "source": {
             "type": "rakuten-ranking",
@@ -149,43 +166,9 @@
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/plywood/cabinet/503/20149424.jpg?_ex=128x128",
           "shopName": "plywood キッチン・インテリア雑貨",
           "itemCode": "plywood:10022493",
-          "rank": 183,
-          "reviewCount": 596,
+          "rank": 286,
+          "reviewCount": 601,
           "reviewAverage": 4.75,
-          "source": {
-            "type": "rakuten-ranking",
-            "period": "realtime",
-            "genreId": null
-          }
-        },
-        {
-          "key": "rakuten:beautypark2017:10005029",
-          "name": "【楽天1位/正規店】recolte レコルト 自動調理ポット ラージ クリームホワイト/ナチュラルブラック RSY-3ブレンダー ミキサー フードプロセッサー スープ 豆乳 大容量 800ml 豆乳メーカー スムージーメーカー ポタージュメーカー 離乳食",
-          "price": "19800",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sqjg2.5dkfa316.g00sqjg2.5dkfb745/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeautypark2017%2Frecolte-pot-l%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/beautypark2017/cabinet/kaden/recolte/pot/imgrc0157768450.jpg?_ex=128x128",
-          "shopName": "BEAUTY PARK 楽天市場店",
-          "itemCode": "beautypark2017:10005029",
-          "rank": 185,
-          "reviewCount": 306,
-          "reviewAverage": 4.74,
-          "source": {
-            "type": "rakuten-ranking",
-            "period": "realtime",
-            "genreId": null
-          }
-        },
-        {
-          "key": "rakuten:sfd-ymt:10003797",
-          "name": "＼ただ今早割特価／今なら“カニ鍋の素”をサービス中！ “カット済み”特大タラバ蟹 1kg 年末配送の追加料金なし 包丁もハサミも不要！身入りの心配なし！極太の棒肉がジュ～シ～！化粧箱入り 鍋セット カニ鍋セット",
-          "price": "9999",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qaoz2.5dkfa472.g00qaoz2.5dkfb324/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsfd-ymt%2Fbt-00041%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sfd-ymt/cabinet/00661828/bt-00041b-first_lg.jpg?_ex=128x128",
-          "shopName": "海の幸なのにYAMATO",
-          "itemCode": "sfd-ymt:10003797",
-          "rank": 222,
-          "reviewCount": 148,
-          "reviewAverage": 4.29,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -204,6 +187,23 @@
       },
       "items": [
         {
+          "key": "rakuten:vesync:10000022",
+          "name": "【2,700円OFFクーポン】COSORI DCモーター搭載 ノンフライヤー 6L 大容量 95%オイルカット 最高230℃まで 360°熱風循環 ヘルシー トレーニング 体重管理 大人数向け 家庭用 パーティー 特典レシピ本付き TurboBlaze CAF-DC601 ブラック[メーカー保証2年]",
+          "price": "19980",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u8eb2.5dkfae13.g00u8eb2.5dkfb4ab/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvesync%2Fkaapafcsnjp0106y%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/vesync/cabinet/09152443/10953403/imgrc0092746154.jpg?_ex=128x128",
+          "shopName": "Vesync公式　楽天市場店",
+          "itemCode": "vesync:10000022",
+          "rank": 33,
+          "reviewCount": 922,
+          "reviewAverage": 4.76,
+          "source": {
+            "type": "rakuten-ranking",
+            "period": "realtime",
+            "genreId": null
+          }
+        },
+        {
           "key": "rakuten:babytown:10023284",
           "name": "NOVUS ノウス ベビーハイチェア キッズ ベビー 赤ちゃん 子供 キッズチェア テーブル付 食事用 椅子 高さ調節 テーブル 落下防止 シック ダイニングチェア ヤトミ",
           "price": "14999",
@@ -211,8 +211,8 @@
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/babytown/cabinet/novus/novus1b.jpg?_ex=128x128",
           "shopName": "赤ちゃんデパート",
           "itemCode": "babytown:10023284",
-          "rank": 24,
-          "reviewCount": 8075,
+          "rank": 52,
+          "reviewCount": 8081,
           "reviewAverage": 4.57,
           "source": {
             "type": "rakuten-ranking",
@@ -221,16 +221,16 @@
           }
         },
         {
-          "key": "rakuten:cliffhangar:10002799",
-          "name": "はむにぎり マスコット 正規品 ハムスター ぬいぐるみ 癒し 癒しグッズ リラックス もちもち ふわふわ 柔らかい 握る 手のりサイズ コンパクト キャラクター 動物 アニマル かわいい おしゃれ プレゼント ギフト 贈り物 りぶはあと / クリスマス",
-          "price": "1760",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u1az2.5dkfa1f2.g00u1az2.5dkfb01e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcliffhangar%2F08-046208%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cliffhangar/cabinet/liv/zakka/08-046208-00.jpg?_ex=128x128",
-          "shopName": "暮らしと雑貨店クリフハンガー",
-          "itemCode": "cliffhangar:10002799",
-          "rank": 30,
-          "reviewCount": 21,
-          "reviewAverage": 4.9,
+          "key": "rakuten:beautypark2017:10005029",
+          "name": "【楽天1位/正規店】recolte レコルト 自動調理ポット ラージ クリームホワイト/ナチュラルブラック RSY-3ブレンダー ミキサー フードプロセッサー スープ 豆乳 大容量 800ml 豆乳メーカー スムージーメーカー ポタージュメーカー 離乳食",
+          "price": "19800",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sqjg2.5dkfa316.g00sqjg2.5dkfb745/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeautypark2017%2Frecolte-pot-l%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/beautypark2017/cabinet/kaden/recolte/pot/imgrc0157768450.jpg?_ex=128x128",
+          "shopName": "BEAUTY PARK 楽天市場店",
+          "itemCode": "beautypark2017:10005029",
+          "rank": 114,
+          "reviewCount": 311,
+          "reviewAverage": 4.74,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -238,16 +238,16 @@
           }
         },
         {
-          "key": "rakuten:darkangel:10036257",
-          "name": "79%OFF!【11/27 10時〜24H限定：4,890円→996円～！】【年間ランキング6位】 裏起毛レギンス レディース 元祖裏起毛 極厚 もこもこ リブレギンス 腹巻き【元祖裏起毛もっこもこレギンス】 裏ボアブラック/長め丈S/インディゴブルーがページ内最安[c_5980bag]",
-          "price": "996",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00q8qj2.5dkfa87f.g00q8qj2.5dkfb919/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdarkangel%2Fto2309-3814%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/darkangel/cabinet/12863863/10/14077393/3814-main-261102-1.jpg?_ex=128x128",
-          "shopName": "Dark Angel （ダークエンジェル）",
-          "itemCode": "darkangel:10036257",
-          "rank": 35,
-          "reviewCount": 12783,
-          "reviewAverage": 4.34,
+          "key": "rakuten:zoff:10004562",
+          "name": "|【Zoff 福袋2027 】〈27年1月上旬頃から順次発送〉ゾフ店舗で使える10,000円のメガネ券・調光レンズクーポン付き！ 在庫なくなり次第販売終了 LISA LARSON メガネラグ メガネマット メガネ置き リサラーソン マイキー メガネ 福袋 レディース メンズ ブラックフライデー",
+          "price": "6600",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s2yh2.5dkfa57f.g00s2yh2.5dkfb5cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzoff%2Flucky_bag_ec%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/zoff/cabinet/mail/2027fuku_1006.jpg?_ex=128x128",
+          "shopName": "Zoff （ゾフ）　楽天市場店",
+          "itemCode": "zoff:10004562",
+          "rank": 145,
+          "reviewCount": 1073,
+          "reviewAverage": 4.39,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -255,33 +255,16 @@
           }
         },
         {
-          "key": "rakuten:angers:10067040",
-          "name": "【予約商品】ランドセル収納 ワゴン キャスター収納 一時置き バッグ キャスター付き 収納 かご 玄関 リビング ランドセルラック ランドセル置き 収納 ランドセル置き場／ランドセル収納にちょうどいい キャスター付き収納／bon moment ボンモマン",
-          "price": "4620",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pksv2.5dkfa0f8.g00pksv2.5dkfbea7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fangers%2F169042%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/angers/cabinet/item_main0102/169042.jpg?_ex=128x128",
-          "shopName": "アンジェ（インテリア雑貨）",
-          "itemCode": "angers:10067040",
-          "rank": 48,
-          "reviewCount": 21,
-          "reviewAverage": 4.1,
-          "source": {
-            "type": "rakuten-ranking",
-            "period": "realtime",
-            "genreId": null
-          }
-        },
-        {
-          "key": "rakuten:aftershokz-official:10000018",
-          "name": "【11/27~ブラックフライデーSALE！31%OFF】Shokz OpenRun/OpenRun Mini 骨伝導イヤホン ワイヤレス 骨伝導ヘッドホン マグネット充電 USB-C 耳を塞がない オープンイヤー 急速充電対応 Bluetooth5.1 防水 高音質 スポーツイヤホン iPhone通話 24ヶ月保証 ショックス",
-          "price": "12309",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tqou2.5dkfa4f3.g00tqou2.5dkfbf44/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faftershokz-official%2Fskz-sp-000013%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/aftershokz-official/cabinet/12479442/14171058/14295714/imgrc0164023685.jpg?_ex=128x128",
-          "shopName": "Shokz Official Store",
-          "itemCode": "aftershokz-official:10000018",
-          "rank": 65,
-          "reviewCount": 1501,
-          "reviewAverage": 4.65,
+          "key": "rakuten:myhome:10000607",
+          "name": "【先着限定5%クーポン】【331冠】累計21万台突破！オフィスチェア 椅子 チェア 新社会人応援 コンパクト 腰痛 回転椅子 高さ調節 疲れにくい 肘付き or 肘なし メッシュ ハイバック デスクチェア キャスター付 パソコン PC 学習椅子 腰楽 事務所 ワークチェア",
+          "price": "4059",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rrie2.5dkfad5c.g00rrie2.5dkfbc3b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmyhome%2Fpp003632%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/myhome/cabinet/shohin/pp003632/imgrc0095370071.jpg?_ex=128x128",
+          "shopName": "家具・インテリア直販店MyHome",
+          "itemCode": "myhome:10000607",
+          "rank": 219,
+          "reviewCount": 2366,
+          "reviewAverage": 4.31,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -298,7 +281,25 @@
       "ranking": {
         "period": "realtime"
       },
-      "items": []
+      "items": [
+        {
+          "key": "rakuten:sk-ii:10003857",
+          "name": "【公式】フェイシャルトリートメント エッセンス コフレ2026 ホリデーコレクション ｜SK-2 / SK-II（エスケーツー） 正規品 送料無料 SK2 SKII ピテラ 美容液 スキンケア 誕生日 女性 化粧品 コスメ 妻 誕生日",
+          "price": "29150",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00siy32.5dkfa5f4.g00siy32.5dkfbac9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsk-ii%2Fset-ftec-holiday2026%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sk-ii/cabinet/item/thumb/set-ftec-holiday2026/set-ftec-holiday2026.jpg?_ex=128x128",
+          "shopName": "SK-II 公式ショップ楽天市場店",
+          "itemCode": "sk-ii:10003857",
+          "rank": 195,
+          "reviewCount": 35,
+          "reviewAverage": 4.63,
+          "source": {
+            "type": "rakuten-ranking",
+            "period": "realtime",
+            "genreId": null
+          }
+        }
+      ]
     },
     {
       "id": "mobile-pc",
@@ -310,6 +311,40 @@
       },
       "items": [
         {
+          "key": "rakuten:novaflux:10000356",
+          "name": "【全品最大2500円OFFクーポン】新品 外付けHDD TV録画機能付き 容量 500GB/1TB/2TB/3TB/4TB/6TB/8TB/PC対応 静音&コンパク外付けハードディスク.ト 3.5インチ 金属製ボディ、耐衝撃、indows/Mac/USB3.0対応、外付けハードディスク 1年間保証付き/外付け/ハードディスク/HDD",
+          "price": "5999",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ukl62.5dkfaeed.g00ukl62.5dkfbb13/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnovaflux%2Ftt-ehdd-35inch-new%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/novaflux/cabinet/hdd/ehdd-35inch/main.jpg?_ex=128x128",
+          "shopName": "Novaflux",
+          "itemCode": "novaflux:10000356",
+          "rank": 129,
+          "reviewCount": 110,
+          "reviewAverage": 4.38,
+          "source": {
+            "type": "rakuten-ranking",
+            "period": "realtime",
+            "genreId": null
+          }
+        },
+        {
+          "key": "rakuten:aiwo:10000035",
+          "name": "AIWOLL ポータブル電源 515Wh 大容量 600W出力 リン酸鉄 長寿命 コンパクト 急速充電 PD60W USB対応 ソーラー充電 家庭用蓄電池 防災バッテリー 地震・台風・停電対策",
+          "price": "28999",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uhf42.5dkfa852.g00uhf42.5dkfbd03/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faiwo%2Faiwoll600%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/aiwo/cabinet/10770549/10.jpg?_ex=128x128",
+          "shopName": "EVOPOW JAPAN 楽天市場店",
+          "itemCode": "aiwo:10000035",
+          "rank": 198,
+          "reviewCount": 31,
+          "reviewAverage": 4.65,
+          "source": {
+            "type": "rakuten-ranking",
+            "period": "realtime",
+            "genreId": null
+          }
+        },
+        {
           "key": "rakuten:aftershokz-official:10000018",
           "name": "【11/27~ブラックフライデーSALE！31%OFF】Shokz OpenRun/OpenRun Mini 骨伝導イヤホン ワイヤレス 骨伝導ヘッドホン マグネット充電 USB-C 耳を塞がない オープンイヤー 急速充電対応 Bluetooth5.1 防水 高音質 スポーツイヤホン iPhone通話 24ヶ月保証 ショックス",
           "price": "12309",
@@ -317,7 +352,7 @@
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/aftershokz-official/cabinet/12479442/14171058/14295714/imgrc0164023685.jpg?_ex=128x128",
           "shopName": "Shokz Official Store",
           "itemCode": "aftershokz-official:10000018",
-          "rank": 65,
+          "rank": 233,
           "reviewCount": 1501,
           "reviewAverage": 4.65,
           "source": {
@@ -327,16 +362,16 @@
           }
         },
         {
-          "key": "rakuten:anker:10002636",
-          "name": "【期間限定セール実施中 12/7まで】Anker Soundcore P42i 【ワイヤレスイヤホン 完全ワイヤレスイヤホン Bluetooth 6.1 ウルトラノイズキャンセリング 3.5 マルチポイント接続 最大40時間再生 コンパクト 持ち運びに便利 IP55 防塵防水規格 PSE技術基準適合】",
-          "price": "7490",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rr092.5dkfadb0.g00rr092.5dkfbe71/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fanker%2Fd1205%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/anker/cabinet/deal/2611m2/d1205_11bf.jpg?_ex=128x128",
-          "shopName": "アンカー・ダイレクト楽天市場店",
-          "itemCode": "anker:10002636",
-          "rank": 241,
-          "reviewCount": 36,
-          "reviewAverage": 4.47,
+          "key": "rakuten:creaswing:10000041",
+          "name": "【感謝企画★Max41％OFF】即納【楽天1位★162冠達成】【2本セットお得】センサーライト 室内 人感 LEDライト 充電式 自動点灯 0.2秒反応 足元灯 間接照明 マグネット 簡単設置 工事不要 クローゼット 玄関 廊下 キッチン 薄型 おしゃれ 明るい USB充電 非常灯 夜間ライ",
+          "price": "1580",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uird2.5dkfa936.g00uird2.5dkfb6e5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcreaswing%2Fhom-311-0002%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/creaswing/cabinet/gai/hom-311-0002.jpg?_ex=128x128",
+          "shopName": "CREAS WING 公式ショップ",
+          "itemCode": "creaswing:10000041",
+          "rank": 270,
+          "reviewCount": 3282,
+          "reviewAverage": 4.61,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -353,7 +388,25 @@
       "ranking": {
         "period": "realtime"
       },
-      "items": []
+      "items": [
+        {
+          "key": "rakuten:syatihoko:10004482",
+          "name": "ランキング1位 ドライブレコーダー 前後2カメラ コムテック ZDR-750D 3年保証 4K 前方830万 後方200万画素 高画質 ノイズ対策済 常時 衝撃録画 GPS搭載 駐車監視対応 2.4インチ液晶",
+          "price": "26800",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qjlq2.5dkfadda.g00qjlq2.5dkfb82f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsyatihoko%2Fzdr-750d%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/syatihoko/cabinet/02548057/r1-750-no1.jpg?_ex=128x128",
+          "shopName": "シャチホコストア",
+          "itemCode": "syatihoko:10004482",
+          "rank": 209,
+          "reviewCount": 569,
+          "reviewAverage": 4.8,
+          "source": {
+            "type": "rakuten-ranking",
+            "period": "realtime",
+            "genreId": null
+          }
+        }
+      ]
     },
     {
       "id": "pet-care",
@@ -365,16 +418,16 @@
       },
       "items": [
         {
-          "key": "rakuten:euphoric:10000029",
-          "name": "【最大100%P還元】★TVメディアで紹介★正規品 スーツケース キャリーケース キャリーバッグ 機内持ち込み 1泊2日 2泊3日 3泊4日 【累計販売台数10万台突破】 軽量 旅行 出張 海外旅行 ssサイズ sサイズ Mサイズ Lサイズ【30日返品返金】",
-          "price": "12990",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ufre2.5dkfa742.g00ufre2.5dkfbefd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Feuphoric%2F10000010%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/euphoric/cabinet/12864130/18.jpg?_ex=128x128",
-          "shopName": "C.jutro【公式】楽天市場店",
-          "itemCode": "euphoric:10000029",
-          "rank": 54,
-          "reviewCount": 5161,
-          "reviewAverage": 4.59,
+          "key": "rakuten:styleplus:10000052",
+          "name": "[11/30 8:59までSALE価格] 超薄型 ペットシーツ レギュラー 1200枚（300枚×4袋） ワイド 600枚（150枚×4袋） スーパーワイド 300枚（75×4袋） ペットシーツ専門店 スタイルプラス オリジナル",
+          "price": "4780",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qup52.5dkfa7f0.g00qup52.5dkfb97f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstyleplus%2F10000000tw%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/styleplus/cabinet/brand/sa/styleplus/style_chouusu.jpg?_ex=128x128",
+          "shopName": "ペットシーツ専門店スタイルプラス",
+          "itemCode": "styleplus:10000052",
+          "rank": 40,
+          "reviewCount": 20842,
+          "reviewAverage": 4.52,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -382,16 +435,16 @@
           }
         },
         {
-          "key": "rakuten:euphoric:10000029",
-          "name": "【最大100%P還元】★TVメディアで紹介★正規品 スーツケース キャリーケース キャリーバッグ 機内持ち込み 1泊2日 2泊3日 3泊4日 【累計販売台数10万台突破】 軽量 旅行 出張 海外旅行 ssサイズ sサイズ Mサイズ Lサイズ【30日返品返金】",
-          "price": "12990",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ufre2.5dkfa742.g00ufre2.5dkfbefd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Feuphoric%2F10000010%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/euphoric/cabinet/12864130/18.jpg?_ex=128x128",
-          "shopName": "C.jutro【公式】楽天市場店",
-          "itemCode": "euphoric:10000029",
-          "rank": 91,
-          "reviewCount": 5161,
-          "reviewAverage": 4.59,
+          "key": "rakuten:fukukyugoods:10000017",
+          "name": "【最大100%P還元＆クーポンで6,980円〜！】 ＼楽天1位／ 【New Trip】 スーツケース ストッパー付き 機内持ち込み s M Lサイズ Sサイズ Mサイズ Lサイズ 軽量 静音 キャリーケース キャリーバッグ 修学旅行 海外旅行 出張 3泊 5泊 TSAロック 1年保証",
+          "price": "9480",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uhtp2.5dkfa2e5.g00uhtp2.5dkfb20c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffukukyugoods%2F0701plus%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fukukyugoods/cabinet/001/10604305/10651373/imgrc0113530160.jpg?_ex=128x128",
+          "shopName": "New Trip楽天市場店",
+          "itemCode": "fukukyugoods:10000017",
+          "rank": 149,
+          "reviewCount": 2603,
+          "reviewAverage": 4.55,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -399,16 +452,16 @@
           }
         },
         {
-          "key": "rakuten:good-luckbin:10000355",
-          "name": "【5日間限定！25%OFFクーポン対象とポイント8倍で実質3,680円！11/30 23:59まで】コカ・コーラ コーヒー ジョージア ブラック ラベルレス 500ml ペットボトル 24本入り×2ケース【送料無料】",
-          "price": "5280",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u60u2.5dkfa2cf.g00u60u2.5dkfb7db/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgood-luckbin%2Fgajcbkless5p-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/good-luckbin/cabinet/product_image/1126coupon25/gajcbkless5p-2.jpg?_ex=128x128",
-          "shopName": "Good Luck便 楽天市場店",
-          "itemCode": "good-luckbin:10000355",
-          "rank": 115,
-          "reviewCount": 171,
-          "reviewAverage": 4.71,
+          "key": "rakuten:lifedrinkcompany:10000014",
+          "name": "【最安値に挑戦中！】水 ミネラルウォーター 彩水-あやみず- やさしい軟水 500ml 48本 送料無料※一部地域除く ペットボトル ラベルレス ライフドリンクカンパニー LIFEDRINK 国産 天然水 軟水 備蓄水 非常用 (※採水地指定不可）",
+          "price": "2260",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tkn42.5dkfae80.g00tkn42.5dkfbcdb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifedrinkcompany%2Fayamizu-500-48%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/lifedrinkcompany/cabinet/08451052/14250004/mizu48_1127.jpg?_ex=128x128",
+          "shopName": "LIFEDRINKオンラインストア",
+          "itemCode": "lifedrinkcompany:10000014",
+          "rank": 150,
+          "reviewCount": 4145,
+          "reviewAverage": 4.68,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -416,16 +469,16 @@
           }
         },
         {
-          "key": "rakuten:d-rink-hokkaido:10000140",
-          "name": "【5日間限定！25%OFFクーポン対象！11/30 23:59まで】コカ・コーラ やかんの麦茶 ラベルレス from爽健美茶 650ml ペットボトル 24本入り×2ケース【送料無料】",
-          "price": "4580",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uouu2.5dkfa820.g00uouu2.5dkfb210/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fd-rink-hokkaido%2Fyakanless65p-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/d-rink-hokkaido/cabinet/rakuten-ban/sale-item/labelless25/yakanless65p-2.jpg?_ex=128x128",
-          "shopName": "D-rink 北海道",
-          "itemCode": "d-rink-hokkaido:10000140",
-          "rank": 125,
-          "reviewCount": 34,
-          "reviewAverage": 4.91,
+          "key": "rakuten:apoloce:10000016",
+          "name": "【72h★P10倍！】ラグ 洗える シエロ ラグマット キルトラグ 北欧 累計15.5万枚 おしゃれ カーペット 95×130 130×190 190×190 200×240 200×300 1.5畳 2畳 3畳 長方形 家族 リビング 滑り止め オールシーズン対応 ホットカーペット 床暖房対応",
+          "price": "2990",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00t4iu2.5dkfa200.g00t4iu2.5dkfb24c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fapoloce%2Fsielo-185%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/apoloce/cabinet/er/sielo26n-mb.jpg?_ex=128x128",
+          "shopName": "ラグ・マットのApoloce アポロス",
+          "itemCode": "apoloce:10000016",
+          "rank": 163,
+          "reviewCount": 7219,
+          "reviewAverage": 4.76,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -433,16 +486,16 @@
           }
         },
         {
-          "key": "rakuten:d-rink-hokkaido:10000139",
-          "name": "【5日間限定！25%OFFクーポン対象！11/30 23:59まで】コカ・コーラ お茶 綾鷹 濃い緑茶 ラベルレス 650ml ペットボトル 24本入り×2ケース【送料無料】",
-          "price": "4580",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uouu2.5dkfa820.g00uouu2.5dkfb210/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fd-rink-hokkaido%2Fayakoiless65p-2%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/d-rink-hokkaido/cabinet/rakuten-ban/sale-item/labelless25/ayakoiless65p-2.jpg?_ex=128x128",
-          "shopName": "D-rink 北海道",
-          "itemCode": "d-rink-hokkaido:10000139",
-          "rank": 133,
-          "reviewCount": 110,
-          "reviewAverage": 4.74,
+          "key": "rakuten:fukukyugoods:10000017",
+          "name": "【最大100%P還元＆クーポンで6,980円〜！】 ＼楽天1位／ 【New Trip】 スーツケース ストッパー付き 機内持ち込み s M Lサイズ Sサイズ Mサイズ Lサイズ 軽量 静音 キャリーケース キャリーバッグ 修学旅行 海外旅行 出張 3泊 5泊 TSAロック 1年保証",
+          "price": "9480",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uhtp2.5dkfa2e5.g00uhtp2.5dkfb20c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffukukyugoods%2F0701plus%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fukukyugoods/cabinet/001/10604305/10651373/imgrc0113530160.jpg?_ex=128x128",
+          "shopName": "New Trip楽天市場店",
+          "itemCode": "fukukyugoods:10000017",
+          "rank": 232,
+          "reviewCount": 2603,
+          "reviewAverage": 4.55,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -468,8 +521,8 @@
           "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/babytown/cabinet/novus/novus1b.jpg?_ex=128x128",
           "shopName": "赤ちゃんデパート",
           "itemCode": "babytown:10023284",
-          "rank": 24,
-          "reviewCount": 8075,
+          "rank": 52,
+          "reviewCount": 8081,
           "reviewAverage": 4.57,
           "source": {
             "type": "rakuten-ranking",
@@ -478,16 +531,16 @@
           }
         },
         {
-          "key": "rakuten:x-plosion:10000023",
-          "name": "プロテイン WPC エクスプロージョン 3kg ミルクチョコレート味 ホエイプロテイン 3キロ 最安値 大容量 筋肉 タンパク質 高たんぱく 運動 ダイエット 置き換え 男性 女性 子供 こども",
-          "price": "13790",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sxk42.5dkfacca.g00sxk42.5dkfb4c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fx-plosion%2F10000019%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/x-plosion/cabinet/yec/11362306/241227_10000019.jpg?_ex=128x128",
-          "shopName": "X-PLOSION 公式オンラインショップ",
-          "itemCode": "x-plosion:10000023",
-          "rank": 76,
-          "reviewCount": 2460,
-          "reviewAverage": 4.44,
+          "key": "rakuten:mtgec-beauty:10002177",
+          "name": "全身美容 ReFa公式 リファ シャワーヘッド ファインバブル U ファインバブル U＋ ReFa FINE BUBBLE U スキンケア うるおい 美肌 美髪 愛犬 節水 結婚 国内マーケットシェアNo.1 クリスマス プレゼント ギフト 女性 男性 子供 お祝い 止水機能",
+          "price": "30000",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00r20g2.5dkfade4.g00r20g2.5dkfbadf/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1579320101%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/mtgec-beauty/cabinet/refa/06277055/2026_refa_winter/imgrc0146453604.jpg?_ex=128x128",
+          "shopName": "MTG ONLINESHOP",
+          "itemCode": "mtgec-beauty:10002177",
+          "rank": 70,
+          "reviewCount": 1600,
+          "reviewAverage": 4.61,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -495,16 +548,16 @@
           }
         },
         {
-          "key": "rakuten:e-kurashi:10048736",
-          "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
-          "price": "4999",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/rank-img/021/main-xaedt-01.jpg?_ex=128x128",
-          "shopName": "くらしのeショップ",
-          "itemCode": "e-kurashi:10048736",
-          "rank": 80,
-          "reviewCount": 7147,
-          "reviewAverage": 4.42,
+          "key": "rakuten:iloiloislandimport:10268362",
+          "name": "キッズカメラ ピントキッズ サンリオキャラクターズ コラボ トイカメラ クリスマスプレゼント キティ シナモン クロミ マイメロ ポチャッコ ポムポムプリン おもちゃ デジタルカメラ sanrio ★レビューで半年保証★",
+          "price": "9900",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s98r2.5dkfa0ac.g00s98r2.5dkfb991/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Filoiloislandimport%2Fftc06%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/iloiloislandimport/cabinet/item_lp/ftc06/ftc06_thm.jpg?_ex=128x128",
+          "shopName": "ココタス ピントキッズカメラ公式",
+          "itemCode": "iloiloislandimport:10268362",
+          "rank": 155,
+          "reviewCount": 2154,
+          "reviewAverage": 4.64,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -512,16 +565,16 @@
           }
         },
         {
-          "key": "rakuten:e-kurashi:10048736",
-          "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
-          "price": "4999",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pui92.5dkfa7ef.g00pui92.5dkfb5dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/rank-img/021/main-xaedt-01.jpg?_ex=128x128",
-          "shopName": "くらしのeショップ",
-          "itemCode": "e-kurashi:10048736",
-          "rank": 118,
-          "reviewCount": 7145,
-          "reviewAverage": 4.42,
+          "key": "rakuten:esports:11566442",
+          "name": "【楽天1位】 ザ・ノース・フェイス ベビー シェルブランケット Baby Shell Blanket NNB72501 ベビーカー 出産祝い 赤ちゃん おしゃれ プレゼント 贈り物 保温 人気 THE NORTH FACE ノースフェイス ★着後レビューで300円OFFクーポン★",
+          "price": "14300",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pjxl2.5dkfa376.g00pjxl2.5dkfbd91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fesports%2F6000000088547%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/esports/cabinet/6000-109/6000000088547.jpg?_ex=128x128",
+          "shopName": "YOCABITO　楽天市場店",
+          "itemCode": "esports:11566442",
+          "rank": 180,
+          "reviewCount": 112,
+          "reviewAverage": 4.67,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
@@ -529,16 +582,16 @@
           }
         },
         {
-          "key": "rakuten:kanseikukan:10000006",
-          "name": "【公式】ユニースリープ 1位獲得 新生児～24か月 寝返り防止 絶壁予防 ベビー 赤ちゃん 横向き枕 ユニースリープ枕 夜泣き 絶壁防止 出産祝い 出産準備 向き癖防止 YUUNYSLEEP 送料無料 ベビーピロー 孫 プレゼント",
-          "price": "11900",
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uk352.5dkfa359.g00uk352.5dkfb8d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkanseikukan%2Fyuunysleep01%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
-          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kanseikukan/cabinet/10705115/imgrc0107047314.jpg?_ex=128x128",
-          "shopName": "ユニースリープ公式楽天市場店",
-          "itemCode": "kanseikukan:10000006",
-          "rank": 119,
-          "reviewCount": 2757,
-          "reviewAverage": 4.51,
+          "key": "rakuten:zojirushi-direct:10000000",
+          "name": "◆【10%OFFクーポンあり★楽天スーパーSALE限定】【公式店限定カラー】象印 加湿器 スチーム式 EE-DE50DS ソフトブラック 4.0L 寝室 子供部屋 チャイルドロック 転倒湯もれ防止 フィルター不要 お手入れ簡単 木造8畳 洋室13畳 ※おひとり様3台まで ※ギフトラッピング対象外",
+          "price": "25080",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00unku2.5dkfaf24.g00unku2.5dkfbd23/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzojirushi-direct%2Feede50ds_bm%2F&rafcid=wsc_i_ra_4983bc6c-1131-4fb7-83e5-3dab8e588d76",
+          "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/zojirushi-direct/cabinet/itemimage/12492447/imgrc0107046598.jpg?_ex=128x128",
+          "shopName": "象印ダイレクト 楽天市場店",
+          "itemCode": "zojirushi-direct:10000000",
+          "rank": 228,
+          "reviewCount": 41,
+          "reviewAverage": 4.39,
           "source": {
             "type": "rakuten-ranking",
             "period": "realtime",
